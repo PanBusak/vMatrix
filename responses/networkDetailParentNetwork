@@ -1,0 +1,124 @@
+{
+  "otherAttributes" : { },
+  "link" : [ {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/26eb91b1-c92c-4b92-bae9-44e53c18dfa0/action/reset",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.network+xml",
+    "name" : null,
+    "rel" : "repair",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/26eb91b1-c92c-4b92-bae9-44e53c18dfa0/action/reset",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.network+json",
+    "name" : null,
+    "rel" : "repair",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/26eb91b1-c92c-4b92-bae9-44e53c18dfa0/metadata",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.metadata+xml",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/26eb91b1-c92c-4b92-bae9-44e53c18dfa0/metadata",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.metadata+json",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/26eb91b1-c92c-4b92-bae9-44e53c18dfa0/allocatedAddresses/",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.allocatedNetworkAddress+xml",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/26eb91b1-c92c-4b92-bae9-44e53c18dfa0/allocatedAddresses/",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.allocatedNetworkAddress+json",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  } ],
+  "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/26eb91b1-c92c-4b92-bae9-44e53c18dfa0",
+  "type" : "application/vnd.vmware.admin.vmwexternalnet+json",
+  "id" : "urn:vcloud:network:26eb91b1-c92c-4b92-bae9-44e53c18dfa0",
+  "operationKey" : null,
+  "description" : "",
+  "tasks" : null,
+  "name" : "vm-vx1210001-ext_vxlan_pvdc1_service_zone_cas_02-v2t",
+  "configuration" : {
+    "otherAttributes" : { },
+    "backwardCompatibilityMode" : null,
+    "ipScopes" : {
+      "otherAttributes" : { },
+      "ipScope" : [ {
+        "otherAttributes" : { },
+        "isInherited" : false,
+        "gateway" : "6.204.128.129",
+        "netmask" : "255.255.255.128",
+        "subnetPrefixLength" : 25,
+        "dns1" : null,
+        "dns2" : null,
+        "dnsSuffix" : null,
+        "isEnabled" : true,
+        "ipRanges" : {
+          "otherAttributes" : { },
+          "ipRange" : [ {
+            "otherAttributes" : { },
+            "startAddress" : "6.204.128.130",
+            "endAddress" : "6.204.128.254",
+            "vCloudExtension" : [ ]
+          } ],
+          "vCloudExtension" : [ ]
+        },
+        "allocatedIpAddresses" : {
+          "otherAttributes" : { },
+          "ipAddress" : [ "6.204.128.132" ],
+          "vCloudExtension" : [ ]
+        },
+        "subAllocations" : {
+          "otherAttributes" : { },
+          "link" : [ ],
+          "href" : null,
+          "type" : null,
+          "subAllocation" : [ ],
+          "vCloudExtension" : [ ]
+        },
+        "vCloudExtension" : [ ]
+      } ],
+      "vCloudExtension" : [ ]
+    },
+    "parentNetwork" : null,
+    "fenceMode" : "isolated",
+    "retainNetInfoAcrossDeployments" : false,
+    "features" : null,
+    "syslogServerSettings" : null,
+    "routerInfo" : null,
+    "subInterface" : null,
+    "distributedInterface" : null,
+    "serviceInterface" : null,
+    "guestVlanAllowed" : null,
+    "connected" : null,
+    "dualStackNetwork" : false,
+    "vCloudExtension" : [ ]
+  },
+  "providerInfo" : "ImportedTLogicalSwitch:75d904b2-7782-4201-a4ad-4b982249ff8e on (com.vmware.vcloud.entity.nsxtmanager:e283f519-120f-4ddd-8986-4bb52ee7c56f)",
+  "networkBackingInfo" : [ ],
+  "vCloudExtension" : [ ]
+}

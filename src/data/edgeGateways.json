@@ -1,0 +1,1724 @@
+[
+  {
+    "id": "urn:vcloud:gateway:a0dee1ca-bd25-446a-9f9c-2207e2c21216",
+    "name": "bas-a-dpdhl-02-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:91aba787-b7ca-46d8-b981-aec94b5aaa86",
+    "ownerRef": {
+      "name": "bas-a-dpdhl-02",
+      "id": "urn:vcloud:vdc:91aba787-b7ca-46d8-b981-aec94b5aaa86"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:13b55f18-c553-403e-acc2-c9c24f48fb88",
+    "name": "bas-a-dpdhl-02-gw-02",
+    "description": "DO: 53897322",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:91aba787-b7ca-46d8-b981-aec94b5aaa86",
+    "ownerRef": {
+      "name": "bas-a-dpdhl-02",
+      "id": "urn:vcloud:vdc:91aba787-b7ca-46d8-b981-aec94b5aaa86"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:9c4af921-1634-42b2-a745-ce4b471c6db1",
+    "name": "bas-a-dpdhl-02-gw-03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:91aba787-b7ca-46d8-b981-aec94b5aaa86",
+    "ownerRef": {
+      "name": "bas-a-dpdhl-02",
+      "id": "urn:vcloud:vdc:91aba787-b7ca-46d8-b981-aec94b5aaa86"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:7002dab8-536b-4f10-8211-caca3c44debc",
+    "name": "bas-a-t00_1000033029-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:c35539e3-4c91-4cbd-b772-e7c4c86a6630",
+    "ownerRef": {
+      "name": "bas-a-t00_1000033029-01",
+      "id": "urn:vcloud:vdc:c35539e3-4c91-4cbd-b772-e7c4c86a6630"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:041e1aa6-4bfb-4b2c-8f58-e7373833b0fe",
+    "name": "bas-a-testcustomer-01-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:266ec39b-e79e-4011-81ab-e198e71135f2",
+    "ownerRef": {
+      "name": "bas-a-testcustomer-01",
+      "id": "urn:vcloud:vdc:266ec39b-e79e-4011-81ab-e198e71135f2"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:fc14a754-3c75-457e-84aa-627daec1e802",
+    "name": "bas-b-dpdhl-dr-03-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:c14a44b8-48bb-446c-969f-da69002d0968",
+    "ownerRef": {
+      "name": "bas-b-dpdhl-dr-03",
+      "id": "urn:vcloud:vdc:c14a44b8-48bb-446c-969f-da69002d0968"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:e3219bb8-ed0f-46b9-8348-a80b124575c6",
+    "name": "bas-b-testorg-01-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "bas-b-testorg-01-Group-bas-b-testorg-01-gw-01",
+      "id": "urn:vcloud:vdcGroup:19084b64-b8be-4bb4-815b-d472a2031a68"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:37e25b9b-46e5-4370-9c5b-242726b9b15d",
+    "name": "com-a-bri_1000041101-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:8466a445-aed9-47d8-9993-bd39051a582a",
+    "ownerRef": {
+      "name": "com-a-bri_1000041101-01",
+      "id": "urn:vcloud:vdc:8466a445-aed9-47d8-9993-bd39051a582a"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:c697008e-cb3f-455e-876f-26f91ffe32c4",
+    "name": "com-a-dpdhl-02-gw01",
+    "description": "Edge gateway for vdc: com-a-dpdhl-02 Type=other Created by jobId=546751",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:c9cfe840-f79d-418e-afd8-1afc9223524f",
+    "ownerRef": {
+      "name": "com-a-dpdhl-02",
+      "id": "urn:vcloud:vdc:c9cfe840-f79d-418e-afd8-1afc9223524f"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:0f07a0b4-ed69-4ad0-81fb-813aba417234",
+    "name": "com-a-dpdhl-poc-01-gw02",
+    "description": "Edge gateway for vdc: com-a-dpdhl-poc-01 Type=other Created by jobId=848071",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:ef0ec38d-d393-4556-93cb-1500f9064aeb",
+    "ownerRef": {
+      "name": "com-a-dpdhl-poc-01",
+      "id": "urn:vcloud:vdc:ef0ec38d-d393-4556-93cb-1500f9064aeb"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:f28dc19c-b817-4195-9032-35a288dac08e",
+    "name": "com-a-dps-os-01-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:3206778f-e8d9-4309-96f2-aef5ad85738c",
+    "ownerRef": {
+      "name": "com-a-dps-os-01",
+      "id": "urn:vcloud:vdc:3206778f-e8d9-4309-96f2-aef5ad85738c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:24bf33ef-a95a-4002-99c0-4d9d62fc3e23",
+    "name": "com-a-dt-dorma-01-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-dt-dorma-01-Group-com-a-dt-dorma-01-gw-01",
+      "id": "urn:vcloud:vdcGroup:b6327a91-c7c9-40a6-b09d-66d6fbd8ba37"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b86b1965-1628-4be1-9f72-46f9c68d7de1",
+    "name": "com-a-dt-dorma-01-gw-02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-dt-dorma-01-Group-com-a-dt-dorma-01-gw-02",
+      "id": "urn:vcloud:vdcGroup:70041123-e6bf-4276-955a-eb75f65d8776"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b2d5473d-7b69-4484-9486-5e369f2f6f0b",
+    "name": "com-a-heineken-hh3-mig-01-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-heineken-hh3-migration-01-Group-com-a-heineken-hh3-mig-01-gw-01",
+      "id": "urn:vcloud:vdcGroup:deb9d175-89b4-4b4b-bfb7-285526909fc7"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:4a458032-f3c4-4562-9302-b44583272a9e",
+    "name": "com-a-ips_1000035712-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-ips_1000035712-01-Group-com-a-ips_1000035712-01-gw02",
+      "id": "urn:vcloud:vdcGroup:9325ce0b-d045-45e0-9932-8b4e31f07140"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:e786694f-33cc-48d3-b3b9-246ff43cb1b0",
+    "name": "com-a-ips_1000035712-01-gw05",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-ips_1000035712-01-Group-com-a-ips_1000035712-01-gw05",
+      "id": "urn:vcloud:vdcGroup:1f119d20-f570-491a-a2a9-ea4060b2a20d"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:37f82924-c388-4ec4-835e-8dff9e88b7db",
+    "name": "com-a-sol_1000034386-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-sol_1000034386-01-Group-com-a-sol_1000034386-01-gw02",
+      "id": "urn:vcloud:vdcGroup:e6bad121-14f8-458b-a010-caf60122fd9e"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:dd203dfc-ef89-4731-a0ff-9a0642d1d5a6",
+    "name": "com-a-sol_1000034386-01-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-sol_1000034386-01-Group-com-a-sol_1000034386-01-gw03",
+      "id": "urn:vcloud:vdcGroup:8e78cd69-1e32-4a44-b065-4cd693a200cd"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:bc99387e-9595-44de-9d92-4f6896e8db9c",
+    "name": "com-a-t00_1000026462-01-gw01",
+    "description": "Edge gateway for vdc: com-a-t00_1000026462-01 Type=other Created by jobId=190070",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:fa974151-eba7-4df2-a46a-6722a6241fe3",
+    "ownerRef": {
+      "name": "com-a-t00_1000026462-01",
+      "id": "urn:vcloud:vdc:fa974151-eba7-4df2-a46a-6722a6241fe3"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:82cc7f13-f438-46d9-b668-80856c1b42d1",
+    "name": "com-a-t00_1000026462-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:fa974151-eba7-4df2-a46a-6722a6241fe3",
+    "ownerRef": {
+      "name": "com-a-t00_1000026462-01",
+      "id": "urn:vcloud:vdc:fa974151-eba7-4df2-a46a-6722a6241fe3"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:4635adfb-f9f0-4006-b840-44527ef723f7",
+    "name": "com-a-t00_1000026462-01-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:fa974151-eba7-4df2-a46a-6722a6241fe3",
+    "ownerRef": {
+      "name": "com-a-t00_1000026462-01",
+      "id": "urn:vcloud:vdc:fa974151-eba7-4df2-a46a-6722a6241fe3"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:2a4cfcd1-2a3d-41ce-9f00-bcfaf8052744",
+    "name": "com-a-t00_1000026462-02-gw01",
+    "description": "Edge gateway for vdc: com-a-t00_1000026462-02 Type=other Created by jobId=540979",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:3e1adf70-8887-4ee0-a250-156723c399f9",
+    "ownerRef": {
+      "name": "com-a-t00_1000026462-02",
+      "id": "urn:vcloud:vdc:3e1adf70-8887-4ee0-a250-156723c399f9"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:29bf2127-793c-4df7-b9a2-8af52822b368",
+    "name": "com-a-t29_1000020859-01-gw01",
+    "description": "Edge gateway for vdc: com-a-t29_1000020859-01 Type=other Created by jobId=113563",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:fba2065f-60ed-4eed-9e96-41a102901685",
+    "name": "com-a-t29_1000020859-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:6c5385e4-a0c0-43dc-a639-b1dabe1835c6",
+    "name": "com-a-t29_1000020859-01-gw04",
+    "description": "Strabag",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:e6a33924-3a31-4f89-a53d-5f31a922a817",
+    "name": "com-a-t29_1000020859-01-gw05",
+    "description": "Barmer",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:26285fba-7b2f-49ae-b1a2-bb4080710f29",
+    "name": "com-a-t29_1000020859-01-gw06",
+    "description": "Itergo",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:59a981ac-ad09-444a-9793-36bb801b8d87",
+    "name": "com-a-t29_1000020859-01-gw07",
+    "description": "EON",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:453f2a26-41ac-48f6-a883-32fd45ba9c74",
+    "name": "com-a-t29_1000020859-01-gw08",
+    "description": "Hagemeyer",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:38d21d52-3173-4e26-aa09-090f45d83255",
+    "name": "com-a-t29_1000020859-01-gw11-v2t",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-Group-gw11",
+      "id": "urn:vcloud:vdcGroup:cde255ce-6d41-41b5-a61a-a1df74b549fb"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:c4348713-0714-4510-8a4a-0da7e9860fac",
+    "name": "com-a-t29_1000020859-01-gw12-v2t",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-Group-gw12",
+      "id": "urn:vcloud:vdcGroup:2b577209-9b89-4285-b5a8-a7de07da8439"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:64b9b64e-37ea-4985-93a8-13127588ffea",
+    "name": "com-a-t29_1000020859-01-gw13-v2t",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-Group-gw13",
+      "id": "urn:vcloud:vdcGroup:470d1b07-2f24-41a0-a2da-9c61e4295df5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:630e1fc9-4c28-4bc4-abea-a21270047d54",
+    "name": "com-a-t29_1000020859-01-gw14-v2t",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-Group-gw14",
+      "id": "urn:vcloud:vdcGroup:95ec7eee-b518-4dca-8c0f-00aff41de8ca"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:f052aac8-3207-49f1-9772-d636d266da7e",
+    "name": "com-a-t29_1000020859-02-gw01",
+    "description": " .",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b94799a5-edbf-466f-8631-7c9b11618427",
+    "name": "com-a-t29_1000020859-02-gw01-v2t",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-02-Group-gw01",
+      "id": "urn:vcloud:vdcGroup:7d8bd6a6-c45e-4c5b-8f9c-f1a5c78187e9"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:9c196371-946f-48de-8c86-487e6a879288",
+    "name": "com-a-t29_1000020859-03-gw01",
+    "description": "DO 53162373\rTC 29155",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c",
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:6a81f30d-a33d-456b-9ae6-c4299c46e32c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:7a38053a-c679-48fb-b76f-fc01c551278a",
+    "name": "com-a-tch_1000042332-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-01-Group-com-a-tch_1000042332-01-gw02",
+      "id": "urn:vcloud:vdcGroup:feb09560-04bb-4f65-a0f7-59d589032d51"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:f1ddfe42-dd4e-49bb-90e3-5e3b5bf779e8",
+    "name": "com-a-tch_1000042332-01-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-01-Group-com-a-tch_1000042332-01-gw03",
+      "id": "urn:vcloud:vdcGroup:ef09aaea-8073-497d-8b18-7500e7c47165"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:d58f8448-c829-4cd9-b0c0-e618626008e0",
+    "name": "com-a-tch_1000042332-01-gw04",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-01-Group-com-a-tch_1000042332-01-gw04",
+      "id": "urn:vcloud:vdcGroup:e250a608-c95b-4712-8c09-c464fdc79649"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:0769fd8e-551d-425b-a7f5-a3bd5ef43d53",
+    "name": "com-a-tch_1000042332-01-gw05",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-01-Group-com-a-tch_1000042332-01-gw05",
+      "id": "urn:vcloud:vdcGroup:719654e7-46f7-4f0f-8e26-3660432a03a0"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:662b8a4c-639b-4d11-a592-0fbf6eb79d9d",
+    "name": "com-a-tch_1000042332-01-gw06",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-01-Group-com-a-tch_1000042332-01-gw06",
+      "id": "urn:vcloud:vdcGroup:2ac61f8f-8c7c-4276-8827-a91280fb4b7f"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:495ae1b0-0421-4a1e-9452-fd641335d770",
+    "name": "com-a-tch_1000042332-02-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-02-Group-com-a-tch_1000042332-02-gw02",
+      "id": "urn:vcloud:vdcGroup:9813108f-7492-4423-81f8-bac979cea88c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:defb5b91-9212-48ea-ad34-d6139f844fd7",
+    "name": "com-a-tch_1000042332-02-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-02-Group-com-a-tch_1000042332-02-gw03",
+      "id": "urn:vcloud:vdcGroup:908002e1-dfe2-487b-a5d0-e50cf69c80a3"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:93a2ab31-a2a2-41dd-8865-3438c6349ad7",
+    "name": "com-a-tch_1000042332-02-gw04",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-02-Group-com-a-tch_1000042332-02-gw04",
+      "id": "urn:vcloud:vdcGroup:bbeebe2f-435a-47f7-83ed-6422d6bdb002"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:ec46f982-71c3-4c7d-9967-bcace5eab837",
+    "name": "com-a-tch_1000042332-02-gw05",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-02-Group-com-a-tch_1000042332-02-gw05",
+      "id": "urn:vcloud:vdcGroup:4dcfbd08-1235-4f90-8c61-432823327fb5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:6083833f-8bba-47ed-a166-1347f3e4cd6d",
+    "name": "com-a-tch_1000042332-02-gw06",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042332-02-Group-com-a-tch_1000042332-02-gw06",
+      "id": "urn:vcloud:vdcGroup:f6d8cb34-506b-4820-9706-b08c45bae6c4"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:5eb85719-ac8c-47c5-acfb-e30fc8c2eb44",
+    "name": "com-a-tch_1000042338-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tch_1000042338-01-Group-com-a-tch_1000042338-01-gw02",
+      "id": "urn:vcloud:vdcGroup:6b27b64c-edf5-49c5-8bd2-640bee4b7daa"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:8e4922a1-10e8-44e6-8ba4-950a5af93638",
+    "name": "com-a-tch_1000042338-02-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:94d78f60-fd4a-410d-8537-2eeeceaf0d5d",
+    "ownerRef": {
+      "name": "com-a-tch_1000042338-02",
+      "id": "urn:vcloud:vdc:94d78f60-fd4a-410d-8537-2eeeceaf0d5d"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:2aa8b07b-2d94-4753-950c-e2e1f4d48686",
+    "name": "com-a-tcs_1000042743-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:34723b3e-d1a2-4ff3-876b-9d4ce8679a27",
+    "ownerRef": {
+      "name": "com-a-tcs_1000042743-01",
+      "id": "urn:vcloud:vdc:34723b3e-d1a2-4ff3-876b-9d4ce8679a27"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:1b0cc46c-029c-4fc4-9435-d663d37dacb0",
+    "name": "com-a-tcs_1000042743-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:34723b3e-d1a2-4ff3-876b-9d4ce8679a27",
+    "ownerRef": {
+      "name": "com-a-tcs_1000042743-01",
+      "id": "urn:vcloud:vdc:34723b3e-d1a2-4ff3-876b-9d4ce8679a27"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:f1a5351a-4cbd-41f8-b79a-ac78f0d7fdb4",
+    "name": "com-a-tdc_1000041086-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tdc_1000041086-01-Group-com-a-tdc_1000041086-01-gw01",
+      "id": "urn:vcloud:vdcGroup:c27ed381-c943-4cbe-8d6f-2539245a3372"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:9434c6cf-70ed-46b9-a9bd-a221264c539b",
+    "name": "com-a-tdc_1000041086-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tdc_1000041086-01-Group-com-a-tdc_1000041086-01-gw02",
+      "id": "urn:vcloud:vdcGroup:88b2f4c3-7211-4ee5-bb89-5d21e4c03680"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:fa48f3bc-5b22-4f99-8664-d77f32c0ecf4",
+    "name": "com-a-tdc_1000041086-01-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tdc_1000041086-01-Group-com-a-tdc_1000041086-01-gw03",
+      "id": "urn:vcloud:vdcGroup:b031d690-5fbe-4ff5-a85f-d9e7cfe586ee"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:04541f31-5615-45f5-ae0e-14f13b6b2238",
+    "name": "com-a-tdc_1000041086-01-gw04",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:0bf767df-c6e2-4383-a933-567fd306cb40",
+    "ownerRef": {
+      "name": "com-a-tdc_1000041086-01",
+      "id": "urn:vcloud:vdc:0bf767df-c6e2-4383-a933-567fd306cb40"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:ae7353c2-da15-4bbb-9161-5b36e48bfae5",
+    "name": "com-a-tdc_1000041086-01-gw05",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:0bf767df-c6e2-4383-a933-567fd306cb40",
+    "ownerRef": {
+      "name": "com-a-tdc_1000041086-01",
+      "id": "urn:vcloud:vdc:0bf767df-c6e2-4383-a933-567fd306cb40"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:1711c4f4-d526-4fa4-b49b-8a4dd080e483",
+    "name": "com-a-tdc_1000041086-01-gw06",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tdc_1000041086-01-Group-com-a-tdc_1000041086-01-gw06",
+      "id": "urn:vcloud:vdcGroup:dbbcbdb7-2d02-45f3-b6a1-54d700168f3b"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:8d519146-c84b-4ace-8372-9fcfd6e56d76",
+    "name": "com-a-tea_1000031003-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tea_1000031003-01-Group-com-a-tea_1000031003-01-gw01",
+      "id": "urn:vcloud:vdcGroup:a7a6bee0-9789-46dd-a83d-d7352c6dff54"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:c86c2ae8-f136-4d7a-a980-fa3b2baeac13",
+    "name": "com-a-tea_1000031003-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tea_1000031003-01-Group-com-a-tea_1000031003-01-gw02",
+      "id": "urn:vcloud:vdcGroup:2187b16b-0295-468b-bf26-f709e20fa8b1"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:e1ad4d61-9225-438d-be11-9e027120083e",
+    "name": "com-a-tea_1000031003-01-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tea_1000031003-01-Group-com-a-tea_1000031003-01-gw03",
+      "id": "urn:vcloud:vdcGroup:da203bc2-4c04-4aba-a986-0c6efcac07da"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b91a4534-0bbe-48bc-8106-8f89a04c46ec",
+    "name": "com-a-testcustomer-02-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "ownerRef": {
+      "name": "com-a-testcustomer-02",
+      "id": "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:fa6c1517-6d3b-40eb-992e-074b18fd1cef",
+    "name": "com-a-testorg-02-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-testorg-02-Group-com-a-testorg-02-gw-01",
+      "id": "urn:vcloud:vdcGroup:7ac4f43d-c316-4243-8d03-5f7f10f8e6dc"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:8d385e91-d5c2-4be5-8017-d6397172200b",
+    "name": "com-a-tlv_1000010959-01-gw01",
+    "description": "Edge gateway for vdc: com-a-tlv_1000010959-01 Type=FIA Created by jobId=75963",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:7fd3f488-8b90-49a0-bee9-012d9795a540",
+    "ownerRef": {
+      "name": "com-a-tlv_1000010959-01",
+      "id": "urn:vcloud:vdc:7fd3f488-8b90-49a0-bee9-012d9795a540"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:68513cb8-520a-4a34-8ca4-bfb77c9b9358",
+    "name": "com-a-tlv_1000010959-01-gw02",
+    "description": "Edge gateway for vdc: com-a-tlv_1000010959-01 Type=other Created by jobId=75963",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:7fd3f488-8b90-49a0-bee9-012d9795a540",
+    "ownerRef": {
+      "name": "com-a-tlv_1000010959-01",
+      "id": "urn:vcloud:vdc:7fd3f488-8b90-49a0-bee9-012d9795a540"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:3b0c790e-faae-40d2-a8fd-b7a001a48bad",
+    "name": "com-a-tlv_1000010959-02-gw01",
+    "description": "Edge gateway for vdc: com-a-tlv_1000010959-02 Type=other Created by jobId=75963",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:452893d1-d959-4b35-80c2-1782d7030724",
+    "ownerRef": {
+      "name": "com-a-tlv_1000010959-02",
+      "id": "urn:vcloud:vdc:452893d1-d959-4b35-80c2-1782d7030724"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:45dfa16c-f765-41b2-82b8-20ef19365df4",
+    "name": "com-a-tlv_1000010959-02-gw02",
+    "description": "Edge gateway for vdc: com-a-tlv_1000010959-02 Type=FIA Created by jobId=109429",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:452893d1-d959-4b35-80c2-1782d7030724",
+    "ownerRef": {
+      "name": "com-a-tlv_1000010959-02",
+      "id": "urn:vcloud:vdc:452893d1-d959-4b35-80c2-1782d7030724"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b3cc2e99-c18a-480c-8630-2e48980fb45b",
+    "name": "com-a-tnd_1000026409-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:3d6dc692-7175-496c-ae01-636ced5025dc",
+    "ownerRef": {
+      "name": "com-a-tnd_1000026409-01",
+      "id": "urn:vcloud:vdc:3d6dc692-7175-496c-ae01-636ced5025dc"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b1e65eb2-08b0-4a8e-94f6-fc2d72103dde",
+    "name": "com-a-tsf_1000037204-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:e3ec322f-d730-4664-9aac-a62a7a33b5f8",
+    "ownerRef": {
+      "name": "com-a-tsf_1000037204-01",
+      "id": "urn:vcloud:vdc:e3ec322f-d730-4664-9aac-a62a7a33b5f8"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:1283e1ab-1d2d-4fe9-bd0b-2737df87e6c1",
+    "name": "com-a-tsi-ga-dtag-prod-01-gw-01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:62e1ea94-d459-462e-9a7a-2f3c2ce362aa",
+    "ownerRef": {
+      "name": "com-a-tsi-ga-dtag-prod-01",
+      "id": "urn:vcloud:vdc:62e1ea94-d459-462e-9a7a-2f3c2ce362aa"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:7cb71368-a631-4436-9df2-6948b05515b2",
+    "name": "com-a-tsi-ga-dtag-prod-01-gw-02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsi-ga-dtag-prod-01-Group-com-a-tsi-ga-dtag-prod-01-gw-02",
+      "id": "urn:vcloud:vdcGroup:7f438362-9c4f-49ae-a006-e6623f051fa7"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:33b5ff5f-d44f-410d-836e-71fde3c35d95",
+    "name": "com-a-tsr_1000035340-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:3194c08a-543f-4d95-b229-332d334296dc",
+    "ownerRef": {
+      "name": "com-a-tsr_1000035340-01",
+      "id": "urn:vcloud:vdc:3194c08a-543f-4d95-b229-332d334296dc"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:03f358d9-f4e6-4e3e-88cb-0496f91f9f1c",
+    "name": "com-a-tsr_1000035340-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:3194c08a-543f-4d95-b229-332d334296dc",
+    "ownerRef": {
+      "name": "com-a-tsr_1000035340-01",
+      "id": "urn:vcloud:vdc:3194c08a-543f-4d95-b229-332d334296dc"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:e4e7c58f-14f4-48c4-a03d-2ee4e1704fec",
+    "name": "com-a-tsr_1000035400-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsr_1000035400-01-Group-com-a-tsr_1000035400-01-gw01",
+      "id": "urn:vcloud:vdcGroup:0fe0c0dc-3b62-48eb-a699-0a51041192ef"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:378d3bd5-a665-4ae2-a4cd-f416b4589043",
+    "name": "com-a-tsr_1000042730-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-01-Group-com-a-tsr_1000042730-01-gw01",
+      "id": "urn:vcloud:vdcGroup:9a3d5d77-2847-4e50-8249-4aeb4da2f2a0"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:55834647-227e-4644-8bf5-dcf507456b63",
+    "name": "com-a-tsr_1000042730-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-01-Group-com-a-tsr_1000042730-01-gw02",
+      "id": "urn:vcloud:vdcGroup:e40c680d-03e6-4fa8-8252-a762799d35a8"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:6315d812-9300-4b62-8523-829d9bcd7997",
+    "name": "com-a-tsr_1000042730-01-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-01-Group-com-a-tsr_1000042730-01-gw03",
+      "id": "urn:vcloud:vdcGroup:e8426743-eba1-4fb2-bce1-f7f251a4d082"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:599a433c-83e6-479b-b7f8-84f970d593b2",
+    "name": "com-a-tsr_1000042730-01-gw04",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-01-Group-com-a-tsr_1000042730-01-gw04",
+      "id": "urn:vcloud:vdcGroup:d0c72723-aee6-4c8a-90d4-76054b4fccbd"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:560b50a3-c66c-47c3-87e8-f5239d38b9e9",
+    "name": "com-a-tsr_1000042730-01-gw05",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-01-Group-com-a-tsr_1000042730-01-gw05",
+      "id": "urn:vcloud:vdcGroup:92e37df7-fa65-4084-9183-c2dc2d9b3c8b"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:d64fb85d-9bd0-48e7-ac5c-a0998ecedf06",
+    "name": "com-a-tsr_1000042730-02-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02-Group-com-a-tsr_1000042730-02-gw01",
+      "id": "urn:vcloud:vdcGroup:49377db6-9394-4155-b5fb-ef0abc812f2b"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:bb44871f-abcf-4571-8471-13c399ebd195",
+    "name": "com-a-tsr_1000042730-02-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5",
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02",
+      "id": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:2b3c78a1-0478-4d68-ae97-3270a9bf2a42",
+    "name": "com-a-tsr_1000042730-02-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5",
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02",
+      "id": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:d0bb83f1-307c-4b09-9a7f-76678cffdd50",
+    "name": "com-a-tsr_1000042730-02-gw04",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5",
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02",
+      "id": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:f442366c-113f-4eb0-8209-f62cbffc579f",
+    "name": "com-a-tsr_1000042730-02-gw05",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5",
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02",
+      "id": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:13009f08-44c3-4ae8-90f6-2ef2a28263e5",
+    "name": "com-a-tsr_1000042730-02-gw06",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5",
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02",
+      "id": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:232c5a10-c35c-4e28-9787-5b8ce24d9c7d",
+    "name": "com-a-tsr_1000042730-02-gw07",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5",
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02",
+      "id": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:acde1d15-4ac8-4152-beb7-8484162c4f69",
+    "name": "com-a-tsr_1000042730-02-gw08",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5",
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02",
+      "id": "urn:vcloud:vdc:92eb3a65-a883-4539-b01b-89ebedaf58c5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:7e912027-83eb-466b-8ec1-d8e30324a77c",
+    "name": "com-a-tsr_1000042730-02-gw09",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-tsr_1000042730-02-Group-com-a-tsr_1000042730-02-gw09",
+      "id": "urn:vcloud:vdcGroup:9dbe020a-d314-40d3-a7cd-1711729c6e77"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:0e328f5e-eef1-475d-8feb-ea3c397abf68",
+    "name": "com-a-tsr_1000078106-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:5118472c-1e2a-4957-81db-57bddb58416b",
+    "ownerRef": {
+      "name": "com-a-tsr_1000078106-01",
+      "id": "urn:vcloud:vdc:5118472c-1e2a-4957-81db-57bddb58416b"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:83d53b0b-e9fc-48d5-8da8-1119cd8ed291",
+    "name": "com-a-zbr_1000033594-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-zbr_1000033594-01-Group-com-a-zbr_1000033594-01-gw01",
+      "id": "urn:vcloud:vdcGroup:f481077d-04c0-4f49-a4fa-3bcc60d55287"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:4e98b79e-e24e-4b19-beb9-4104650de2f2",
+    "name": "com-a-zbr_1000033594-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-zbr_1000033594-01-Group-com-a-zbr_1000033594-01-gw02",
+      "id": "urn:vcloud:vdcGroup:99bb6ef2-c692-4a3d-9d6c-8b22a3af3b82"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:1181e0c6-b086-4c03-bc0c-9ac12d62112a",
+    "name": "com-a-zbr_1000033594-01-gw03",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-zbr_1000033594-01-Group-com-a-zbr_1000033594-01-gw03",
+      "id": "urn:vcloud:vdcGroup:8d1161ce-01c5-404c-92d5-088b42cd20f9"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:324128a8-6899-47cb-b852-60e309ddb135",
+    "name": "com-a-zbr_1000033594-01-gw04",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-zbr_1000033594-01-Group-com-a-zbr_1000033594-01-gw04",
+      "id": "urn:vcloud:vdcGroup:1c0f46b5-dbf1-4e77-b6c0-021c1910af8b"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:91390fc9-6ec7-4b01-8550-9fcb90451184",
+    "name": "com-a-zbr_1000033594-01-gw05",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-zbr_1000033594-01-Group-com-a-zbr_1000033594-01-gw05",
+      "id": "urn:vcloud:vdcGroup:aeeebd68-71f8-4be1-a693-ac4137691ed4"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:418dc992-1ad1-47e1-bacd-8e35e353c40d",
+    "name": "com-a-zbr_1000033594-01-gw06",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-zbr_1000033594-01-Group-com-a-zbr_1000033594-01-gw06",
+      "id": "urn:vcloud:vdcGroup:e8342389-1e43-4028-9651-812e64c30768"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:fe2d16f4-9d69-4646-a9e2-986a1aeb3a63",
+    "name": "com-b-dpdhl-02-gw01",
+    "description": "Edge gateway for vdc: com-b-dpdhl-02 Type=other Created by jobId=546752",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:7ebaed73-5526-4683-9b5a-e7e3c1e88f4a",
+    "ownerRef": {
+      "name": "com-b-dpdhl-02",
+      "id": "urn:vcloud:vdc:7ebaed73-5526-4683-9b5a-e7e3c1e88f4a"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:293143d3-c3dc-4f6d-a6aa-812cda1cbb6f",
+    "name": "com-b-ips_1000035712-01-gw02",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-b-ips_1000035712-01-Group-com-b-ips_1000035712-01-gw02",
+      "id": "urn:vcloud:vdcGroup:a1ad9c85-e3e9-43f2-a316-fd6b0c3bead6"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:48b416cd-7424-4b11-a016-c617b6128fbd",
+    "name": "com-b-t29_1000020859-01-gw01",
+    "description": "Edge gateway for vdc: com-b-t29_1000020859-01 Type=other Created by jobId=113563",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f",
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:40876ec5-bbc6-434a-a425-945203e526d6",
+    "name": "com-b-t29_1000020859-01-gw02",
+    "description": "VDS",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f",
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:2ddcf532-821e-4f8a-a3f6-4a5c6bfa1210",
+    "name": "com-b-t29_1000020859-01-gw03",
+    "description": "EVE",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f",
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:ac078e17-0e18-46c0-aa44-d9a6dd7d0cb4",
+    "name": "com-b-t29_1000020859-01-gw04-v2t",
+    "description": "GeorgFischer",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-Group-gw04",
+      "id": "urn:vcloud:vdcGroup:50f4f536-5d5c-47c2-b209-2d9a9ccc1df9"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:58b5445a-4b9a-447b-89e3-7f55ca4e9183",
+    "name": "com-b-t29_1000020859-01-gw05",
+    "description": "SLA",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f",
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b25ee44d-ab6d-4bc9-954f-b609fefbbaa1",
+    "name": "com-b-t29_1000020859-01-gw06-v2t",
+    "description": "Corpus Sireo",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-Group-gw06",
+      "id": "urn:vcloud:vdcGroup:48b4fa02-e19b-4987-9bbf-3d663f4862c9"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:9298f81d-3e4f-4c09-b2d5-04d9b5075b39",
+    "name": "com-b-t29_1000020859-01-gw07-v2t",
+    "description": "SABMiller",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-Group-gw07",
+      "id": "urn:vcloud:vdcGroup:4645e65e-f8d6-4cb4-83b8-dde2835c4cfa"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:e0bd7375-c335-4985-8420-3e51b7135d35",
+    "name": "com-b-t29_1000020859-01-gw08",
+    "description": "Thyssen",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f",
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-old",
+      "id": "urn:vcloud:vdc:063e9817-4aec-425d-83b0-05eb4b34bb0f"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:5f33afc4-b9b8-4172-bcd7-122bf4d689bb",
+    "name": "com-b-tcs_1000042743-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:3bc40f45-2e56-4b0e-931d-a6c5eaea6b62",
+    "ownerRef": {
+      "name": "com-b-tcs_1000042743-01",
+      "id": "urn:vcloud:vdc:3bc40f45-2e56-4b0e-931d-a6c5eaea6b62"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:612c551d-f7af-41dd-85cd-c56126a0abb9",
+    "name": "com-b-tlv_1000010959-01-gw01",
+    "description": "Edge gateway for vdc: com-b-tlv_1000010959-01 Type=other Created by jobId=75963",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd",
+    "ownerRef": {
+      "name": "com-b-tlv_1000010959-01",
+      "id": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:5ec78a3e-fe65-409e-b552-56b40ecc8af2",
+    "name": "com-b-tlv_1000010959-01-gw02",
+    "description": "Edge gateway for vdc: com-b-tlv_1000010959-01 Type=other Created by jobId=91929",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd",
+    "ownerRef": {
+      "name": "com-b-tlv_1000010959-01",
+      "id": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:9b90de2b-fea8-4d89-8512-55013e244047",
+    "name": "com-b-tlv_1000010959-01-gw03",
+    "description": "Edge gateway for vdc: com-b-tlv_1000010959-01 Type=other Created by jobId=91932",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd",
+    "ownerRef": {
+      "name": "com-b-tlv_1000010959-01",
+      "id": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:2480093a-4922-47c5-ac7f-f25c8f253866",
+    "name": "com-b-tlv_1000010959-01-gw04",
+    "description": "Edge gateway for vdc: com-b-tlv_1000010959-01 Type=other Created by jobId=91936",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd",
+    "ownerRef": {
+      "name": "com-b-tlv_1000010959-01",
+      "id": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:8d232ee3-9f75-4908-902d-6a4cb10d53af",
+    "name": "com-b-tsf_1000037204-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:61c1139d-b9f6-4747-bedc-7a99b3ca4999",
+    "ownerRef": {
+      "name": "com-b-tsf_1000037204-01",
+      "id": "urn:vcloud:vdc:61c1139d-b9f6-4747-bedc-7a99b3ca4999"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b7b6fadc-186c-4d56-9f44-864282863e9d",
+    "name": "com-b-tsr_1000035400-03-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:9f72f2ad-b6a0-475c-bdce-5fd15c7e807d",
+    "ownerRef": {
+      "name": "com-b-tsr_1000035400-03",
+      "id": "urn:vcloud:vdc:9f72f2ad-b6a0-475c-bdce-5fd15c7e807d"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:3973b049-4685-4ee9-a3b2-d7ac02d3f411",
+    "name": "com-b-tsr_1000042730-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:8949f7a8-3a88-4fe8-afc1-19c2067d2a9c",
+    "ownerRef": {
+      "name": "com-b-tsr_1000042730-01",
+      "id": "urn:vcloud:vdc:8949f7a8-3a88-4fe8-afc1-19c2067d2a9c"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:9248bb00-721a-4aec-9d8b-514df88902ee",
+    "name": "com-b-zbr_1000033594-01-gw01",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:63fffe3d-e804-4f1c-823f-39682929b173",
+    "ownerRef": {
+      "name": "com-b-zbr_1000033594-01",
+      "id": "urn:vcloud:vdc:63fffe3d-e804-4f1c-823f-39682929b173"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:ef3b7b4f-c779-48d0-bc86-0905687bab0d",
+    "name": "dc-b-splitup-edge-test",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "bas-b-testorg-01-Group-dc-b-splitup-edge-test",
+      "id": "urn:vcloud:vdcGroup:922706e5-1271-4efb-ad8b-8a50d4649ca5"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:70d12833-b955-484c-ae9a-cd8f182da4ba",
+    "name": "dpdhl-alloc-cus-vdc-s02-01-gw",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:ef0ec38d-d393-4556-93cb-1500f9064aeb",
+    "ownerRef": {
+      "name": "com-a-dpdhl-poc-01",
+      "id": "urn:vcloud:vdc:ef0ec38d-d393-4556-93cb-1500f9064aeb"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:706a5fbb-719d-48a5-9f14-6a79cfd14fe2",
+    "name": "ffm-splitup-test",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:c2fbe2db-344e-44a4-9f2d-487d61eea872",
+    "ownerRef": {
+      "name": "com-a-testorg-02",
+      "id": "urn:vcloud:vdc:c2fbe2db-344e-44a4-9f2d-487d61eea872"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:c1198589-213a-4f12-a201-323efad3dc6a",
+    "name": "mdolnik-assignment",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:c2fbe2db-344e-44a4-9f2d-487d61eea872",
+    "ownerRef": {
+      "name": "com-a-testorg-02",
+      "id": "urn:vcloud:vdc:c2fbe2db-344e-44a4-9f2d-487d61eea872"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:4d6d17cd-b5c1-4b26-911e-8a2294b75613",
+    "name": "mgmt_a_internet",
+    "description": "Edge gateway for vdc: com-a-t29_1000020859-01 Type=FIA Created by jobId=293422",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-a-t29_1000020859-01-Group-gw10",
+      "id": "urn:vcloud:vdcGroup:8d7463d9-db6e-447e-b007-7ac9a3226827"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:62882d74-d242-4347-a630-9b05c6fd2f7f",
+    "name": "mgmt_b_internet",
+    "description": "Edge gateway for vdc: com-b-t29_1000020859-01 Type=FIA Created by jobId=293418",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "com-b-t29_1000020859-01-Group-gw09",
+      "id": "urn:vcloud:vdcGroup:6c6b8c5a-4b75-4df6-b351-3a52aae305a7"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:0157461c-bade-4c56-8a3b-b75e4c4573f7",
+    "name": "session_count",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "ownerRef": {
+      "name": "com-a-testcustomer-02",
+      "id": "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:b7201525-1eea-43d1-bf8e-c8524b13bc97",
+    "name": "sr-test-2",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:c2fbe2db-344e-44a4-9f2d-487d61eea872",
+    "ownerRef": {
+      "name": "com-a-testorg-02",
+      "id": "urn:vcloud:vdc:c2fbe2db-344e-44a4-9f2d-487d61eea872"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:e996ca17-172e-4ed1-bddb-3d9fcd47bad0",
+    "name": "test",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "bas-b-testorg-01-Group-test",
+      "id": "urn:vcloud:vdcGroup:b088a0c7-a942-4bb0-b383-f7e7d28d76c8"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:f547b152-1686-4e9d-a122-69c49eb473bf",
+    "name": "test-4",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": null,
+    "ownerRef": {
+      "name": "bas-b-testorg-01-Group-test-4",
+      "id": "urn:vcloud:vdcGroup:dcef2aca-d234-410a-950b-87efffe116f9"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  },
+  {
+    "id": "urn:vcloud:gateway:03697423-3b27-4bfe-a08e-17b91c7e126c",
+    "name": "test-edge",
+    "description": "",
+    "externalNetworkRefs": [],
+    "orgVdcId": "urn:vcloud:vdc:b9c3d813-1257-4dac-a6bb-96cae61e7ff0",
+    "ownerRef": {
+      "name": "com-a-testorg-04",
+      "id": "urn:vcloud:vdc:b9c3d813-1257-4dac-a6bb-96cae61e7ff0"
+    },
+    "edgeClusterName": "",
+    "edgeClusterId": "",
+    "interfaces": []
+  }
+]

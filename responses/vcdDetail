@@ -1,0 +1,939 @@
+{
+  "otherAttributes" : { },
+  "link" : [ {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/org/15566d05-2741-4679-8892-ae00c911c699",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.organization+xml",
+    "name" : null,
+    "rel" : "up",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/org/15566d05-2741-4679-8892-ae00c911c699",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.organization+json",
+    "name" : null,
+    "rel" : "up",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/metadata",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.metadata+xml",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/metadata",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.metadata+json",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : null,
+    "name" : null,
+    "rel" : "remove",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.vdc+xml",
+    "name" : null,
+    "rel" : "edit",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.vdc+json",
+    "name" : null,
+    "rel" : "edit",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/action/disable",
+    "id" : null,
+    "type" : null,
+    "name" : null,
+    "rel" : "disable",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/action/registerVApp",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.registerVAppParams+xml",
+    "name" : null,
+    "rel" : "add",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/action/registerVApp",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.registerVAppParams+json",
+    "name" : null,
+    "rel" : "add",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/computePolicies",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.vdcComputePolicyReferences+xml",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/computePolicies",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.vdcComputePolicyReferences+json",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/controlAccess/",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.controlAccess+xml",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/controlAccess/",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.controlAccess+json",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/action/controlAccess",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.controlAccess+xml",
+    "name" : null,
+    "rel" : "controlAccess",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/action/controlAccess",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.controlAccess+json",
+    "name" : null,
+    "rel" : "controlAccess",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/networkProfile",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "down:vdcNetworkProfile",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/capabilities",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "vdcCapabilities",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/firewallGroups",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "down:firewallGroups",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/applicationPortProfiles",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "down:appPortProfiles",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/maxComputePolicy",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "down",
+    "model" : "VdcComputePolicy",
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/maxComputePolicy",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "edit",
+    "model" : "VdcComputePolicy",
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/2.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/maxComputePolicy",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "down",
+    "model" : "VdcComputePolicy2",
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/2.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/maxComputePolicy",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "edit",
+    "model" : "VdcComputePolicy2",
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/computePolicies",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "down",
+    "model" : "VdcComputePolicies",
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/2.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/computePolicies",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "down",
+    "model" : "VdcComputePolicies2",
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.vdc+xml",
+    "name" : null,
+    "rel" : "alternate",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.vdc+json",
+    "name" : null,
+    "rel" : "alternate",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/vmAffinityRules/",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.vmaffinityrule+xml",
+    "name" : null,
+    "rel" : "add",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/vmAffinityRules/",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.vmaffinityrule+json",
+    "name" : null,
+    "rel" : "add",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/vmAffinityRules/",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.vmaffinityrules+xml",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/vmAffinityRules/",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.vmaffinityrules+json",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/edgeGateways",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "rel" : "add",
+    "model" : "EdgeGateway",
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.vdc+xml",
+    "name" : null,
+    "rel" : "alternate",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.vdc+json",
+    "name" : null,
+    "rel" : "alternate",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/edgeGateways",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.query.records+xml",
+    "name" : null,
+    "rel" : "edgeGateways",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/edgeGateways",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.query.records+json",
+    "name" : null,
+    "rel" : "edgeGateways",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/networks",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.orgVdcNetwork+xml",
+    "name" : null,
+    "rel" : "add",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/networks",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.orgVdcNetwork+json",
+    "name" : null,
+    "rel" : "add",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/network/orgvdcnetworks/import?orgVdc=efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : "application/*+xml",
+    "name" : null,
+    "rel" : "import:network",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/network/orgvdcnetworks/importableswitches?orgVdc=efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+    "id" : null,
+    "type" : "application/*+xml",
+    "name" : null,
+    "rel" : "down:importableSwitches",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/networks",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.query.records+xml",
+    "name" : null,
+    "rel" : "orgVdcNetworks",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/networks",
+    "id" : null,
+    "type" : "application/vnd.vmware.vcloud.query.records+json",
+    "name" : null,
+    "rel" : "orgVdcNetworks",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/extension/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/resourcePools",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.OrganizationVdcResourcePoolSet+xml",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/extension/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/resourcePools",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.OrganizationVdcResourcePoolSet+json",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/vdcStorageProfiles",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.updateVdcStorageProfiles+xml",
+    "name" : null,
+    "rel" : "edit",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/vdcStorageProfiles",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.updateVdcStorageProfiles+json",
+    "name" : null,
+    "rel" : "edit",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/extension",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.extensibility.selectors+xml",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  }, {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/extension",
+    "id" : null,
+    "type" : "application/vnd.vmware.admin.extensibility.selectors+json",
+    "name" : null,
+    "rel" : "down",
+    "model" : null,
+    "vCloudExtension" : [ ]
+  } ],
+  "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+  "type" : "application/vnd.vmware.admin.vdc+json",
+  "id" : "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+  "operationKey" : null,
+  "description" : "",
+  "tasks" : null,
+  "name" : "com-a-testcustomer-02",
+  "computeProviderScope" : null,
+  "networkProviderScope" : "scope-1",
+  "allocationModel" : "AllocationPool",
+  "computeCapacity" : {
+    "otherAttributes" : { },
+    "cpu" : {
+      "otherAttributes" : { },
+      "units" : "MHz",
+      "allocated" : 13500,
+      "limit" : 13500,
+      "reserved" : 10125,
+      "used" : 7200,
+      "reservationUsed" : 0,
+      "vCloudExtension" : [ ]
+    },
+    "memory" : {
+      "otherAttributes" : { },
+      "units" : "MB",
+      "allocated" : 131072,
+      "limit" : 131072,
+      "reserved" : 98304,
+      "used" : 53248,
+      "reservationUsed" : 0,
+      "vCloudExtension" : [ ]
+    },
+    "vCloudExtension" : [ ]
+  },
+  "resourceEntities" : {
+    "otherAttributes" : { },
+    "resourceEntity" : [ {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9e0996c9-0e6f-46d2-a13c-e9ff12c4cd20",
+      "id" : "urn:vcloud:vapp:9e0996c9-0e6f-46d2-a13c-e9ff12c4cd20",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "mig-tool",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-1fbaf717-1abe-4920-826b-61e23318e542",
+      "id" : "urn:vcloud:vapp:1fbaf717-1abe-4920-826b-61e23318e542",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "pebalog",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-98ed80d2-4e04-405d-b5f9-3df3f8e93d64",
+      "id" : "urn:vcloud:vapp:98ed80d2-4e04-405d-b5f9-3df3f8e93d64",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4377868a-aed2-47b9-a310-e9e80c140479",
+      "id" : "urn:vcloud:vapp:4377868a-aed2-47b9-a310-e9e80c140479",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0a7236a9-7b59-4284-993e-7b24e883cf6f",
+      "id" : "urn:vcloud:vapp:0a7236a9-7b59-4284-993e-7b24e883cf6f",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "rcec_test",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-2e447374-102c-4952-bd76-6a75ff35b660",
+      "id" : "urn:vcloud:vapp:2e447374-102c-4952-bd76-6a75ff35b660",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ebe0b7ad-d2fa-44b8-8e25-b11047e1db94",
+      "id" : "urn:vcloud:vapp:ebe0b7ad-d2fa-44b8-8e25-b11047e1db94",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "rcec_test (1)",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-232dee91-6bc8-4812-b3ec-06e0aa751d4b",
+      "id" : "urn:vcloud:vapp:232dee91-6bc8-4812-b3ec-06e0aa751d4b",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fbedded5-593c-4d6b-8a4a-82634644b8f7",
+      "id" : "urn:vcloud:vapp:fbedded5-593c-4d6b-8a4a-82634644b8f7",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "mcs-test",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-90066013-f96a-411e-bf7f-823c2fd72851",
+      "id" : "urn:vcloud:vapp:90066013-f96a-411e-bf7f-823c2fd72851",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "restore_test",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-dba002c8-abb8-4608-85cb-19ca028be073",
+      "id" : "urn:vcloud:vapp:dba002c8-abb8-4608-85cb-19ca028be073",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4683f848-00ca-456e-80bf-af94186961f0",
+      "id" : "urn:vcloud:vapp:4683f848-00ca-456e-80bf-af94186961f0",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e5d13ba0-54c3-461f-94ab-13fc606fa9d2",
+      "id" : "urn:vcloud:vapp:e5d13ba0-54c3-461f-94ab-13fc606fa9d2",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "MOS Test",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-52e87e1b-843c-48f7-ac0e-bac46815cc4c",
+      "id" : "urn:vcloud:vapp:52e87e1b-843c-48f7-ac0e-bac46815cc4c",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-df0cad85-a811-421f-bb50-f305e49f4bcd",
+      "id" : "urn:vcloud:vapp:df0cad85-a811-421f-bb50-f305e49f4bcd",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "adminlan-test-deploy",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3b1060bc-c0f8-4d32-b34c-9d44e79bec1d",
+      "id" : "urn:vcloud:vapp:3b1060bc-c0f8-4d32-b34c-9d44e79bec1d",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5652a8f5-56a2-49cf-ba10-1ac2a99e8012",
+      "id" : "urn:vcloud:vapp:5652a8f5-56a2-49cf-ba10-1ac2a99e8012",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "test-managed",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a3f9d641-1920-4561-a019-f6e2b0c73265",
+      "id" : "urn:vcloud:vapp:a3f9d641-1920-4561-a019-f6e2b0c73265",
+      "type" : "application/vnd.vmware.vcloud.vApp+xml",
+      "name" : "managed-test-vm",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/disk/9e1a7b0e-2acf-4bce-9a2f-7cba0373c4c6",
+      "id" : "urn:vcloud:disk:9e1a7b0e-2acf-4bce-9a2f-7cba0373c4c6",
+      "type" : "application/vnd.vmware.vcloud.disk+xml",
+      "name" : "C4-f0cc0572-4f82-4a87-af8f-0970f86e096c",
+      "status" : null,
+      "vCloudExtension" : [ ]
+    } ],
+    "vCloudExtension" : [ ]
+  },
+  "availableNetworks" : {
+    "otherAttributes" : { },
+    "network" : [ {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/10fbd0af-dd6b-450c-ab91-10ca44cfcd55",
+      "id" : "urn:vcloud:network:10fbd0af-dd6b-450c-ab91-10ca44cfcd55",
+      "type" : "application/vnd.vmware.admin.network+xml",
+      "name" : "test",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/e583c4e5-05da-4e42-9747-2e978d342411",
+      "id" : "urn:vcloud:network:e583c4e5-05da-4e42-9747-2e978d342411",
+      "type" : "application/vnd.vmware.admin.network+xml",
+      "name" : "nw_one",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/8c012463-14fa-49a7-9f28-ef60536a2940",
+      "id" : "urn:vcloud:network:8c012463-14fa-49a7-9f28-ef60536a2940",
+      "type" : "application/vnd.vmware.admin.network+xml",
+      "name" : "nw_two",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/b78b320c-7ebf-4bf4-95a3-8d33cca97c52",
+      "id" : "urn:vcloud:network:b78b320c-7ebf-4bf4-95a3-8d33cca97c52",
+      "type" : "application/vnd.vmware.admin.network+xml",
+      "name" : "pebalog test",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/024e7acf-f691-45cb-8c6b-abfb8ce6fa12",
+      "id" : "urn:vcloud:network:024e7acf-f691-45cb-8c6b-abfb8ce6fa12",
+      "type" : "application/vnd.vmware.admin.network+xml",
+      "name" : "testnetwork",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/b36037a1-9ec0-47d0-8f03-ba4258e70db8",
+      "id" : "urn:vcloud:network:b36037a1-9ec0-47d0-8f03-ba4258e70db8",
+      "type" : "application/vnd.vmware.admin.network+xml",
+      "name" : "TSY-AdminLAN-01",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/40f961ea-8ba9-4ad9-8a40-6fc06cb23e9c",
+      "id" : "urn:vcloud:network:40f961ea-8ba9-4ad9-8a40-6fc06cb23e9c",
+      "type" : "application/vnd.vmware.admin.network+xml",
+      "name" : "VPN_test",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/network/775869f6-e205-4d76-a6de-06159b34b1f5",
+      "id" : "urn:vcloud:network:775869f6-e205-4d76-a6de-06159b34b1f5",
+      "type" : "application/vnd.vmware.admin.network+xml",
+      "name" : "Routed Network",
+      "vCloudExtension" : [ ]
+    } ],
+    "vCloudExtension" : [ ]
+  },
+  "capabilities" : {
+    "otherAttributes" : { },
+    "supportedHardwareVersions" : {
+      "otherAttributes" : { },
+      "supportedHardwareVersion" : [ {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-04",
+        "name" : "vmx-04",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-04",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-07",
+        "name" : "vmx-07",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-07",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-08",
+        "name" : "vmx-08",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-08",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-09",
+        "name" : "vmx-09",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-09",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-10",
+        "name" : "vmx-10",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-10",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-11",
+        "name" : "vmx-11",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-11",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-12",
+        "name" : "vmx-12",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-12",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-13",
+        "name" : "vmx-13",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-13",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-14",
+        "name" : "vmx-14",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-14",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-15",
+        "name" : "vmx-15",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-15",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-16",
+        "name" : "vmx-16",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-16",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-17",
+        "name" : "vmx-17",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-17",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-18",
+        "name" : "vmx-18",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-18",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : null
+      }, {
+        "_type" : "SupportedHardwareVersionType",
+        "content" : "vmx-19",
+        "name" : "vmx-19",
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4/hwv/vmx-19",
+        "type" : "application/vnd.vmware.vcloud.virtualHardwareVersion+xml",
+        "default" : true
+      } ],
+      "vCloudExtension" : [ ]
+    },
+    "vCloudExtension" : [ ]
+  },
+  "nicQuota" : 0,
+  "networkQuota" : 20,
+  "usedNetworkCount" : 8,
+  "vmQuota" : 28,
+  "isEnabled" : true,
+  "vdcStorageProfiles" : {
+    "otherAttributes" : { },
+    "vdcStorageProfile" : [ {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdcStorageProfile/d3942ea7-35e8-48a6-8910-1a741272cd79",
+      "id" : "urn:vcloud:vdcstorageProfile:d3942ea7-35e8-48a6-8910-1a741272cd79",
+      "type" : "application/vnd.vmware.admin.vdcStorageProfile+xml",
+      "name" : "Disk Storage Normal DC-A",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdcStorageProfile/d46121a5-cbb0-4d04-b27b-14f3a32c9862",
+      "id" : "urn:vcloud:vdcstorageProfile:d46121a5-cbb0-4d04-b27b-14f3a32c9862",
+      "type" : "application/vnd.vmware.admin.vdcStorageProfile+xml",
+      "name" : "Backup Integrated Disk Storage Entry DC-A",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdcStorageProfile/e755ac5a-5504-4cf3-9f83-bd85a1baf528",
+      "id" : "urn:vcloud:vdcstorageProfile:e755ac5a-5504-4cf3-9f83-bd85a1baf528",
+      "type" : "application/vnd.vmware.admin.vdcStorageProfile+xml",
+      "name" : "Disk Storage High DC-A",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdcStorageProfile/846a7e45-d5be-4e5b-8612-60c4a4699560",
+      "id" : "urn:vcloud:vdcstorageProfile:846a7e45-d5be-4e5b-8612-60c4a4699560",
+      "type" : "application/vnd.vmware.admin.vdcStorageProfile+xml",
+      "name" : "Backup Integrated Disk Storage Normal DC-A",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdcStorageProfile/b1e9a8a4-d11a-479c-8942-fee0424298b0",
+      "id" : "urn:vcloud:vdcstorageProfile:b1e9a8a4-d11a-479c-8942-fee0424298b0",
+      "type" : "application/vnd.vmware.admin.vdcStorageProfile+xml",
+      "name" : "Disk Storage Entry DC-A",
+      "vCloudExtension" : [ ]
+    }, {
+      "otherAttributes" : { },
+      "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/vdcStorageProfile/9abfd15b-3d62-449e-b9bc-5f77545657f1",
+      "id" : "urn:vcloud:vdcstorageProfile:9abfd15b-3d62-449e-b9bc-5f77545657f1",
+      "type" : "application/vnd.vmware.admin.vdcStorageProfile+xml",
+      "name" : "Backup Integrated Disk Storage High DC-A",
+      "vCloudExtension" : [ ]
+    } ],
+    "vCloudExtension" : [ ]
+  },
+  "defaultComputePolicy" : {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/2.0.0/vdcComputePolicies/urn:vcloud:vdcComputePolicy:117b1e7a-df21-49e1-8ad6-b9a146a5e9ac",
+    "id" : "urn:vcloud:vdcComputePolicy:117b1e7a-df21-49e1-8ad6-b9a146a5e9ac",
+    "type" : "application/json",
+    "name" : "System Default",
+    "vCloudExtension" : [ ]
+  },
+  "maxComputePolicy" : {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/cloudapi/2.0.0/vdcs/urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4/maxComputePolicy",
+    "id" : null,
+    "type" : "application/json",
+    "name" : null,
+    "vCloudExtension" : [ ]
+  },
+  "status" : 1,
+  "isLegacyType" : false,
+  "resourceGuaranteedMemory" : 0.75,
+  "resourceGuaranteedCpu" : 0.75,
+  "isThinProvision" : false,
+  "networkPoolReference" : {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/extension/networkPool/f0498e46-e214-4429-997e-7d95361f38d5",
+    "id" : "urn:vcloud:networkpool:f0498e46-e214-4429-997e-7d95361f38d5",
+    "type" : "application/vnd.vmware.admin.networkPool+xml",
+    "name" : "",
+    "vCloudExtension" : [ ]
+  },
+  "vendorServices" : {
+    "networkServices" : [ ],
+    "edgeGatewayServices" : [ ]
+  },
+  "providerVdcReference" : {
+    "otherAttributes" : { },
+    "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/providervdc/830b3eb0-fc55-42f0-b509-1a64420b0129",
+    "id" : "urn:vcloud:providervdc:830b3eb0-fc55-42f0-b509-1a64420b0129",
+    "type" : "application/vnd.vmware.admin.providervdc+xml",
+    "name" : "PVDC-S1-ALLOC-NSXT",
+    "vCloudExtension" : [ ]
+  },
+  "resourcePoolRefs" : {
+    "vimObjectRef" : [ {
+      "vimServerRef" : {
+        "otherAttributes" : { },
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/extension/vimServer/0f80bcf3-ed1c-44b4-a6a1-984243c224f5",
+        "id" : "urn:vcloud:vimserver:0f80bcf3-ed1c-44b4-a6a1-984243c224f5",
+        "type" : "application/vnd.vmware.admin.vmwvirtualcenter+xml",
+        "name" : "VC",
+        "vCloudExtension" : [ ]
+      },
+      "moRef" : "resgroup-2484712",
+      "vimObjectType" : "RESOURCE_POOL"
+    } ]
+  },
+  "usesFastProvisioning" : false,
+  "overCommitAllowed" : null,
+  "vmDiscoveryEnabled" : null,
+  "universalNetworkPoolReference" : null,
+  "isElastic" : true,
+  "includeMemoryOverhead" : false,
+  "vappNetworkStandbyEnabled" : false,
+  "vappNatTypeReflexiveEnabled" : false,
+  "networkingTenancyEnabled" : false,
+  "vCpuInMhz" : 300,
+  "vCpuInMhz2" : 300,
+  "vCloudExtension" : [ {
+    "any" : [ {
+      "_type" : "VimObjectRefType",
+      "vimServerRef" : {
+        "otherAttributes" : { },
+        "href" : "https://vcloud-ffm-private.t-systems.de/api/admin/extension/vimServer/0f80bcf3-ed1c-44b4-a6a1-984243c224f5",
+        "id" : "urn:vcloud:vimserver:0f80bcf3-ed1c-44b4-a6a1-984243c224f5",
+        "type" : "application/vnd.vmware.admin.vmwvirtualcenter+xml",
+        "name" : "VC",
+        "vCloudExtension" : [ ]
+      },
+      "moRef" : "resgroup-2484712",
+      "vimObjectType" : "RESOURCE_POOL"
+    } ],
+    "required" : false,
+    "otherAttributes" : { }
+  } ]
+}
