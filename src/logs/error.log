@@ -3,3 +3,11 @@
 2024-11-05T08:55:30.627Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
 2024-11-05T09:02:30.062Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
 2024-11-05T09:03:27.245Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
+2024-11-05T10:54:36.142Z [ERROR] Error fetching access token: fetchAccessToken is not a function
+2024-11-05T11:06:07.143Z [ERROR] Error fetching VDC:
+2024-11-05T11:06:07.144Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.
+2024-11-05T11:14:34.231Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
+2024-11-05T11:26:25.360Z [ERROR] Error fetching VDC:
+2024-11-05T11:26:25.361Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.
+2024-11-05T11:26:42.430Z [ERROR] Error fetching VDC:
+2024-11-05T11:26:42.431Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.

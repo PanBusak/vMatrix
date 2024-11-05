@@ -29,3 +29,91 @@
 2024-11-05T09:37:34.722Z [INFO] Making requests for 11 VMs
 2024-11-05T09:37:35.139Z [INFO] Fetched and updated all VM details successfully.
 2024-11-05T09:37:35.140Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-05T10:54:36.138Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-05T10:54:36.141Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-05T10:54:36.142Z [ERROR] Error fetching access token: fetchAccessToken is not a function
+2024-11-05T10:54:36.148Z [INFO] Server is running on http://localhost:3000
+2024-11-05T10:56:04.463Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-05T10:56:04.466Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-05T10:56:04.466Z [INFO] Starting to fetch access token
+2024-11-05T10:56:04.525Z [INFO] Server is running on http://localhost:3000
+2024-11-05T10:56:05.127Z [INFO] Access token fetched successfully.
+2024-11-05T10:56:05.128Z [INFO] ---- Access Token fetched successfully ----
+2024-11-05T10:56:05.129Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzEwNjMzNjQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYWViYmZiODUwMWI4NDk4NjljYmNmMjc0ODExNmU1OTUifQ.D6yYzdvbXv7dmoHJ63RKvEkCAtIRYoRKsoCxAaic_hGpZSKoHi3d35lWz4Ni1GvcPsrWRuWcdef-OlE7QA9twkIg9G_R6_RKsyE7vEXrQa3LVKHz__zIy_lZy97_2DXkPho94QN4tSAJ8_7GZCJZ9aDu_yVumBOgEtnRHBL5JuEAsfELYijqKySknQDGYATzXDZCi9wrCq7huRP9aUdDJJ5N9s1oJyk-N7sitggJbxOTZlCh6d44KtM9HeVy70ptXjUOLI8KRCM0lF5OGxWvXb0TJZ4XMArihYcm2apGctVwGwuI2I7UcL4ud8bEKqG9JTwVRuyPJ4EDUYyTTnOQbg
+2024-11-05T10:57:25.949Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-05T10:57:26.723Z [INFO] Fetched VDCs successfully.
+2024-11-05T10:57:26.725Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-05T10:57:27.028Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-05T10:57:27.029Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-05T10:57:27.682Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-05T10:57:27.682Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-05T10:57:27.683Z [INFO] Making requests for 11 VMs
+2024-11-05T10:57:28.085Z [INFO] Fetched and updated all VM details successfully.
+2024-11-05T10:57:28.086Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-05T11:05:56.473Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-05T11:05:56.475Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-05T11:05:56.476Z [INFO] Starting to fetch access token
+2024-11-05T11:05:56.548Z [INFO] Server is running on http://localhost:3000
+2024-11-05T11:05:57.272Z [INFO] Access token fetch script successfull.
+2024-11-05T11:05:57.272Z [INFO] ---- Access Token fetched successfully ----
+2024-11-05T11:05:57.272Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzEwNjM5NTYsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiN2IyMTUxMzM0YTE1NGE3MGI3MGM5NmJkNWVhZjljNzMifQ.AIuovzw3iVzz3V2PD-Bj4ps53QIl0OEfM-6z1dZX2FaB3d6_n_mqDr4hO4h4mMA4RG1OlIWZss5rwKVO5n5EX-Y9z_YDzwt3rUXV9Cq56MneBk0UVl-E9BNmC3uu4m43hNB8hb0IQZm3rfnD1PhzlVxNU_qMsrHaQmwB7n9WUb8H0VUJGzkyWCgC1kn4rYEf0i8o5ceLkrzSAL4NfkH-bbFze5jaxXSz76yEOm-BTSegLzYGeVa2ao_yeD5PqmtF7tk00eBPUaEhtU9VJjl6i9W7w4iagG3EKAYSjDTcuHKhdR1vvWNBvTSCayqYslUpjZdWsoQS6hBT9ooh3IMixw
+2024-11-05T11:06:06.406Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-05T11:06:07.143Z [ERROR] Error fetching VDC:
+2024-11-05T11:06:07.144Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.
+2024-11-05T11:14:27.867Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-05T11:14:27.870Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-05T11:14:27.870Z [INFO] Starting to fetch access token
+2024-11-05T11:14:27.927Z [INFO] Server is running on http://localhost:3000
+2024-11-05T11:14:28.557Z [INFO] Access token fetch script successfull.
+2024-11-05T11:14:28.557Z [INFO] ---- Access Token fetched successfully ----
+2024-11-05T11:14:28.558Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzEwNjQ0NjgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNzUwY2E2Yzg0YTM5NDU2Mjk5ZDE0MjM0ZWVlMDdlMTYifQ.AALFNPnRtN3CUjGAGq2We-1lJvAGTr1zhtZy2USBRPHJszWVZduNaHV2t8HVPGjjY8lBlQr6VLVNAEhjpO0vXXtu3qWiT2iDiFBvRS5zwGYLMbPNxtvVzU_CNk4cOLDm1A13OF8gPKWVLuOlRZsfq8I2hXaiHgDK1vp6S-FujbdNOOQN5Vy23RSf7nEVVlSlcvQ3nQhX9uislhWUWVi_Q0iFLFCFLuyDzyXu97lu1hFKAHdN-td4D-xHWpTMyzAZ_s4E8eM7rH1NggtFQcDu0yGxk1p79prRVqmb2L8jlIMphTOIFOWolgkFY3I1Qmf27ivKSmi4W2P3qm3jE8lWOA
+2024-11-05T11:14:34.231Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
+2024-11-05T11:14:49.899Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-05T11:14:49.900Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-05T11:26:24.694Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-05T11:26:25.360Z [ERROR] Error fetching VDC:
+2024-11-05T11:26:25.361Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.
+2024-11-05T11:26:37.584Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-05T11:26:37.586Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-05T11:26:37.587Z [INFO] Starting to fetch access token
+2024-11-05T11:26:37.652Z [INFO] Server is running on http://localhost:3000
+2024-11-05T11:26:38.255Z [INFO] Access token fetch script successfull.
+2024-11-05T11:26:38.255Z [INFO] ---- Access Token fetched successfully ----
+2024-11-05T11:26:38.255Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzEwNjUxOTcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNzA2Nzg5Yjk2MGE1NDhmYTlmZTI1N2FkNjliM2QwMmUifQ.gDFpdhWs17ahE1QRYDRpQzk5F_z2EG5FgNqJObDUWgvMK9SzmJsHQ7GnU-grHiXBgIPXHbQE-A7bdhKfMkmSW3OxsNaHVbD_FqVLouje2-HO3QnWP5SOOTdC0IXbrxwIEc_NEJGIkF30LiJmbeAxokoHmmBN3RnpCkdqkoGx8VxYVcMh-T7zsAvgFHDwfhEKMzVVPswDPWvHU8g3mrwnFVljOa6wKR_wJ3zfv96LkomHjUaqeq2xD_PZ96cj06s4H-bhxk2KnU6ZTjRMd67asvevxZ_uekm7HU3omSZX5mYIN0AYSaoXGAVCMtaOcVciZiwJW1ZuLmyRRiKXMaYHBg
+2024-11-05T11:26:42.429Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-05T11:26:42.430Z [ERROR] Error fetching VDC:
+2024-11-05T11:26:42.431Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.
+2024-11-05T11:27:23.649Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-05T11:27:23.652Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-05T11:27:23.653Z [INFO] Starting to fetch access token
+2024-11-05T11:27:23.740Z [INFO] Server is running on http://localhost:3000
+2024-11-05T11:27:24.305Z [INFO] Access token fetch script successfull.
+2024-11-05T11:27:24.305Z [INFO] ---- Access Token fetched successfully ----
+2024-11-05T11:27:24.306Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzEwNjUyNDMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNDA0OTRlNDUzMWVkNGI1YWIyNmQ0NDQ0N2FiYzE5YjAifQ.M0uOjMauCVDNShwWrDuNKnoYvzFEbxlDp4ZgtC67jRwRw5zpiT4BshBH_c4SuYcejoIize6D_M9SOKiaGmrkZVGczImCDYYh1OMtl_RSVkZ8EKFbZ9q9ZBiGNMH4i_CB8Ln2fGpiBlQz3oQrtvane0E2rKMjkOv1ZYRH7Hh2hU9Bz4EOxAavqeykw5OB7a70Dyzbp4Yh20vCSCGkjj-SIluJudC_7yhN68df4P83qPO_4u8EZtnBVtWPq_pfOJW26W7FI9IbZHNdMHwsm7-w7JFbce77KL1WARywc97KvGHRqv50yEt8GUypDOv2_yUBnczjt1eGDwF2dhpspaJwBg
+2024-11-05T11:27:27.090Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-05T11:27:27.733Z [INFO] Fetched VDCs fpr successfully.
+2024-11-05T11:27:27.735Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-05T11:27:27.985Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-05T11:27:27.986Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-05T11:27:28.496Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-05T11:27:28.496Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-05T11:27:28.497Z [INFO] Making requests for 4 VMs
+2024-11-05T11:27:28.846Z [INFO] Fetched and updated all VM details successfully.
+2024-11-05T11:27:28.848Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-05T11:31:41.535Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-05T11:31:41.536Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-05T11:32:33.988Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-05T11:32:34.779Z [INFO] Fetched VDCs fpr successfully.
+2024-11-05T11:32:34.780Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-05T11:32:35.133Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-05T11:32:35.136Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-05T11:32:37.491Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-05T11:32:37.492Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-05T11:32:37.493Z [INFO] Making requests for 149 VMs
+2024-11-05T11:32:39.637Z [INFO] Fetched and updated all VM details successfully.
+2024-11-05T11:32:39.641Z [INFO] Fetched VM details successfully from IP: ::1

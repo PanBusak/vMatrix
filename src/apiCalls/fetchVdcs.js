@@ -28,7 +28,7 @@ async function fetchVdcs(orgsDetails) {
       orgsDetails[index].vdcs = vdcs;
     });
 
-    logger.info('Fetched VDCs successfully.');
+    logger.info('Fetched VDCs fpr successfully.');
     fileUtils.saveToFile(orgsDetails);
     
     return orgsDetails;

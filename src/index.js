@@ -5,9 +5,25 @@ const { fetchVdcs } = require('./apiCalls/fetchVdcs');
 const { fetchVdcDetails } = require('./apiCalls/fetchVdcDetails');
 const { fetchVappDetails } = require('./apiCalls/fetchVappDetails');
 const { fetchVmDetails } = require('./apiCalls/fetchVmsDetails');
+const fetchAccessToken = require('./apiCalls/fetchAccessToken');
+
+const config = require('./config');
+logger.info(`*****************************************Starting vMatrix Server*****************************************`);
 
 const app = express();
 const PORT = 3000;
+
+logger.info(`---- Express started at port: ${PORT} successfully ----`);
+
+(async () => {
+  try {
+    await fetchAccessToken();
+    logger.info(`---- Access Token fetched successfully ----`);
+    logger.info(`Token is:\n${config.accessToken}`);
+  } catch (error) {
+    logger.error(`Error fetching access token: ${error.message}`);
+  }
+})();
 
 app.use(express.json());// Musi byt tento Parser !!!
 app.use((req, res, next) => { // Ipcky do logov
