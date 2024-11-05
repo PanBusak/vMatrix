@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
+const logger = require('../logger'); // Assuming you have a Winston logger set up
 
 async function fetchAllEdgeGateways() {
   try {
@@ -14,11 +15,12 @@ async function fetchAllEdgeGateways() {
         'Authorization': `Bearer ${config.accessToken}`
       }
     });
-    console.log("Initial request for Edge Gateways done!");
+
+    logger.info("Initial request for Edge Gateways done!");
 
     const { pageSize, pageCount } = initialResponse.data;
 
-    console.log(`Making ${pageCount} edgeGateways requests`);
+    logger.info(`Making ${pageCount} edgeGateways requests`);
 
     // Generate an array of requests for each page
     const requests = Array.from({ length: pageCount }, (_, i) => {
@@ -63,12 +65,12 @@ async function fetchAllEdgeGateways() {
       }))
     );
 
-    console.log('Fetched all Edge Gateways successfully.');
+    logger.info('Fetched all Edge Gateways successfully.');
     fileUtils.saveToFile(allEdgeGateways, 'edgeGateways.json');
 
     return allEdgeGateways;
   } catch (error) {
-    console.error('Error fetching Edge Gateways:', error.response ? error.response.data : error.message);
+    logger.error('Error fetching Edge Gateways:', error.response ? error.response.data : error.message);
     throw new Error('Failed to fetch all Edge Gateways.');
   }
 }

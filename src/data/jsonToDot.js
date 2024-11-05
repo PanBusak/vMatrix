@@ -6,31 +6,32 @@ function convertToDot(data) {
   dotLines.push("  rankdir=TB;"); // Top-to-bottom layout
   dotLines.push("  node [shape=rectangle, style=filled, color=lightblue];");
 
-  data.forEach(org => {
+  // Sort Organizations
+  data.sort((a, b) => a.name.localeCompare(b.name)).forEach(org => {
     // Organization node
     const orgName = org.name;
     dotLines.push(`  "${orgName}" [label="Organization: ${orgName}"];`);
 
-    // VDCs within the organization
-    org.vdcs.forEach(vdc => {
+    // Sort VDCs within the organization
+    org.vdcs.sort((a, b) => a.name.localeCompare(b.name)).forEach(vdc => {
       const vdcName = vdc.name;
       dotLines.push(`  "${vdcName}" [label="VDC: ${vdcName}"];`);
       dotLines.push(`  "${orgName}" -> "${vdcName}";`);
 
-      // vApps within each VDC
-      vdc.vapps.forEach(vapp => {
+      // Sort vApps within each VDC
+      vdc.vapps.sort((a, b) => a.name.localeCompare(b.name)).forEach(vapp => {
         const vappName = vapp.name;
         dotLines.push(`  "${vappName}" [label="vApp: ${vappName}"];`);
         dotLines.push(`  "${vdcName}" -> "${vappName}";`);
 
-        // VMs within each vApp
-        vapp.details.VirtualMachines.forEach(vm => {
+        // Sort VMs within each vApp
+        vapp.details.VirtualMachines.sort((a, b) => a.name.localeCompare(b.name)).forEach(vm => {
           const vmName = vm.name;
           dotLines.push(`  "${vmName}" [label="VM: ${vmName}\\nRAM: ${vm.details.RAM} MB\\nCPU: ${vm.details.numCpu}"];`);
           dotLines.push(`  "${vappName}" -> "${vmName}";`);
 
-          // Networks for each VM
-          vm.networks.forEach(network => {
+          // Sort Networks for each VM
+          vm.networks.sort((a, b) => a.networkName.localeCompare(b.networkName)).forEach(network => {
             const networkName = network.networkName;
             // Define the network node if not already defined
             if (!dotLines.some(line => line.includes(`"${networkName}" [label="Network:`))) {
@@ -50,7 +51,8 @@ function convertToDot(data) {
 }
 
 // Example JSON data (replace this with actual data as needed)
-const data = require('./updatedOrgsDataWithVmDetails.json')
+const data = require('./updatedOrgsDataWithVmDetails.json');
+
 // Generate DOT representation
 const dotOutput = convertToDot(data);
 

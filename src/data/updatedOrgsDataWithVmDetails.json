@@ -1,238 +1,34 @@
 [
   {
-    "name": "T-Systems Nordic A/S, sivuliike Suomessa(1889)_1000041086",
-    "uuid": "b60f8a33-74aa-4b09-ba3b-e7013f286bf4",
+    "name": "testorg",
+    "uuid": "41fc155c-fe42-4d3b-b0a9-031592d98220",
     "vdcs": [
       {
-        "name": "com-a-tdc_1000041086-01",
-        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/0bf767df-c6e2-4383-a933-567fd306cb40",
-        "urn": "urn:vcloud:vdc:0bf767df-c6e2-4383-a933-567fd306cb40",
+        "name": "com-a-testorg-03",
+        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/53501766-db71-4ea7-9fc2-fc75f97b992d",
+        "urn": "urn:vcloud:vdc:53501766-db71-4ea7-9fc2-fc75f97b992d",
         "vapps": [
           {
-            "name": "Test AD environment",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-8091f16f-be16-434b-8ec4-0c785b4ed542",
+            "name": "JN_silo1",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ea432138-18a5-4689-a12a-bf11c6ac7af8",
             "details": {
-              "vAppName": "Test AD environment",
+              "vAppName": "JN_silo1",
               "VirtualMachines": [
                 {
-                  "name": "WTVADS0002",
-                  "id": "urn:vcloud:vm:4c5cd97c-e1a9-458e-8b41-aae38e6c72d2",
+                  "name": "JN_latency_do_not_delete",
+                  "id": "urn:vcloud:vm:78f30c74-7ff0-4793-adb2-9af6655ea39f",
                   "details": {
                     "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Test AD environment",
-                      "ipAddress": "10.205.40.3",
-                      "MAC": "00:50:56:06:7e:fe",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw06"
-                    }
-                  ]
-                },
-                {
-                  "name": "WTVADS0001",
-                  "id": "urn:vcloud:vm:4bdcce78-e333-4111-8a88-1716106ba746",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Test AD environment",
-                      "ipAddress": "10.205.40.2",
-                      "MAC": "00:50:56:06:7e:b5",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw06"
-                    }
-                  ]
-                },
-                {
-                  "name": "WTVSNW0001",
-                  "id": "urn:vcloud:vm:dec35dc5-4424-49ed-a6e8-428d8c9c1177",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Test AD environment",
-                      "ipAddress": "10.205.40.5",
-                      "MAC": "00:50:56:06:7f:0f",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw06"
-                    }
-                  ]
-                },
-                {
-                  "name": "WTVAAD0001",
-                  "id": "urn:vcloud:vm:c60035d9-caad-4116-a2a2-5a790ad1a9d5",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Test AD environment",
-                      "ipAddress": "10.205.40.4",
-                      "MAC": "00:50:56:06:7f:02",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw06"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "name": "ISE",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-633070dd-231e-4243-bc08-18c57dfd88e5",
-            "details": {
-              "vAppName": "ISE",
-              "VirtualMachines": [
-                {
-                  "name": "deesviseadm01",
-                  "id": "urn:vcloud:vm:c487fb76-a55a-4dad-ad3e-78f0285ee8ee",
-                  "details": {
-                    "RAM": 65536,
-                    "numCpu": 16
-                  },
-                  "networks": [
-                    {
-                      "networkName": "MGMT ISE",
-                      "ipAddress": "10.201.90.31",
-                      "MAC": "00:50:56:06:6e:50",
-                      "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw02"
-                    }
-                  ]
-                },
-                {
-                  "name": "deesvisepsn01",
-                  "id": "urn:vcloud:vm:a5aebc4b-5cd2-45c5-9590-bdc028f6fabc",
-                  "details": {
-                    "RAM": 16384,
-                    "numCpu": 16
-                  },
-                  "networks": [
-                    {
-                      "networkName": "MGMT ISE",
-                      "ipAddress": "10.201.90.32",
-                      "MAC": "00:50:56:06:6e:54",
-                      "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw02"
-                    },
-                    {
-                      "networkName": "ISE_Guest",
-                      "ipAddress": "10.201.30.31",
-                      "MAC": "00:50:56:06:6e:55",
-                      "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw01"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVWDNS0001",
-                  "id": "urn:vcloud:vm:cebad7d3-da38-4f2f-b9a7-08ef92bf1955",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "ISE_Guest",
-                      "ipAddress": "10.201.30.11",
-                      "MAC": "00:50:56:06:74:8b",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw01"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "name": "SQL",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-8a71aacb-c6b3-4215-83e6-7b80bb9299fb",
-            "details": {
-              "vAppName": "SQL",
-              "VirtualMachines": [
-                {
-                  "name": "WPVSWDB0001",
-                  "id": "urn:vcloud:vm:c2de3ea6-be35-4c42-ad72-a4dc45c55b18",
-                  "details": {
-                    "RAM": 32768,
-                    "numCpu": 8
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.29",
-                      "MAC": "00:50:56:06:75:86",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    },
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.26",
-                      "MAC": "00:50:56:06:74:c4",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WDVSWDB0003",
-                  "id": "urn:vcloud:vm:fbd98a66-89a9-4412-960b-d7e3becd8bc7",
-                  "details": {
-                    "RAM": 16384,
                     "numCpu": 4
                   },
                   "networks": [
                     {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.28",
-                      "MAC": "00:50:56:06:74:bd",
-                      "adapter": "E1000E",
+                      "networkName": "test-shared-network",
+                      "ipAddress": "1.2.3.6",
+                      "MAC": "00:50:56:3c:45:80",
+                      "adapter": "VMXNET3",
                       "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVSWDB0003",
-                  "id": "urn:vcloud:vm:beac6624-d737-4b52-8db7-49c868e3a48c",
-                  "details": {
-                    "RAM": 65536,
-                    "numCpu": 8
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.41",
-                      "MAC": "00:50:56:06:80:eb",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    },
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.38",
-                      "MAC": "00:50:56:06:80:e8",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
+                      "edgeGateway": "neni"
                     }
                   ]
                 }
@@ -240,429 +36,50 @@
             }
           },
           {
-            "name": "RestoreVM",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-18934f17-2ff0-4878-a898-d7dd502ca0f7",
+            "name": "jblodi_test-3494b5b0-8958-4b87-b532-1e9b2794f82a (1) (1)-v2t",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9fb22034-ff2d-40a2-a4bc-7cdb33194588",
             "details": {
-              "vAppName": "RestoreVM",
-              "VirtualMachines": [
-                {
-                  "name": "WPVPRINT0002",
-                  "id": "urn:vcloud:vm:857331a0-9ee4-4478-a2ae-5c71931b6579",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": []
-                }
-              ]
+              "vAppName": "jblodi_test-3494b5b0-8958-4b87-b532-1e9b2794f82a (1) (1)-v2t",
+              "VirtualMachines": []
             }
           },
           {
-            "name": "Shared Services com-a",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-7adca7d6-7f91-4206-b12e-97986c4a36ab",
+            "name": "JN_silo1-v2t",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5006192d-6a9c-4c4f-a12a-459d91abb368",
             "details": {
-              "vAppName": "Shared Services com-a",
+              "vAppName": "JN_silo1-v2t",
+              "VirtualMachines": []
+            }
+          },
+          {
+            "name": "jblodi_test-3494b5b0-8958-4b87-b532-1e9b2794f82a (1) (1)",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-d9cdb95d-ddb2-4caa-be82-a5e8730b65ba",
+            "details": {
+              "vAppName": "jblodi_test-3494b5b0-8958-4b87-b532-1e9b2794f82a (1) (1)",
               "VirtualMachines": [
                 {
-                  "name": "WPVPRINT0002",
-                  "id": "urn:vcloud:vm:ffd65b37-f696-4472-a14b-2b536e7a29ea",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.100",
-                      "MAC": "00:50:56:06:99:ac",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVJMP0006",
-                  "id": "urn:vcloud:vm:c515c722-8558-4e76-9120-524f13106769",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "JUMP_Hosts",
-                      "ipAddress": "10.201.50.10",
-                      "MAC": "00:50:56:06:6e:11",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw02"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVDHCP0001",
-                  "id": "urn:vcloud:vm:4fc51cc6-d238-48a9-afa8-d596b20a9e61",
-                  "details": {
-                    "RAM": 4096,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.6",
-                      "MAC": "00:50:56:06:6d:a6",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "LPVYUM0001",
-                  "id": "urn:vcloud:vm:e59895ca-f419-49be-86cf-65e108df193c",
-                  "details": {
-                    "RAM": 2048,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.36",
-                      "MAC": "00:50:56:06:7a:df",
-                      "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "QualysGuard001",
-                  "id": "urn:vcloud:vm:9c811760-1df0-4548-9403-c64d9b83fe2a",
-                  "details": {
-                    "RAM": 2048,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.80",
-                      "MAC": "00:50:56:06:68:a8",
-                      "adapter": "E1000",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    },
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.2",
-                      "MAC": "00:50:56:06:68:a9",
-                      "adapter": "E1000",
-                      "isConnected": false,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVPRINT0001",
-                  "id": "urn:vcloud:vm:d4308deb-3960-454f-a62d-7ba05263e06f",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.8",
-                      "MAC": "00:50:56:06:73:b3",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVDHCP0002",
-                  "id": "urn:vcloud:vm:474b4528-7a31-4822-b3d5-4458d505d7a8",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.7",
-                      "MAC": "00:50:56:06:6e:4d",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVADS0004",
-                  "id": "urn:vcloud:vm:62de96a1-aee6-460c-b72e-06c84f323dd1",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.5",
-                      "MAC": "00:50:56:06:6d:bc",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "LPVSPRXY0001",
-                  "id": "urn:vcloud:vm:6f533208-c694-4c9e-b259-c5b23ba214b0",
-                  "details": {
-                    "RAM": 16384,
-                    "numCpu": 4
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.35",
-                      "MAC": "00:50:56:06:75:9f",
-                      "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVADS0003",
-                  "id": "urn:vcloud:vm:7e3c9ffc-366a-4185-a58b-c6aa967be7af",
+                  "name": "jblodi_test",
+                  "id": "urn:vcloud:vm:8d66617a-546f-489c-af2b-8d0c72754e31",
                   "details": {
                     "RAM": 6144,
                     "numCpu": 2
                   },
                   "networks": [
                     {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.3",
-                      "MAC": "00:50:56:06:6a:55",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVSGW0002",
-                  "id": "urn:vcloud:vm:6a5434fa-3d23-4cc9-879f-cd388d82ae23",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 4
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.12",
-                      "MAC": "00:50:56:06:6b:1f",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "LPVSYS0001",
-                  "id": "urn:vcloud:vm:4f3903ef-18c9-4b14-9458-25804fb3e7a8",
-                  "details": {
-                    "RAM": 4096,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.18",
-                      "MAC": "00:50:56:06:72:94",
+                      "networkName": "routed_network",
+                      "ipAddress": "169.254.37.40",
+                      "MAC": "00:50:56:06:a5:b4",
                       "adapter": "VMXNET3",
                       "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVAAD0002",
-                  "id": "urn:vcloud:vm:7a403aaa-88af-4932-8532-46326e8128e1",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
+                      "edgeGateway": "com-a-testorg-02-gw-01"
+                    },
                     {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.9",
-                      "MAC": "00:50:56:06:73:09",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVSNW0002",
-                  "id": "urn:vcloud:vm:08ba614f-43c3-4672-a5a4-9f7221cabcf4",
-                  "details": {
-                    "RAM": 16384,
-                    "numCpu": 4
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.16",
-                      "MAC": "00:50:56:06:6b:6b",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVSCM0001",
-                  "id": "urn:vcloud:vm:2b84382d-8274-41da-8525-77a81d99e83a",
-                  "details": {
-                    "RAM": 32768,
-                    "numCpu": 4
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.102",
-                      "MAC": "00:50:56:06:6d:bd",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "WPVPRINT0002 - old",
-                  "id": "urn:vcloud:vm:9a37dc8a-751a-4fb9-9d0f-6c2b469ee52d",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.10",
-                      "MAC": "00:50:56:06:73:a0",
-                      "adapter": "E1000E",
-                      "isConnected": false,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "name": "Template",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-d177c8c7-3e17-4e56-af98-d46195bad1bf",
-            "details": {
-              "vAppName": "Template",
-              "VirtualMachines": [
-                {
-                  "name": "windows 2016 Template",
-                  "id": "urn:vcloud:vm:7f0bdd89-2000-4f6f-8835-ad3e7b1a6790",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.100",
-                      "MAC": "00:50:56:06:65:f5",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "name": "Linux Template",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4de2aeb1-5b07-4668-a019-55c799ce7800",
-            "details": {
-              "vAppName": "Linux Template",
-              "VirtualMachines": [
-                {
-                  "name": "Linux template",
-                  "id": "urn:vcloud:vm:b9a3e469-64da-4401-9e0b-16d2f993eddc",
-                  "details": {
-                    "RAM": 2048,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "none",
-                      "ipAddress": null,
-                      "MAC": "00:50:56:06:75:9e",
+                      "networkName": "jblodi_test_hnk",
+                      "ipAddress": "192.166.10.150",
+                      "MAC": "00:50:56:06:89:60",
                       "adapter": "VMXNET3",
-                      "isConnected": false
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "name": "WDVTEST0003-9966dada-4350-4520-8aa0-c38241bc4912",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-91bc7ea0-7b87-417d-b0b3-8eaccb39fd5c",
-            "details": {
-              "vAppName": "WDVTEST0003-9966dada-4350-4520-8aa0-c38241bc4912",
-              "VirtualMachines": [
-                {
-                  "name": "WDVTEST0003",
-                  "id": "urn:vcloud:vm:b805e938-d578-4815-a21f-6a1ef3799e7f",
-                  "details": {
-                    "RAM": 8192,
-                    "numCpu": 2
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.30",
-                      "MAC": "00:50:56:06:94:2e",
-                      "adapter": "E1000E",
                       "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "name": "Solarwinds",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-96b841c7-a07a-4ae8-91f8-dfd897e62901",
-            "details": {
-              "vAppName": "Solarwinds",
-              "VirtualMachines": [
-                {
-                  "name": "WPVSWM0001",
-                  "id": "urn:vcloud:vm:df83ed40-ffa0-4e91-b646-8ae9efc91d70",
-                  "details": {
-                    "RAM": 32768,
-                    "numCpu": 10
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.23",
-                      "MAC": "00:50:56:06:76:07",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
+                      "edgeGateway": "neni"
                     }
                   ]
                 }
@@ -672,119 +89,245 @@
         ]
       },
       {
-        "name": "com-b-tdc_1000041086-01",
-        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/c345350b-c014-4062-8fd1-f5e856dbc0f5",
-        "urn": "urn:vcloud:vdc:c345350b-c014-4062-8fd1-f5e856dbc0f5",
+        "name": "com-a-testorg-04",
+        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/b9c3d813-1257-4dac-a6bb-96cae61e7ff0",
+        "urn": "urn:vcloud:vdc:b9c3d813-1257-4dac-a6bb-96cae61e7ff0",
         "vapps": [
           {
-            "name": "Shared services Com-b",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-eda7caee-a6c7-4d84-a77b-63afa8e63185",
+            "name": "pujvary_benchmar_aloc",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-05cdeae0-94fe-49a9-b7b7-cc4a77416023",
             "details": {
-              "vAppName": "Shared services Com-b",
+              "vAppName": "pujvary_benchmar_aloc",
               "VirtualMachines": [
                 {
-                  "name": "WPVSWA0002",
-                  "id": "urn:vcloud:vm:1cd7ad90-c40a-406a-af82-81dc5381463c",
-                  "details": {
-                    "RAM": 32768,
-                    "numCpu": 10
-                  },
-                  "networks": [
-                    {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.24",
-                      "MAC": "00:50:56:06:75:fb",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
-                    }
-                  ]
-                },
-                {
-                  "name": "deeqvisepsn02",
-                  "id": "urn:vcloud:vm:e00dbef1-33d4-4a69-8f6e-9c466b605224",
-                  "details": {
-                    "RAM": 16384,
-                    "numCpu": 16
-                  },
-                  "networks": [
-                    {
-                      "networkName": "ISE_Guest",
-                      "ipAddress": "10.201.30.32",
-                      "MAC": "00:50:56:06:6e:58",
-                      "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw01"
-                    },
-                    {
-                      "networkName": "MGMT ISE",
-                      "ipAddress": "10.201.90.34",
-                      "MAC": "00:50:56:06:6e:57",
-                      "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw02"
-                    }
-                  ]
-                },
-                {
-                  "name": "deeqviseadm02",
-                  "id": "urn:vcloud:vm:083fc967-0f38-4acd-b7d2-b8e7d2625107",
+                  "name": "benchmark_vm_aloc",
+                  "id": "urn:vcloud:vm:dc7ded77-c79a-4e73-8c13-ebf2f783e91b",
                   "details": {
                     "RAM": 65536,
-                    "numCpu": 16
-                  },
-                  "networks": [
-                    {
-                      "networkName": "MGMT ISE",
-                      "ipAddress": "10.201.90.33",
-                      "MAC": "00:50:56:06:6e:56",
-                      "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw02"
-                    }
-                  ]
-                },
-                {
-                  "name": "LPVSPRXY0002",
-                  "id": "urn:vcloud:vm:91170e92-0078-4dd6-abe5-f2414a2de1d3",
-                  "details": {
-                    "RAM": 16384,
                     "numCpu": 4
                   },
                   "networks": [
                     {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.39",
-                      "MAC": "00:50:56:06:86:b2",
+                      "networkName": "none",
+                      "ipAddress": "169.254.148.17",
+                      "MAC": "00:50:56:06:6e:46",
                       "adapter": "VMXNET3",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
+                      "isConnected": false
                     }
                   ]
-                },
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "bas-b-testorg-01",
+        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/a19a738c-4141-4de0-a510-09054a5d5e7a",
+        "urn": "urn:vcloud:vdc:a19a738c-4141-4de0-a510-09054a5d5e7a",
+        "vapps": []
+      },
+      {
+        "name": "com-a-testorg-02",
+        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/c2fbe2db-344e-44a4-9f2d-487d61eea872",
+        "urn": "urn:vcloud:vdc:c2fbe2db-344e-44a4-9f2d-487d61eea872",
+        "vapps": [
+          {
+            "name": "sto-3",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3dac930d-5fd9-4e9c-a305-ba0364b873f0",
+            "details": {
+              "vAppName": "sto-3",
+              "VirtualMachines": [
                 {
-                  "name": "WPVSWDB0002",
-                  "id": "urn:vcloud:vm:c9752ba9-3389-409f-8ace-f733ccf305a6",
+                  "name": "sto-3",
+                  "id": "urn:vcloud:vm:f48b3049-eb9c-4695-a2cc-b71b0678c610",
                   "details": {
-                    "RAM": 32768,
+                    "RAM": 4096,
+                    "numCpu": 1
+                  },
+                  "networks": [
+                    {
+                      "networkName": "none",
+                      "ipAddress": "169.254.87.239",
+                      "MAC": "00:50:56:06:07:75",
+                      "adapter": "VMXNET3",
+                      "isConnected": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "sto-10",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-cf35cac4-19db-490a-9ed5-b521c8e99703",
+            "details": {
+              "vAppName": "sto-10",
+              "VirtualMachines": [
+                {
+                  "name": "sto-10",
+                  "id": "urn:vcloud:vm:fef5a238-76c0-4ff0-9c94-2c97de3d75e3",
+                  "details": {
+                    "RAM": 4096,
+                    "numCpu": 1
+                  },
+                  "networks": [
+                    {
+                      "networkName": "none",
+                      "ipAddress": "169.254.232.122",
+                      "MAC": "00:50:56:06:07:80",
+                      "adapter": "VMXNET3",
+                      "isConnected": false
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "JHA-test-inet (1)",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-39d26ed3-ef2a-4651-8f48-13f88e8f2380",
+            "details": {
+              "vAppName": "JHA-test-inet (1)",
+              "VirtualMachines": [
+                {
+                  "name": "JHA-test-inet-vm-01",
+                  "id": "urn:vcloud:vm:657394b1-724b-4a26-b079-735ce6310105",
+                  "details": {
+                    "RAM": 8192,
+                    "numCpu": 2
+                  },
+                  "networks": [
+                    {
+                      "networkName": "routed_network",
+                      "ipAddress": "192.168.3.11",
+                      "MAC": "00:50:56:06:78:e1",
+                      "adapter": "VMXNET3",
+                      "isConnected": true,
+                      "edgeGateway": "com-a-testorg-02-gw-01"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "migration tool test",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-6a51ad27-7b56-4d89-bfbf-055161d21291",
+            "details": {
+              "vAppName": "migration tool test",
+              "VirtualMachines": [
+                {
+                  "name": "dfw1",
+                  "id": "urn:vcloud:vm:31493a66-6937-4449-a9f9-c60d51414889",
+                  "details": {
+                    "RAM": 4096,
+                    "numCpu": 2
+                  },
+                  "networks": [
+                    {
+                      "networkName": "JN_net_access",
+                      "ipAddress": "140.160.1.2",
+                      "MAC": "00:50:56:06:a3:e4",
+                      "adapter": "VMXNET3",
+                      "isConnected": true,
+                      "edgeGateway": "com-a-testorg-02-gw-01"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "pujvary_benchmark",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-40735bac-8859-4cdc-961a-fc475c1358ad",
+            "details": {
+              "vAppName": "pujvary_benchmark",
+              "VirtualMachines": [
+                {
+                  "name": "benchmark-vm-2",
+                  "id": "urn:vcloud:vm:ee9942ed-44b2-4074-bb8d-105a9e2e81df",
+                  "details": {
+                    "RAM": 8192,
                     "numCpu": 8
                   },
                   "networks": [
                     {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.34",
-                      "MAC": "00:50:56:06:75:87",
-                      "adapter": "E1000E",
-                      "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
+                      "networkName": "benchmark-vlan-4000",
+                      "ipAddress": "192.168.100.5",
+                      "MAC": "00:50:56:06:a6:09",
+                      "adapter": "VMXNET3",
+                      "isConnected": false,
+                      "edgeGateway": "neni"
                     },
                     {
-                      "networkName": "Shared -SRV",
-                      "ipAddress": "10.202.2.27",
-                      "MAC": "00:50:56:06:74:d5",
-                      "adapter": "E1000E",
+                      "networkName": "routed_network_2",
+                      "ipAddress": "192.168.4.7",
+                      "MAC": "00:50:56:06:a6:0f",
+                      "adapter": "VMXNET3",
                       "isConnected": true,
-                      "edgeGateway": "com-a-tdc_1000041086-01-gw03"
+                      "edgeGateway": "com-a-testorg-02-gw-01"
+                    }
+                  ]
+                },
+                {
+                  "name": "benchmark_vm_3",
+                  "id": "urn:vcloud:vm:ae342284-b980-426b-ba19-2aad96bdd66a",
+                  "details": {
+                    "RAM": 8192,
+                    "numCpu": 8
+                  },
+                  "networks": [
+                    {
+                      "networkName": "benchmark-vlan-4000",
+                      "ipAddress": "192.168.100.6",
+                      "MAC": "00:50:56:06:a6:0d",
+                      "adapter": "VMXNET3",
+                      "isConnected": false,
+                      "edgeGateway": "neni"
+                    },
+                    {
+                      "networkName": "routed_network_2",
+                      "ipAddress": "192.168.4.5",
+                      "MAC": "00:50:56:06:a6:0e",
+                      "adapter": "VMXNET3",
+                      "isConnected": true,
+                      "edgeGateway": "com-a-testorg-02-gw-01"
+                    }
+                  ]
+                },
+                {
+                  "name": "pujvary-linux",
+                  "id": "urn:vcloud:vm:6c9e733c-175c-4f8c-a4cc-7865219a6e55",
+                  "details": {
+                    "RAM": 4096,
+                    "numCpu": 1
+                  },
+                  "networks": [
+                    {
+                      "networkName": "none",
+                      "ipAddress": null,
+                      "MAC": "00:50:56:06:a6:74",
+                      "adapter": "VMXNET3",
+                      "isConnected": false
+                    }
+                  ]
+                },
+                {
+                  "name": "benchmark_vm",
+                  "id": "urn:vcloud:vm:e17655f1-1d08-47ea-b34a-f7786b6f6de4",
+                  "details": {
+                    "RAM": 8192,
+                    "numCpu": 8
+                  },
+                  "networks": [
+                    {
+                      "networkName": "routed_network_2",
+                      "ipAddress": "192.168.4.6",
+                      "MAC": "00:50:56:06:6e:45",
+                      "adapter": "VMXNET3",
+                      "isConnected": true,
+                      "edgeGateway": "com-a-testorg-02-gw-01"
                     }
                   ]
                 }
@@ -799,25 +342,24 @@
       "cpu": {
         "otherAttributes": {},
         "units": "MHz",
-        "allocated": 45900,
-        "limit": 45900,
-        "reserved": 22950,
-        "used": 14580,
-        "reservationUsed": 0,
+        "allocated": 100000,
+        "limit": 100000,
+        "reserved": 100000,
+        "used": 52800,
+        "reservationUsed": 19200,
         "vCloudExtension": []
       },
       "memory": {
         "otherAttributes": {},
         "units": "MB",
-        "allocated": 324950,
-        "limit": 324950,
-        "reserved": 243712,
-        "used": 163840,
-        "reservationUsed": 0,
+        "allocated": 163840,
+        "limit": 163840,
+        "reserved": 122880,
+        "used": 36864,
+        "reservationUsed": 8192,
         "vCloudExtension": []
       },
       "vCloudExtension": []
     }
   }
-  
 ]

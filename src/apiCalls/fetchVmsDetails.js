@@ -2,6 +2,7 @@ const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
 const orgVdcNetworks = require('../data/orgVdcNetworks.json'); // Replace with the actual path
+const logger = require('../logger'); // Assuming you have a Winston logger set up
 
 // Create an array of network-edgeGateway pairs
 const networkToEdgeGatewayArray = orgVdcNetworks.map(network => {
@@ -11,15 +12,10 @@ const networkToEdgeGatewayArray = orgVdcNetworks.map(network => {
   return { networkName, edgeGateway: edgeGatewayName || "neni" };
 });
 
-
 function getEdgeGateway(networkName) {
   const network = networkToEdgeGatewayArray.find(item => item.networkName === networkName);
-  return network?.edgeGateway ;
+  return network?.edgeGateway;
 }
-
-
-
-
 
 async function fetchVmDetails(orgsData) {
   try {
@@ -36,7 +32,7 @@ async function fetchVmDetails(orgsData) {
       )
     );
 
-    console.log(`Making requests for ${vmRequests.length} VMs`);
+    logger.info(`Making requests for ${vmRequests.length} VMs`);
 
     // Make concurrent requests for all VMs
     const responses = await axios.all(vmRequests.map(req =>
@@ -62,23 +58,21 @@ async function fetchVmDetails(orgsData) {
       vm.networks = (vmData.section[3]?.networkConnection || []).map(network => ({
         networkName: network.network,
         ipAddress: network.ipAddress,
-        MAC:network.macAddress,
+        MAC: network.macAddress,
         adapter: network.networkAdapterType,
         isConnected: network.isConnected,
-        edgeGateway:  getEdgeGateway(network.network)
+        edgeGateway: getEdgeGateway(network.network)
       }));
     });
 
-
-    console.log('Fetched and updated all VM details successfully.');
+    logger.info('Fetched and updated all VM details successfully.');
     fileUtils.saveToFile(orgsData, 'updatedOrgsDataWithVmDetails.json'); // Save the enriched orgsData
 
     return orgsData;
   } catch (error) {
-    console.error('Error fetching VM details:', error.response ? error.response.data : error.message);
+    logger.error(`Error fetching VM details: ${error.response ? error.response.data : error.message}`);
     throw new Error('Failed to fetch VM details.');
   }
 }
-
 
 module.exports = { fetchVmDetails };

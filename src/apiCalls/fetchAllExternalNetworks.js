@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
+const logger = require('../logger'); // Assuming you have a Winston logger set up
 
 async function fetchAllExternalNetworks() {
   try {
@@ -14,11 +15,12 @@ async function fetchAllExternalNetworks() {
         'Authorization': `Bearer ${config.accessToken}`
       }
     });
-    console.log("Initial request done!");
+
+    logger.info("Initial request done!");
 
     const { pageSize, pageCount } = initialResponse.data;
 
-    console.log(`Making ${pageCount} externalNetworks requests`);
+    logger.info(`Making ${pageCount} externalNetworks requests`);
 
     // Generate an array of requests for each page
     const requests = Array.from({ length: pageCount }, (_, i) => {
@@ -48,12 +50,12 @@ async function fetchAllExternalNetworks() {
       }))
     );
 
-    console.log('Fetched all externalNetworks successfully.');
+    logger.info('Fetched all externalNetworks successfully.');
     fileUtils.saveToFile(allExternalNetworks, 'externalNetworks.json');
 
     return allExternalNetworks;
   } catch (error) {
-    console.error('Error fetching externalNetworks:', error.response ? error.response.data : error.message);
+    logger.error('Error fetching externalNetworks:', error.response ? error.response.data : error.message);
     throw new Error('Failed to fetch all externalNetworks.');
   }
 }

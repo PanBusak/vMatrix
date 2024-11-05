@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
+const logger = require('../logger'); // Assuming you have a Winston logger set up
 
 async function fetchVdcs(orgsDetails) {
   try {
@@ -21,19 +22,19 @@ async function fetchVdcs(orgsDetails) {
       const vdcs = response.data.vdcs.vdc.map(vdc => ({
         name: vdc.name,
         href: vdc.href,
-        urn:vdc.id
+        urn: vdc.id
       }));
 
       orgsDetails[index].vdcs = vdcs;
     });
 
-    console.log('1.Fetched VDC  successfully.');
+    logger.info('Fetched VDCs successfully.');
     fileUtils.saveToFile(orgsDetails);
     
     return orgsDetails;
   } catch (error) {
-    console.error('Error fetching VDC :', error.response ? error.response.data : error.message);
-    throw new Error('Failed to fetch VDC .');
+    logger.error('Error fetching VDC:', error.response ? error.response.data : error.message);
+    throw new Error('Failed to fetch VDC.');
   }
 }
 

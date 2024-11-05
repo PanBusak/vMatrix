@@ -1,0 +1,31 @@
+2024-11-05T08:43:02.492Z [INFO] Server is running on http://localhost:3000
+2024-11-05T08:43:11.725Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2024-11-05T08:47:38.371Z [INFO] Server is running on http://localhost:3000
+2024-11-05T08:50:54.310Z [INFO] Server is running on http://localhost:3000
+2024-11-05T08:54:13.481Z [INFO] Server is running on http://localhost:3000
+2024-11-05T08:54:30.695Z [INFO] Server is running on http://localhost:3000
+2024-11-05T08:54:33.224Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
+2024-11-05T08:55:27.135Z [INFO] Server is running on http://localhost:3000
+2024-11-05T08:55:30.627Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
+2024-11-05T09:02:22.639Z [INFO] Server is running on http://localhost:3000
+2024-11-05T09:02:30.062Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
+2024-11-05T09:03:23.906Z [INFO] Server is running on http://localhost:3000
+2024-11-05T09:03:27.245Z [ERROR] Invalid or missing 'orgs' array in request body from IP: ::1
+2024-11-05T09:07:20.034Z [INFO] Server is running on http://localhost:3000
+2024-11-05T09:09:40.482Z [INFO] Server is running on http://localhost:3000
+2024-11-05T09:09:45.106Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-05T09:09:45.878Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-05T09:09:46.155Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-05T09:09:46.799Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-05T09:09:47.204Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-05T09:37:29.468Z [INFO] Server is running on http://localhost:3000
+2024-11-05T09:37:33.157Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-05T09:37:33.783Z [INFO] Fetched VDCs successfully.
+2024-11-05T09:37:33.784Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-05T09:37:34.065Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-05T09:37:34.066Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-05T09:37:34.721Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-05T09:37:34.722Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-05T09:37:34.722Z [INFO] Making requests for 11 VMs
+2024-11-05T09:37:35.139Z [INFO] Fetched and updated all VM details successfully.
+2024-11-05T09:37:35.140Z [INFO] Fetched VM details successfully from IP: ::1

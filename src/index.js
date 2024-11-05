@@ -1,43 +1,66 @@
+const express = require('express');
+const logger = require('./logger'); // Assuming your Winston logger setup
 const { fetchOrganizations } = require('./apiCalls/fetchOrganization');
 const { fetchVdcs } = require('./apiCalls/fetchVdcs');
 const { fetchVdcDetails } = require('./apiCalls/fetchVdcDetails');
-const {fetchVappDetails} = require('./apiCalls/fetchVappDetails')
-const {fetchAllOrgVdcNetworks} = require('./apiCalls/fetchAllOrgVdcNetworks')
-const {fetchAllExternalnetworks} = require('./apiCalls/fetchAllExternalNetworks')
-const {fetchAllEdgeGateways} = require('./apiCalls/fetchAllEdgeGateways')
-const {fetchVmDetails} = require('./apiCalls/fetchVmsDetails')
-async function startProcess() {
+const { fetchVappDetails } = require('./apiCalls/fetchVappDetails');
+const { fetchVmDetails } = require('./apiCalls/fetchVmsDetails');
+
+const app = express();
+const PORT = 3000;
+
+app.use(express.json());// Musi byt tento Parser !!!
+app.use((req, res, next) => { // Ipcky do logov
+  req.ipAddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+  next();
+});
+
+
+app.get('/api/orgs', async (req, res) => {
   try {
-   //const orgsDetails = await fetchOrganizations();    // Step 1: Fetch organizations
-    const orgDetailForTesting = [{name:"T-Systems Nordic A/S, sivuliike Suomessa(1889)_1000041086",uuid:"b60f8a33-74aa-4b09-ba3b-e7013f286bf4"},
-      { name: 'testorg', uuid: '41fc155c-fe42-4d3b-b0a9-031592d98220' }]
-    //console.log(orgsDetails.find(org => org.name === 'testcustomer'))
-    
-    const orgsWithVdc = await fetchVdcs(orgDetailForTesting)  
-   
-    const vdcWithVapp = await fetchVdcDetails(orgsWithVdc) 
-         
-    const vappWithVm = await fetchVappDetails(vdcWithVapp)
-
-    await fetchVmDetails(vappWithVm)
-    console.log('Process completed successfully!');
+    const orgs = await fetchOrganizations();
+    logger.info(`Fetched organizations successfully from IP: ${req.ipAddress}`);
+    res.json(orgs);
   } catch (error) {
-    console.error('Error during the process:', error.message);
+    logger.error(`Error fetching organizations from IP ${req.ipAddress}: ${error.message}`);
+    res.status(500).json({ error: 'Failed to fetch organizations' });
   }
-}
+});
 
+// Endpoint to get full topology information
+app.post('/api/topology', async (req, res) => {
+  const orgDetailArray = req.body.orgs;
+  console.log(orgDetailArray)
+  if (!Array.isArray(orgDetailArray) || orgDetailArray.length === 0) {
+    logger.error(`Invalid or missing 'orgs' array in request body from IP: ${req.ipAddress}`)
+    return res.status(400).json({ error: "Invalid or missing 'orgs' array in request body." });
+  }
 
-async function startProcessNetworks() {
   try {
-    const gateways = await fetchAllEdgeGateways()
-    const orgVdcNetworks = await fetchAllOrgVdcNetworks(gateways)
+    // Log the incoming request
+    logger.info(`Fetching topology for specified orgs from IP: ${req.ipAddress}`);
+
+    // Process the array of organizations
+    const orgsWithVdc = await fetchVdcs(orgDetailArray);
+    logger.info(`Fetched VDCs successfully from IP: ${req.ipAddress}`);
     
-    console.log('Process networks completed successfully!');
+    const vdcWithVapp = await fetchVdcDetails(orgsWithVdc);
+    logger.info(`Fetched VDC details successfully from IP: ${req.ipAddress}`);
+    
+    const vappWithVm = await fetchVappDetails(vdcWithVapp);
+    logger.info(`Fetched vApp details successfully from IP: ${req.ipAddress}`);
+    
+    const topology = await fetchVmDetails(vappWithVm);
+    logger.info(`Fetched VM details successfully from IP: ${req.ipAddress}`);
+
+    res.json(topology);
   } catch (error) {
-    console.error('Error during the process:', error.message);
+    logger.error(`Error fetching topology from IP ${req.ipAddress}: ${error.message}`);
+    res.status(500).json({ error: 'Failed to fetch topology' });
   }
-}
+});
 
-//startProcessNetworks();
-startProcess()
-
+// Start the Express server
+app.listen(PORT, () => {
+  logger.info(`Server is running on http://localhost:${PORT}`);
+});

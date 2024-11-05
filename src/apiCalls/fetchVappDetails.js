@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
+const logger = require('../logger'); // Assuming you have a Winston logger set up
 
 async function fetchVappDetails(orgsDetails) {
   try {
@@ -58,11 +59,11 @@ async function fetchVappDetails(orgsDetails) {
 
     // Save updated orgsDetails with the newly fetched vApp details
     fileUtils.saveToFile(orgsDetails);
-    console.log('Fetched and filtered vApp details successfully.');
+    logger.info('Fetched and filtered vApp details successfully.');
 
     return orgsDetails;
   } catch (error) {
-    console.error('Error fetching vApp details:', error.response ? error.response.data : error.message);
+    logger.error('Error fetching vApp details:', error.response ? error.response.data : error.message);
     throw new Error('Failed to fetch vApp details.');
   }
 }

@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
+const logger = require('../logger'); // Assuming you have a Winston logger set up
 
 async function fetchVdcDetails(orgsDetails) {
   try {
@@ -44,11 +45,11 @@ async function fetchVdcDetails(orgsDetails) {
       vdc.vapps.push(...vapps); // Append all vApp objects to the vapps array in the VDC
     });
 
-    console.log('Fetched VDCs and their vApps successfully.');
+    logger.info('Fetched VDCs and their vApps successfully.');
     fileUtils.saveToFile(orgsDetails);
     return orgsDetails;
   } catch (error) {
-    console.error('Error fetching VDCs and vApps:', error.response ? error.response.data : error.message);
+    logger.error('Error fetching VDCs and vApps:', error.response ? error.response.data : error.message);
     throw new Error('Failed to fetch VDCs and vApps.');
   }
 }

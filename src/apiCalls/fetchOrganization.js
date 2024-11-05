@@ -1,15 +1,15 @@
 const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
+const logger = require('../logger'); // Assuming you have a Winston logger set up
 
 const orgsDetails = [];
 
 async function fetchOrganizations() {
   try {
-    
     const response = await axios({
       method: 'get',
-      url: `${config.apiUrl}/cloudapi/1.0.0/orgs`,
+      url: `${config.apiUrl}/cloudapi/1.0.0/orgs?pageSize=128`,
       headers: {
         'Accept': 'application/json;version=36.0',
         'Authorization': `Bearer ${config.accessToken}`
@@ -26,12 +26,14 @@ async function fetchOrganizations() {
       });
     });
 
-    console.log('Fetched organization details successfully.');
+    // Save to file
     fileUtils.saveToFile(orgsDetails, 'orgDetails.json');
     
+    logger.info('Fetched organizations successfully and saved to orgDetails.json.');
+
     return orgsDetails;
   } catch (error) {
-    console.error('Error fetching organizations:', error.response ? error.response.data : error.message);
+    logger.error('Error fetching organizations:', error.response ? error.response.data : error.message);
     throw new Error('Failed to fetch organizations.');
   }
 }

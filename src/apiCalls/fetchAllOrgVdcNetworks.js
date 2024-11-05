@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
+const logger = require('../logger'); // Assuming you have a Winston logger set up
 
 async function fetchAllOrgVdcNetworks() {
   try {
@@ -14,12 +15,14 @@ async function fetchAllOrgVdcNetworks() {
         'Authorization': `Bearer ${config.accessToken}`
       }
     });
-    console.log("Initial request done ! ")
+
+    logger.info("Initial request done!");
     const { pageSize, pageCount } = initialResponse.data;
     
-    console.log(`Making ${pageCount} orgVDCNetworks requests`)
+    logger.info(`Making ${pageCount} orgVDCNetworks requests`);
+
     // Generate an array of requests for each page
-    const requests = Array.from({ length: pageCount}, (_, i) => {
+    const requests = Array.from({ length: pageCount }, (_, i) => {
       const url = `${config.apiUrl}/cloudapi/1.0.0/orgVdcNetworks?&pageSize=32&page=${i + 1}`;
       return axios({
         method: 'get',
@@ -48,21 +51,23 @@ async function fetchAllOrgVdcNetworks() {
           id: network.ownerRef?.id
         },
         connection: {
-           data:network.connection
-        
+          data: network.connection
         },
         usedIpCount: network.subnets?.values?.reduce((acc, subnet) => acc + (subnet.usedIpCount || 0), 0)
       }))
     );
 
-    console.log('Fetched all orgVdcNetworks successfully.');
+    logger.info('Fetched all orgVdcNetworks successfully.');
     fileUtils.saveToFile(allNetworks, 'orgVdcNetworks.json');
 
     return allNetworks;
   } catch (error) {
-    console.error('Error fetching orgVdcNetworks:', error.response ? error.response.data : error.message);
+    logger.error('Error fetching orgVdcNetworks:', error.response ? error.response.data : error.message);
     throw new Error('Failed to fetch all orgVdcNetworks.');
   }
 }
-fetchAllOrgVdcNetworks()
+
+// Call the function if needed for testing or execution
+fetchAllOrgVdcNetworks();
+
 module.exports = { fetchAllOrgVdcNetworks };
