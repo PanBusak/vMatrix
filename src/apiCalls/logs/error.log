@@ -1,4 +1,86 @@
-2024-11-05T10:35:48.481Z [ERROR] Error fetching access token:
-2024-11-05T10:40:04.416Z [ERROR] Error fetching access token:
-2024-11-05T10:41:28.282Z [ERROR] Error fetching access token: HTTP 404 Not Found
-2024-11-05T10:41:54.010Z [ERROR] Error fetching access token: Invalid refresh token
+2024-11-06T08:57:30.655Z [ERROR] Error fetching Edge Gateways: [ 40cfa6ba-a7bb-4639-8d82-88f00a025800 ] This operation is denied.
+2024-11-06T08:58:45.020Z [ERROR] Error fetching Edge Gateways: Request failed with status code 401
+2024-11-06T09:00:33.987Z [ERROR] Error fetching Edge Gateways: [ 07abbb29-1ed5-4c7c-b426-6ac9c74d9fca ] This operation is denied.
+2024-11-06T09:01:58.330Z [ERROR] Error fetching Edge Gateways: [ e67c225d-45af-4763-893b-7c5868eb38dd ] This operation is denied.
+2024-11-06T09:04:56.006Z [ERROR] Error fetching Edge Gateways: [ 96eceb3f-5d07-4d7e-9095-75226aaba688 ] This operation is denied.
+2024-11-06T11:25:02.890Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 405
+2024-11-06T11:25:02.891Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:26:10.272Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 400
+2024-11-06T11:26:10.273Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:27:11.844Z [ERROR] Error fetching firewall rules for gateways: gatewayIds is not defined
+2024-11-06T11:27:11.845Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:27:22.273Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 400
+2024-11-06T11:27:22.274Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:27:40.881Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 400
+2024-11-06T11:27:40.881Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:28:23.101Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 400
+2024-11-06T11:28:23.102Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:30:11.516Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 400
+2024-11-06T11:30:11.517Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:34:46.539Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:34:46.540Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:35:16.169Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:35:16.170Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:38:52.038Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:38:52.038Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:41:19.157Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:41:19.158Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:41:31.619Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:41:31.619Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:43:02.387Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:43:02.388Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:53:17.005Z [ERROR] Error fetching firewall rules for gateways: [object Object]
+2024-11-06T11:53:17.005Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:54:50.047Z [ERROR] Error fetching firewall rules for gateways: 400 - Bad Request [ 5bc131dc-87fa-4d8e-9f1f-a1e82b00e4fa ] validation error on supplied value '7002dab8-536b-4f10-8211-caca3c44debc': Invalid urn string. Value does not match the appropriate urn pattern "urn:vcloud:<type>:<uuid>" or contains an incorrect object type for the endpoint."
+2024-11-06T11:54:50.048Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:55:32.976Z [ERROR] Error fetching firewall rules for gateways: 401 - Unauthorized [ 6c9e832b-bf36-4331-b4d8-ac17705a88b5 ] This operation is denied.
+2024-11-06T11:55:32.977Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:57:56.202Z [ERROR] Error fetching firewall rules for gateways: 401 - Unauthorized [ 729b674e-9ca5-4af0-963e-6ea30e07a4a7 ] This operation is denied.
+2024-11-06T11:57:56.202Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:00:06.605Z [ERROR] Error fetching firewall rules for gateways: 401 - Unauthorized [ aae43d52-b5f0-43cc-8efb-0de46bdafb2e ] This operation is denied.
+2024-11-06T12:00:06.605Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:05:15.922Z [ERROR] Error fetching firewall rules for gateways: gatewayRequestss is not defined
+2024-11-06T12:05:15.930Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:06:35.444Z [ERROR] Error fetching firewall rules for gateways: gatewayRequestss is not defined
+2024-11-06T12:06:35.450Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:08:00.305Z [ERROR] Error fetching firewall rules for gateways: gatewayRequestss is not defined
+2024-11-06T12:08:00.312Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:12:47.664Z [ERROR] Error fetching firewall rules for gateways: http is not defined
+2024-11-06T12:12:47.667Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:18:41.811Z [ERROR] Error fetching firewall rules for gateways: 401 - Unauthorized [ e4f6e130-e8a8-4a3d-bf38-afb749d902f5 ] This operation is denied.
+2024-11-06T12:18:41.812Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:19:19.311Z [ERROR] Error fetching firewall rules for gateways: 401 - Unauthorized [ 12876b6b-aa78-4eb6-a5f9-8e27ed8edb36 ] This operation is denied.
+2024-11-06T12:19:19.312Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:20:16.652Z [ERROR] Error fetching firewall rules for gateways: 401 - Unauthorized [ 89f7cbaf-1554-49ce-8e0d-80cbc3dfa9cd ] This operation is denied.
+2024-11-06T12:20:16.653Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:24:37.310Z [ERROR] Error fetching firewall rules for gateways: 401 - Unauthorized [ f8270776-d9dd-4d08-9a5c-61c305d37765 ] This operation is denied.
+2024-11-06T12:24:37.311Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:31:36.034Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 401
+2024-11-06T12:31:36.281Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 401
+2024-11-06T12:31:36.480Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 401
+2024-11-06T12:31:36.712Z [ERROR] Error fetching firewall rules for gateway bas-a-t00_1000033029-01-gw01: Request failed with status code 401
+2024-11-06T12:31:36.900Z [ERROR] Error fetching firewall rules for gateway bas-a-testcustomer-01-gw-01: Request failed with status code 401
+2024-11-06T12:31:37.117Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 401
+2024-11-06T12:31:37.336Z [ERROR] Error fetching firewall rules for gateway bas-b-testorg-01-gw-01: Request failed with status code 401
+2024-11-06T12:31:37.540Z [ERROR] Error fetching firewall rules for gateway com-a-bri_1000041101-01-gw01: Request failed with status code 401
+2024-11-06T12:31:37.766Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 401
+2024-11-06T12:31:37.986Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 401
+2024-11-06T12:31:38.204Z [ERROR] Error fetching firewall rules for gateway com-a-dps-os-01-gw-01: Request failed with status code 401
+2024-11-06T12:31:38.426Z [ERROR] Error fetching firewall rules for gateway com-a-dt-dorma-01-gw-01: Request failed with status code 401
+2024-11-06T12:31:38.622Z [ERROR] Error fetching firewall rules for gateway com-a-dt-dorma-01-gw-02: Request failed with status code 401
+2024-11-06T12:32:35.545Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2024-11-06T12:32:35.748Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2024-11-06T12:32:35.957Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2024-11-06T12:32:37.123Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2024-11-06T12:32:38.264Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2024-11-06T12:32:38.457Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2024-11-06T12:39:59.061Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2024-11-06T12:39:59.283Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2024-11-06T12:39:59.545Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2024-11-06T12:58:12.639Z [ERROR] Error fetching firewall rules for gateway bas-a-t00_1000033029-01-gw01: Request failed with status code 401
+2024-11-06T12:58:12.820Z [ERROR] Error fetching firewall rules for gateway bas-a-testcustomer-01-gw-01: Request failed with status code 401
+2024-11-06T12:58:13.059Z [ERROR] Error fetching firewall rules for gateway bas-b-testorg-01-gw-01: Request failed with status code 401
+2024-11-06T12:58:13.241Z [ERROR] Error fetching firewall rules for gateway com-a-bri_1000041101-01-gw01: Request failed with status code 401
+2024-11-06T12:58:13.470Z [ERROR] Error fetching firewall rules for gateway com-a-dps-os-01-gw-01: Request failed with status code 401
+2024-11-06T12:58:13.662Z [ERROR] Error fetching firewall rules for gateway com-a-dt-dorma-01-gw-01: Request failed with status code 401
+2024-11-06T12:58:13.850Z [ERROR] Error fetching firewall rules for gateway com-a-dt-dorma-01-gw-02: Request failed with status code 401

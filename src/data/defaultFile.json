@@ -1,280 +1,268 @@
 [
   {
-    "name": "tch_1000042332",
-    "uuid": "863c2133-9048-4d9c-82e8-794db85ef8c3",
+    "name": "testcustomer",
+    "uuid": "15566d05-2741-4679-8892-ae00c911c699",
     "vdcs": [
       {
-        "name": "com-a-po-tch_1000042332-01",
-        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/bb3ef6e0-8b10-417a-b5bb-710d711a1328",
-        "urn": "urn:vcloud:vdc:bb3ef6e0-8b10-417a-b5bb-710d711a1328",
+        "name": "com-a-testcustomer-02",
+        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+        "urn": "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4",
         "vapps": [
           {
-            "name": "VSVALISSQLSPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-81af87ee-cae3-4119-8cc1-d723e4ca3da0",
+            "name": "TASTE-OS Test",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-bb42bff9-f4fb-4683-bd08-e79b97533c65",
             "details": {
-              "vAppName": "VSVALISSQLSPA01",
+              "vAppName": "TASTE-OS Test",
               "VirtualMachines": [
                 {
-                  "name": "VSVALISSQLSPA01",
-                  "id": "urn:vcloud:vm:d38b0c78-e294-4f10-afb0-3d3f8d6007b2"
+                  "name": "VM1",
+                  "id": "urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57"
                 }
               ]
             }
           },
           {
-            "name": "VSGKKSSQLCPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-13ecd918-6153-4813-a158-917c4095c0b9",
+            "name": "mig-tool",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9e0996c9-0e6f-46d2-a13c-e9ff12c4cd20",
             "details": {
-              "vAppName": "VSGKKSSQLCPA01",
+              "vAppName": "mig-tool",
               "VirtualMachines": [
                 {
-                  "name": "VSGKKSSQLCPA01",
-                  "id": "urn:vcloud:vm:c0fbfd78-fdcd-4040-9abb-49103498fcb8"
+                  "name": "mig-tool-test",
+                  "id": "urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0"
                 }
               ]
             }
           },
           {
-            "name": "VSVALISSQLSPA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-93809b81-b56f-4b9c-8c15-49e9f8ef2499",
+            "name": "managed-test-vm (1)",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-47f998b0-b4bf-427a-8e45-34016102de0c",
             "details": {
-              "vAppName": "VSVALISSQLSPA03",
+              "vAppName": "managed-test-vm (1)",
               "VirtualMachines": [
                 {
-                  "name": "VSVALISSQLSPA03",
-                  "id": "urn:vcloud:vm:20075046-8da7-4512-a9d4-03386a7bca02"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "com-b-tch_1000042332-02",
-        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/b7f1210a-e928-4f1c-a56e-8ab2fbf1d1a2",
-        "urn": "urn:vcloud:vdc:b7f1210a-e928-4f1c-a56e-8ab2fbf1d1a2",
-        "vapps": [
-          {
-            "name": "VSSQLBTB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-72facc28-a62a-458b-8453-12f0c239ce5b",
-            "details": {
-              "vAppName": "VSSQLBTB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLBTB02",
-                  "id": "urn:vcloud:vm:a49f6fda-47ed-4229-802c-6e6b2ed2b6ff"
+                  "name": "rhel-managed-test",
+                  "id": "urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd"
                 }
               ]
             }
           },
           {
-            "name": "VSMC3TZB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e6966714-70ab-4ab2-b4c9-e91a10206f21",
+            "name": "pebalog",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-1fbaf717-1abe-4920-826b-61e23318e542",
             "details": {
-              "vAppName": "VSMC3TZB01",
+              "vAppName": "pebalog",
               "VirtualMachines": [
                 {
-                  "name": "VSMC3TZB01",
-                  "id": "urn:vcloud:vm:06870905-29b5-40d8-97f5-fc6c588821a4"
+                  "name": "test-linux",
+                  "id": "urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a"
                 }
               ]
             }
           },
           {
-            "name": "VSBWISETB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ba86fedf-e35f-4495-bd3f-6d46da203bea",
+            "name": "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-98ed80d2-4e04-405d-b5f9-3df3f8e93d64",
             "details": {
-              "vAppName": "VSBWISETB01",
+              "vAppName": "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
               "VirtualMachines": [
                 {
-                  "name": "VSBWISETB01",
-                  "id": "urn:vcloud:vm:ca46433f-0f4a-44c2-9a40-6e71d508b5a3"
+                  "name": "testdeployW2K19STD_managed_FP_4",
+                  "id": "urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2"
                 }
               ]
             }
           },
           {
-            "name": "VSLUINTPB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-94c3110f-200a-4395-93d3-5a3b1ec536e7",
+            "name": "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4377868a-aed2-47b9-a310-e9e80c140479",
             "details": {
-              "vAppName": "VSLUINTPB01",
+              "vAppName": "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
               "VirtualMachines": [
                 {
-                  "name": "VSLUINTPB01",
-                  "id": "urn:vcloud:vm:44d58965-ec6d-4cdd-a02e-d5a7cbe0c482"
+                  "name": "W2K22MAN23Test_FFP",
+                  "id": "urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130"
                 }
               ]
             }
           },
           {
-            "name": "VSKY2HPTB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-f79709e1-0f0e-4b22-b7f6-79534b7b5f08",
+            "name": "rcec_test",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0a7236a9-7b59-4284-993e-7b24e883cf6f",
             "details": {
-              "vAppName": "VSKY2HPTB02",
+              "vAppName": "rcec_test",
               "VirtualMachines": [
                 {
-                  "name": "VSKY2HPTB02",
-                  "id": "urn:vcloud:vm:a7c831ef-88fc-4367-bedf-b2f5abf5f020"
+                  "name": "vm-17",
+                  "id": "urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43"
                 }
               ]
             }
           },
           {
-            "name": "VSSQLBTB04",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-8eb872b8-d1ba-46fe-b44a-1a74a5732db1",
+            "name": "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-2e447374-102c-4952-bd76-6a75ff35b660",
             "details": {
-              "vAppName": "VSSQLBTB04",
+              "vAppName": "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
               "VirtualMachines": [
                 {
-                  "name": "VSSQLBTB04",
-                  "id": "urn:vcloud:vm:7ad05652-4b8a-4575-9c02-5de285b8678c"
+                  "name": "redeploy-FFM-16",
+                  "id": "urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180"
                 }
               ]
             }
           },
           {
-            "name": "VSHYPERTB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4c32399c-4de9-4389-9607-896d52f038a3",
+            "name": "rcec_test (1)",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ebe0b7ad-d2fa-44b8-8e25-b11047e1db94",
             "details": {
-              "vAppName": "VSHYPERTB02",
+              "vAppName": "rcec_test (1)",
               "VirtualMachines": [
                 {
-                  "name": "VSHYPERTB02",
-                  "id": "urn:vcloud:vm:1965dbfa-32ce-4cd1-927e-0cfb5f38c8cb"
+                  "name": "vm-17",
+                  "id": "urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83"
                 }
               ]
             }
           },
           {
-            "name": "VSLUINTMYSQTB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0ee5c686-221a-4919-8c90-58a079abff91",
+            "name": "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-232dee91-6bc8-4812-b3ec-06e0aa751d4b",
             "details": {
-              "vAppName": "VSLUINTMYSQTB01",
+              "vAppName": "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
               "VirtualMachines": [
                 {
-                  "name": "VSLUINTMYSQTB01",
-                  "id": "urn:vcloud:vm:803d7e30-4e91-442c-a834-683e3ec836a5"
+                  "name": "FPR2022sm01",
+                  "id": "urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc"
                 }
               ]
             }
           },
           {
-            "name": "VSSQLBTB06",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-528ce157-3500-4c53-a57e-4dd201bce0af",
+            "name": "mcs-test",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fbedded5-593c-4d6b-8a4a-82634644b8f7",
             "details": {
-              "vAppName": "VSSQLBTB06",
+              "vAppName": "mcs-test",
               "VirtualMachines": [
                 {
-                  "name": "VSSQLBTB06",
-                  "id": "urn:vcloud:vm:8af1a7a6-e4d4-49fb-85c7-84fdd9ad702f"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSZABBIXPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-da2d0908-6c0c-436a-b958-042792d960b7",
-            "details": {
-              "vAppName": "VSZABBIXPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSZABBIXPB02N",
-                  "id": "urn:vcloud:vm:ae4708e1-4a74-473b-b936-fc209d84e128"
+                  "name": "pwd-changed",
+                  "id": "urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6"
                 },
                 {
-                  "name": "VSZABBIXPB02",
-                  "id": "urn:vcloud:vm:875aa0d2-eb31-4d55-86ac-0b7b1cbdb02a"
+                  "name": "mcs-image",
+                  "id": "urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51"
                 }
               ]
             }
           },
           {
-            "name": "VSBWARETB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9a99d0e3-6343-4e90-b0dd-5a623a44d7cd",
+            "name": "restore_test",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-90066013-f96a-411e-bf7f-823c2fd72851",
             "details": {
-              "vAppName": "VSBWARETB01",
+              "vAppName": "restore_test",
+              "VirtualMachines": []
+            }
+          },
+          {
+            "name": "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-dba002c8-abb8-4608-85cb-19ca028be073",
+            "details": {
+              "vAppName": "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
               "VirtualMachines": [
                 {
-                  "name": "VSBWARETB01",
-                  "id": "urn:vcloud:vm:d8e58edc-bcbe-4729-8de4-5407a343cb56"
+                  "name": "mdolnik-test-vmxnet",
+                  "id": "urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0"
                 }
               ]
             }
           },
           {
-            "name": "VSGKKSIB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-d684039a-73d2-4c9a-9851-e8b981b1b9c5",
+            "name": "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4683f848-00ca-456e-80bf-af94186961f0",
             "details": {
-              "vAppName": "VSGKKSIB02",
+              "vAppName": "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
               "VirtualMachines": [
                 {
-                  "name": "VSGKKSIB02",
-                  "id": "urn:vcloud:vm:facaad33-e7c6-4873-8361-89826e801900"
+                  "name": "mdolnik-test-e1000",
+                  "id": "urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258"
                 }
               ]
             }
           },
           {
-            "name": "VSEFTMBTZB04",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-329bef2c-ae72-461e-83c2-1e348f1f262b",
+            "name": "MOS Test",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e5d13ba0-54c3-461f-94ab-13fc606fa9d2",
             "details": {
-              "vAppName": "VSEFTMBTZB04",
+              "vAppName": "MOS Test",
               "VirtualMachines": [
                 {
-                  "name": "VSEFTMBTZB04",
-                  "id": "urn:vcloud:vm:5dc578fe-b15a-4377-ab8f-041bd0740f68"
+                  "name": "bz240307_RHEL8_MANAGED_2023-01.1",
+                  "id": "urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2"
                 }
               ]
             }
           },
           {
-            "name": "VSGKKSIB04",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-7f6cfe8c-43c0-47cf-9968-8bf2b227e6f3",
+            "name": "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-52e87e1b-843c-48f7-ac0e-bac46815cc4c",
             "details": {
-              "vAppName": "VSGKKSIB04",
+              "vAppName": "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
               "VirtualMachines": [
                 {
-                  "name": "VSGKKSIB04",
-                  "id": "urn:vcloud:vm:a553c4ce-af1a-4e18-9568-15e474e53e15"
+                  "name": "jblodi_testKH",
+                  "id": "urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe"
                 }
               ]
             }
           },
           {
-            "name": "VSGKKSIB06",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-7343cf74-49ce-42b8-a820-e17d62f9a534",
+            "name": "adminlan-test-deploy",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-df0cad85-a811-421f-bb50-f305e49f4bcd",
             "details": {
-              "vAppName": "VSGKKSIB06",
+              "vAppName": "adminlan-test-deploy",
               "VirtualMachines": [
                 {
-                  "name": "VSGKKSIB06",
-                  "id": "urn:vcloud:vm:45bd1a43-bfdd-46a4-b4fe-465e3d0858be"
+                  "name": "SELFMANAGED_ADMINLAN_test",
+                  "id": "urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e"
                 }
               ]
             }
           },
           {
-            "name": "VSTERADTTB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-c1682678-c333-4300-90e3-1c73ebb59670",
+            "name": "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3b1060bc-c0f8-4d32-b34c-9d44e79bec1d",
             "details": {
-              "vAppName": "VSTERADTTB02",
+              "vAppName": "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
               "VirtualMachines": [
                 {
-                  "name": "VSTERADTTB02",
-                  "id": "urn:vcloud:vm:dffaab25-6f63-4e18-9a02-2599cdc983ed"
+                  "name": "win22test",
+                  "id": "urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4"
                 }
               ]
             }
           },
           {
-            "name": "VSEUROSTB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-dbb6d98f-4eed-4fdd-b7c2-c9f1bafd642f",
+            "name": "test-managed",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5652a8f5-56a2-49cf-ba10-1ac2a99e8012",
             "details": {
-              "vAppName": "VSEUROSTB01",
+              "vAppName": "test-managed",
               "VirtualMachines": [
                 {
-                  "name": "VSEUROSTB01",
-                  "id": "urn:vcloud:vm:0ad8fd9e-1a7f-420a-bf70-3855d3a1683e"
+                  "name": "test-managed",
+                  "id": "urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e"
+                }
+              ]
+            }
+          },
+          {
+            "name": "managed-test-vm",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a3f9d641-1920-4561-a019-f6e2b0c73265",
+            "details": {
+              "vAppName": "managed-test-vm",
+              "VirtualMachines": [
+                {
+                  "name": "rhel-managed-test",
+                  "id": "urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9"
                 }
               ]
             }
@@ -282,19 +270,32 @@
         ]
       },
       {
-        "name": "com-b-po-tch_1000042332-01",
-        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/8fe83c8f-81ee-437d-a8d3-ea2dbf87e270",
-        "urn": "urn:vcloud:vdc:8fe83c8f-81ee-437d-a8d3-ea2dbf87e270",
+        "name": "bas-a-testcustomer-01",
+        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/266ec39b-e79e-4011-81ab-e198e71135f2",
+        "urn": "urn:vcloud:vdc:266ec39b-e79e-4011-81ab-e198e71135f2",
         "vapps": [
           {
-            "name": "VSGKKSSQLCPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-be4843d8-80b2-40e6-8a17-350704d14220",
+            "name": "ssafrank_test22-d8cb3753-2f7c-4730-96f5-2bda9c842594",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-57cd3823-f8cd-48b7-9d6e-37d75c3a9022",
             "details": {
-              "vAppName": "VSGKKSSQLCPB02",
+              "vAppName": "ssafrank_test22-d8cb3753-2f7c-4730-96f5-2bda9c842594",
               "VirtualMachines": [
                 {
-                  "name": "VSGKKSSQLCPB02",
-                  "id": "urn:vcloud:vm:3738fda4-38a2-458c-85e1-e743d5be399e"
+                  "name": "ssafrank_test22",
+                  "id": "urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7"
+                }
+              ]
+            }
+          },
+          {
+            "name": "pebalog (1)",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-676aeb0b-9959-44da-a30d-b5b613809714",
+            "details": {
+              "vAppName": "pebalog (1)",
+              "VirtualMachines": [
+                {
+                  "name": "MOSPB2",
+                  "id": "urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951"
                 }
               ]
             }
@@ -302,1662 +303,32 @@
         ]
       },
       {
-        "name": "com-a-tch_1000042332-01",
-        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/2eba03e3-7efe-450f-8a2a-a32d88a0748b",
-        "urn": "urn:vcloud:vdc:2eba03e3-7efe-450f-8a2a-a32d88a0748b",
+        "name": "bas-b-testcustomer-03",
+        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/15c91fe6-569d-4207-a984-59f38c8efd6a",
+        "urn": "urn:vcloud:vdc:15c91fe6-569d-4207-a984-59f38c8efd6a",
         "vapps": [
           {
-            "name": "VSZABBIXPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-d3e8f0b0-f33a-488b-b650-f2be4f64da2b",
+            "name": "LB_test (1)",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b1c68845-0062-482a-8c15-53d32460339c",
             "details": {
-              "vAppName": "VSZABBIXPA01",
+              "vAppName": "LB_test (1)",
               "VirtualMachines": [
                 {
-                  "name": "VSZABBIXPA01",
-                  "id": "urn:vcloud:vm:a65a269f-3fb3-4f46-9eb1-956da35fdbca"
-                },
-                {
-                  "name": "VSZABBIXPA01N",
-                  "id": "urn:vcloud:vm:2fe29af9-5353-404d-b6d1-19eae7f4f462"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVPRT0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-08867f66-1462-48e7-bf9f-9d944a0b9c53",
-            "details": {
-              "vAppName": "VSRVPRT0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVPRT0002",
-                  "id": "urn:vcloud:vm:f2e5c39c-39a4-4dd7-a912-78a10194fdba"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSCOBAMPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-1d396bc0-15c6-48b4-ac84-e17d7e5648ea",
-            "details": {
-              "vAppName": "VSCOBAMPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSCOBAMPA01",
-                  "id": "urn:vcloud:vm:75c4ffb9-cc7c-4323-bfe5-52f8664be0a9"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPA11",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-f14ae5d8-afe0-41f2-8475-c88612c7fb4b",
-            "details": {
-              "vAppName": "VSGKKSPA11",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPA11",
-                  "id": "urn:vcloud:vm:d649e269-3962-4be3-9dc3-9b2718a17b3c"
-                }
-              ]
-            }
-          },
-          {
-            "name": "IPreservePrxClu-28e2bb06-f340-44c0-bd71-688d5f463f5f",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-cc71ab35-362f-400e-b400-4c4cfd10d19a",
-            "details": {
-              "vAppName": "IPreservePrxClu-28e2bb06-f340-44c0-bd71-688d5f463f5f",
-              "VirtualMachines": [
-                {
-                  "name": "IPreservePrxClu",
-                  "id": "urn:vcloud:vm:0f5b83ba-d319-4026-acac-d61a797ff7df"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVMFS0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-69654424-f074-437c-9bdd-9d0c339aff37",
-            "details": {
-              "vAppName": "VSRVMFS0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVMFS0001",
-                  "id": "urn:vcloud:vm:ca7fc84b-aeae-4572-8aa5-2024aa275a12"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSFNCOMPZA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-65cda299-ca97-4810-9c59-8023a71f676f",
-            "details": {
-              "vAppName": "VSFNCOMPZA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSFNCOMPZA01",
-                  "id": "urn:vcloud:vm:e0b9ced2-4e7a-4ab3-b2f1-662cafae8faa"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSKY2HPPZA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-21477c81-ebc4-4853-8f8a-c8adfd17af7a",
-            "details": {
-              "vAppName": "VSKY2HPPZA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSKY2HPPZA01",
-                  "id": "urn:vcloud:vm:699e3079-f685-4311-809c-0dd4d55ba5aa"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVRAD0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-2522622f-d1e9-49ea-8115-fcc1de3fb4dc",
-            "details": {
-              "vAppName": "VSRVRAD0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVRAD0001",
-                  "id": "urn:vcloud:vm:b9efa4ef-d01c-4de0-a18e-0c29ae0319eb"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLCPA31",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a0608971-26db-47b2-b696-fec4a3a38bd3",
-            "details": {
-              "vAppName": "VSSQLCPA31",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLCPA31",
-                  "id": "urn:vcloud:vm:48055156-9638-4557-acbe-02e7738ba1f4"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVCCO0006",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-2ad2507f-44e2-4a58-97b7-86addb71956c",
-            "details": {
-              "vAppName": "VSRVCCO0006",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCCO0006",
-                  "id": "urn:vcloud:vm:1d1634d3-3ead-416a-8687-562f10f8c015"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPA07",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9dc90e4b-9597-4437-9cdc-bb9fdfcc1a39",
-            "details": {
-              "vAppName": "VSGKKSPA07",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPA07",
-                  "id": "urn:vcloud:vm:dc2eb6a1-d08f-45aa-93d1-55758e2762be"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVPRT0003",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3c1f29a4-cf9e-4c1e-aef4-8140c832c7a6",
-            "details": {
-              "vAppName": "VSRVPRT0003",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVPRT0003",
-                  "id": "urn:vcloud:vm:e925e4bf-29a4-44bf-9dbe-238218bdb505"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVPROX0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-68893066-ba65-48d5-8590-9be7eb5cb3ce",
-            "details": {
-              "vAppName": "VSRVPROX0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVPROX0001",
-                  "id": "urn:vcloud:vm:3f4e952a-8161-49bc-9da3-00f7f5502587"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b0a224d5-2b83-4f20-b2a8-30887b9398aa",
-            "details": {
-              "vAppName": "VSGKKSPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPA01",
-                  "id": "urn:vcloud:vm:1b4b571d-298e-457d-906f-a5d1e641229e"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVCCO0007",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-c29a73cc-730f-4e71-9009-4244e437635f",
-            "details": {
-              "vAppName": "VSRVCCO0007",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCCO0007",
-                  "id": "urn:vcloud:vm:f99fc5e5-2cff-4e13-97a1-2385dd3ef70f"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSISPCPZA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b483ed10-41ba-41fd-9d0d-cc7b5bffd0e1",
-            "details": {
-              "vAppName": "VSISPCPZA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSISPCPZA01",
-                  "id": "urn:vcloud:vm:02d922fe-a99e-4f32-a33e-df0585cba019"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSEFTMBPZA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-f8a99c6c-f9a9-44ca-ad7b-f580042bb2f9",
-            "details": {
-              "vAppName": "VSEFTMBPZA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSEFTMBPZA03",
-                  "id": "urn:vcloud:vm:a23ac1b3-50e2-4cc2-ba10-c68e36556509"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSLUINTTA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-d8f83865-eb42-49b5-afa4-d63df1823153",
-            "details": {
-              "vAppName": "VSLUINTTA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSLUINTTA01",
-                  "id": "urn:vcloud:vm:64c36e60-914e-4c8f-bfc1-8f4a47a58263"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSVALISPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-64eda156-a422-471a-9f97-6d9952b1ee67",
-            "details": {
-              "vAppName": "VSVALISPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSVALISPA01",
-                  "id": "urn:vcloud:vm:bc7e6a1e-98de-4663-82d3-52a035c26035"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSLUINTMYSQPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-1f73dbf8-a86d-47c0-ab85-a247c9e15b35",
-            "details": {
-              "vAppName": "VSLUINTMYSQPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSLUINTMYSQPA01",
-                  "id": "urn:vcloud:vm:f63f5571-0729-4cea-9495-0b8a98744bc0"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVDELMUPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-7ac9a62e-dd34-40bb-aa6d-4f34aa77d074",
-            "details": {
-              "vAppName": "VSRVDELMUPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVDELMUPA01",
-                  "id": "urn:vcloud:vm:fa524978-2cbe-4e13-9a3b-7c47a6ba7c4a"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSJMPSRVPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5634a5bb-8599-48ba-9f33-11e9280b1820",
-            "details": {
-              "vAppName": "VSJMPSRVPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSJMPSRVPA01",
-                  "id": "urn:vcloud:vm:90a64e39-ff54-4102-aba9-5c064332600b"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSTERADTPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9309e474-4c41-4ae5-b7e7-9f40446b163b",
-            "details": {
-              "vAppName": "VSTERADTPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSTERADTPA01",
-                  "id": "urn:vcloud:vm:f2d6ce22-11cd-4e82-ba35-14cf51286899"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVEXC0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-89a7be41-f578-4312-a7c6-1e3010e3fa41",
-            "details": {
-              "vAppName": "VSRVEXC0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVEXC0001",
-                  "id": "urn:vcloud:vm:0ef0f137-4482-4b93-8b3a-ad77199ca392"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSLUTIMPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-d85928ad-acd2-45d7-8f2a-9a6a772824a7",
-            "details": {
-              "vAppName": "VSLUTIMPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSLUTIMPA01",
-                  "id": "urn:vcloud:vm:e7f9e1e4-4516-40bf-93e0-866a81d7a4cf"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSORDPPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-315e14fb-ccdc-45d4-b3ea-0cd6a2c50fe9",
-            "details": {
-              "vAppName": "VSORDPPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSORDPPA01",
-                  "id": "urn:vcloud:vm:c7635ebc-bdf1-4b81-9f91-0890422817de"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVVPN0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-7c8ddb7e-7139-4327-b695-21759a4d763f",
-            "details": {
-              "vAppName": "VSRVVPN0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVVPN0001",
-                  "id": "urn:vcloud:vm:de47f2e7-30bb-4418-a914-1c3482f99523"
-                }
-              ]
-            }
-          },
-          {
-            "name": "vApp_VSRVCNS0003",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-740ffb45-aed2-40a4-a011-dc6bc4aa9af9",
-            "details": {
-              "vAppName": "vApp_VSRVCNS0003",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCNS0003",
-                  "id": "urn:vcloud:vm:a8613ff8-3c59-49ba-aa69-af1c14f28428"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVDHCP0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9177c0ae-96c3-4ae4-8a5b-3a41ba5975ae",
-            "details": {
-              "vAppName": "VSRVDHCP0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVDHCP0001",
-                  "id": "urn:vcloud:vm:91e4daf6-7884-4fb7-8e09-ffbeac86a8bb"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVSQL0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9fa3febb-27a2-4040-a514-cc40192dfb98",
-            "details": {
-              "vAppName": "VSRVSQL0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVSQL0001",
-                  "id": "urn:vcloud:vm:ca9a3064-27a3-4135-b19e-b4287091b491"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVPKI0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a4ff8a94-eae3-4520-99b3-0cf446a5bd3e",
-            "details": {
-              "vAppName": "VSRVPKI0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVPKI0001",
-                  "id": "urn:vcloud:vm:12efd327-f613-4566-b083-084c7adbfe2b"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVCCO0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a75919f2-32d9-4c02-9014-296cd433018e",
-            "details": {
-              "vAppName": "VSRVCCO0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCCO0001",
-                  "id": "urn:vcloud:vm:28c09a15-79da-4c83-9a68-ccd2ce746188"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPA05",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fd304c32-c7cf-4fff-bd31-87d9b6459d1d",
-            "details": {
-              "vAppName": "VSGKKSPA05",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPA05",
-                  "id": "urn:vcloud:vm:33f33ef2-475c-44a4-a660-bcf93f4115dc"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSAGEPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-d3692850-d93d-462e-bb61-526b3338d891",
-            "details": {
-              "vAppName": "VSSAGEPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSSAGEPA01",
-                  "id": "urn:vcloud:vm:8ee688b3-607a-4f40-903b-f5d3b4d39044"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVADS0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-bad45365-57d0-41c1-bb28-549e7539d9db",
-            "details": {
-              "vAppName": "VSRVADS0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVADS0001",
-                  "id": "urn:vcloud:vm:31c7adc0-7bb1-4feb-a250-53d1c6afebf6"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVAADC0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5fcfee84-6f2c-4721-b51b-84ac2ef6287d",
-            "details": {
-              "vAppName": "VSRVAADC0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVAADC0001",
-                  "id": "urn:vcloud:vm:bcb2c880-b51b-4721-b02a-2134446c7d3f"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSBWAREPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9ae0b3bb-ca23-40de-a966-a0f24d51a290",
-            "details": {
-              "vAppName": "VSBWAREPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSBWAREPA01",
-                  "id": "urn:vcloud:vm:08711fde-4557-444f-aaf9-67bd20364c30"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVIPAM0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-c2a91fab-337b-42ee-9b58-949c373cf21b",
-            "details": {
-              "vAppName": "VSRVIPAM0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVIPAM0001",
-                  "id": "urn:vcloud:vm:024236a0-0e7e-440d-85ef-39f2111ca9af"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-f25888a9-42a9-49ed-a9c6-cb7cd8c8f406",
-            "details": {
-              "vAppName": "VSGKKSPA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPA03",
-                  "id": "urn:vcloud:vm:78506c2b-68fc-4539-8254-747623f87597"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPA13",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e451f1e8-8bb5-49d3-8e33-4cf64f4dc2b2",
-            "details": {
-              "vAppName": "VSGKKSPA13",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPA13",
-                  "id": "urn:vcloud:vm:92713890-6b80-472b-8207-b61ba0d82e34"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLCPA11",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5c1f439a-90d5-4a8d-826c-06b9ed25dbc9",
-            "details": {
-              "vAppName": "VSSQLCPA11",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLCPA11",
-                  "id": "urn:vcloud:vm:d2fd0f32-9698-4f90-bc8a-79fe589a6d61"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGRSSFPA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b2c67747-cba1-4740-a440-25e8e482a843",
-            "details": {
-              "vAppName": "VSGRSSFPA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSGRSSFPA03",
-                  "id": "urn:vcloud:vm:90a89636-87d4-4db2-985b-4aa52b0ddf47"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVCAS0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ded28763-06f7-46d7-9db2-e76d678c5412",
-            "details": {
-              "vAppName": "VSRVCAS0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCAS0001",
-                  "id": "urn:vcloud:vm:78a8ec7d-1aee-478f-bd27-df6c3f985c61"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGRSSFPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5ce7affe-ca9f-411d-99ed-74d6d4c3e881",
-            "details": {
-              "vAppName": "VSGRSSFPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSGRSSFPA01",
-                  "id": "urn:vcloud:vm:2c579b51-9d3f-4512-927a-fc002ba74140"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSDYNAWPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fe4d14fb-e381-42ce-b78e-3d4f87996865",
-            "details": {
-              "vAppName": "VSDYNAWPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSDYNAWPA01",
-                  "id": "urn:vcloud:vm:54641e2f-81b3-4baf-a56c-835cfd14fcd9"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSZREVPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-f1f47607-92c0-4151-b5e6-fb32b4e3e412",
-            "details": {
-              "vAppName": "VSZREVPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSZREVPA01",
-                  "id": "urn:vcloud:vm:45961f7f-af4b-4f8b-8f1c-a5461b89df94"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSTERADTPA21",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0702cf53-27d8-4eb4-9295-68b6637cc72e",
-            "details": {
-              "vAppName": "VSTERADTPA21",
-              "VirtualMachines": [
-                {
-                  "name": "VSTERADTPA21",
-                  "id": "urn:vcloud:vm:2b743a0e-dcaf-4ec6-9b2c-122931754b81"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVADC0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fa9c193f-8059-42a6-a1a7-30576893b10d",
-            "details": {
-              "vAppName": "VSRVADC0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVADC0001",
-                  "id": "urn:vcloud:vm:b4df6203-f1b2-4b65-bb35-40a9898170bc"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVPRT0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ff8c8796-d931-49f1-9227-9f7043349b07",
-            "details": {
-              "vAppName": "VSRVPRT0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVPRT0001",
-                  "id": "urn:vcloud:vm:976f00c9-a908-4ad1-bad2-0431e7448f8a"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSTSJUMPPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-86449c09-e154-43b8-8842-4d0eeb09102a",
-            "details": {
-              "vAppName": "VSTSJUMPPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSTSJUMPPA01",
-                  "id": "urn:vcloud:vm:5aeb2a79-f59c-49f4-b193-ceaf3c570754"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLCPA21",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3ddebab3-7426-4117-928f-57803b39d36a",
-            "details": {
-              "vAppName": "VSSQLCPA21",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLCPA21",
-                  "id": "urn:vcloud:vm:3a82f9b5-9a51-4484-9378-ccb0023cca9d"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSBARAPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-71f19d05-a64b-4e04-9630-769c99e141f4",
-            "details": {
-              "vAppName": "VSBARAPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSBARAPA01",
-                  "id": "urn:vcloud:vm:0ef903e1-a2d1-4e02-aed9-83f490261943"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLCPA41",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-7be4bd71-7884-45be-bbce-492a93a66bba",
-            "details": {
-              "vAppName": "VSSQLCPA41",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLCPA41",
-                  "id": "urn:vcloud:vm:b9dff38a-51b4-4259-85f6-06a9c0a3990e"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSBWAREPA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-c123961b-13ad-4250-bdb2-ebbe3c2f2f34",
-            "details": {
-              "vAppName": "VSBWAREPA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSBWAREPA03",
-                  "id": "urn:vcloud:vm:62e96a3c-2aea-4d7c-85a9-d597b7cd0aa9"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVKMS0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-080256ce-0b05-4167-ab0c-82f62ad9597e",
-            "details": {
-              "vAppName": "VSRVKMS0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVKMS0001",
-                  "id": "urn:vcloud:vm:741ed509-306b-4e57-9e03-0045005d26b5"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSEXOSPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b794e154-7d09-4de7-b03b-beb3a87a897f",
-            "details": {
-              "vAppName": "VSEXOSPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSEXOSPA01",
-                  "id": "urn:vcloud:vm:77f0745e-0fe1-46e7-aa69-42a06941ae19"
-                }
-              ]
-            }
-          },
-          {
-            "name": "vAPP_VSRVCNS0005",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-832eff97-65cc-4553-b0ec-ca803a4e1a52",
-            "details": {
-              "vAppName": "vAPP_VSRVCNS0005",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCNS0005",
-                  "id": "urn:vcloud:vm:45992b8b-8efd-45d5-a038-18b3b8b2db17"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPA09",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3a73366e-716f-4270-967c-32f23aab91c6",
-            "details": {
-              "vAppName": "VSGKKSPA09",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPA09",
-                  "id": "urn:vcloud:vm:247373c0-3612-4ad9-b5c6-292891b9290c"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSPELIPA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e96ce2ae-441c-4bb4-8fb1-7edad9bf82a9",
-            "details": {
-              "vAppName": "VSPELIPA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSPELIPA01",
-                  "id": "urn:vcloud:vm:d3d0e419-348b-430a-b53c-3bdd4e026375"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSTERADTBA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3767d66c-436a-4c2d-9fa1-8fe7b2c58f8a",
-            "details": {
-              "vAppName": "VSTERADTBA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSTERADTBA01",
-                  "id": "urn:vcloud:vm:6e7420ab-3681-45d0-9ffb-5880388d1d72"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSPELIPA02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0041daef-78e9-42c1-81a8-035c98f306b8",
-            "details": {
-              "vAppName": "VSPELIPA02",
-              "VirtualMachines": [
-                {
-                  "name": "VSPELIPA02",
-                  "id": "urn:vcloud:vm:865f4a7c-f569-4d49-916e-a47cba92e867"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVNPS0001",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a87a24da-d907-4f6a-ae19-21dafa76f6ec",
-            "details": {
-              "vAppName": "VSRVNPS0001",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVNPS0001",
-                  "id": "urn:vcloud:vm:1ab645b2-4a88-459e-b292-463963049457"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "com-b-tch_1000042332-01",
-        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/dd5de3ed-baef-4be0-8a09-4fd4947ff0a2",
-        "urn": "urn:vcloud:vdc:dd5de3ed-baef-4be0-8a09-4fd4947ff0a2",
-        "vapps": [
-          {
-            "name": "VSEUROSPB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-2da16c44-c204-465f-91b7-3cc8bd662a80",
-            "details": {
-              "vAppName": "VSEUROSPB01",
-              "VirtualMachines": [
-                {
-                  "name": "VSEUROSPB01",
-                  "id": "urn:vcloud:vm:27312397-8cf6-42f5-841f-b2a0f802601b"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSJMPSRVPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4e0f22ff-c3e6-4a14-b2d6-0def0c800a44",
-            "details": {
-              "vAppName": "VSJMPSRVPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSJMPSRVPB02",
-                  "id": "urn:vcloud:vm:98966b16-e45b-41ee-9c60-557fdf0d3420"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLCPB22",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-154ab483-6fe3-41b9-a692-9c2d532410c9",
-            "details": {
-              "vAppName": "VSSQLCPB22",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLCPB22",
-                  "id": "urn:vcloud:vm:da94c9db-2017-4e37-9c5f-2c6ac66ca608"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSWISSPPY04",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-82d48346-6faf-4c51-907b-ad201be2ec6b",
-            "details": {
-              "vAppName": "VSSWISSPPY04",
-              "VirtualMachines": [
-                {
-                  "name": "VSSWISSPPY04",
-                  "id": "urn:vcloud:vm:1af3dd0e-def2-45ad-8fd9-f4f50aa74d4d"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSWEBCHPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b44a1895-6574-470d-be06-2c9399966296",
-            "details": {
-              "vAppName": "VSWEBCHPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSWEBCHPB02",
-                  "id": "urn:vcloud:vm:792b4221-f46e-4bc4-b614-6f4132388813"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSLOADPB03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b0ad6f3d-5bce-42a2-b2bb-bda81583fab5",
-            "details": {
-              "vAppName": "VSLOADPB03",
-              "VirtualMachines": [
-                {
-                  "name": "VSLOADPB03",
-                  "id": "urn:vcloud:vm:91ff2a1c-a1d9-4ca8-a521-6fa300123eb8"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSTRADNTPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-416d2294-6c54-4d0d-8d85-da7f6008791b",
-            "details": {
-              "vAppName": "VSTRADNTPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSTRADNTPB02",
-                  "id": "urn:vcloud:vm:6da4b0cd-0969-483f-b29b-116417dbd88b"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLBPB12",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-def6158f-d138-4d02-8dfb-811fc352d367",
-            "details": {
-              "vAppName": "VSSQLBPB12",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLBPB12",
-                  "id": "urn:vcloud:vm:11073287-b600-48c9-9ba3-c3ae4ca8132d"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPB08",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-cb2985d5-01aa-4127-91f8-caf50c33b295",
-            "details": {
-              "vAppName": "VSGKKSPB08",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPB08",
-                  "id": "urn:vcloud:vm:f1117180-a534-40e9-a250-37047fb493be"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLCPB12",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5e6b9c62-dd81-4fa7-ab3b-99cea9da7f00",
-            "details": {
-              "vAppName": "VSSQLCPB12",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLCPB12",
-                  "id": "urn:vcloud:vm:7b6c26ce-692b-4c69-88f9-6aab7fccc1b6"
-                }
-              ]
-            }
-          },
-          {
-            "name": "vApp_VSRVCNS0004",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-be2074a0-e0eb-47e3-b6d5-14d2625ac8bc",
-            "details": {
-              "vAppName": "vApp_VSRVCNS0004",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCNS0004",
-                  "id": "urn:vcloud:vm:09e9c022-afad-4fd0-b36f-dc954dbfc90e"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSNOVAPB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-6000bb58-bb89-4d29-849c-b8c7d82d0b04",
-            "details": {
-              "vAppName": "VSNOVAPB01",
-              "VirtualMachines": [
-                {
-                  "name": "VSNOVAPB01",
-                  "id": "urn:vcloud:vm:c476607f-cefe-48ff-8db2-3e0b58c50d24"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSTSJUMPPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-c43e920f-3cf7-49b5-9bf4-b68841603cbf",
-            "details": {
-              "vAppName": "VSTSJUMPPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSTSJUMPPB02",
-                  "id": "urn:vcloud:vm:0ab7f257-1030-46d4-b529-b902a2dc555f"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLBPB42",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-33ad80ae-c917-4418-acc3-a601a337365a",
-            "details": {
-              "vAppName": "VSSQLBPB42",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLBPB42",
-                  "id": "urn:vcloud:vm:aa0a75e1-3c38-4aa1-9026-75161faf57fa"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVCCO0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-49029c8e-6b50-4e88-b866-ace08582a165",
-            "details": {
-              "vAppName": "VSRVCCO0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCCO0002",
-                  "id": "urn:vcloud:vm:1252aaa7-db98-4be6-a0da-ff6f4dd7bef6"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSVLTRAPZB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-27441632-16b0-4fce-ac30-6571eef74ad3",
-            "details": {
-              "vAppName": "VSVLTRAPZB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSVLTRAPZB02",
-                  "id": "urn:vcloud:vm:f1a02d32-8152-46c1-aa4e-3fcb3bfe7b04"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSHYPERPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-1d6dc2a5-40b6-4b8c-8284-62009eb50a2c",
-            "details": {
-              "vAppName": "VSHYPERPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSHYPERPB02",
-                  "id": "urn:vcloud:vm:eb54b304-f2d0-42f4-b6af-7759bef8f266"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGRSSFPZB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-bb399ef9-78c6-4ba4-b4b7-ab56eee774cd",
-            "details": {
-              "vAppName": "VSGRSSFPZB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSGRSSFPZB02",
-                  "id": "urn:vcloud:vm:6ef51046-e3b8-4175-a837-33d4072d89e7"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSEDOSSPZB04",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-f811be59-05ce-4678-8086-023236e377f3",
-            "details": {
-              "vAppName": "VSEDOSSPZB04",
-              "VirtualMachines": [
-                {
-                  "name": "VSEDOSSPZB04",
-                  "id": "urn:vcloud:vm:c4427c1d-702c-499b-998b-e0f0215c0c07"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVNPS0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5250affb-f940-4e12-9064-008a4cc0e82c",
-            "details": {
-              "vAppName": "VSRVNPS0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVNPS0002",
-                  "id": "urn:vcloud:vm:d8458173-6af2-4c87-8850-b7ef36955f2b"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSBWISEPB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-409ae1ca-60a1-4ab0-b779-246d761f1fe7",
-            "details": {
-              "vAppName": "VSBWISEPB01",
-              "VirtualMachines": [
-                {
-                  "name": "VSBWISEPB01",
-                  "id": "urn:vcloud:vm:70718e96-b089-4e00-abc3-95ef814d5410"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVADS0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-f5f75f3f-c212-4fff-abc9-24d0e4e593a7",
-            "details": {
-              "vAppName": "VSRVADS0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVADS0002",
-                  "id": "urn:vcloud:vm:9a982db6-575b-495f-9279-d80ed8cb9f2f"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLBPB04",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0d9e5fd4-0828-40f6-a3ae-5a0a58b671a8",
-            "details": {
-              "vAppName": "VSSQLBPB04",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLBPB04",
-                  "id": "urn:vcloud:vm:cca10571-cebf-4a18-b448-32769e03233a"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLBPB22",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-37dee18f-eb50-402b-820e-5f73dbd9d12e",
-            "details": {
-              "vAppName": "VSSQLBPB22",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLBPB22",
-                  "id": "urn:vcloud:vm:4bea7bff-18c2-4355-bef9-71d9335dba43"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSAPPSPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a990e537-d050-4dbf-b2c4-142b0feb9bfd",
-            "details": {
-              "vAppName": "VSAPPSPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSAPPSPB02",
-                  "id": "urn:vcloud:vm:272ea811-1725-4ad0-af77-02d7567a262a"
-                }
-              ]
-            }
-          },
-          {
-            "name": "vApp_VSRVCNS0006",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-acb3e80a-d34f-4754-bbcb-097b51eabcd7",
-            "details": {
-              "vAppName": "vApp_VSRVCNS0006",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVCNS0006",
-                  "id": "urn:vcloud:vm:6c65bd3b-ce50-47a3-a760-a00375d7822a"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLBPB32",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-358e4f28-f8f2-4fe8-84bc-d6c55ee1aff7",
-            "details": {
-              "vAppName": "VSSQLBPB32",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLBPB32",
-                  "id": "urn:vcloud:vm:7ab6b167-7779-4a91-a8d3-032a064e9afe"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-04d9a87f-e02c-412c-8f69-986b07acd8ec",
-            "details": {
-              "vAppName": "VSGKKSPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPB02",
-                  "id": "urn:vcloud:vm:8e0144be-fd2f-46ba-a647-3d708685487a"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGRSSFPB04",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-166c3cc5-9578-45a3-90fe-e5347f414c82",
-            "details": {
-              "vAppName": "VSGRSSFPB04",
-              "VirtualMachines": [
-                {
-                  "name": "VSGRSSFPB04",
-                  "id": "urn:vcloud:vm:43c7e71c-45a3-4753-96f0-2f48c7ddf015"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSMC3PZB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e46565e5-f2ce-4247-a033-c442a9028ba8",
-            "details": {
-              "vAppName": "VSMC3PZB01",
-              "VirtualMachines": [
-                {
-                  "name": "VSMC3PZB01",
-                  "id": "urn:vcloud:vm:57355beb-6ea2-455c-a867-9a44d4639707"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSAXDYMPB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5a9ba492-2213-4b22-aee9-6a41623f9403",
-            "details": {
-              "vAppName": "VSAXDYMPB01",
-              "VirtualMachines": [
-                {
-                  "name": "VSAXDYMPB01",
-                  "id": "urn:vcloud:vm:01bc786f-c397-4f82-9661-72ccdfed2da5"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPB12",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3a458cad-4b45-4322-afdb-77ad71abccc3",
-            "details": {
-              "vAppName": "VSGKKSPB12",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPB12",
-                  "id": "urn:vcloud:vm:01e95924-e258-4d62-9c9c-0254c90fdd9f"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSVLTRAPB01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-717aa9bf-2bbf-4575-b521-a3109a79a959",
-            "details": {
-              "vAppName": "VSVLTRAPB01",
-              "VirtualMachines": [
-                {
-                  "name": "VSVLTRAPB01",
-                  "id": "urn:vcloud:vm:14fbd732-a541-419e-840b-c931a136e327"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVPROX0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-dabad289-9949-4893-a7f6-92b6e8374095",
-            "details": {
-              "vAppName": "VSRVPROX0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVPROX0002",
-                  "id": "urn:vcloud:vm:b4e7257b-1d8b-4205-a947-73e6b5d6ef7b"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPB06",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-868e1e79-6743-4605-b0b0-0eabb072346e",
-            "details": {
-              "vAppName": "VSGKKSPB06",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPB06",
-                  "id": "urn:vcloud:vm:389852a7-f8f3-48ee-8019-90c4436702f6"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPMBO10",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e047a69d-7b2f-46a7-a4c4-7f584dc0ff41",
-            "details": {
-              "vAppName": "VSGKKSPMBO10",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPMBO10",
-                  "id": "urn:vcloud:vm:e8ed26e6-8c4d-419c-bd84-ce03095ae771"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLCPB32",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-efa55007-b990-48b2-81f0-9e37990b8ce1",
-            "details": {
-              "vAppName": "VSSQLCPB32",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLCPB32",
-                  "id": "urn:vcloud:vm:8da64063-4a45-4bcf-a60f-d61fc8c277ca"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPB04",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-106fb83c-a725-4ce5-8c71-81ea2a710b58",
-            "details": {
-              "vAppName": "VSGKKSPB04",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPB04",
-                  "id": "urn:vcloud:vm:c8030d9e-8acc-4505-86ec-f94ea3cfbb3b"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLBPB06",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e07870b1-f92d-4938-ab4c-d9fa0cd457f2",
-            "details": {
-              "vAppName": "VSSQLBPB06",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLBPB06",
-                  "id": "urn:vcloud:vm:82db2e59-311c-4ff8-9330-4e94a4e2e8b3"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSPB10",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-59db5f6f-0644-4f66-99a1-2dca2dc59e2b",
-            "details": {
-              "vAppName": "VSGKKSPB10",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSPB10",
-                  "id": "urn:vcloud:vm:1507f5d2-0818-4e1a-a839-713688687f70"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLCPB42",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ca3cbfd7-8755-4f16-9cd7-06eb7699e3ff",
-            "details": {
-              "vAppName": "VSSQLCPB42",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLCPB42",
-                  "id": "urn:vcloud:vm:1642b5f8-521f-4fbc-8e8f-8e63c0eabeb1"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVMFS0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-10f447dc-34d8-4fe8-8743-a94952af8069",
-            "details": {
-              "vAppName": "VSRVMFS0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVMFS0002",
-                  "id": "urn:vcloud:vm:1d505b6c-672e-46ef-a7ec-43faba751502"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSBWAREPB02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4c3ac806-66d4-4a98-b851-cf86e391e883",
-            "details": {
-              "vAppName": "VSBWAREPB02",
-              "VirtualMachines": [
-                {
-                  "name": "VSBWAREPB02",
-                  "id": "urn:vcloud:vm:dc3940f2-df47-4e2d-a35b-5791d27d97d1"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVDHCP0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-eca51ff8-f4d7-416c-9053-b8adfd74491d",
-            "details": {
-              "vAppName": "VSRVDHCP0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVDHCP0002",
-                  "id": "urn:vcloud:vm:603f0259-b4bb-42c7-9afa-5026fe1c139a"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "com-a-tch_1000042332-02",
-        "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/5e4acad0-68e0-423e-8948-9fe19583824b",
-        "urn": "urn:vcloud:vdc:5e4acad0-68e0-423e-8948-9fe19583824b",
-        "vapps": [
-          {
-            "name": "VSSQLSTA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-64d28158-8e21-499e-bec7-c77170b2a487",
-            "details": {
-              "vAppName": "VSSQLSTA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLSTA03",
-                  "id": "urn:vcloud:vm:de96d63f-f9a4-4c98-9fab-0757daf6acb0"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSTRADNTTA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-6f1e8737-2dfd-42dd-ab49-2c545e7a5355",
-            "details": {
-              "vAppName": "VSTRADNTTA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSTRADNTTA03",
-                  "id": "urn:vcloud:vm:3375bb6a-a3b4-456e-8f9c-cb0c1fd1f72f"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSVALISSQLSTA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-7b9abaac-4584-4385-8c20-4b16b0f3828e",
-            "details": {
-              "vAppName": "VSVALISSQLSTA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSVALISSQLSTA01",
-                  "id": "urn:vcloud:vm:e7db72d4-e8cc-455c-856e-40c8ba58d6db"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSIA05",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0a9d1f4a-4226-4f30-a029-c639dde6aae8",
-            "details": {
-              "vAppName": "VSGKKSIA05",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSIA05",
-                  "id": "urn:vcloud:vm:f742a3eb-28e3-4275-b2d3-cc2d4ab785b1"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSVLTRATZA02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-87ef1d59-4ac6-4e0e-b5f1-0ab6952bad31",
-            "details": {
-              "vAppName": "VSVLTRATZA02",
-              "VirtualMachines": [
-                {
-                  "name": "VSVLTRATZA02",
-                  "id": "urn:vcloud:vm:0217a953-dab5-4d75-a084-a67ffb00f0ca"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVVPN0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-34080732-89b2-4449-9586-39406d3c01cf",
-            "details": {
-              "vAppName": "VSRVVPN0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVVPN0002",
-                  "id": "urn:vcloud:vm:52a2d112-2846-4f8b-9b3c-4eda5f4a6ddf"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSEDOSSTZA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ed68c0cb-5ee8-46c2-8a4b-340d8f9d4193",
-            "details": {
-              "vAppName": "VSEDOSSTZA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSEDOSSTZA01",
-                  "id": "urn:vcloud:vm:b1f36de8-7deb-4352-b82e-17d0885d33cd"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSTRADNTTA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fe64e40b-562e-4577-98a9-dbbaec415bcf",
-            "details": {
-              "vAppName": "VSTRADNTTA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSTRADNTTA01",
-                  "id": "urn:vcloud:vm:f27fbf67-4c6b-4142-90d7-a0fc12c28938"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSWEBCHTA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-28201af7-1fea-4832-8200-6c4da8845701",
-            "details": {
-              "vAppName": "VSWEBCHTA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSWEBCHTA01",
-                  "id": "urn:vcloud:vm:d23a15f5-94ac-41f9-abcd-7b87fe781555"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSVLTRATA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-dce17ee6-bec2-4685-bb78-5ac09404e598",
-            "details": {
-              "vAppName": "VSVLTRATA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSVLTRATA01",
-                  "id": "urn:vcloud:vm:48a36c9b-3065-4344-9cb1-b4e249112df2"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSSQLSTA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-34d71f8f-4120-4e6b-9e9f-aa5c57eeafda",
-            "details": {
-              "vAppName": "VSSQLSTA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSSQLSTA01",
-                  "id": "urn:vcloud:vm:7e14984c-65f8-44e4-83b5-7e9bc1b0231e"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSWEBCHTA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9c53c9eb-54f1-490e-8a55-1c7ac6d30a61",
-            "details": {
-              "vAppName": "VSWEBCHTA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSWEBCHTA03",
-                  "id": "urn:vcloud:vm:2133d37b-79c6-4b97-be9b-7b89268542b9"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSRVRAD0002",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-aed96382-58e0-4e79-898d-8aa956f6b59d",
-            "details": {
-              "vAppName": "VSRVRAD0002",
-              "VirtualMachines": [
-                {
-                  "name": "VSRVRAD0002",
-                  "id": "urn:vcloud:vm:6759d99c-c78c-4009-9845-7aacbc7986b7"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSIA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e653f4f8-88b9-4e43-8090-dc5956693ac2",
-            "details": {
-              "vAppName": "VSGKKSIA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSIA01",
-                  "id": "urn:vcloud:vm:de9d7dd7-e9bf-4f00-bab9-0aa0df35e120"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGRSSFTZA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-474ed9fa-a59d-4120-b9c7-b06174cc627d",
-            "details": {
-              "vAppName": "VSGRSSFTZA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSGRSSFTZA01",
-                  "id": "urn:vcloud:vm:7903ffc4-ddb4-4cfc-b46a-8803c77f4126"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSVALISSQLSTA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-8b449aad-68b7-4e42-b717-259542371944",
-            "details": {
-              "vAppName": "VSVALISSQLSTA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSVALISSQLSTA03",
-                  "id": "urn:vcloud:vm:978416e5-c39d-483d-86fd-3c57b47a8267"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSVALISTA01",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-053c2392-5be5-4f92-be27-f432044100dc",
-            "details": {
-              "vAppName": "VSVALISTA01",
-              "VirtualMachines": [
-                {
-                  "name": "VSVALISTA01",
-                  "id": "urn:vcloud:vm:e7443311-b58b-4313-8bf2-01a5f131febe"
-                }
-              ]
-            }
-          },
-          {
-            "name": "VSGKKSIA03",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a206499a-50f6-4cea-89b3-be6ddc2e7064",
-            "details": {
-              "vAppName": "VSGKKSIA03",
-              "VirtualMachines": [
-                {
-                  "name": "VSGKKSIA03",
-                  "id": "urn:vcloud:vm:ca0497d7-55ec-4f6c-8e9b-45806f836e10"
+                  "name": "pebalogtest",
+                  "id": "urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558"
                 }
               ]
             }
           },
           {
-            "name": "VSSQLSTA02",
-            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-62512be7-9fcf-4ee0-9437-eeb9f66f350a",
+            "name": "LB_test (1) (1)",
+            "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-008aa9a6-c027-4c2c-8402-640486541308",
             "details": {
-              "vAppName": "VSSQLSTA02",
+              "vAppName": "LB_test (1) (1)",
               "VirtualMachines": [
                 {
-                  "name": "VSSQLSTA02",
-                  "id": "urn:vcloud:vm:1af7cf9a-06bf-40b0-b3ea-fdf51bdfa736"
+                  "name": "pebalogtest",
+                  "id": "urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214"
                 }
               ]
             }
@@ -1970,21 +341,21 @@
       "cpu": {
         "otherAttributes": {},
         "units": "MHz",
-        "allocated": 61020,
-        "limit": 61020,
-        "reserved": 30510,
-        "used": 16740,
-        "reservationUsed": 0,
+        "allocated": 0,
+        "limit": 0,
+        "reserved": 0,
+        "used": 600,
+        "reservationUsed": 150,
         "vCloudExtension": []
       },
       "memory": {
         "otherAttributes": {},
         "units": "MB",
-        "allocated": 1073152,
-        "limit": 1073152,
-        "reserved": 804864,
-        "used": 963584,
-        "reservationUsed": 0,
+        "allocated": 0,
+        "limit": 0,
+        "reserved": 0,
+        "used": 4096,
+        "reservationUsed": 2048,
         "vCloudExtension": []
       },
       "vCloudExtension": []

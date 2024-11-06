@@ -6,8 +6,10 @@ const { fetchVdcDetails } = require('./apiCalls/fetchVdcDetails');
 const { fetchVappDetails } = require('./apiCalls/fetchVappDetails');
 const { fetchVmDetails } = require('./apiCalls/fetchVmsDetails');
 const fetchAccessToken = require('./apiCalls/fetchAccessToken');
-
+const {fetchAllEdgeGateways} = require('./apiCalls/fetchAllEdgeGateways')
+const {fetchAllOrgVdcNetworks} = require('./apiCalls/fetchAllOrgVdcNetworks')
 const config = require('./config');
+const fetchEdgeFirewall = require('./apiCalls/fetchFirewallRules');
 logger.info(`*****************************************Starting vMatrix Server*****************************************`);
 
 const app = express();
@@ -21,7 +23,7 @@ logger.info(`---- Express started at port: ${PORT} successfully ----`);
     logger.info(`---- Access Token fetched successfully ----`);
     logger.info(`Token is:\n${config.accessToken}`);
   } catch (error) {
-    logger.error(`Error fetching access token: ${error.message}`);
+    logger.error(`Error fetching access token: ${error.message} . Are you on Correct Network?`);
   }
 })();
 
@@ -76,7 +78,35 @@ app.post('/api/topology', async (req, res) => {
   }
 });
 
+
+app.get('/api/updateNetworkData', async (req, res) => {
+  try {
+      logger.info('Fetching network data...');
+
+      const gatewaysData = await fetchAllEdgeGateways();
+      logger.info('Fetched Edge Gateways data successfully.');
+
+      // Fetch Org VDC Networks data
+      const orgVdcNetworksData = await fetchAllOrgVdcNetworks(gatewaysData);
+    //  const edgeFirewalls = await fetchEdgeFirewall(gatewaysData)
+   //  console.log(JSON.stringify(edgeFirewalls))
+      logger.info('Fetched Org VDC Networks data successfully.');
+      // Send combined data as a response
+      const networkData = {
+          gateways: gatewaysData,
+          orgVdcNetworks: orgVdcNetworksData
+      };
+
+      res.status(200).json(networkData);
+      logger.info('Network data sent successfully.');
+  } catch (error) {
+      logger.error('Error fetching network data:', error.message);
+      res.status(500).json({ message: 'Failed to fetch network data.', error: error.message });
+  }
+});
+
 // Start the Express server
 app.listen(PORT, () => {
   logger.info(`Server is running on http://localhost:${PORT}`);
+  
 });

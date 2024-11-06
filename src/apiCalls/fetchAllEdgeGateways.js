@@ -5,7 +5,7 @@ const logger = require('../logger'); // Assuming you have a Winston logger set u
 
 async function fetchAllEdgeGateways() {
   try {
-    // Initial request to get pageSize and pageCount
+    logger.info("Initial request for Edge Gateways started");
     const initialUrl = `${config.apiUrl}/cloudapi/1.0.0/edgeGateways?pageSize=1&page=1`;
     const initialResponse = await axios({
       method: 'get',
@@ -43,6 +43,7 @@ async function fetchAllEdgeGateways() {
       response.data.values.map(gateway => ({
         id: gateway.id,
         name: gateway.name,
+        type:gateway.gatewayBacking.gatewayType,
         description: gateway.description || '',
         externalNetworkRefs: gateway.externalNetworkRefs?.map(ref => ({
           name: ref.name,

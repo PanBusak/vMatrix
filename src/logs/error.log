@@ -11,3 +11,55 @@
 2024-11-05T11:26:25.361Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.
 2024-11-05T11:26:42.430Z [ERROR] Error fetching VDC:
 2024-11-05T11:26:42.431Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.
+2024-11-06T08:27:10.439Z [ERROR] Error fetching access token:
+2024-11-06T08:27:10.440Z [ERROR] Error fetching access token: Failed to fetch access token.
+2024-11-06T08:31:29.576Z [ERROR] Error fetching network data:
+2024-11-06T08:39:27.703Z [ERROR] Error fetching orgVdcNetworks:
+2024-11-06T08:39:41.952Z [ERROR] Error fetching access token:
+2024-11-06T08:39:41.953Z [ERROR] Error fetching access token: Failed to fetch access token.
+2024-11-06T08:39:41.971Z [ERROR] Error fetching orgVdcNetworks:
+2024-11-06T08:42:02.833Z [ERROR] Error fetching orgVdcNetworks: [ 844eebba-2745-4a3f-953a-493e3f68c55b ] This operation is denied.
+2024-11-06T08:42:30.234Z [ERROR] Error fetching network data:
+2024-11-06T08:44:17.874Z [ERROR] Error fetching orgVdcNetworks: [ 870a725b-dd80-4af5-972e-c35ac20de7ee ] This operation is denied.
+2024-11-06T08:44:29.511Z [ERROR] Error fetching network data:
+2024-11-06T08:50:41.266Z [ERROR] Error fetching network data:
+2024-11-06T08:52:24.332Z [ERROR] Error fetching network data:
+2024-11-06T08:53:06.534Z [ERROR] Error fetching network data:
+2024-11-06T08:55:22.560Z [ERROR] Error fetching Edge Gateways: [ 3a03075f-ed52-4bfc-861f-23a54e80d2ba ] This operation is denied.
+2024-11-06T08:55:22.560Z [ERROR] Error fetching network data:
+2024-11-06T08:56:24.422Z [ERROR] Error fetching Edge Gateways: [ ea071293-735e-4b6e-a8b7-a1d6de14d7eb ] This operation is denied.
+2024-11-06T08:56:24.422Z [ERROR] Error fetching network data:
+2024-11-06T08:56:27.740Z [ERROR] Error fetching Edge Gateways: [ cd4ff236-99d3-449f-9be3-05d942c76825 ] This operation is denied.
+2024-11-06T08:56:27.741Z [ERROR] Error fetching network data:
+2024-11-06T08:56:29.598Z [ERROR] Error fetching Edge Gateways: [ 18831eb7-9be2-4440-a93f-b1fa09d6191d ] This operation is denied.
+2024-11-06T08:56:29.598Z [ERROR] Error fetching network data:
+2024-11-06T09:01:22.259Z [ERROR] Error fetching Edge Gateways: [ 3b601acb-c09b-4fbe-8fb6-7d69d9a3113b ] This operation is denied.
+2024-11-06T09:15:59.348Z [ERROR] Error fetching vApp details: [ 251501ce-0984-4afb-83c6-af85946968cb ] Cannot open connection
+ - [pool-jetty-1567476] Timeout: Pool empty. Unable to fetch a connection in 20 seconds, none available[size:75; busy:75; idle:0; lastwait:20000].
+2024-11-06T09:15:59.348Z [ERROR] Error fetching topology from IP ::1: Failed to fetch vApp details.
+2024-11-06T09:54:00.839Z [ERROR] Error fetching firewall rules for gateway ID [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]:
+2024-11-06T09:54:00.840Z [ERROR] Error fetching network data:
+2024-11-06T11:15:30.216Z [ERROR] Error fetching network data:
+2024-11-06T11:16:06.806Z [ERROR] Error fetching firewall rules for gateway ID [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]:
+2024-11-06T11:16:06.807Z [ERROR] Error fetching network data:
+2024-11-06T11:35:07.838Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:35:07.839Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:41:26.274Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:41:26.274Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:06:29.648Z [ERROR] Error fetching firewall rules for gateways: gatewayRequestss is not defined
+2024-11-06T12:06:29.667Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:13:27.618Z [ERROR] Error fetching firewall rules for gateways: http is not defined
+2024-11-06T12:13:27.674Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:53:18.341Z [ERROR] Error fetching network data:
+2024-11-06T12:57:45.387Z [ERROR] Error fetching firewall rules for gateway bas-a-t00_1000033029-01-gw01: Request failed with status code 401
+2024-11-06T12:57:45.571Z [ERROR] Error fetching firewall rules for gateway bas-a-testcustomer-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:45.809Z [ERROR] Error fetching firewall rules for gateway bas-b-testorg-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:46.002Z [ERROR] Error fetching firewall rules for gateway com-a-bri_1000041101-01-gw01: Request failed with status code 401
+2024-11-06T12:57:46.206Z [ERROR] Error fetching firewall rules for gateway com-a-dps-os-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:46.416Z [ERROR] Error fetching firewall rules for gateway com-a-dt-dorma-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:46.645Z [ERROR] Error fetching firewall rules for gateway com-a-dt-dorma-01-gw-02: Request failed with status code 401
+2024-11-06T12:57:46.832Z [ERROR] Error fetching firewall rules for gateway com-a-heineken-hh3-mig-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:47.023Z [ERROR] Error fetching firewall rules for gateway com-a-ips_1000035712-01-gw02: Request failed with status code 401
+2024-11-06T12:57:47.213Z [ERROR] Error fetching firewall rules for gateway com-a-ips_1000035712-01-gw05: Request failed with status code 401
+2024-11-06T12:57:47.401Z [ERROR] Error fetching firewall rules for gateway com-a-sol_1000034386-01-gw02: Request failed with status code 401
+2024-11-06T12:57:47.587Z [ERROR] Error fetching firewall rules for gateway com-a-sol_1000034386-01-gw03: Request failed with status code 401

@@ -117,3 +117,410 @@ eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0
 2024-11-05T11:32:37.493Z [INFO] Making requests for 149 VMs
 2024-11-05T11:32:39.637Z [INFO] Fetched and updated all VM details successfully.
 2024-11-05T11:32:39.641Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-06T08:26:49.331Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:26:49.334Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:26:49.334Z [INFO] Starting to fetch access token
+2024-11-06T08:26:49.390Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:27:10.439Z [ERROR] Error fetching access token:
+2024-11-06T08:27:10.440Z [ERROR] Error fetching access token: Failed to fetch access token.
+2024-11-06T08:28:49.486Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:28:49.489Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:28:49.489Z [INFO] Starting to fetch access token
+2024-11-06T08:28:49.543Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:29:47.627Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:29:47.629Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:29:47.630Z [INFO] Starting to fetch access token
+2024-11-06T08:29:47.688Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:29:48.261Z [INFO] Access token fetch script successfull.
+2024-11-06T08:29:48.262Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T08:29:48.262Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDA5ODcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMDVhMjUyYmFhYjgxNDI0Y2FiMGI2ZDVkZDE1MmMyZjgifQ.Q7PbKWZoV6mXf-_K2ywbqgBGVSh6e0R7PbKib_x_P8lfO6kAu66PtQUYNzifN01pG0wJWNGlRMTtVfDRpuzLxZRf-vu-SNZ1SY6rp58yUf_CT1iaXkZ9790AP-04OOGslIg31qKGxz-GeTocm_ETV3_mByZx5B4z99AMTI_-n3ogIqlkyO8FDMI7INjwr5cn7M3Pf0IkeS4HP_2PfplKyG7XbFdnhgmKiozl-8OCKWWsaPccQB8meiWuUKdtYRVsly0xGza8GLDWkj-DoBDH6Gz0jxLaws9UU5YhKhrhBqkixa-oezQCxQC9crKkPicWdOFadu7SK0kRfMsXMbeikQ
+2024-11-06T08:30:31.815Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-06T08:30:31.816Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-06T08:31:12.512Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:31:12.514Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:31:12.515Z [INFO] Starting to fetch access token
+2024-11-06T08:31:12.568Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:31:13.134Z [INFO] Access token fetch script successfull.
+2024-11-06T08:31:13.135Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T08:31:13.135Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDEwNzIsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYWU0OTE2YmZhMGI5NDEzYzg0NjgxYzlhMDc1NDZjMWIifQ.EsMlHBIvgHfORrF-HTL12olTEiUY-8lLb4-ElLFiFAyWWuTGu8rnttgSkJXCrJddq4klDSel-1dnd2sA4Cd4lpJwFOPvpRZnawiXpw0S5RYFjt6D_Web67jQs0eFoiUjQ1ur6f1QGM0f8VOXKLw98lXvZP2xp0TpSy-LbAcxEjcLgxflcZVHGROMHiHI3TpSVcxjaUQLAe_0mUR-Xq_ELWfsf4BjJDNHzFom6tWd3NSyrHsiYWr0BtZt_WYkbcukK4fLSuifRwKES1KcDQXiwZWLtxB5lWV6go8WorFGhM4KcfWn5lvVV5TmEAvRiW34evCH7W-8zEIIwGB7K-nbrQ
+2024-11-06T08:31:24.949Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-06T08:31:24.950Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-06T08:31:29.575Z [INFO] Fetching network data...
+2024-11-06T08:31:29.576Z [ERROR] Error fetching network data:
+2024-11-06T08:39:27.645Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:39:27.647Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:39:27.648Z [INFO] Starting to fetch access token
+2024-11-06T08:39:27.655Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:39:27.703Z [ERROR] Error fetching orgVdcNetworks:
+2024-11-06T08:39:41.921Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:39:41.923Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:39:41.924Z [INFO] Starting to fetch access token
+2024-11-06T08:39:41.932Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:39:41.952Z [ERROR] Error fetching access token:
+2024-11-06T08:39:41.953Z [ERROR] Error fetching access token: Failed to fetch access token.
+2024-11-06T08:39:41.971Z [ERROR] Error fetching orgVdcNetworks:
+2024-11-06T08:42:02.628Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:42:02.632Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:42:02.632Z [INFO] Starting to fetch access token
+2024-11-06T08:42:02.644Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:42:02.833Z [ERROR] Error fetching orgVdcNetworks: [ 844eebba-2745-4a3f-953a-493e3f68c55b ] This operation is denied.
+2024-11-06T08:42:25.481Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:42:25.484Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:42:25.484Z [INFO] Starting to fetch access token
+2024-11-06T08:42:25.535Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:42:26.164Z [INFO] Access token fetch script successfull.
+2024-11-06T08:42:26.165Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T08:42:26.165Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDE3NDUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMWRmOTE0MDE3ZjllNGNjZWEyNTgzMGI5MzBhYjViNGIifQ.eZVOlJ6tJYg-dkJdd1ZyKBAkuPxC-RhsBPocdCZtwGCWWqYlk47Mh3stGjraJvTD4SSbOMUb5S8Jw6txMy1XPxHs1WqtOJ-6TXdm3OJqg-ndsrH2tRvlCihlgyTsopFzcsNiYsR_ihWSp0JvwDmGPWPVVMQGAPssOWBLegkI9Zlwgm8r1g7ZJL_JPV5xOu21gzDkvIkwBuDcsZCV23mdj_dXk_nWsKOCZA_CwWc-tWeOxfusQjXL-3Si2-yrXJClMERQVCLlPXTtdU2Gk6VsyX-fcSQ0Njvs8gxTEF3cnsSinKRkdih0gs4CWc-YCHddiFLH6yvH5dyeCM1zjnYfng
+2024-11-06T08:42:30.233Z [INFO] Fetching network data...
+2024-11-06T08:42:30.234Z [ERROR] Error fetching network data:
+2024-11-06T08:44:17.662Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:44:17.664Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:44:17.664Z [INFO] Starting to fetch access token
+2024-11-06T08:44:17.673Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:44:17.874Z [ERROR] Error fetching orgVdcNetworks: [ 870a725b-dd80-4af5-972e-c35ac20de7ee ] This operation is denied.
+2024-11-06T08:44:25.754Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:44:25.757Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:44:25.757Z [INFO] Starting to fetch access token
+2024-11-06T08:44:25.814Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:44:26.390Z [INFO] Access token fetch script successfull.
+2024-11-06T08:44:26.390Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T08:44:26.390Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDE4NjUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYzA4NTFlZGFhNGVmNDQ0ZDhjYjRhNTBmNDZmOTRlMzgifQ.BvNp_-A1q1SvEWnMdhsQ4nQ6YE6q_WJLkmiKnezvOU9IOS6aTkMRgVpsytseKRIzLEv7g9QXMqQMhHPXrEf6KuH_dg2grHSEKTlhfoRSpyFQg5XJJZc3xi1QyPsyOPUYRTwnx57iVn7RFO8oAKaEa1NfbP49eTaZ4q9AtDui_tbuBxqcUazEaQvhvD47Xoh16Wt-HQwyohQ43M303pUSLt5zLoaoj0dDwiwCdVPubjGFcSdBrr8xuJe7_ib9224J2WJSr1bTNuxM1eWB-AGVizAxH2lDDPDwBNYs4NsaFfWjO_1Lbx6mxE0kZE3VjiV5-K-T48_vSvQvkEmcXsibaQ
+2024-11-06T08:44:29.510Z [INFO] Fetching network data...
+2024-11-06T08:44:29.511Z [ERROR] Error fetching network data:
+2024-11-06T08:49:44.516Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-06T08:49:44.517Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-06T08:50:33.504Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:50:33.508Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:50:33.508Z [INFO] Starting to fetch access token
+2024-11-06T08:50:33.566Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:50:34.144Z [INFO] Access token fetch script successfull.
+2024-11-06T08:50:34.144Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T08:50:34.145Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDIyMzMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNDk1NDAwNzk1Y2NiNDZlNjhhMDU0Zjg0ZmI5ZjVjMDUifQ.LHFsdwOqnB-_yLlgFQOhPhDXiCVpX5TSLB43jOndbZL1wpnL8v3vmTuo6KxZpazGLh0nl1FyK6dA9va1wxpdIdT_mqpVZ9wEYiHvi4pzuew5_dK9KyhONySeJioIcOznB177ZZm5uVLJHQjIlFfIIbuWwpiuHZeEPxU7nL0GYGyAKx4OqFsCrf_2XhTkNPHe0EJxPCrZjN5kdckntwcbAAmrVIOXBNXWd_VVHe3_hpkqqlKPO4otmNKb517NQ2Trpq79Duoywjp_byZMv7vus4fhfxIHsQ9aZatXUIR8J9NHXn6cIccTzyq3IKwrwzdfgwZI6zIK5DSxbq7ZvQveUw
+2024-11-06T08:50:41.265Z [INFO] Fetching network data...
+2024-11-06T08:50:41.266Z [ERROR] Error fetching network data:
+2024-11-06T08:52:20.638Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:52:20.642Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:52:20.643Z [INFO] Starting to fetch access token
+2024-11-06T08:52:20.732Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:52:21.308Z [INFO] Access token fetch script successfull.
+2024-11-06T08:52:21.308Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T08:52:21.308Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDIzNDAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMTU3Y2Y5YjAxY2IyNDA5YTlhMjZiZmQ2NGRhMTg5ZjcifQ.FfB_90n04AutYdsC9ZUMOx1YcOnSUw72a131Wu6LvvnJtAXX929gMn-z-gKN2-N60i34fPDiKp-lJ5ZkygdTO_QY59XiLMa5MUzpZ2FoASEuZoi60LcS4yyixJrXNYy1jsN9YJYqP8rIUgbFwmv13ChJ7QdsEON11GWhOrLvgs-GpDEv1ToolJmz7C2zc0XKbuo3De01YyosnZS17OTHFLSX3INz717KfA99ri1XdyvSWqfY4vzw7EQJ7J7WCz3gLzmQNALVsQGNBClN2Td1WhEDrSPIRgDBY9UXYa_mlZEa6AmJN5R0v9uMx7DHDx7dV3kyfOHBHoAd_q17whK2jA
+2024-11-06T08:52:24.331Z [INFO] Fetching network data...
+2024-11-06T08:52:24.332Z [ERROR] Error fetching network data:
+2024-11-06T08:52:59.370Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:52:59.374Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:52:59.374Z [INFO] Starting to fetch access token
+2024-11-06T08:52:59.437Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:53:00.030Z [INFO] Access token fetch script successfull.
+2024-11-06T08:53:00.030Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T08:53:00.031Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDIzNzksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMTMzNzRiYTU0ZDNiNDAzYjkwNjVmYzhjYzk0MmIwYmMifQ.Avbvjm7InPF_5ZpeYuUkt8e94oo3m2--AsPze_cBzcHwvEbytMS1qLhm7ddQGNjdTofO70q57efstwle1OKoZ7mDtsDs25ZQr5CAvDcGkAW6r_VWPNP-ovcyfubxnhsH4rNQxhdlbEaELuk6fC5-1d-SghQgNQifKBR68JusJDPa_D_jE4npoh4kqvZUc6m8JqYxdesoC0tNsfxIuD4FVV4bOJ5ACe7k8rCuwhmb2uUNPztToES4czlfnIKsVRf8aCjNX4oz4-jF24EgwBHMI0YWyL61f4gBW-srUSTKkMCwCq3bCT4ECt4z4Kkdb6d6ZO5NTSKi-WGvY_lFHXtyoQ
+2024-11-06T08:53:05.447Z [INFO] Fetching network data...
+2024-11-06T08:53:05.682Z [INFO] Initial request for Edge Gateways done!
+2024-11-06T08:53:05.683Z [INFO] Making 123 edgeGateways requests
+2024-11-06T08:53:06.531Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-06T08:53:06.534Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-06T08:53:06.534Z [ERROR] Error fetching network data:
+2024-11-06T08:55:17.784Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T08:55:17.790Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T08:55:17.802Z [INFO] Server is running on http://localhost:3000
+2024-11-06T08:55:22.314Z [INFO] Fetching network data...
+2024-11-06T08:55:22.560Z [ERROR] Error fetching Edge Gateways: [ 3a03075f-ed52-4bfc-861f-23a54e80d2ba ] This operation is denied.
+2024-11-06T08:55:22.560Z [ERROR] Error fetching network data:
+2024-11-06T08:56:24.221Z [INFO] Fetching network data...
+2024-11-06T08:56:24.422Z [ERROR] Error fetching Edge Gateways: [ ea071293-735e-4b6e-a8b7-a1d6de14d7eb ] This operation is denied.
+2024-11-06T08:56:24.422Z [ERROR] Error fetching network data:
+2024-11-06T08:56:27.555Z [INFO] Fetching network data...
+2024-11-06T08:56:27.740Z [ERROR] Error fetching Edge Gateways: [ cd4ff236-99d3-449f-9be3-05d942c76825 ] This operation is denied.
+2024-11-06T08:56:27.741Z [ERROR] Error fetching network data:
+2024-11-06T08:56:29.404Z [INFO] Fetching network data...
+2024-11-06T08:56:29.598Z [ERROR] Error fetching Edge Gateways: [ 18831eb7-9be2-4440-a93f-b1fa09d6191d ] This operation is denied.
+2024-11-06T08:56:29.598Z [ERROR] Error fetching network data:
+2024-11-06T09:01:21.978Z [INFO] Initial request for Edge Gateways started
+2024-11-06T09:01:22.026Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T09:01:22.027Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T09:01:22.034Z [INFO] Server is running on http://localhost:3000
+2024-11-06T09:01:22.259Z [ERROR] Error fetching Edge Gateways: [ 3b601acb-c09b-4fbe-8fb6-7d69d9a3113b ] This operation is denied.
+2024-11-06T09:01:41.726Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T09:01:41.729Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T09:01:41.729Z [INFO] Starting to fetch access token
+2024-11-06T09:01:41.787Z [INFO] Server is running on http://localhost:3000
+2024-11-06T09:01:42.471Z [INFO] Access token fetch script successfull.
+2024-11-06T09:01:42.471Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T09:01:42.472Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDI5MDEsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZGRlN2ZiMmI4NmEzNDlmOGJhNDNiZWJkYWRlYzM4MDAifQ.fHYEQDoSf_WdehIfoj6qaP44N0ZYQgETpnwrTmJ_tK87bscV3O7uwKboitF7p2pFA2VdiT-9KeTBbuxEDTCOFyUIJsRvR-4Z3jA1YCh7mouFnc9X1EzI7kPlANhLMUPLHz6RsVafTpGfHopLAv2Tzqf8LaVucOg7fOYFmBDNR1ontzetxkdCZzBjOgyYuxI5pZK067PF-DK3o9W8WqymtULaDe--wFn7Kx3jJUHGMATp60j1qCAe3pFIgvkFeNuHoCM8t0-99j6l2qJqVFtXql3IYdmTde_eZw8bPQuB8AVezoSJ5_OMGFzQXAExZIYabCZXcFtlIcRQMvLFcM7AFg
+2024-11-06T09:11:24.339Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T09:11:24.342Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T09:11:24.342Z [INFO] Starting to fetch access token
+2024-11-06T09:11:24.393Z [INFO] Server is running on http://localhost:3000
+2024-11-06T09:11:24.990Z [INFO] Access token fetch script successfull.
+2024-11-06T09:11:24.990Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T09:11:24.991Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDM0ODQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiN2Y0MjI3Y2EyMjQ2NDhhNzhhMGQ3NDRkMzAzNGE5MDYifQ.fWbWNB69UAkRHTrCCCMdfsGnOft0vbRTzwBcKfsn6sfFEAKYYQjgLALJx7zf9LIuezup87FawFPVnLqhumvwlhxP2RjcczodH2BtYbgYNjoY5FfS3lnywCNt_tohkQhCBegNygkBojST01ha_B8e3oLeLAfENAbdrDfXWxNamSNQBjuiUlguGRvLSfs9DGkLKuqeE_Qav4ANG0fj-7J4vQvvk3gYekVeNzriGBUXVNomCzoh7hGIRyMzBWHkc0cO3pg2nc5eQYx6zmpMT_XIEDl3Ceg7d5JddIt8qYAwIx8xREVE3K2lWPgbOvvw-N8G324uqvPq75OMw70tAR2d5g
+2024-11-06T09:12:41.995Z [INFO] Fetching network data...
+2024-11-06T09:12:41.996Z [INFO] Initial request for Edge Gateways started
+2024-11-06T09:12:42.235Z [INFO] Initial request for Edge Gateways done!
+2024-11-06T09:12:42.235Z [INFO] Making 123 edgeGateways requests
+2024-11-06T09:12:43.181Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-06T09:12:43.183Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-06T09:12:44.025Z [INFO] Initial request done!
+2024-11-06T09:12:44.025Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-06T09:12:45.761Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-06T09:12:45.767Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-06T09:12:45.775Z [INFO] Network data sent successfully.
+2024-11-06T09:14:19.274Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-06T09:14:19.274Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-06T09:15:37.976Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-06T09:15:38.675Z [INFO] Fetched VDCs fpr successfully.
+2024-11-06T09:15:38.676Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-06T09:15:38.920Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-06T09:15:38.921Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-06T09:15:59.348Z [ERROR] Error fetching vApp details: [ 251501ce-0984-4afb-83c6-af85946968cb ] Cannot open connection
+ - [pool-jetty-1567476] Timeout: Pool empty. Unable to fetch a connection in 20 seconds, none available[size:75; busy:75; idle:0; lastwait:20000].
+2024-11-06T09:15:59.348Z [ERROR] Error fetching topology from IP ::1: Failed to fetch vApp details.
+2024-11-06T09:16:23.478Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-06T09:16:24.127Z [INFO] Fetched VDCs fpr successfully.
+2024-11-06T09:16:24.128Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-06T09:16:24.398Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-06T09:16:24.400Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-06T09:16:25.222Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-06T09:16:25.222Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-06T09:16:25.223Z [INFO] Making requests for 24 VMs
+2024-11-06T09:16:25.847Z [INFO] Fetched and updated all VM details successfully.
+2024-11-06T09:16:25.849Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-06T09:50:48.046Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T09:50:48.051Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T09:50:48.053Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T09:50:48.053Z [INFO] Starting to fetch access token
+2024-11-06T09:50:48.120Z [INFO] Server is running on http://localhost:3000
+2024-11-06T09:50:48.758Z [INFO] Access token fetch script successfull.
+2024-11-06T09:50:48.759Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T09:50:48.759Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDU4NDgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNTBmOWU1MzQwMDFmNDc3NTlmNjBmMDQ5MWMyNmIzZjIifQ.jWPoBIy6sCwPHYrk0aCkLX2rghbspF9vqAEIZXSKvxqOw3wCsZvdorOnrD4gA2e3HKeCy2I5tZ9lWqpToN9n932lKY4yAWkuW2nYQgLxw05vU5DSccinPCXssYVqFZGNMUQ4OocdoNDUh0r5PUraYGY5Thoo_MbRW3kSJvLNIKBK7SVDosYTJ8bLtSYcyOGu4n8UozP1m_g8qoNAPmlAV9FfS1I3cIemMOyjCunXU9t_A_W6Vmx93IJQ4dFUFIxYrgOhsHUO4HxrwvTxVzg016RaGaqfvgEnLsN76rnhmHfRpYxk93ewm3nvYmDySMTifSQCFqTDWLVTgqCLHmSv0w
+2024-11-06T09:51:09.186Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-06T09:51:09.186Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-06T09:51:27.684Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-06T09:51:28.374Z [INFO] Fetched VDCs fpr successfully.
+2024-11-06T09:51:28.375Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-06T09:51:28.630Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-06T09:51:28.631Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-06T09:51:29.353Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-06T09:51:29.353Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-06T09:51:29.354Z [INFO] Making requests for 24 VMs
+2024-11-06T09:51:29.857Z [INFO] Fetched and updated all VM details successfully.
+2024-11-06T09:51:29.858Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-06T09:52:09.244Z [INFO] Fetching network data...
+2024-11-06T09:52:09.244Z [INFO] Initial request for Edge Gateways started
+2024-11-06T09:52:09.483Z [INFO] Initial request for Edge Gateways done!
+2024-11-06T09:52:09.483Z [INFO] Making 123 edgeGateways requests
+2024-11-06T09:52:11.062Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-06T09:52:11.064Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-06T09:52:11.743Z [INFO] Initial request done!
+2024-11-06T09:52:11.743Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-06T09:52:13.162Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-06T09:52:13.167Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-06T09:52:13.175Z [INFO] Network data sent successfully.
+2024-11-06T09:53:52.688Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T09:53:52.693Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T09:53:52.694Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T09:53:52.694Z [INFO] Starting to fetch access token
+2024-11-06T09:53:52.748Z [INFO] Server is running on http://localhost:3000
+2024-11-06T09:53:53.297Z [INFO] Access token fetch script successfull.
+2024-11-06T09:53:53.298Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T09:53:53.298Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNDYwMzIsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNTJiZjBkZWM3NzJkNDExZTk0ZmFlZDljNGFiZjRkOTAifQ.DTXAsDLLvPh7A-cN4lYl5yV4QvU8OD0t9OhuiHXZDOK4FbwCC6WG8h6zW-4X8hW88mD4M2bTnNOWlWEpvLvKeN0Ho3OZuQgMBjHLPilKWIPiRoRqeL3qxfxxgEzWbuGrTUHQ7iBgA_aRyeGcl-SHZ2XhG68sP6LeBqjooXgziqZvC_H32XHwaiRtEFWVH53Xe-1W19sAoDU_9u72pDGNOOK0C7ojQvN51sQStnD0OgirV2P-4gZ_F18HfRE35u4tlmI8yT10WjkSvD8aYIMrrzy9cxmYQMIBIfmaXiXZOWEGkt4K4t745oS1qwuH4X41CFlz87M2cXZ4dDpzr6q0sQ
+2024-11-06T09:53:56.312Z [INFO] Fetching network data...
+2024-11-06T09:53:56.313Z [INFO] Initial request for Edge Gateways started
+2024-11-06T09:53:56.551Z [INFO] Initial request for Edge Gateways done!
+2024-11-06T09:53:56.552Z [INFO] Making 123 edgeGateways requests
+2024-11-06T09:53:58.127Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-06T09:53:58.129Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-06T09:53:58.940Z [INFO] Initial request done!
+2024-11-06T09:53:58.941Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-06T09:54:00.642Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-06T09:54:00.646Z [INFO] Initial request for firewall rules for gateway ID: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2024-11-06T09:54:00.839Z [ERROR] Error fetching firewall rules for gateway ID [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]:
+2024-11-06T09:54:00.840Z [ERROR] Error fetching network data:
+2024-11-06T11:15:15.415Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T11:15:15.421Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T11:15:15.422Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T11:15:15.422Z [INFO] Starting to fetch access token
+2024-11-06T11:15:15.510Z [INFO] Server is running on http://localhost:3000
+2024-11-06T11:15:16.139Z [INFO] Access token fetch script successfull.
+2024-11-06T11:15:16.140Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T11:15:16.140Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNTA5MTUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMGNhYTc1ZjIxMDgzNGZlYWEyMWM5ODVmOTZkYjA3Y2QifQ.EQsh64MSDrBm0-IaHi2EBh-KmxXRQgVnMCwYta1XkYtkz4HhA7MhzKA5ldKrYPiOIfZQ1qLuqQiS3FFXpO116l2Pj64QXPmUMd5xJaVzXZpgL8v2cK1p21iURDzRFR0E9NPO4dWLKmVwKKIN_v_rO9mZ1mHbLMO90zUGQjS_xA9hq-kB-VAfo5FmEBVDcILtEs5LE0hmR1U0pKNQBaMxPK-oM6eKEfqcnOQiW18mo_o4rsQaTLTMgAzE1ewTRMoAGKCmXwRx--HxJqNwKNq5e6Y3k9Era-zjtqHmmcDLk5B2p2tKgtFNJBBIW1jp0bBrzMOmQ6MxCALp-uQebjxWmw
+2024-11-06T11:15:25.747Z [INFO] Fetching network data...
+2024-11-06T11:15:25.747Z [INFO] Initial request for Edge Gateways started
+2024-11-06T11:15:26.036Z [INFO] Initial request for Edge Gateways done!
+2024-11-06T11:15:26.036Z [INFO] Making 123 edgeGateways requests
+2024-11-06T11:15:27.401Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-06T11:15:27.403Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-06T11:15:28.753Z [INFO] Initial request done!
+2024-11-06T11:15:28.754Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-06T11:15:30.212Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-06T11:15:30.216Z [ERROR] Error fetching network data:
+2024-11-06T11:15:57.027Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T11:15:57.031Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T11:15:57.032Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T11:15:57.032Z [INFO] Starting to fetch access token
+2024-11-06T11:15:57.084Z [INFO] Server is running on http://localhost:3000
+2024-11-06T11:15:57.670Z [INFO] Access token fetch script successfull.
+2024-11-06T11:15:57.670Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T11:15:57.671Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNTA5NTcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNDE5NDJmYmNiNDk4NGEwOWI5NmY2MWQ5ZmRiYzlmMjkifQ.V_TNbbyS-vSeCel4ik2-X0ubmTRY9_TGq31w1dT233zMWPTlfYSVWgcvG3NdU23SaAFhP16JCQVjXdesYvpGu-OetPdr_ApGMaB1lGXIecCzjWas-uewxjERVd_URkH3m15Hu2QOBVEmj7BFZdi5ZdVDEVhi-LokPvwPD3glK-_pW7UDZKqXWBSrRIwcqSzcBaS9dWeToPrH4eheNZne4fsDjDlkof9q7uHs_XdvB9vt0fztonXaqDi8dCwZbzs2dCkHfuj6Iii8RUyUSM9WwQoIf-p6bN6Jji2M6NEfZNuA3olvYSX4TpVvHwjxsiVLrZ8ZgWDLqVDWrmCy9wedmA
+2024-11-06T11:16:02.504Z [INFO] Fetching network data...
+2024-11-06T11:16:02.505Z [INFO] Initial request for Edge Gateways started
+2024-11-06T11:16:02.998Z [INFO] Initial request for Edge Gateways done!
+2024-11-06T11:16:02.999Z [INFO] Making 123 edgeGateways requests
+2024-11-06T11:16:03.818Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-06T11:16:03.821Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-06T11:16:05.126Z [INFO] Initial request done!
+2024-11-06T11:16:05.127Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-06T11:16:06.615Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-06T11:16:06.619Z [INFO] Initial request for firewall rules for gateway ID: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+2024-11-06T11:16:06.806Z [ERROR] Error fetching firewall rules for gateway ID [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]:
+2024-11-06T11:16:06.807Z [ERROR] Error fetching network data:
+2024-11-06T11:35:07.202Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T11:35:07.207Z [INFO] Fetching firewall rules for 123 gateways
+2024-11-06T11:35:07.355Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T11:35:07.357Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T11:35:07.357Z [INFO] Starting to fetch access token
+2024-11-06T11:35:07.369Z [INFO] Server is running on http://localhost:3000
+2024-11-06T11:35:07.838Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:35:07.839Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:35:08.518Z [INFO] Access token fetch script successfull.
+2024-11-06T11:35:08.518Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T11:35:08.518Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNTIxMDgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZGM1NWQ2YzQyZjlhNDZiNWI0YmJlZmMxNTU2NWNjM2IifQ.MrqBuY9sl8gpbeXzATYz-_sVqhi0-hnYTZDUiVdcRgxaPziYGbUIRwr96sabL22of5Gb_7DJ5dq_jIIE_zvF_GoGsaOcglIJ7jkLTz9bdBCJ82P04CnL6jFkQIzYScydb8iyOHxJnQDyg4rYzmhIbC6z0WwmFbNe8PyKgvf8sKQ-fM8GeDDsj7D0bGn58en5sQU8d_Nfl4a1Mb9Ia7GLFmK4cVdS2f24EsXDIlmyhz-KnP8Dbyc9XAcu38qiEacyssqn1zMqkDHLgsJCG_zS9hfMVlGeurWnYkNxIsHZ1UWNvOC-XSXIMNzU7XA-I9stOOCuFNTIsWwe0zEyb-z0sw
+2024-11-06T11:41:25.591Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T11:41:25.596Z [INFO] Fetching firewall rules for 123 gateways
+2024-11-06T11:41:25.798Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T11:41:25.800Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T11:41:25.800Z [INFO] Starting to fetch access token
+2024-11-06T11:41:25.820Z [INFO] Server is running on http://localhost:3000
+2024-11-06T11:41:26.274Z [ERROR] Error fetching firewall rules for gateways: Request failed with status code 401
+2024-11-06T11:41:26.274Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T11:41:26.656Z [INFO] Access token fetch script successfull.
+2024-11-06T11:41:26.656Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T11:41:26.657Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNTI0ODYsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiM2IwNzhmMWJlNTFmNDg1OTg3MzNkNWI4NDE3Zjc5ODMifQ.KCPPjWpl9SLsy6hxrujFN5TriAXBWeWAQxnF6MbI2hZCqIi9igAuO7zJ-rWuQHM7HUQrcJPgT3QTGm_kzFNoo0gnZyVRJzcAfyjevxEqodvdB5rdm4enxla3K13YNgq-S6C9gLntwUsaOjCK8Lr0SDC_C_VQl6loTIVZQm5BHEtspWpfQuI2rcnqvSG_NUnMm3y8T9UpHY6CQHo4y53pBC5adcVXChoqwuL9bmSkU_bRr_vJ5m_76bwfOXPVrgwnh7jZDtAq1x3L2abMlFtaj5Orvendq2Tgbk_VVLNGvpgH5pnKT1G64_3Y7UsSLexDJQXSfzemiaD3aRTVUAf8FQ
+2024-11-06T12:06:29.510Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T12:06:29.514Z [INFO] Fetching firewall rules for 123 gateways
+2024-11-06T12:06:29.648Z [ERROR] Error fetching firewall rules for gateways: gatewayRequestss is not defined
+2024-11-06T12:06:29.649Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T12:06:29.650Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T12:06:29.650Z [INFO] Starting to fetch access token
+2024-11-06T12:06:29.665Z [INFO] Server is running on http://localhost:3000
+2024-11-06T12:06:29.667Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:13:27.613Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T12:13:27.618Z [INFO] Fetching firewall rules for 123 gateways
+2024-11-06T12:13:27.618Z [ERROR] Error fetching firewall rules for gateways: http is not defined
+2024-11-06T12:13:27.619Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T12:13:27.620Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T12:13:27.620Z [INFO] Starting to fetch access token
+2024-11-06T12:13:27.673Z [INFO] Server is running on http://localhost:3000
+2024-11-06T12:13:27.674Z [ERROR] Error in fetching firewall rules: Failed to fetch firewall rules for gateways.
+2024-11-06T12:13:28.219Z [INFO] Access token fetch script successfull.
+2024-11-06T12:13:28.220Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T12:13:28.220Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNTQ0MDcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNzU0MzM2Y2YxYTU3NDljOTg1YWFhMzkxYjk2Y2FkNzYifQ.TiFUQ9Oc2giM0zyJES6bDKCsdNLWaqFiMJqjgYWzTVaC7g7Yb4UYabWYnd-9lhELjI7PEMXpV2vlZurZO9J3vZxNmzeHFUmbKzXTUhvm8NCbNGII_iph3VvHvv28vZTgu8J5qY_SBqYkBY5J6yaoRroOR2a7T6kHaMOFW3sBXoNGCz-f4wOXN_wnG_LWnRccrEtdhghDXVjvKLJWuchqT-Wo6dWUsNjZHfqD00DBHksY-a9N9pIsHTkFSouzX1TyfJ_NkyqywnASTKB_gsTAe-xl8smCEmn-060QG36-iAxl8CZnKTd11Lcr180OWf5Ftzj6c3eAMtxdEN1t68LqNw
+2024-11-06T12:13:43.514Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-06T12:13:43.515Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-06T12:53:03.506Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T12:53:03.510Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T12:53:03.511Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T12:53:03.512Z [INFO] Starting to fetch access token
+2024-11-06T12:53:03.563Z [INFO] Server is running on http://localhost:3000
+2024-11-06T12:53:04.141Z [INFO] Access token fetch script successfull.
+2024-11-06T12:53:04.142Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T12:53:04.142Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNTY3ODMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNDUxZjU4MGE1MDJhNGU4N2E2MDAyMTA5MjVjYTQ3ZDUifQ.X8E0mPjfUNvL-hQti7HKWHxRjaRAwhetq35As_vrnZhP_WNskkjzcRuEmFlNVJ11Vd_cfjp2tHdqARzbkwy8iSAFL8d3lO9qYBj-UU8QtGXmmwBVrSR0L9VvAZzBINbpZqH0_bkwC88oHfx8zH6e0sAKZeK9337WGrEkXtXu_Gyarc2t_8aWbiex0fgqHZxci5A5fvHp5jz5FNwB0EJwRRL3nJYvJvx1fUqxrXX_6GrhbpDTo8FRVJsrHVaDuTEV0SldR2YH-Q_v3-kWxgLHw0fxTVmF3vokqaSWRmv30EcVG9ThPPdfM6ZunrbbajieSupb9xyUUcF8z6U74jqyYA
+2024-11-06T12:53:14.721Z [INFO] Fetching network data...
+2024-11-06T12:53:14.721Z [INFO] Initial request for Edge Gateways started
+2024-11-06T12:53:14.968Z [INFO] Initial request for Edge Gateways done!
+2024-11-06T12:53:14.969Z [INFO] Making 123 edgeGateways requests
+2024-11-06T12:53:16.026Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-06T12:53:16.028Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-06T12:53:17.035Z [INFO] Initial request done!
+2024-11-06T12:53:17.036Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-06T12:53:18.336Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-06T12:53:18.341Z [ERROR] Error fetching network data:
+2024-11-06T12:53:33.176Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T12:53:33.181Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T12:53:33.182Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T12:53:33.183Z [INFO] Starting to fetch access token
+2024-11-06T12:53:33.250Z [INFO] Server is running on http://localhost:3000
+2024-11-06T12:53:33.853Z [INFO] Access token fetch script successfull.
+2024-11-06T12:53:33.854Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T12:53:33.854Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNTY4MTMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMGFlNDZjMzY2ZDgyNGI5MWJlZTg4YWZhZTVhNWYzNWQifQ.VSiQtSVxPsXjA1DFXdB5CAvhC82IDOZoePCvYQGbnQyi6ldozgZ7SW0AE302aHt0FYvyfhcOYAnRb4Po-A1Wr4hN8ATCE91f7SxXUS8iA7yE5aY-AdMH4TUwif-86VsgdENfR9aUV3JbgszEDPy-cKYB8hEdJFw7LZyOkq7MndN0TDHPmYR4LMoxdY-7jxdtYVogOrnUFluw315A2DHGB7VnYpTnE6qq1_esuDBbBCRS7iHIHksu4_0mtJvP_1mmu0NScFuVgusegEagVArqLUvUjSbDLz2Hbe9JHbvGjdsKk-1osC48GTnltSXvCDWw3H1OOcSCkpFdAxl0nflFPA
+2024-11-06T12:53:37.106Z [INFO] Fetching network data...
+2024-11-06T12:53:37.107Z [INFO] Initial request for Edge Gateways started
+2024-11-06T12:53:37.495Z [INFO] Initial request for Edge Gateways done!
+2024-11-06T12:53:37.496Z [INFO] Making 123 edgeGateways requests
+2024-11-06T12:53:38.625Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-06T12:53:38.627Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-06T12:53:39.388Z [INFO] Initial request done!
+2024-11-06T12:53:39.388Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-06T12:53:40.952Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-06T12:53:40.958Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-06T12:53:40.967Z [INFO] Network data sent successfully.
+2024-11-06T12:57:45.103Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-06T12:57:45.109Z [INFO] Fetching firewall rules for 123 gateways
+2024-11-06T12:57:45.109Z [INFO] Skipping gateway bas-a-dpdhl-02-gw-01 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:45.109Z [INFO] Skipping gateway bas-a-dpdhl-02-gw-02 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:45.109Z [INFO] Skipping gateway bas-a-dpdhl-02-gw-03 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:45.110Z [INFO] Fetching firewall rules for gateway: bas-a-t00_1000033029-01-gw01
+2024-11-06T12:57:45.155Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-06T12:57:45.156Z [INFO] ---- Express started at port: 3000 successfully ----
+2024-11-06T12:57:45.156Z [INFO] Starting to fetch access token
+2024-11-06T12:57:45.165Z [INFO] Server is running on http://localhost:3000
+2024-11-06T12:57:45.387Z [ERROR] Error fetching firewall rules for gateway bas-a-t00_1000033029-01-gw01: Request failed with status code 401
+2024-11-06T12:57:45.387Z [INFO] Fetching firewall rules for gateway: bas-a-testcustomer-01-gw-01
+2024-11-06T12:57:45.571Z [ERROR] Error fetching firewall rules for gateway bas-a-testcustomer-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:45.572Z [INFO] Skipping gateway bas-b-dpdhl-dr-03-gw-01 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:45.572Z [INFO] Fetching firewall rules for gateway: bas-b-testorg-01-gw-01
+2024-11-06T12:57:45.809Z [ERROR] Error fetching firewall rules for gateway bas-b-testorg-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:45.809Z [INFO] Fetching firewall rules for gateway: com-a-bri_1000041101-01-gw01
+2024-11-06T12:57:46.002Z [ERROR] Error fetching firewall rules for gateway com-a-bri_1000041101-01-gw01: Request failed with status code 401
+2024-11-06T12:57:46.002Z [INFO] Skipping gateway com-a-dpdhl-02-gw01 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:46.002Z [INFO] Skipping gateway com-a-dpdhl-poc-01-gw02 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:46.003Z [INFO] Fetching firewall rules for gateway: com-a-dps-os-01-gw-01
+2024-11-06T12:57:46.206Z [ERROR] Error fetching firewall rules for gateway com-a-dps-os-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:46.206Z [INFO] Fetching firewall rules for gateway: com-a-dt-dorma-01-gw-01
+2024-11-06T12:57:46.416Z [ERROR] Error fetching firewall rules for gateway com-a-dt-dorma-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:46.417Z [INFO] Fetching firewall rules for gateway: com-a-dt-dorma-01-gw-02
+2024-11-06T12:57:46.645Z [ERROR] Error fetching firewall rules for gateway com-a-dt-dorma-01-gw-02: Request failed with status code 401
+2024-11-06T12:57:46.645Z [INFO] Fetching firewall rules for gateway: com-a-heineken-hh3-mig-01-gw-01
+2024-11-06T12:57:46.703Z [INFO] Access token fetch script successfull.
+2024-11-06T12:57:46.703Z [INFO] ---- Access Token fetched successfully ----
+2024-11-06T12:57:46.703Z [INFO] Token is:
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzExNTcwNjYsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYzlmZTI1N2U4MDQwNDlhMmFmZmQ5NTU5MjlhZTgyY2EifQ.HBsHWqeMc35i-GoSG2geOnEXflLnljnoHwMV7MmWFhTRbXGWJcSQmkuLU6TdSodPduXTcvv-GzV8SgZGxPNyU4jd91tNu3HJ1kPPqOBxM842JRGpm8Entsok3kbL-NR01Wye6ceRk-P5jasU7vatEzxuzgTaf3HVOwQjqh_rKU5rPz2dp1XgHqjBNXnUhWs7bQQ2k2rVAMdY-oTkVsfSKIOxPquKiaLAY414fca3ng5eeMaUF4UtgqjEd6oXbtO-rRNKTIRgXgltB8KByEFEQf5IbYAVF176szxotITjqV-P7xOXEenvKC3M911-8ZnFycRUi1U86c9ovBVVLhKEhA
+2024-11-06T12:57:46.832Z [ERROR] Error fetching firewall rules for gateway com-a-heineken-hh3-mig-01-gw-01: Request failed with status code 401
+2024-11-06T12:57:46.833Z [INFO] Fetching firewall rules for gateway: com-a-ips_1000035712-01-gw02
+2024-11-06T12:57:47.023Z [ERROR] Error fetching firewall rules for gateway com-a-ips_1000035712-01-gw02: Request failed with status code 401
+2024-11-06T12:57:47.024Z [INFO] Fetching firewall rules for gateway: com-a-ips_1000035712-01-gw05
+2024-11-06T12:57:47.213Z [ERROR] Error fetching firewall rules for gateway com-a-ips_1000035712-01-gw05: Request failed with status code 401
+2024-11-06T12:57:47.213Z [INFO] Fetching firewall rules for gateway: com-a-sol_1000034386-01-gw02
+2024-11-06T12:57:47.401Z [ERROR] Error fetching firewall rules for gateway com-a-sol_1000034386-01-gw02: Request failed with status code 401
+2024-11-06T12:57:47.402Z [INFO] Fetching firewall rules for gateway: com-a-sol_1000034386-01-gw03
+2024-11-06T12:57:47.587Z [ERROR] Error fetching firewall rules for gateway com-a-sol_1000034386-01-gw03: Request failed with status code 401
+2024-11-06T12:57:47.587Z [INFO] Skipping gateway com-a-t00_1000026462-01-gw01 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.587Z [INFO] Skipping gateway com-a-t00_1000026462-01-gw02 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.587Z [INFO] Skipping gateway com-a-t00_1000026462-01-gw03 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.588Z [INFO] Skipping gateway com-a-t00_1000026462-02-gw01 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.588Z [INFO] Skipping gateway com-a-t29_1000020859-01-gw01 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.588Z [INFO] Skipping gateway com-a-t29_1000020859-01-gw02 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.588Z [INFO] Skipping gateway com-a-t29_1000020859-01-gw04 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.588Z [INFO] Skipping gateway com-a-t29_1000020859-01-gw05 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.588Z [INFO] Skipping gateway com-a-t29_1000020859-01-gw06 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.589Z [INFO] Skipping gateway com-a-t29_1000020859-01-gw07 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.589Z [INFO] Skipping gateway com-a-t29_1000020859-01-gw08 as it is of type "NSXT_BACKED"
+2024-11-06T12:57:47.589Z [INFO] Fetching firewall rules for gateway: com-a-t29_1000020859-01-gw11-v2t

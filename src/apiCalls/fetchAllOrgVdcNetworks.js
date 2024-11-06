@@ -64,10 +64,11 @@ async function fetchAllOrgVdcNetworks() {
   } catch (error) {
     logger.error('Error fetching orgVdcNetworks:', error.response ? error.response.data : error.message);
     throw new Error('Failed to fetch all orgVdcNetworks.');
+    
   }
 }
 
 // Call the function if needed for testing or execution
-fetchAllOrgVdcNetworks();
+//fetchAllOrgVdcNetworks();
 
 module.exports = { fetchAllOrgVdcNetworks };
