@@ -1,5 +1,6 @@
 const express = require('express');
-const logger = require('./logger'); // Assuming your Winston logger setup
+const logger = require('./logger'); 
+const 
 const { fetchOrganizations } = require('./apiCalls/fetchOrganization');
 const { fetchVdcs } = require('./apiCalls/fetchVdcs');
 const { fetchVdcDetails } = require('./apiCalls/fetchVdcDetails');
@@ -88,7 +89,7 @@ app.get('/api/updateNetworkData', async (req, res) => {
 
       // Fetch Org VDC Networks data
       const orgVdcNetworksData = await fetchAllOrgVdcNetworks(gatewaysData);
-    //  const edgeFirewalls = await fetchEdgeFirewall(gatewaysData)
+      const edgeFirewalls = await fetchEdgeFirewall(gatewaysData)
    //  console.log(JSON.stringify(edgeFirewalls))
       logger.info('Fetched Org VDC Networks data successfully.');
       // Send combined data as a response
