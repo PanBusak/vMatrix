@@ -11,10 +11,10 @@ const logger = require('../logger');
 async function fetchFirewallRulesForGateways(gateways) {
   const firewallRulesData = [];
   const natRulesData = [];
-  const token = "eyJhbGciOiJSUzI1NiJ9...";  // Replace with your actual token
+
 
   try {
-    logger.info(`Fetching firewall and NAT rules for ${gateways.length} gateways`);
+    logger.info(`Fetching firewall and NAT rules for ${gateways.length} gatewaysX`);
 
     // Create requests for each gateway's firewall and NAT rules, skipping NSXV_BACKED types
     const gatewayRequests = gateways
@@ -27,13 +27,18 @@ async function fetchFirewallRulesForGateways(gateways) {
         const firewallRequest = axios.get(firewallRequestUrl, {
           headers: {
             'Accept': 'application/json;version=39.0.0-alpha',
-            'Authorization': `Bearer ${token}`,
+            'Authorization': `Bearer ${config.accessToken}`,
           }
         }).then(response => ({
           gatewayName: gateway.name,
           firewallRules: response.data.userDefinedRules || []
         })).catch(error => {
-          logger.error(`Error fetching firewall rules for gateway ${gateway.name}: ${error.message}`);
+          const errorMsg = `Error fetching firewall rules for gateway ${gateway.name} (${fullGatewayId}): ${error.message}`;
+          if (error.response) {
+            logger.error(`${errorMsg} - Response Data: ${JSON.stringify(error.response.data)}`);
+          } else {
+            logger.error(errorMsg);
+          }
           return null;
         });
 
@@ -42,13 +47,18 @@ async function fetchFirewallRulesForGateways(gateways) {
         const natRequest = axios.get(natRequestUrl, {
           headers: {
             'Accept': 'application/json;version=39.0.0-alpha',
-            'Authorization': `Bearer ${token}`,
+            'Authorization': `Bearer ${config.accessToken}`,
           }
         }).then(response => ({
           gatewayName: gateway.name,
           natRules: response.data.natRules || []
         })).catch(error => {
-          logger.error(`Error fetching NAT rules for gateway ${gateway.name}: ${error.message}`);
+          const errorMsg = `Error fetching NAT rules for gateway ${gateway.name} (${fullGatewayId}): ${error.message}`;
+          if (error.response) {
+            logger.error(`${errorMsg} - Response Data: ${JSON.stringify(error.response.data)}`);
+          } else {
+            logger.error(errorMsg);
+          }
           return null;
         });
 
@@ -75,23 +85,18 @@ async function fetchFirewallRulesForGateways(gateways) {
       natRules: natRulesData
     };
     fileUtils.saveToFile(outputData, 'firewallRules.json');
-    logger.info('Fetched and saved firewall and NAT rules for all gateways successfully.');
+    logger.info('Fetched and saved firewall and NAT rules for all gatewaysX successfully.');
 
     return outputData;
   } catch (error) {
-    logger.error(`Error fetching rules for gateways: ${error.message}`);
-    throw new Error('Failed to fetch rules for gateways.');
+    logger.error(`Error fetching rules for gatewaysX: ${error.message}`);
+    if (error.response) {
+      logger.error(`Response Data: ${JSON.stringify(error.response.data)}`);
+    }
+    throw new Error('Failed to fetch rules for gatewaysX.');
   }
 }
 
-// Example usage with gateway JSON
-const gateways = require('../data/edgeGateways.json'); // Load the array of gateway data
-fetchFirewallRulesForGateways(gateways)
-  .then(results => {
-    console.log(results);
-  })
-  .catch(error => {
-    logger.error(`Error in fetching rules: ${error.message}`);
-  });
+
 
 module.exports = { fetchFirewallRulesForGateways };
