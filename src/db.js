@@ -1,19 +1,27 @@
-// db.js
 const mongoose = require('mongoose');
-const config = require('./config');
-const logger = require('./logger'); // Your Winston logger
+const config = require('./config'); // Adjust the path if necessary
+const logger = require('./logger');
 
-const connectDB = async () => {
-  try {
-    await mongoose.connect(config.mongoUri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    logger.info('Connected to MongoDB successfully.');
-  } catch (error) {
-    logger.error('Error connecting to MongoDB:', error);
-    process.exit(1); 
-  }
-};
+const mongoUri = config.mongoUri || 'mongodb://localhost:27017/vMatrixDB'; // Update the URI as needed
 
-module.exports = connectDB;
+mongoose.connect(mongoUri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
+
+const db = mongoose.connection;
+
+// Event listeners for logging connection status
+db.on('connected', () => {
+  logger.info('Mongoose connected to MongoDB');
+});
+
+db.on('error', (error) => {
+  logger.error('Mongoose connection error:', error);
+});
+
+db.on('disconnected', () => {
+  logger.info('Mongoose disconnected from MongoDB');
+});
+
+module.exports = db;

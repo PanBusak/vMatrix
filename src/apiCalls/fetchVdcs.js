@@ -29,7 +29,7 @@ async function fetchVdcs(orgsDetails) {
     });
 
     logger.info('Fetched VDCs fpr successfully.');
-    fileUtils.saveToFile(orgsDetails);
+   // fileUtils.saveToFile(orgsDetails);
     
     return orgsDetails;
   } catch (error) {

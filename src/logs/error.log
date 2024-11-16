@@ -1577,3 +1577,15 @@
 2024-11-07T09:43:39.948Z [ERROR] Error fetching firewall rules for gateway test-4: Request failed with status code 401
 2024-11-07T09:43:39.949Z [ERROR] Error fetching firewall rules for gateway com-b-tsr_1000042730-01-gw01: Request failed with status code 401
 2024-11-07T09:43:39.958Z [ERROR] Error fetching firewall rules for gateway mgmt_a_internet: Request failed with status code 401
+2024-11-07T10:10:17.619Z [ERROR] Error fetching topology from IP ::1: Operation `orgsvdcvm_schemas.insertOne()` buffering timed out after 10000ms
+2024-11-07T10:13:34.353Z [ERROR] Error fetching topology from IP ::1: Operation `ORG_VDC_VM.insertOne()` buffering timed out after 10000ms
+2024-11-16T18:03:10.974Z [ERROR] Error fetching access token:
+2024-11-16T18:03:10.974Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2024-11-16T18:03:43.765Z [ERROR] Error fetching VDC:
+2024-11-16T18:03:43.765Z [ERROR] Error fetching topology from IP ::1: Failed to fetch VDC.
+2024-11-16T18:26:05.311Z [ERROR] Error fetching topology from IP ::1: OrgsVdcVm is not defined
+2024-11-16T18:35:09.272Z [ERROR] Error fetching topology from IP ::1: OrgsVdcVm is not defined
+2024-11-16T19:24:10.975Z [ERROR] Error fetching jobs: db is not defined
+2024-11-16T19:25:00.264Z [ERROR] Error fetching jobs: TopologyJob.find(...).count is not a function
+2024-11-16T19:33:06.120Z [ERROR] Error fetching job with ID undefined: jobId is not defined
+2024-11-16T19:45:23.386Z [ERROR] Error deleting job with ID 6738f05fe8905f2678a9292a: job.remove is not a function

@@ -58,7 +58,7 @@ async function fetchVappDetails(orgsDetails) {
     });
 
     // Save updated orgsDetails with the newly fetched vApp details
-    fileUtils.saveToFile(orgsDetails);
+   // fileUtils.saveToFile(orgsDetails);
     logger.info('Fetched and filtered vApp details successfully.');
 
     return orgsDetails;

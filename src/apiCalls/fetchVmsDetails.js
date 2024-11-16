@@ -72,7 +72,7 @@ async function fetchVmDetails(orgsData) {
     });
 
     logger.info('Fetched and updated all VM details successfully.');
-    fileUtils.saveToFile(orgsData, 'updatedOrgsDataWithVmDetails.json');
+  //  fileUtils.saveToFile(orgsData, 'updatedOrgsDataWithVmDetails.json');
 
     return orgsData;
   } catch (error) {

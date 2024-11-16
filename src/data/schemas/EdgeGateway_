@@ -1,0 +1,31 @@
+const mongoose = require('mongoose');
+
+const EdgeGatewaySchema = new mongoose.Schema({
+  id: String,  // Field for the edge gateway ID
+  name: String,  // Field for the edge gateway name
+  type: String,  // Type of the edge gateway
+  description: { type: String, default: "" },  // Description of the edge gateway
+  externalNetworkRefs: [  // Array of external network references
+    {
+      name: String,
+      id: String
+    }
+  ],
+  orgVdcId: String,  // ID of the associated organization VDC
+  ownerRef: {  // Embedded document for owner reference
+    name: String,
+    id: String
+  },
+  edgeClusterName: { type: String, default: "" },  // Name of the edge cluster
+  edgeClusterId: { type: String, default: "" },  // ID of the edge cluster
+  interfaces: [  // Array of interfaces associated with the edge gateway
+    {
+      name: String,
+      id: String,
+      type: String,
+      subnet: String // Additional field for the subnet, if needed
+    }
+  ]
+}, { timestamps: true });  // Automatically add createdAt and updatedAt fields
+
+module.exports = mongoose.model('EdgeGateway', EdgeGatewaySchema);

@@ -46,7 +46,7 @@ async function fetchVdcDetails(orgsDetails) {
     });
 
     logger.info('Fetched VDCs and their vApps successfully.');
-    fileUtils.saveToFile(orgsDetails);
+   // fileUtils.saveToFile(orgsDetails);
     return orgsDetails;
   } catch (error) {
     logger.error('Error fetching VDCs and vApps:', error.response ? error.response.data : error.message);
