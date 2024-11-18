@@ -915,66 +915,6 @@
     "interfaces": []
   },
   {
-    "id": "urn:vcloud:gateway:8d385e91-d5c2-4be5-8017-d6397172200b",
-    "name": "com-a-tlv_1000010959-01-gw01",
-    "type": "NSXV_BACKED",
-    "description": "Edge gateway for vdc: com-a-tlv_1000010959-01 Type=FIA Created by jobId=75963",
-    "externalNetworkRefs": [],
-    "orgVdcId": "urn:vcloud:vdc:7fd3f488-8b90-49a0-bee9-012d9795a540",
-    "ownerRef": {
-      "name": "com-a-tlv_1000010959-01",
-      "id": "urn:vcloud:vdc:7fd3f488-8b90-49a0-bee9-012d9795a540"
-    },
-    "edgeClusterName": "",
-    "edgeClusterId": "",
-    "interfaces": []
-  },
-  {
-    "id": "urn:vcloud:gateway:68513cb8-520a-4a34-8ca4-bfb77c9b9358",
-    "name": "com-a-tlv_1000010959-01-gw02",
-    "type": "NSXV_BACKED",
-    "description": "Edge gateway for vdc: com-a-tlv_1000010959-01 Type=other Created by jobId=75963",
-    "externalNetworkRefs": [],
-    "orgVdcId": "urn:vcloud:vdc:7fd3f488-8b90-49a0-bee9-012d9795a540",
-    "ownerRef": {
-      "name": "com-a-tlv_1000010959-01",
-      "id": "urn:vcloud:vdc:7fd3f488-8b90-49a0-bee9-012d9795a540"
-    },
-    "edgeClusterName": "",
-    "edgeClusterId": "",
-    "interfaces": []
-  },
-  {
-    "id": "urn:vcloud:gateway:3b0c790e-faae-40d2-a8fd-b7a001a48bad",
-    "name": "com-a-tlv_1000010959-02-gw01",
-    "type": "NSXV_BACKED",
-    "description": "Edge gateway for vdc: com-a-tlv_1000010959-02 Type=other Created by jobId=75963",
-    "externalNetworkRefs": [],
-    "orgVdcId": "urn:vcloud:vdc:452893d1-d959-4b35-80c2-1782d7030724",
-    "ownerRef": {
-      "name": "com-a-tlv_1000010959-02",
-      "id": "urn:vcloud:vdc:452893d1-d959-4b35-80c2-1782d7030724"
-    },
-    "edgeClusterName": "",
-    "edgeClusterId": "",
-    "interfaces": []
-  },
-  {
-    "id": "urn:vcloud:gateway:45dfa16c-f765-41b2-82b8-20ef19365df4",
-    "name": "com-a-tlv_1000010959-02-gw02",
-    "type": "NSXV_BACKED",
-    "description": "Edge gateway for vdc: com-a-tlv_1000010959-02 Type=FIA Created by jobId=109429",
-    "externalNetworkRefs": [],
-    "orgVdcId": "urn:vcloud:vdc:452893d1-d959-4b35-80c2-1782d7030724",
-    "ownerRef": {
-      "name": "com-a-tlv_1000010959-02",
-      "id": "urn:vcloud:vdc:452893d1-d959-4b35-80c2-1782d7030724"
-    },
-    "edgeClusterName": "",
-    "edgeClusterId": "",
-    "interfaces": []
-  },
-  {
     "id": "urn:vcloud:gateway:b3cc2e99-c18a-480c-8630-2e48980fb45b",
     "name": "com-a-tnd_1000026409-01-gw01",
     "type": "NSXT_BACKED",
@@ -1554,66 +1494,6 @@
     "ownerRef": {
       "name": "com-b-tcs_1000042743-01",
       "id": "urn:vcloud:vdc:3bc40f45-2e56-4b0e-931d-a6c5eaea6b62"
-    },
-    "edgeClusterName": "",
-    "edgeClusterId": "",
-    "interfaces": []
-  },
-  {
-    "id": "urn:vcloud:gateway:612c551d-f7af-41dd-85cd-c56126a0abb9",
-    "name": "com-b-tlv_1000010959-01-gw01",
-    "type": "NSXV_BACKED",
-    "description": "Edge gateway for vdc: com-b-tlv_1000010959-01 Type=other Created by jobId=75963",
-    "externalNetworkRefs": [],
-    "orgVdcId": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd",
-    "ownerRef": {
-      "name": "com-b-tlv_1000010959-01",
-      "id": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd"
-    },
-    "edgeClusterName": "",
-    "edgeClusterId": "",
-    "interfaces": []
-  },
-  {
-    "id": "urn:vcloud:gateway:5ec78a3e-fe65-409e-b552-56b40ecc8af2",
-    "name": "com-b-tlv_1000010959-01-gw02",
-    "type": "NSXV_BACKED",
-    "description": "Edge gateway for vdc: com-b-tlv_1000010959-01 Type=other Created by jobId=91929",
-    "externalNetworkRefs": [],
-    "orgVdcId": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd",
-    "ownerRef": {
-      "name": "com-b-tlv_1000010959-01",
-      "id": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd"
-    },
-    "edgeClusterName": "",
-    "edgeClusterId": "",
-    "interfaces": []
-  },
-  {
-    "id": "urn:vcloud:gateway:9b90de2b-fea8-4d89-8512-55013e244047",
-    "name": "com-b-tlv_1000010959-01-gw03",
-    "type": "NSXV_BACKED",
-    "description": "Edge gateway for vdc: com-b-tlv_1000010959-01 Type=other Created by jobId=91932",
-    "externalNetworkRefs": [],
-    "orgVdcId": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd",
-    "ownerRef": {
-      "name": "com-b-tlv_1000010959-01",
-      "id": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd"
-    },
-    "edgeClusterName": "",
-    "edgeClusterId": "",
-    "interfaces": []
-  },
-  {
-    "id": "urn:vcloud:gateway:2480093a-4922-47c5-ac7f-f25c8f253866",
-    "name": "com-b-tlv_1000010959-01-gw04",
-    "type": "NSXV_BACKED",
-    "description": "Edge gateway for vdc: com-b-tlv_1000010959-01 Type=other Created by jobId=91936",
-    "externalNetworkRefs": [],
-    "orgVdcId": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd",
-    "ownerRef": {
-      "name": "com-b-tlv_1000010959-01",
-      "id": "urn:vcloud:vdc:343ff98c-3c4e-4ed7-93a5-78d196de4fcd"
     },
     "edgeClusterName": "",
     "edgeClusterId": "",
