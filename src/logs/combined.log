@@ -4230,3 +4230,260 @@ eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0
 2024-11-18T16:17:30.575Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
 2024-11-18T16:17:30.575Z [INFO] [CRON_JOB] Executing Job: hopa ty chuju
 2024-11-18T16:17:30.575Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:19:33.113Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T16:19:33.119Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T16:19:33.121Z [INFO] Starting to fetch access token
+2024-11-18T16:19:33.180Z [INFO] Server is running on http://localhost:3000
+2024-11-18T16:19:33.202Z [INFO] Mongoose connected to MongoDB
+2024-11-18T16:19:33.796Z [INFO] Access token fetch script successfull.
+2024-11-18T16:19:33.797Z [INFO] Access Token fetched successfully
+2024-11-18T16:19:33.798Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDU5NzMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNjc5ZTdhODk5YTZkNDJiZjljODMzMGQ2NGExMDg1ZjYifQ.Oes3ltFh2OmNe7wS9KkBgf60iUT5rjNnuwSwlC1KPPT8Ai7xdFVej1hARaW0VV3Cdi2CK0sfpVpFthHnONup3eSow1c09ndsmgldF152-lPumjRsrCAzGnYKMM6NIjHjELyDkquEB14ovUuSmzdBRgRm_WFCCaRwwdNSqhk28ckUj9YduPggSNVQmqcjFtCpNFqn0GIsPu2MnoPU1mWaisxqG-q88z_oFbftVSgOzNxzuMNlY3MX_WTm2lD7GOze9P7TKv-GRBcOPy3qRSUgckifk843V-QFNjQR2NJuqdYf-pfYoaxI0lHW-goPjXQX5tS0Kzpdv1kMq_rdDFkI7w
+2024-11-18T16:19:50.752Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-18T16:19:50.753Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-18T16:20:34.564Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T16:20:34.572Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T16:20:34.579Z [INFO] Starting to fetch access token
+2024-11-18T16:20:34.655Z [INFO] Server is running on http://localhost:3000
+2024-11-18T16:20:34.677Z [INFO] Mongoose connected to MongoDB
+2024-11-18T16:20:35.272Z [INFO] Access token fetch script successfull.
+2024-11-18T16:20:35.273Z [INFO] Access Token fetched successfully
+2024-11-18T16:20:35.274Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDYwMzQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOWE4ZmM3ZDJjYzY2NGQ0N2E3MTI1Yjc3M2MyZmUzNDYifQ.dQJd4PW0NU9RXpT71rs8F4PgeddyC_LN7tRbUqP6tqsjOLzwz8PJO4SWvj8sg_MVxGQThnc4rh8prXAzMDGYqZbT62Vtvff4ZWy7fb1tVUc7q796hgz6azJ7IDVpU3kJjWT-xMt8EyidAQ67kDExCLz8pbVFR4hs0HS19XJABdAm5mKCc3YeDF75-MtlDlqA1vvXNAL-sevArVraZlHg-wIhCsSoI6IRKtOX3Pb3juGzcGxzbjtyf4Ivk1kHb6VeuVQ7rTVEhfEReXL0RzEi9fK2V4-QMjAoH8POlvVBtiRJow6o1-lKPB8wQQku3J60hqvzNSfByJ-ZvQCqaELiSg
+2024-11-18T16:20:40.694Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:20:40.701Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:20:40.702Z [INFO] [CRON_JOB] Executing Job: dalsi jobs
+2024-11-18T16:20:40.703Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:20:41.508Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:20:41.509Z [INFO] [CRON_JOB] Fetched VDCs successfully.
+2024-11-18T16:20:41.825Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:20:41.825Z [INFO] [CRON_JOB] Fetched VDC details successfully.
+2024-11-18T16:20:41.826Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:20:41.826Z [INFO] [CRON_JOB] Fetched vApp details successfully.
+2024-11-18T16:20:41.827Z [INFO] Making requests for 0 VMs
+2024-11-18T16:20:41.827Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:20:41.827Z [INFO] [CRON_JOB] Fetched VM details successfully.
+2024-11-18T16:20:41.830Z [INFO] No existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Creating a new entry.
+2024-11-18T16:20:41.838Z [INFO] [CRON_JOB] Successfully executed and saved job: dalsi jobs
+2024-11-18T16:20:50.788Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:20:50.793Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:20:50.794Z [INFO] [CRON_JOB] Executing Job: dalsi jobs
+2024-11-18T16:20:50.794Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:20:51.520Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:20:51.520Z [INFO] [CRON_JOB] Fetched VDCs successfully.
+2024-11-18T16:20:51.837Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:20:51.837Z [INFO] [CRON_JOB] Fetched VDC details successfully.
+2024-11-18T16:20:51.838Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:20:51.838Z [INFO] [CRON_JOB] Fetched vApp details successfully.
+2024-11-18T16:20:51.838Z [INFO] Making requests for 0 VMs
+2024-11-18T16:20:51.839Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:20:51.839Z [INFO] [CRON_JOB] Fetched VM details successfully.
+2024-11-18T16:20:51.845Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2024-11-18T16:20:51.855Z [INFO] [CRON_JOB] Successfully executed and saved job: dalsi jobs
+2024-11-18T16:21:00.885Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:21:00.888Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:21:00.889Z [INFO] [CRON_JOB] Executing Job: dalsi jobs
+2024-11-18T16:21:00.889Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:21:01.433Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:21:01.433Z [INFO] [CRON_JOB] Fetched VDCs successfully.
+2024-11-18T16:21:01.735Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:21:01.736Z [INFO] [CRON_JOB] Fetched VDC details successfully.
+2024-11-18T16:21:01.736Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:21:01.736Z [INFO] [CRON_JOB] Fetched vApp details successfully.
+2024-11-18T16:21:01.737Z [INFO] Making requests for 0 VMs
+2024-11-18T16:21:01.737Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:21:01.737Z [INFO] [CRON_JOB] Fetched VM details successfully.
+2024-11-18T16:21:01.741Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2024-11-18T16:21:01.748Z [INFO] [CRON_JOB] Successfully executed and saved job: dalsi jobs
+2024-11-18T16:21:20.077Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:21:20.081Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:21:20.081Z [INFO] [CRON_JOB] Executing Job: dalsi jobs
+2024-11-18T16:21:20.081Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:21:21.053Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:21:21.053Z [INFO] [CRON_JOB] Fetched VDCs successfully.
+2024-11-18T16:21:21.353Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:21:21.354Z [INFO] [CRON_JOB] Fetched VDC details successfully.
+2024-11-18T16:21:21.354Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:21:21.354Z [INFO] [CRON_JOB] Fetched vApp details successfully.
+2024-11-18T16:21:21.354Z [INFO] Making requests for 0 VMs
+2024-11-18T16:21:21.355Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:21:21.355Z [INFO] [CRON_JOB] Fetched VM details successfully.
+2024-11-18T16:21:21.360Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2024-11-18T16:21:21.370Z [INFO] [CRON_JOB] Successfully executed and saved job: dalsi jobs
+2024-11-18T16:21:30.195Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:21:30.199Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:21:30.199Z [INFO] [CRON_JOB] Executing Job: dalsi jobs
+2024-11-18T16:21:30.199Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:21:30.707Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:21:30.707Z [INFO] [CRON_JOB] Fetched VDCs successfully.
+2024-11-18T16:21:30.985Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:21:30.986Z [INFO] [CRON_JOB] Fetched VDC details successfully.
+2024-11-18T16:21:30.986Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:21:30.986Z [INFO] [CRON_JOB] Fetched vApp details successfully.
+2024-11-18T16:21:30.987Z [INFO] Making requests for 0 VMs
+2024-11-18T16:21:30.987Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:21:30.987Z [INFO] [CRON_JOB] Fetched VM details successfully.
+2024-11-18T16:21:30.991Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2024-11-18T16:21:30.998Z [INFO] [CRON_JOB] Successfully executed and saved job: dalsi jobs
+2024-11-18T16:23:38.844Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T16:23:38.851Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T16:23:38.852Z [INFO] Starting to fetch access token
+2024-11-18T16:23:38.920Z [INFO] Server is running on http://localhost:3000
+2024-11-18T16:23:38.940Z [INFO] Mongoose connected to MongoDB
+2024-11-18T16:23:39.750Z [INFO] Access token fetch script successfull.
+2024-11-18T16:23:39.751Z [INFO] Access Token fetched successfully
+2024-11-18T16:23:39.751Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDYyMTksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiM2M2ZTlkNjgwNWE4NGIwNjhlOGEyOGI0OTg4YTQ3NDkifQ.gw2Owl37_sSVlXLNgl5MfzabKy_nfiJIZOz91UYFjWmjN07_em2Yc1CqejYGUCAi5QU8yx2uv4FnT8GMSEMH9eFCnAuBmK6DZUuosT42YYAluaQCcDP481ZdxM6AtrQjUCgI7QJlKB9Pr1noZqVwbeuIJ6uRqyAt7dHbsYrIll9T5CbkLbnblmXkz4D-qjydXXsgIFGO6jKuU41uqlMo09K7z7X2kkfIOPsQrCf6HDp2FZCV7Xs4UYmVQqLFm1FIC1aVBUS8Yga3_yJwQpIzqJk3nicDdVpEJfMHpNYptZreGF8w7TbCF-skOPNBi_WWjafpmejycqIxLiMobkMM6A
+2024-11-18T16:23:40.917Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:23:40.934Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:23:40.936Z [INFO] [CRON_JOB] Executing Job: dalsi jobs
+2024-11-18T16:23:40.936Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:23:41.640Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:23:41.641Z [INFO] [CRON_JOB] Fetched VDCs for Job: dalsi jobs
+2024-11-18T16:23:41.941Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:23:41.942Z [INFO] [CRON_JOB] Fetched VDC details for Job: dalsi jobs
+2024-11-18T16:23:41.943Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:23:41.943Z [INFO] [CRON_JOB] Fetched vApp details for Job: dalsi jobs
+2024-11-18T16:23:41.944Z [INFO] Making requests for 0 VMs
+2024-11-18T16:23:41.944Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:23:41.944Z [INFO] [CRON_JOB] Fetched VM details for Job: dalsi jobs
+2024-11-18T16:23:41.951Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2024-11-18T16:23:41.976Z [INFO] [CRON_JOB] Successfully executed and saved job: dalsi jobs
+2024-11-18T16:23:41.977Z [INFO] [CRON_JOB] All jobs processed successfully.
+2024-11-18T16:23:50.010Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:23:50.016Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:23:50.017Z [INFO] [CRON_JOB] Executing Job: dalsi jobs
+2024-11-18T16:23:50.017Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:23:50.721Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:23:50.721Z [INFO] [CRON_JOB] Fetched VDCs for Job: dalsi jobs
+2024-11-18T16:23:50.993Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:23:50.993Z [INFO] [CRON_JOB] Fetched VDC details for Job: dalsi jobs
+2024-11-18T16:23:50.994Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:23:50.994Z [INFO] [CRON_JOB] Fetched vApp details for Job: dalsi jobs
+2024-11-18T16:23:50.995Z [INFO] Making requests for 0 VMs
+2024-11-18T16:23:50.995Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:23:50.995Z [INFO] [CRON_JOB] Fetched VM details for Job: dalsi jobs
+2024-11-18T16:23:51.002Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2024-11-18T16:23:51.013Z [INFO] [CRON_JOB] Successfully executed and saved job: dalsi jobs
+2024-11-18T16:23:51.014Z [INFO] [CRON_JOB] All jobs processed successfully.
+2024-11-18T16:24:59.995Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T16:25:00.001Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T16:25:00.003Z [INFO] Starting to fetch access token
+2024-11-18T16:25:00.076Z [INFO] Server is running on http://localhost:3000
+2024-11-18T16:25:00.099Z [INFO] Mongoose connected to MongoDB
+2024-11-18T16:25:01.080Z [INFO] Access token fetch script successfull.
+2024-11-18T16:25:01.081Z [INFO] Access Token fetched successfully
+2024-11-18T16:25:01.082Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDYzMDAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZTU4YzIzMGJhZWVkNGYwNmI1MmFkNDUxYjM1YzIyOTAifQ.DbOscvKr1JJcTcT100GklPBKqgPTZcy7NdBjzGzmEqok7kkVv2a-2StuHLoaAg6oBL9NcjhehCTku6ZZtQACNlPwxySZM0XLUg7-up5BmLiRtC-GZck_bTfRPm4ttg6KR5S_Ffe1Mi-j3bm2RT6z4sS6Jr4BhFxqzMW9eJortqmg5z_6zgP8WvOvZ4-jK4KghhF7pUqAr8p6JgGEtjdRlYx59Xmg-ueEvFZRDpMB_NQTtVPdDfFRMBJhqtIXKF9TpessCYDjcNgXSmR0LnxWzIOHDo8Yym6MxVlH1QuUytQvz9pPrJQc15nvGE4kXIcSUjWsj0ms6lS0kQRNn8VDqw
+2024-11-18T16:25:10.161Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:25:10.166Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:25:10.167Z [INFO] [CRON_JOB] Executing Job: prvy job
+2024-11-18T16:25:10.168Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:25:11.020Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:25:11.021Z [INFO] [CRON_JOB] Fetched VDCs for Job: prvy job
+2024-11-18T16:25:11.409Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:25:11.410Z [INFO] [CRON_JOB] Fetched VDC details for Job: prvy job
+2024-11-18T16:25:44.650Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T16:25:44.656Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T16:25:44.658Z [INFO] Starting to fetch access token
+2024-11-18T16:25:44.762Z [INFO] Server is running on http://localhost:3000
+2024-11-18T16:25:44.793Z [INFO] Mongoose connected to MongoDB
+2024-11-18T16:25:45.812Z [INFO] Access token fetch script successfull.
+2024-11-18T16:25:45.813Z [INFO] Access Token fetched successfully
+2024-11-18T16:25:45.813Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDYzNDUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMmE3Y2E3ZmYyOTM2NDE5Nzk5MGY2YzdiNDI1OWJkNzYifQ.RnBgai-dEzkVd-epZOUSMjHsifhigr2TE4Px3_2CtYnHOutBLgS5Bd0wHw0pvgBrc1U9Z92FKKOpYxC2i4mJg8_ZSpKWj_kNQK5s_3RPXaGma3RzBbSi2Dw_RmkZZkyYTIkbHqrCjJDm2Tmrkd8V6LpW4lCdM__RriMNaIRzetfAQrOgr8440YU5qMocg8O4wqN8byQnNDKu3pLhFl47XClBv5EY7kLQVpfzy4V9vEBA1fXgOcAKIVxEfGIeBbQDf9BSkbwNu_HX3KaIiOIZLQZEGGkw2zcWvDMDoTYx4JHr5W5VMOtubQdBHDZ3G4hs8piF0DbWtjB82mRCiuCOvw
+2024-11-18T16:25:50.817Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:25:50.827Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2024-11-18T16:25:56.281Z [ERROR] Error adding cron job: savedJob is not defined
+2024-11-18T16:26:00.933Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:26:00.940Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:26:00.941Z [INFO] [CRON_JOB] Executing Job: hopa
+2024-11-18T16:26:00.941Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:26:01.675Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:26:01.675Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa
+2024-11-18T16:26:48.682Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T16:26:48.688Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T16:26:48.690Z [INFO] Starting to fetch access token
+2024-11-18T16:26:48.753Z [INFO] Server is running on http://localhost:3000
+2024-11-18T16:26:48.774Z [INFO] Mongoose connected to MongoDB
+2024-11-18T16:26:49.321Z [INFO] Access token fetch script successfull.
+2024-11-18T16:26:49.322Z [INFO] Access Token fetched successfully
+2024-11-18T16:26:49.322Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDY0MDksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNjkxZGE4MDUzODMzNDMzOGFjYjRlODAxOTI5M2FmY2IifQ.f7WdvSfa9QA9t06SVfsOJ9fCimNyWcRH82VSzgW62O_2LPUXtcGvxURowM4j1NoC0yETJsqMMPTIATRZr9umcf_Q9Z6oZXr5rrrvLVBQj23IFSGrzBKXsq9d-iWl0BN3ep1irB-O4zxFGVvYtj2wJ0kX0WcetWANNkaJIREGJBBhsfufSWAFAMhfOK3p9kKfXE8HQ4-rdT0NLwmQEUZBEJNF_qcTDKHc_tQS9Omyh1C-CQzbx5QClUK3J2-psNiboSe8a7gsFGV6vEVLQLs_B7S-d3-Cn1iYsdNONJAv5OnRWnWNI7ePQTBdKZzSPUWiIOhE02wIoZaB7YfKo15Jtg
+2024-11-18T16:26:50.763Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:26:50.784Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2024-11-18T16:26:50.785Z [INFO] [CRON_JOB] Executing Job: hopa
+2024-11-18T16:26:50.786Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:26:51.206Z [ERROR] Error adding cron job: savedJob is not defined
+2024-11-18T16:26:51.650Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:26:51.651Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa
+2024-11-18T16:26:51.967Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:26:51.968Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa
+2024-11-18T16:26:53.921Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:26:53.922Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa
+2024-11-18T16:26:53.923Z [INFO] Making requests for 37 VMs
+2024-11-18T16:26:55.466Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:26:55.466Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa
+2024-11-18T16:26:55.487Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699/41fc155c-fe42-4d3b-b0a9-031592d98220. Appending new version.
+2024-11-18T16:26:55.507Z [INFO] [CRON_JOB] Successfully executed and saved job: hopa
+2024-11-18T16:26:55.508Z [INFO] [CRON_JOB] All jobs processed successfully.
+2024-11-18T16:27:00.856Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:27:00.861Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2024-11-18T16:27:00.862Z [INFO] [CRON_JOB] Executing Job: hopa
+2024-11-18T16:27:00.863Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:27:00.866Z [INFO] [CRON_JOB] Executing Job: hopa2
+2024-11-18T16:27:00.867Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:27:01.571Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:27:01.571Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa
+2024-11-18T16:27:01.614Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:27:01.615Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2024-11-18T16:27:01.865Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:27:01.866Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2024-11-18T16:27:01.866Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:27:01.867Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2024-11-18T16:27:01.867Z [INFO] Making requests for 0 VMs
+2024-11-18T16:27:01.867Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:27:01.867Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2024-11-18T16:27:01.874Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2024-11-18T16:27:01.886Z [INFO] [CRON_JOB] Successfully executed and saved job: hopa2
+2024-11-18T16:27:01.888Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:27:01.888Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa
+2024-11-18T16:27:02.986Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:27:02.987Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa
+2024-11-18T16:27:02.987Z [INFO] Making requests for 37 VMs
+2024-11-18T16:27:04.834Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:27:04.834Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa
+2024-11-18T16:27:04.844Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699/41fc155c-fe42-4d3b-b0a9-031592d98220. Appending new version.
+2024-11-18T16:27:04.855Z [INFO] [CRON_JOB] Successfully executed and saved job: hopa
+2024-11-18T16:27:04.855Z [INFO] [CRON_JOB] All jobs processed successfully.
+2024-11-18T16:28:00.633Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T16:28:00.639Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T16:28:00.641Z [INFO] Starting to fetch access token
+2024-11-18T16:28:00.710Z [INFO] Server is running on http://localhost:3000
+2024-11-18T16:28:00.730Z [INFO] Mongoose connected to MongoDB
+2024-11-18T16:28:01.294Z [INFO] Access token fetch script successfull.
+2024-11-18T16:28:01.295Z [INFO] Access Token fetched successfully
+2024-11-18T16:28:01.296Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDY0ODAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZDkwMzU5MGQxNzU0NDM4NWFmOWQ5NmZiNDFhMTk3MzMifQ.dHdy2h-NDO-U5x_8VVdnxRWPeNrBFNNCS6IBlBg5KsLSuBxD490voarzzso-Qd09GyVmK0bx8NYYvTHBpoZBQCwKzibs2nlk9402hFBdhoDxsKBPmIOoGJArnCCeHjwz58xyNfhRp3JgBEWtnjfnQxg6j3jVyC28NMUSKilps2Y61fhouGfabBQhIOCcXlDLKa1v4d49nygKsZHaNSwt1ZsHWps4-kytfaLmgGTZXDKvFhTa28JE8ZDuugWBCYGFYxBT1ewCw1zL6CmUZQ4BkH_nOadU2i_N8GXmsMK4--cHLeWgSu-st1oYbjktfSKr0K5sKZr3PRue9OkanpG7NQ
+2024-11-18T16:28:10.797Z [INFO] Starting scheduled cron jobs...
+2024-11-18T16:28:10.818Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2024-11-18T16:28:10.819Z [INFO] [CRON_JOB] Executing Job: hopa
+2024-11-18T16:28:10.820Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:28:10.827Z [INFO] [CRON_JOB] Executing Job: hopa2
+2024-11-18T16:28:10.828Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2024-11-18T16:28:11.642Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:28:11.642Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa
+2024-11-18T16:28:11.691Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T16:28:11.692Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2024-11-18T16:28:11.990Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:28:11.990Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2024-11-18T16:28:11.991Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:28:11.991Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2024-11-18T16:28:11.992Z [INFO] Making requests for 0 VMs
+2024-11-18T16:28:11.992Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:28:11.992Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2024-11-18T16:28:11.995Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T16:28:11.996Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa
+2024-11-18T16:28:12.058Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2024-11-18T16:28:12.085Z [INFO] [CRON_JOB] Successfully executed and saved job: hopa2
+2024-11-18T16:28:14.225Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T16:28:14.225Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa
+2024-11-18T16:28:14.226Z [INFO] Making requests for 37 VMs
+2024-11-18T16:28:16.025Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T16:28:16.026Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa
+2024-11-18T16:28:16.047Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699/41fc155c-fe42-4d3b-b0a9-031592d98220. Appending new version.
+2024-11-18T16:28:16.063Z [INFO] [CRON_JOB] Successfully executed and saved job: hopa
+2024-11-18T16:28:16.064Z [INFO] [CRON_JOB] All jobs processed successfully.
