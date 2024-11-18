@@ -3858,3 +3858,122 @@ eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0
 2024-11-16T19:46:31.004Z [INFO] ---- Access Token fetched successfully ----
 2024-11-16T19:46:31.004Z [INFO] Token is:
 eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIwNDU1OTAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOTMyMmIzMmEzNmQ4NGU0ZDkxMTc5MjMyNzUxMjkwNzcifQ.QcAuuxvRwiLWQlen8fBUwyqiIiAOL3dkCtvlAoE9MkP-1snfkIXioR2IP-TvzCXB8v55l_b0KT9er-4X3BNgvF6NUvgxBGK9vZd_NhAPKLVecE_yCHW876PWyuXkCYx1nc7Dv642uXNqS9xRspZWPE-9rTkYTxQYe5KtQ0dUc7uIlCnOKy5KB7bN_3jHrjh_U6dFo9CpD4s2XzI7PQe6s-LcAH4OLWVBGRDL3O3xCLu2YyXcOZOs9o8ymbFU8PRcC1x3TyOvW-iADTUlNvS_tKaV5A1R9cef13QZOLn_mVp7Lxh5GsedqIJ0jINB665ArkGEjVQ8IheeR2ylWgwE6A
+2024-11-18T14:26:14.382Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T14:26:14.389Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T14:26:14.391Z [INFO] Starting to fetch access token
+2024-11-18T14:26:14.468Z [INFO] Server is running on http://localhost:3000
+2024-11-18T14:26:14.490Z [INFO] Mongoose connected to MongoDB
+2024-11-18T14:26:15.033Z [INFO] Access token fetch script successfull.
+2024-11-18T14:26:15.034Z [INFO] Access Token fetched successfully
+2024-11-18T14:26:15.034Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIxOTkxNzQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNzFlZjcwMTFhODhjNDg3ZTgxNGZlODE3NWJhMmUzY2YifQ.ZiPndcmztvkUNpdGpg3woVSdINLUtSbSOJiDILIaUbPr2HPtKlagIpwy7vweCAd3w6ZBdynXo-wTqfEeFR4Ik27Xp2LHyk5HPHFnhjIdiSQoFLmwkVXQDGVAYPkMysKb6goJYlzWlL2wvTuIBNkltd6Gtx9_4_rKAW1lNFH1uHXGtgR7XxfENYfpsqvgPY2VgGpT3Qwz7F6MYNUr2DPRaqWYbx-j47_-LrWF1XAkYYkpzZ9R7FTdZFpkn-ldtCEDA_7DHy6-8OWOWnM6MC4qsLG8bP9RFbFgnZ1G9EXkcGBIzBQzkffPeJC_wtdLER04kdGWrlcvasMZr6-hB_f-uA
+2024-11-18T14:43:39.398Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T14:43:39.404Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T14:43:39.406Z [INFO] Starting to fetch access token
+2024-11-18T14:43:39.493Z [INFO] Server is running on http://localhost:3000
+2024-11-18T14:43:39.516Z [INFO] Mongoose connected to MongoDB
+2024-11-18T14:43:40.134Z [INFO] Access token fetch script successfull.
+2024-11-18T14:43:40.135Z [INFO] Access Token fetched successfully
+2024-11-18T14:43:40.135Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDAyMTksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMjE0MTNmMGVkYjMwNGQ0NDljZjBhMzkyNjY2MGQyMGEifQ.Z8A7PJBK_7u4MLwB0sNafNMARtd4e6uFHwXXpYyLxlFsIHmzVPfXIVScCyQFmoq4FZHQWWp7pMFWesSdKYijoXAtAc42ns9GlaZEu1y_wrU-Zh4RL5W7chZIWuZCeP62I9oHOZvKIFl8jds97eEp8n2pRIewnn645OpH917E8l5y-LozNaqCTRd-hu4kJrqiuHNkPNFDKHSI2lG44RELY7yx7TUVTi9AhcU79wv3w5q9v0Xvn3FzwjVa9bQ56w0fsXp7ZANDYCT1P6E7CwwCw4VujsXJ6jQAkTjq_a_Wlj55lCIIqLZgEBUgt--auySMfovjg6gDFWaA2CvYZ_Wi2w
+2024-11-18T14:44:34.544Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T14:44:34.550Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T14:44:34.552Z [INFO] Starting to fetch access token
+2024-11-18T14:44:34.641Z [INFO] Server is running on http://localhost:3000
+2024-11-18T14:44:34.666Z [INFO] Mongoose connected to MongoDB
+2024-11-18T14:44:35.313Z [INFO] Access token fetch script successfull.
+2024-11-18T14:44:35.313Z [INFO] Access Token fetched successfully
+2024-11-18T14:44:35.314Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDAyNzQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiODhiODAzMzI5NDQ1NGY2NWE4YTFmNGQ0YmU5NGRlZmQifQ.D5eEwFuK8F1BSgWit_xvXkecWN5zY2wkmecQnpcKupaNHaz1nj7fMrZtQS9P0N0CGVvokofbgx6fQgDX_F0o7B1yJZGM89l65jBikCkhqdkbbgPfotER9p0eP4nLHIrnmvF2D9zKjl-gC1zo1fkrBGTokxOfaYlSIE8g9EFp9qGvD7EkLhgKEu7bQzsafKsvGpHaF-WE3OUimbRqin8dZ4Zi9sR6dr6K5GrYphs2XvquNpkndrkFJ9PaOqvIcZ8m_F7tJXDEuNcezmgP1Ff7qL5VtlrOiQn7I_lq1P2owR15QleEZvRao1JS25gARbwlTeihUOGJQpiTNlJZ1DwUng
+2024-11-18T14:44:35.635Z [INFO] Starting scheduled cron jobs...
+2024-11-18T14:44:35.636Z [ERROR] Error fetching jobs for cron execution: TopologyJob is not defined
+2024-11-18T14:44:40.685Z [INFO] Starting scheduled cron jobs...
+2024-11-18T14:44:40.686Z [ERROR] Error fetching jobs for cron execution: TopologyJob is not defined
+2024-11-18T14:45:18.022Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T14:45:18.030Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T14:45:18.032Z [INFO] Starting to fetch access token
+2024-11-18T14:45:18.108Z [INFO] Server is running on http://localhost:3000
+2024-11-18T14:45:18.133Z [INFO] Mongoose connected to MongoDB
+2024-11-18T14:45:18.710Z [INFO] Access token fetch script successfull.
+2024-11-18T14:45:18.711Z [INFO] Access Token fetched successfully
+2024-11-18T14:45:18.712Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDAzMTgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNzNlNWIyODRkYmVlNGNhNjhiNzc4MDU0OGQ3ZjUyZjQifQ.TZqvMoqKJ8gvu6lnYVIMze5iZglOw6FrVNnoc8I0Qp8AnReAkcwfc7V20COLDA-D_fgi1GSqWBmCgJRqGUQjErrjdJWORGc78eBByQOJmKdZvICYVdTrjlkeyLf7ndPG1kp55dHgHV3QstsZHqcoxq8GMlplyfdQDHt0dBT-VU3aBwJanvsjA3v0hN6NKojhHRw5iT4ZaXGxkNMBhkU0As38pl74Rc-s2Ey3kzvIDrM8d-mtTFiM9WaLEl8kA8H1bc4FFa0txOv_d0_BfKb3TDZ_gyeX_3fcXNhEHx1QqPey0K2rjXTZ-L0wAy-dhyXr3emohmCczyLxYBN9oVRYAQ
+2024-11-18T14:45:20.116Z [INFO] Starting scheduled cron jobs...
+2024-11-18T14:47:41.833Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T14:47:41.839Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T14:47:41.841Z [INFO] Starting to fetch access token
+2024-11-18T14:47:41.904Z [INFO] Server is running on http://localhost:3000
+2024-11-18T14:47:41.925Z [INFO] Mongoose connected to MongoDB
+2024-11-18T14:47:42.484Z [INFO] Access token fetch script successfull.
+2024-11-18T14:47:42.485Z [INFO] Access Token fetched successfully
+2024-11-18T14:47:42.486Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDA0NjIsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMDRiYTlhYjc2YWZmNDQ3ZDkxMzVjOTRhMmNiMjhkYmIifQ.CAd0Ku6nSgttd4n3ZWx-lls7Z1XrZ8krvROyRHqXlYaYCCCd8Pjjz2qc-rm-24CzWSJtViKkhIHnnqot57Yrv6OJN0TQudj1Txi1WiFZfIPBwmjmnuAsqSGyJFoK8GDV6K1OjzTXHg734EcQ89VcvqUlW5yS3h1DIdEiWBOcPjgFHkGLr-1hUDNXgYVqJgxJUdCL87Np5C2YL9VR3K0q7nHkF5iDk73x-rFN-qnMj4isebj2_ZYg-lMjJ4iZTexnvmHLcve2FLEXZvDwvnm6Ynw_o2ksroNZmr_hUh-e5TDh38YwkZNjyhya4jSwzzqko3oGTmf0vmxTlu6morzbHg
+2024-11-18T14:48:05.112Z [INFO] Starting scheduled cron jobs...
+2024-11-18T14:49:05.776Z [INFO] Starting scheduled cron jobs...
+2024-11-18T14:50:05.371Z [INFO] Starting scheduled cron jobs...
+2024-11-18T14:51:05.032Z [INFO] Starting scheduled cron jobs...
+2024-11-18T15:05:57.205Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T15:05:57.212Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T15:05:57.214Z [INFO] Starting to fetch access token
+2024-11-18T15:05:57.275Z [INFO] Server is running on http://localhost:3000
+2024-11-18T15:05:57.297Z [INFO] Mongoose connected to MongoDB
+2024-11-18T15:05:58.002Z [INFO] Access token fetch script successfull.
+2024-11-18T15:05:58.003Z [INFO] Access Token fetched successfully
+2024-11-18T15:05:58.004Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDE1NTcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZTY5YTViN2MxNGU0NDAzODhiYzA4MWExNzkyNWEzNjQifQ.WqgdTfE0SZ_8SdRoBHFRSqmArkmlxqvGX6X6nxgNf9BRX2l0e2aEs3loNdPdhBIKdZYMLlupbvj_pcC0_o_pLnJIq4yeDBVzK5ATQsfiW8Tsna_Y7JAe9Sdw3zauaZwgb2nKzKDo5TT5NzNgiQjYv-wccidYpZMZQIQWbB_dJ0PqXjp5kA3F8TidrTP9VE9o8t_5bBm-VThb0f81km7p20exhivvZ8tvpR8bBX4w3K9XAaEhyZ-GO8Pz-hCwxn7psTkbZ7fxYFVexNU9v-iRui2Hbc3FdmAa4nhNzI3zF7l7SwDPCTjT72y6z48ZjnHKx92A8w2XOHO2L6M7pWdnGA
+2024-11-18T15:06:03.186Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-18T15:06:04.021Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T15:06:04.022Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-18T15:06:04.359Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T15:06:04.360Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-18T15:06:14.676Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T15:06:14.678Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-18T15:06:14.679Z [INFO] Making requests for 24 VMs
+2024-11-18T15:06:15.626Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T15:06:15.627Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-18T15:10:27.221Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-18T15:10:27.222Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-18T15:10:58.107Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-18T15:10:58.836Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T15:10:58.837Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-18T15:10:59.116Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T15:10:59.116Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-18T15:11:00.997Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T15:11:00.998Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-18T15:11:00.998Z [INFO] Making requests for 24 VMs
+2024-11-18T15:11:04.902Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T15:11:04.902Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-18T15:14:24.039Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-18T15:14:24.848Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T15:14:24.848Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-18T15:14:25.138Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T15:14:25.138Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-18T15:14:25.915Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T15:14:25.915Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-18T15:14:25.916Z [INFO] Making requests for 24 VMs
+2024-11-18T15:14:26.480Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T15:14:26.481Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-18T15:19:27.154Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-18T15:19:27.161Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-18T15:19:27.163Z [INFO] Starting to fetch access token
+2024-11-18T15:19:27.231Z [INFO] Server is running on http://localhost:3000
+2024-11-18T15:19:27.253Z [INFO] Mongoose connected to MongoDB
+2024-11-18T15:19:27.788Z [INFO] Access token fetch script successfull.
+2024-11-18T15:19:27.788Z [INFO] Access Token fetched successfully
+2024-11-18T15:19:27.789Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyMDIzNjcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZDE1ZTE1MTI0YzhkNDgwNWE5YmVlMTkwMjFmMDUzYjAifQ.PPaN_ACEAYWLDAhP2mW9qB2YfXsUZev_MbT1Wo6ISrNBaX0pAkNRZmBCc638HK581lL78_IJPCH69URjvELFoChq_tGZftMZoKlXR2PMB1mUc_LqWe1DV0BWVExCZP_oJUF3sEWGBIBn4uKB9VePsJ252LOyYOwyCbMsJngzvMCGX9JaqYpQJmMFI7apXluJO5LOhFfZJc3691JcVg5Prxg7CvK0cGWhoYi-qCjKW_G1hoqlaUgzEaTxd47_Xlyfqu6wWgVBKkJiD5AujOy4MwhvBBLVkdy_vt7BCsZ_Jdlbfu0AzVaQ98puMoZ7B6n9orbbjNreR1jZNBjVUobbkg
+2024-11-18T15:19:31.123Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-18T15:19:31.888Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T15:19:31.888Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-18T15:19:32.160Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T15:19:32.160Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-18T15:19:33.222Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T15:19:33.222Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-18T15:19:33.223Z [INFO] Making requests for 24 VMs
+2024-11-18T15:19:34.040Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T15:19:34.041Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-18T15:21:58.248Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-18T15:21:58.249Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-18T15:22:20.583Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-18T15:22:21.381Z [INFO] Fetched VDCs fpr successfully.
+2024-11-18T15:22:21.381Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-18T15:22:21.733Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-18T15:22:21.734Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-18T15:22:22.844Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-18T15:22:22.845Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-18T15:22:22.845Z [INFO] Making requests for 37 VMs
+2024-11-18T15:22:26.712Z [INFO] Fetched and updated all VM details successfully.
+2024-11-18T15:22:26.712Z [INFO] Fetched VM details successfully from IP: ::1
