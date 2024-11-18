@@ -3,20 +3,43 @@ const router = express.Router();
 const TopologyJob = require("./data/schemas/Topologyjob_Schema");
 const logger = require('./logger');
 
+// Utility function to generate dynamic name and UID
+const generateDynamicNameAndUid = (topology) => {
+  const dynamicName = topology.map(t => t.name).join('-');
+  const dynamicUid = topology.map(t => t.uuid).join('/');
+  return { dynamicName, dynamicUid };
+};
+
 // Add a new cron job
 router.post('/add-cron-jobs', async (req, res) => {
-  const { name, schedule, topology } = req.body;
+  const { name, topology } = req.body;
 
-  if (!name || !schedule || !topology) {
-    return res.status(400).json({ error: 'Name, schedule, and topology are required' });
+  if (!topology || !Array.isArray(topology) || topology.length === 0) {
+    return res.status(400).json({ error: 'A non-empty topology array is required' });
   }
 
+  const { dynamicName, dynamicUid } = generateDynamicNameAndUid(topology);
+  const jobName = name || dynamicName;
+
   try {
-    const newJob = new TopologyJob({ name, topology });
+    const newJob = new TopologyJob({
+      name: jobName,
+      uuid: dynamicUid,
+      topology,
+    });
+
     newJob._savedBy = "Stevko";
     await newJob.save();
 
-    res.status(201).json({ message: 'Cron job added successfully', job: newJob });
+    res.status(201).json({ 
+        message: 'Cron job added successfully', 
+        job: {
+          id: savedJob._id, // Include the MongoDB ID
+          name: savedJob.name,
+          uuid: savedJob.uuid,
+          topology: savedJob.topology,
+        } 
+      });
   } catch (error) {
     logger.error(`Error adding cron job: ${error.message}`);
     res.status(500).json({ error: 'Failed to add cron job' });
@@ -53,7 +76,7 @@ router.get('/jobs/:id', async (req, res) => {
 // Update a cron job
 router.put('/jobs/:id', async (req, res) => {
   const { id } = req.params;
-  const { name, topology, schedule } = req.body;
+  const { name, topology } = req.body;
 
   try {
     const job = await TopologyJob.findById(id);
@@ -61,9 +84,14 @@ router.put('/jobs/:id', async (req, res) => {
       return res.status(404).json({ error: 'Job not found' });
     }
 
-    if (name) job.name = name;
-    if (topology) job.topology = topology;
-    if (schedule) job.schedule = schedule;
+    if (topology && Array.isArray(topology) && topology.length > 0) {
+      const { dynamicName, dynamicUid } = generateDynamicNameAndUid(topology);
+      job.topology = topology;
+      job.name = name || dynamicName;
+      job.uid = dynamicUid;
+    } else if (name) {
+      job.name = name;
+    }
 
     await job.save();
     res.json({ message: 'Cron job updated successfully', job });

@@ -7,13 +7,18 @@ const OrgsVdcVmSchema = new mongoose.Schema(
     uuid: String, 
     history: [
       {
-        savedBy: { type: String }, 
+        savedBy: { type: String },
         createdAt: { type: Date, default: Date.now },
       },
     ],
-    topology: [], 
+    topology: [
+      {
+        timeStamp: { type: Date, default: Date.now },
+        data: { type: Array, required: true },
+      },
+    ],
   },
-  { timestamps: true } 
+  { timestamps: true }
 );
 
 

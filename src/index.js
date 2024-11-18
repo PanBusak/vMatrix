@@ -84,16 +84,28 @@ const startCronJobs = async () => {
         const topology = await fetchVmDetails(vappWithVm);
         logger.info('[CRON_JOB] Fetched VM details successfully.');
 
+        // Construct dynamic name and UUID
         const combinedName = topology.map(item => item.name).join('-');
         const combinedUuid = topology.map(item => item.uuid).join('/');
 
-        const newTopology = new OrgsVdcVm({
-          name: combinedName,
-          uuid: combinedUuid,
-          topology: topology,
-        });
-        newTopology._savedBy = 'Stevko';
-        await newTopology.save();
+        // Check for existing topology by UUID
+        const existingTopology = await OrgsVdcVm.findOne({ uuid: combinedUuid });
+
+        if (existingTopology) {
+          logger.info(`Existing topology found for UUID: ${combinedUuid}. Appending new version.`);
+          existingTopology.topology.push({ timeStamp: new Date(), data: topology });
+          existingTopology._savedBy = "Stevko";
+          await existingTopology.save();
+        } else {
+          logger.info(`No existing topology found for UUID: ${combinedUuid}. Creating a new entry.`);
+          const newTopology = new OrgsVdcVm({
+            name: combinedName,
+            uuid: combinedUuid,
+            topology: [{ timeStamp: new Date(), data: topology }],
+            _savedBy: "Stevko",
+          });
+          await newTopology.save();
+        }
 
         logger.info(`[CRON_JOB] Successfully executed and saved job: ${job.name}`);
       } catch (jobError) {
@@ -105,7 +117,8 @@ const startCronJobs = async () => {
   }
 };
 
-if(5 == 1) {
+
+if(1 == 1) {
 cron.schedule('*/5 * * * * *', () => {
   logger.info('Starting scheduled cron jobs...');
   startCronJobs();
@@ -153,15 +166,25 @@ app.post('/api/topology', async (req, res) => {
     logger.info(`Fetched VM details successfully from IP: ${req.ipAddress}`);
 
     const combinedName = topology.map(item => item.name).join('-');
-    const combinedUuid = topology.map(item => item.uuid).join('/');
+    const combinedUuid = topology.map(item => item.uuid).join('');
 
-    const newTopology = new OrgsVdcVm({
-      name: combinedName,
-      uuid: combinedUuid,
-      topology: topology,
-    });
-    newTopology._savedBy = "Stevko";
-    await newTopology.save();
+    const existingTopology = await OrgsVdcVm.findOne({ uuid: combinedUuid });
+
+    if (existingTopology) {
+      logger.info(`Existing topology found for UUID: ${combinedUuid}. Appending new version.`);
+      existingTopology.topology.push({ timeStamp: new Date(), data: topology });
+      existingTopology._savedBy = "Stevko";
+      await existingTopology.save();
+    } else {
+      logger.info(`No existing topology found for UUID: ${combinedUuid}. Creating a new entry.`);
+      const newTopology = new OrgsVdcVm({
+        name: combinedName,
+        uuid: combinedUuid,
+        topology: [{ timeStamp: new Date(), data: topology }],
+        _savedBy: "Stevko",
+      });
+      await newTopology.save();
+    }
 
     res.json(topology);
   } catch (error) {

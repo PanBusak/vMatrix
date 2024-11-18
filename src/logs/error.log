@@ -1591,3 +1591,22 @@
 2024-11-16T19:45:23.386Z [ERROR] Error deleting job with ID 6738f05fe8905f2678a9292a: job.remove is not a function
 2024-11-18T14:44:35.636Z [ERROR] Error fetching jobs for cron execution: TopologyJob is not defined
 2024-11-18T14:44:40.686Z [ERROR] Error fetching jobs for cron execution: TopologyJob is not defined
+2024-11-18T15:58:30.697Z [ERROR] Error fetching VDC: Bad request: Invalid UUID string: 6738df902def866038dbc1d
+2024-11-18T15:58:30.698Z [ERROR] [CRON_JOB] Error processing job Daco sa zmeni: Failed to fetch VDC.
+2024-11-18T15:58:30.937Z [ERROR] Error fetching VDC: Bad request: Invalid UUID string: 6738df902def866038dbc1d
+2024-11-18T15:58:30.938Z [ERROR] [CRON_JOB] Error processing job Sample Job Name: Failed to fetch VDC.
+2024-11-18T15:58:31.169Z [ERROR] Error fetching VDC: Bad request: Invalid UUID string: 6738df902def866038dbc1d
+2024-11-18T15:58:31.170Z [ERROR] [CRON_JOB] Error processing job Sample Job Name: Failed to fetch VDC.
+2024-11-18T15:58:31.406Z [ERROR] Error fetching VDC: Bad request: Invalid UUID string: 6738df902def866038dbc1d
+2024-11-18T15:58:31.407Z [ERROR] [CRON_JOB] Error processing job UpdateJobs jendo z druhym: Failed to fetch VDC.
+2024-11-18T15:58:31.645Z [ERROR] Error fetching VDC: Bad request: Invalid UUID string: 6738df902def866038dbc1d
+2024-11-18T15:58:31.646Z [ERROR] [CRON_JOB] Error processing job Sample Job Name: Failed to fetch VDC.
+2024-11-18T15:58:31.849Z [ERROR] Error fetching VDC: Bad request: Invalid UUID string: 6738df902def866038dbc1d
+2024-11-18T15:58:31.849Z [ERROR] [CRON_JOB] Error processing job Sample Job Name: Failed to fetch VDC.
+2024-11-18T15:58:32.081Z [ERROR] Error fetching VDC: Bad request: Invalid UUID string: 6738df902def866038dbc1d
+2024-11-18T15:58:32.082Z [ERROR] [CRON_JOB] Error processing job Sample Job Name: Failed to fetch VDC.
+2024-11-18T15:58:32.296Z [ERROR] Error fetching VDC: Bad request: Invalid UUID string: 6738df902def866038dbc1d
+2024-11-18T15:58:32.296Z [ERROR] [CRON_JOB] Error processing job volaco: Failed to fetch VDC.
+2024-11-18T16:01:33.032Z [ERROR] Error adding cron job: TopologyJobs validation failed: uuid: Path `uuid` is required.
+2024-11-18T16:02:31.381Z [ERROR] Error adding cron job: TopologyJobs validation failed: uuid: Path `uuid` is required.
+2024-11-18T16:03:13.810Z [ERROR] Error adding cron job: TopologyJobs validation failed: uuid: Path `uuid` is required.

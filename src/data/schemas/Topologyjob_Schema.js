@@ -7,6 +7,10 @@ const TopologyJobSchema = new mongoose.Schema(
       required: true,
      
     },
+    uuid:{
+      type:String,
+      
+    },
     history: [
       {
         savedBy: { type: String },
