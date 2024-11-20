@@ -4,7 +4,10 @@ const mongoose = require('./db');
 const cron = require("node-cron")
 // Import Routes
 const cronRoutes = require('./cronroutes');
+const authRouter = require("./authRoutes")
+const authMiddleware = require('./auth')
 const TopologyJob = require("./data/schemas/Topologyjob_Schema");
+const NetworkDataSchema = require('./data/schemas/NetworkDataSchema')
 // Schemas
 const OrgsVdcVm = require("./data/schemas/OrgsVdcVm_Schema");
 
@@ -43,9 +46,10 @@ app.use((req, res, next) => {
   next();
 });
 
-// Use Cron Routes
-app.use('/api/cron', cronRoutes);
 
+
+app.use('/api/auth', authRouter);
+app.use('/api/cron',authMiddleware,cronRoutes);
 
 //*********Cron jobs service *********/
 const startCronJobs = async () => {
@@ -123,7 +127,7 @@ const startCronJobs = async () => {
 };
 
 
-if(1 == 1) {
+if(1 == 2) {
 cron.schedule('*/10 * * * * *', () => {
   logger.info('Starting scheduled cron jobs...');
   startCronJobs();
@@ -137,7 +141,7 @@ cron.schedule('*/10 * * * * *', () => {
 
 
 // Topology Endpoints
-app.get('/api/orgs', async (req, res) => {
+app.get('/api/orgs', authMiddleware,async (req, res) => {
   try {
     const orgs = await fetchOrganizations();
     logger.info(`Fetched organizations successfully from IP: ${req.ipAddress}`);
@@ -198,22 +202,44 @@ app.post('/api/topology', async (req, res) => {
   }
 });
 
-app.get('/api/updateNetworkData', async (req, res) => {
+app.get('/api/updateNetworkData',authMiddleware, async (req, res) => {
   try {
     logger.info('Fetching network data...');
     const gatewaysData = await fetchAllEdgeGateways();
+
+    const GWRecord = new NetworkDataSchema({
+      name: "GatewayData",
+      
+      data:gatewaysData
+     
+    });
+    GWRecord.save()
+    
     logger.info('Fetched Edge Gateways data successfully.');
 
     const orgVdcNetworksData = await fetchAllOrgVdcNetworks(gatewaysData);
+
+    const VdcNetworksRecord = new NetworkDataSchema({
+      name: "OrgVdcNetowork",
+      
+      data:orgVdcNetworksData
+     
+    });
+    VdcNetworksRecord.save()
+
     const edgeFirewalls = await fetchFirewallRulesForGateways(gatewaysData);
+    const EdgeFWRecord = new NetworkDataSchema({
+      name: "EdgeFW",
+      
+      data:edgeFirewalls
+     
+    });
+    EdgeFWRecord.save()
     logger.info('Fetched Org VDC Networks data successfully.');
 
-    const networkData = {
-      gateways: gatewaysData,
-      orgVdcNetworks: orgVdcNetworksData
-    };
-
-    res.status(200).json(networkData);
+    
+   
+    res.status(200).json();
     logger.info('Network data sent successfully.');
   } catch (error) {
     logger.error('Error fetching network data:', error.message);

@@ -11,8 +11,10 @@
   "dependencies": {
     "@aduh95/viz.js": "^3.7.0",
     "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
     "deep-diff": "^1.0.2",
     "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.0",
     "node-cron": "^3.0.3",
     "node-graphviz": "^0.1.1",

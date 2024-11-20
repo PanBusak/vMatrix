@@ -1,1 +1,155 @@
-as
+
+1. Získanie všetkých cron úloh
+Endpoint: GET /api/jobs
+Popis: Získa všetky cron úlohy zo zoznamu v databáze. Vráti zoznam všetkých uložených cron úloh.
+Odpoveď:
+- 200 OK: Vráti zoznam všetkých cron úloh uložených v databáze.
+
+[
+  {
+    "_id": "605c72ef1532073d3c8c5a11",
+    "name": "Sample Job Name",
+    "topology": [
+      {
+        "name": "Topologia Ipsos",
+        "uuid": "6738df902def866038dbc1d"
+      }
+    ],
+    "schedule": "***14*",
+    "history": [
+      {
+        "savedBy": "admin",
+        "createdAt": "2024-11-16T12:00:00Z"
+      }
+    ],
+    "__v": 0
+  }
+]
+
+Chyba:
+- 500 Internal Server Error: Nepodarilo sa získať cron úlohy.
+
+2. Vytvorenie novej cron úlohy
+Endpoint: POST /api/add-cron-jobs
+Popis: Pridá novú cron úlohu do systému. Úloha bude obsahovať názov, údaje o topológii (ako sú uvedené v /api/topology) a cron plán.
+Telo požiadavky:
+{
+  "name": "Sample Job Name",
+  "topology": [
+    {
+      "name": "Topologia Ipsos",
+      "uuid": "6738df902def866038dbc1d"
+    }
+  ],
+  "schedule": "***14*"
+}
+
+Odpoveď:
+- 201 Created: Úspešne vytvorená cron úloha.
+
+{
+  "message": "Cron job created successfully",
+  "job": {
+    "_id": "605c72ef1532073d3c8c5a11",
+    "name": "Sample Job Name",
+    "topology": [
+      {
+        "name": "Topologia Ipsos",
+        "uuid": "6738df902def866038dbc1d"
+      }
+    ],
+    "schedule": "***14*",
+    "history": [
+      {
+        "savedBy": "admin",
+        "createdAt": "2024-11-16T12:00:00Z"
+      }
+    ]
+  }
+}
+
+Chyba:
+- 400 Bad Request: Neplatné telo požiadavky alebo chýbajúce povinné polia.
+- 500 Internal Server Error: Nepodarilo sa vytvoriť úlohu.
+
+3. Aktualizácia cron úlohy
+Endpoint: PUT /api/update-cron-job/:id
+Popis: Aktualizuje existujúcu cron úlohu poskytnutím ID úlohy a aktualizovaných údajov. Pri aktualizácii sa vytvorí nový záznam v histórii úlohy.
+Telo požiadavky:
+{
+  "name": "Updated Job Name",
+  "topology": [
+    {
+      "name": "Updated Topologia Ipsos",
+      "uuid": "6738df902def866038dbc1d"
+    }
+  ],
+  "schedule": "***16*"
+}
+
+Odpoveď:
+- 200 OK: Úspešne aktualizovaná cron úloha.
+
+{
+  "message": "Cron job updated successfully",
+  "job": {
+    "_id": "605c72ef1532073d3c8c5a11",
+    "name": "Updated Job Name",
+    "topology": [
+      {
+        "name": "Updated Topologia Ipsos",
+        "uuid": "6738df902def866038dbc1d"
+      }
+    ],
+    "schedule": "***16*",
+    "history": [
+      {
+        "savedBy": "admin",
+        "createdAt": "2024-11-16T12:00:00Z"
+      },
+      {
+        "savedBy": "admin",
+        "createdAt": "2024-11-16T14:00:00Z"
+      }
+    ]
+  }
+}
+
+Chyba:
+- 400 Bad Request: Neplatné telo požiadavky alebo chýbajúce povinné polia.
+- 500 Internal Server Error: Nepodarilo sa aktualizovať úlohu.
+
+4. Vymazanie cron úlohy
+Endpoint: DELETE /api/delete-cron-job/:id
+Popis: Vymaže existujúcu cron úlohu podľa jej ID.
+Odpoveď:
+- 200 OK: Úspešne vymazaná cron úloha.
+
+{
+  "message": "Cron job deleted successfully"
+}
+
+Chyba:
+- 404 Not Found: Úloha so zadaným ID neexistuje.
+- 500 Internal Server Error: Nepodarilo sa vymazať úlohu.
+
+5. Získanie histórie cron úlohy
+Endpoint: GET /api/job-history/:id
+Popis: Získa históriu konkrétnej cron úlohy. Zobrazí zoznam zmien alebo akcií, ktoré sa vykonali pre túto úlohu.
+Odpoveď:
+- 200 OK: Vráti históriu cron úlohy.
+
+[
+  {
+    "savedBy": "admin",
+    "createdAt": "2024-11-16T12:00:00Z"
+  },
+  {
+    "savedBy": "admin",
+    "createdAt": "2024-11-16T14:00:00Z"
+  }
+]
+
+Chyba:
+- 404 Not Found: Úloha so zadaným ID neexistuje.
+- 500 Internal Server Error: Nepodarilo sa získať históriu úlohy.

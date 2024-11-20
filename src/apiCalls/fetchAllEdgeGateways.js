@@ -3,6 +3,7 @@ const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
 const logger = require('../logger'); // Assuming you have a Winston logger set up
 
+
 async function fetchAllEdgeGateways() {
   try {
     logger.info("Initial request for Edge Gateways started");
@@ -67,7 +68,9 @@ async function fetchAllEdgeGateways() {
     );
 
     logger.info('Fetched all Edge Gateways successfully.');
-    fileUtils.saveToFile(allEdgeGateways, 'edgeGateways.json');
+  
+    //console.log("Kokot som")
+    fileUtils.saveToFile(allEdgeGateways, 'AllEdgeGateways.json');
 
     return allEdgeGateways;
   } catch (error) {

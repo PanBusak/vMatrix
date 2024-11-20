@@ -5970,10 +5970,18 @@
             {
               "name": "172.26.3.57",
               "id": "urn:vcloud:firewallGroup:c87957df-f119-4799-9a4f-d7536bae63bd"
+            },
+            {
+              "name": "172.16.12.8",
+              "id": "urn:vcloud:firewallGroup:c39c1522-621f-4e16-ab93-965f48287256"
             }
           ],
           "sourceFirewallIpAddresses": null,
           "destinationFirewallGroups": [
+            {
+              "name": "172.26.3.57",
+              "id": "urn:vcloud:firewallGroup:c87957df-f119-4799-9a4f-d7536bae63bd"
+            },
             {
               "name": "172.16.12.8",
               "id": "urn:vcloud:firewallGroup:c39c1522-621f-4e16-ab93-965f48287256"
@@ -5989,7 +5997,7 @@
           "networkContextProfiles": null,
           "active": true,
           "version": {
-            "version": 10
+            "version": 11
           },
           "comments": null,
           "appliedTo": null,

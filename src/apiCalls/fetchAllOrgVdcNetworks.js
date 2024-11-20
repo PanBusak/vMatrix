@@ -59,7 +59,7 @@ async function fetchAllOrgVdcNetworks() {
 
     logger.info('Fetched all orgVdcNetworks successfully.');
     fileUtils.saveToFile(allNetworks, 'orgVdcNetworks.json');
-
+   
     return allNetworks;
   } catch (error) {
     logger.error('Error fetching orgVdcNetworks:', error.response ? error.response.data : error.message);

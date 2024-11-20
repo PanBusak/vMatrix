@@ -2,7 +2,7 @@ const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
 const logger = require('../logger');
-
+const NetworkDataSchema = require('../data/schemas/NetworkDataSchema')
 /**
  * Fetch firewall and NAT rules for multiple edge gateways.
  * @param {Object[]} gateways - Array of gateway objects, each containing `id`, `name`, and `type` properties.
@@ -85,6 +85,8 @@ async function fetchFirewallRulesForGateways(gateways) {
       natRules: natRulesData
     };
     fileUtils.saveToFile(outputData, 'firewallRules.json');
+
+   
     logger.info('Fetched and saved firewall and NAT rules for all gatewaysX successfully.');
 
     return outputData;

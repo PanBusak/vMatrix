@@ -1,0 +1,1454 @@
+2024-11-19T08:23:33.019Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-19T08:23:33.025Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-19T08:23:33.026Z [INFO] Starting to fetch access token
+2024-11-19T08:23:33.080Z [INFO] Server is running on http://localhost:3000
+2024-11-19T08:23:33.095Z [INFO] Mongoose connected to MongoDB
+2024-11-19T08:23:33.653Z [INFO] Access token fetch script successfull.
+2024-11-19T08:23:33.654Z [INFO] Access Token fetched successfully
+2024-11-19T08:23:33.654Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyNjM4MTMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZGQ5ZWJkODk5ZGEwNDRhM2EwOTNjZWI2Njg4ZTE4NzUifQ.dhHg3qCb26aTTB6oR75UZUnNxx4iOpBYrlxMPLAhlb8dTr5R3IrDuDN11_AdXVIU7VIg2SzpoaW6L3qg6rgB8P2YOmV4oJYjop5AOpKRjRpUtPqpMS6mJxADAn_JIJQH1lUrKx6fEnde2HWIXH3VtFqbegL0mJ3LiSNoLSsRCVa3cLCaVo73aO9ak3RaH2B3N_WvsbEDSEBf0S3UZWZCWxixdNoFfPuipGQvPukknjOPGW0ftLGBQGNK5U_mOT98wVjjuBhM7iF3H3px1LBhJisC_6pBRx9ZqE9GbP1rukhu-zKkY4-9v-63m1Xn3Bw617K1PtopkR7Tqs99D6mWLg
+2024-11-19T09:21:25.618Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-19T09:21:25.625Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-19T09:21:25.626Z [INFO] Starting to fetch access token
+2024-11-19T09:21:25.683Z [INFO] Server is running on http://localhost:3000
+2024-11-19T09:21:25.700Z [INFO] Mongoose connected to MongoDB
+2024-11-19T09:21:26.311Z [INFO] Access token fetch script successfull.
+2024-11-19T09:21:26.311Z [INFO] Access Token fetched successfully
+2024-11-19T09:21:26.311Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyNjcyODUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiM2RkODg5YzdhNTVmNGZkZmFmNDcyNWJlY2MyY2NhODcifQ.cQ91n8E3-UeNsdje8HUcJIRkHgLNUYT0LmcE2AQh8FHSsOvTNbqEvgmKHZlcSnERyirS2H8gnZdEAXEdRZLwuTx_vsvRkcK2A_iLW0Oj9M81eAyjl5G17grpiZRNM_S_yyKciaCItXLikrsPOKkP0iu_sYSsvM1kv6FtIVtCXIRId5RF452-omzVPP_kwlqW43C_hBrDj7nsM0UnMpScl4zJb6puLfHTdqndCA00xjMnrYV8Qdj3Wa3vSwWZ1v_DyvHRfqCKr1svAgmY-JeNAblJ4rEqndsgpPe4ibW8l1kC5OXuhh-6vjvoC6O5UwiQq1nOoYGkUcIyUG3hq5ZLcg
+2024-11-19T09:38:56.196Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-19T09:38:56.200Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-19T09:38:56.201Z [INFO] Starting to fetch access token
+2024-11-19T09:38:56.239Z [INFO] Server is running on http://localhost:3000
+2024-11-19T09:38:56.254Z [INFO] Mongoose connected to MongoDB
+2024-11-19T09:38:56.781Z [INFO] Access token fetch script successfull.
+2024-11-19T09:38:56.782Z [INFO] Access Token fetched successfully
+2024-11-19T09:38:56.782Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyNjgzMzYsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOTFlNmUyODQxYWE2NDQ4ZDhiYjhjMjdlMDE2OThjOTEifQ.f-cmxfnjKlwoYmWuCMpgso2_-eg3K0rTRmrqkLdcOGqHKtJunbT3S21ZZEDu2KGQbdMx7eMNZv15S1iSyjKoBPwGm6WJqhfdcApl77auBo846cnG6GxLEUnbmeNp74OKu84boyOgLyJKfDHjeZmqNFst5Yzqrvxc5SL7Skj_E92gpCDAYdtTNq6PRiPjCMhz6xkClgnZz_xTZNANQ-wweLPXA-cRlJgwvjauHPZmU_PEdMiy1z5kaYl1crVA4Bu44-fJ4Z7BawdNe5QTm15G9wWXVaSAR3EAKOGEYbs9O9Lhl8CodgmPcrKKxQgpfY_RJWcZshIjtyGTPECavZTpcg
+2024-11-19T09:39:46.601Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-19T09:39:47.258Z [INFO] Fetched VDCs fpr successfully.
+2024-11-19T09:39:47.259Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-19T09:39:47.545Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-19T09:39:47.545Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-19T09:39:48.210Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-19T09:39:48.211Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-19T09:39:48.211Z [INFO] Making requests for 13 VMs
+2024-11-19T09:39:48.658Z [INFO] Fetched and updated all VM details successfully.
+2024-11-19T09:39:48.658Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-19T09:39:48.672Z [INFO] No existing topology found for UUID: 41fc155c-fe42-4d3b-b0a9-031592d98220. Creating a new entry.
+2024-11-19T10:55:39.967Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-19T10:55:39.974Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-19T10:55:39.975Z [INFO] Starting to fetch access token
+2024-11-19T10:55:40.023Z [INFO] Server is running on http://localhost:3000
+2024-11-19T10:55:40.037Z [INFO] Mongoose connected to MongoDB
+2024-11-19T10:55:40.576Z [INFO] Access token fetch script successfull.
+2024-11-19T10:55:40.576Z [INFO] Access Token fetched successfully
+2024-11-19T10:55:40.577Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyNzI5NDAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZjhlNWEwMTcwNDc0NGNhOGIzOTI3Y2FiZGRhNzU4OGEifQ.B7316QTXfLrYd7XFf9ddNKLh542CeTlvP4gA_A84Y4k_23G5s5H1L4OcrNW5yUy7chdnKqLo68lmuEkmRcfW6zr6Lr4_KWsMgc_3S6I_M72zsraYsxADWjKX1L8kmSNzw0xOogROBH5l64Womamun82RO93dFkOZX5MeFl70a9xJqThaC0GzqKjsBFXFXNdySPO4Z4jUkylIRTpdqAct0uMZxVEi0hE1Ed9VQx3GAPtFAI2vwwiUJBMdMhGnFS9DQvYigxbN0ed7q6gPa1deDqthm9kdmr3RjTrkak1V5RlKGmObGaVNgIIFyMD_n6AEMLGsdAYXJgnQnf2VwYMaOg
+2024-11-19T10:55:43.660Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-19T10:55:43.661Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-19T10:56:57.831Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-19T10:56:58.494Z [INFO] Fetched VDCs fpr successfully.
+2024-11-19T10:56:58.494Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-19T10:56:58.778Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-19T10:56:58.779Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-19T10:57:01.134Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-19T10:57:01.135Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-19T10:57:01.136Z [INFO] Making requests for 56 VMs
+2024-11-19T10:57:01.923Z [INFO] Fetched and updated all VM details successfully.
+2024-11-19T10:57:01.924Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-19T10:57:01.934Z [INFO] No existing topology found for UUID: cb695826-f7e5-4014-bc82-fc40f876f6af. Creating a new entry.
+2024-11-19T12:41:08.152Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-19T12:41:08.156Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-19T12:41:08.157Z [INFO] Starting to fetch access token
+2024-11-19T12:41:08.193Z [INFO] Server is running on http://localhost:3000
+2024-11-19T12:41:08.206Z [INFO] Mongoose connected to MongoDB
+2024-11-19T12:41:08.813Z [INFO] Access token fetch script successfull.
+2024-11-19T12:41:08.814Z [INFO] Access Token fetched successfully
+2024-11-19T12:41:08.814Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyNzkyNjgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMzRmNjZlMTA3Nzc3NDc4Njg0MGU4NGYyNzczMWU4ODMifQ.PCfM7Sh9Vn3Eb700xgqe8Ze5XjOKtBaGUb5KDnBOuop1Wl5sUxP3KL65rOHjqTUBTWmxivo5QYbJ6SMCje0mR0EB5lD4ee1p9G5hKR8pb_2nNPwfRv3FQPvdNfp6fH5BS5IoSomJ8cGFOnUfuMxbpPVtC3FKVVxyb24WuAOfQiUyZiYif_bLFm568OT3aPvlk8UZvHX800o_k7pf_yC-rFOnKDtQpxZXz5T9VcHpnAAo0Pb40RnvLESVZd0km1n02AE0XiKHWYWfbcMypFTRFSmdcuvuxLF1Vss1Fdkp5YHiPXD4cWLEiHW6K1qR99sTntK74TFV6ja4rs-ASoz_Aw
+2024-11-19T12:41:44.215Z [INFO] Fetching network data...
+2024-11-19T12:41:44.215Z [INFO] Initial request for Edge Gateways started
+2024-11-19T12:41:44.444Z [INFO] Initial request for Edge Gateways done!
+2024-11-19T12:41:44.444Z [INFO] Making 115 edgeGateways requests
+2024-11-19T12:41:45.274Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-19T12:41:45.274Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-19T12:41:45.930Z [INFO] Initial request done!
+2024-11-19T12:41:45.931Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-19T12:41:47.310Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-19T12:41:47.319Z [ERROR] Error fetching orgVdcNetworks:
+2024-11-19T12:41:47.319Z [ERROR] Error fetching network data:
+2024-11-19T12:49:59.074Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-19T12:49:59.079Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-19T12:49:59.080Z [INFO] Starting to fetch access token
+2024-11-19T12:49:59.118Z [INFO] Server is running on http://localhost:3000
+2024-11-19T12:49:59.133Z [INFO] Mongoose connected to MongoDB
+2024-11-19T12:49:59.672Z [INFO] Access token fetch script successfull.
+2024-11-19T12:49:59.672Z [INFO] Access Token fetched successfully
+2024-11-19T12:49:59.673Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIyNzk3OTksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOTA5NmRjMjI3NDEzNGMzMDk5MDFlNGRlNzcwYWQ1NjIifQ.O9MHCAZsy13FWSQY-lQyF9Igibz_jpURlZaKXHpegUHyE1GkjWP-g72C8qIayE26cO_QXyghlF_3I7xzVUR3qeJs2kSf4VlaVrCeqB_KOhVYmoVSsXzKLqH1PvYjNdZHmF67sk1kzdvrUpXHKCfHPw6xtNgsi1WQGFA8y9iYHQzZO7vd84x1E5M0IDkl4C_ZZFLQr_A7UR2XRMiUmECaL2WqHxw1PBLa0XcvJumn5U_ApRbTPaqGO1i57LHrIS87xVj49yuBBDZDuNathbka8rjcMVG5C1yVt6JJ5k8GRzDun9LbpHxqHEQ25ALKK_SIw1aKy_g6DhogjjZ7IsrcZQ
+2024-11-19T12:50:03.036Z [INFO] Fetching network data...
+2024-11-19T12:50:03.037Z [INFO] Initial request for Edge Gateways started
+2024-11-19T12:50:03.289Z [INFO] Initial request for Edge Gateways done!
+2024-11-19T12:50:03.290Z [INFO] Making 115 edgeGateways requests
+2024-11-19T12:50:04.163Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-19T12:50:04.163Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-19T12:50:04.909Z [INFO] Initial request done!
+2024-11-19T12:50:04.910Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-19T12:50:06.356Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-19T12:50:06.362Z [INFO] Fetching firewall and NAT rules for 115 gatewaysX
+2024-11-19T12:50:19.775Z [INFO] Fetched and saved firewall and NAT rules for all gatewaysX successfully.
+2024-11-19T12:50:19.776Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-19T12:50:19.776Z [ERROR] Error fetching network data:
+2024-11-20T08:36:45.776Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-20T08:36:45.780Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T08:36:45.780Z [INFO] Starting to fetch access token
+2024-11-20T08:36:45.814Z [INFO] Server is running on http://localhost:3000
+2024-11-20T08:36:45.828Z [INFO] Mongoose connected to MongoDB
+2024-11-20T08:36:46.348Z [INFO] Access token fetch script successfull.
+2024-11-20T08:36:46.348Z [INFO] Access Token fetched successfully
+2024-11-20T08:36:46.348Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTEwMDUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOTk5MDQ5MGM4MjA0NGU3MDhlNjJlODcyNTdlM2U5YTIifQ.gLQ4_tfOHH029QhzeT4UFfUMBewbRICnctHpnvd3wr0Aes3iUWdZ_H8CqIaLVmVAV-DGJnu1-0B7oJ98fIaLM8fsRBPRZ5WdSkDGYK0ojVjGImtWAwQKNYCGnxNZk4kuQTW27Z6Vt027GKLSzdt5IBZgzxCtVCdlsECYmr5Nll5csGLECysmVnVsA7uQCYNZM5aCNuodmksTeZxiJX6CEN4c9s4QWPtlNXkKRYYaLidVnvJ4-NnS8simeBWxBHjplqurJyPAX1po4rbg-EzUeeL9jBzvAHFm6A_2iAPmBbx_Uzccj9K5WuRFTBHDDVQKQcAkF0bpJCz2y4E3hUIMPg
+2024-11-20T08:38:04.982Z [INFO] Fetching network data...
+2024-11-20T08:38:04.983Z [INFO] Initial request for Edge Gateways started
+2024-11-20T08:38:05.223Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T08:38:05.224Z [INFO] Making 115 edgeGateways requests
+2024-11-20T08:38:06.040Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T08:38:06.041Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-20T08:38:06.818Z [INFO] Initial request done!
+2024-11-20T08:38:06.819Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-20T08:38:08.121Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-20T08:38:08.128Z [INFO] Fetching firewall and NAT rules for 115 gatewaysX
+2024-11-20T08:38:27.675Z [INFO] Fetched and saved firewall and NAT rules for all gatewaysX successfully.
+2024-11-20T08:38:27.676Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-20T08:38:27.676Z [ERROR] Error fetching network data:
+2024-11-20T08:39:59.118Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-20T08:39:59.122Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T08:39:59.123Z [INFO] Starting to fetch access token
+2024-11-20T08:39:59.160Z [INFO] Server is running on http://localhost:3000
+2024-11-20T08:39:59.172Z [INFO] Mongoose connected to MongoDB
+2024-11-20T08:39:59.694Z [INFO] Access token fetch script successfull.
+2024-11-20T08:39:59.695Z [INFO] Access Token fetched successfully
+2024-11-20T08:39:59.695Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTExOTksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMDg1N2Y5YTIxM2NhNDhmMDkwZDUyYTJhOThkOTIwNzEifQ.IK9jG2qCDoGLlv9jaAv6F8vL2wgKpkaOxIeISvFOG_NHB2f7N1HoXog3OJnxdfZ8SXEEdX0Fr0F8qcCNoWCpv32Mq0pM0bsQKzpZT3Lko1ouys35bU6tRA18DV3FGW5b8JRaZ1dU8XOsFKyUnrz4ug9_NSYadje6rBl7oN66dODA0INMt-DezA8OHvdwPJKEN7uiWq-T7OUCqRln2oHiJlmyFcdkVCP-yMY97E22AmjO1TpVB8uoAyR4BECfc9v8EUwSFme3ae1HDZrdcU5E2UlpHTd0Lxs6Z9J4Vy0KWwoK6F-NR77lSobBed_DBg_2Yyr2QqHFR1KRA1uh1g2bLQ
+2024-11-20T08:40:04.161Z [INFO] Fetching network data...
+2024-11-20T08:40:04.162Z [INFO] Initial request for Edge Gateways started
+2024-11-20T08:40:04.399Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T08:40:04.400Z [INFO] Making 115 edgeGateways requests
+2024-11-20T08:40:05.315Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T08:40:05.315Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-20T08:40:06.133Z [INFO] Initial request done!
+2024-11-20T08:40:06.133Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-20T08:40:07.295Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-20T08:40:07.301Z [INFO] Fetching firewall and NAT rules for 115 gatewaysX
+2024-11-20T08:40:19.992Z [INFO] Fetched and saved firewall and NAT rules for all gatewaysX successfully.
+2024-11-20T08:40:19.993Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-20T08:40:19.994Z [ERROR] Error fetching network data:
+2024-11-20T08:41:27.598Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-20T08:41:27.602Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T08:41:27.603Z [INFO] Starting to fetch access token
+2024-11-20T08:41:27.646Z [INFO] Server is running on http://localhost:3000
+2024-11-20T08:41:27.663Z [INFO] Mongoose connected to MongoDB
+2024-11-20T08:41:28.229Z [INFO] Access token fetch script successfull.
+2024-11-20T08:41:28.229Z [INFO] Access Token fetched successfully
+2024-11-20T08:41:28.230Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTEyODcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNWRlNWZiMjBjZTU2NGNkZDhiODdiNjNiZGE1YWIwZDgifQ.dxTz8Y1-tvBe2ykFp7QFCFUCGxbpFDvgIUFB2SS5XLSk4KsndOsQZAyhmQcma97CikEq9R1uQOul7GcMB5lvotZKrdzK1r5Ib9yKxWdfJv7EMueQyjCuTKgk5neS3rePfdU3CjyD-Uiid01-XC308C1HXYjiL8FvwxR06gc_B7tH6oVWjEpUNk6nuBg0ZucvVdGmOny2v8Fr7mm0ItJgG8TMpytlWrR14ECNIs34S7fcaS3c-tzsBPG6EAPKPXcvil4buPrg1pnaxr0Is_gbkWenlQCnhd6I3fzFYiciB7PyOe1XszMDNo-lB_dZ-0mfYQqiIegeOAbwOOQBFDkZ8Q
+2024-11-20T08:41:33.334Z [INFO] Fetching network data...
+2024-11-20T08:41:33.335Z [INFO] Initial request for Edge Gateways started
+2024-11-20T08:41:33.567Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T08:41:33.567Z [INFO] Making 115 edgeGateways requests
+2024-11-20T08:41:34.999Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T08:41:35.000Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-20T08:41:35.772Z [INFO] Initial request done!
+2024-11-20T08:41:35.773Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-20T08:41:36.998Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-20T08:41:37.006Z [INFO] Fetching firewall and NAT rules for 115 gatewaysX
+2024-11-20T08:41:46.403Z [INFO] Fetched and saved firewall and NAT rules for all gatewaysX successfully.
+2024-11-20T08:41:46.405Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-20T08:41:46.423Z [INFO] Network data sent successfully.
+2024-11-20T08:43:36.053Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-11-20T08:43:36.053Z [INFO] Fetched organizations successfully from IP: ::1
+2024-11-20T08:44:09.601Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-20T08:44:10.191Z [INFO] Fetched VDCs fpr successfully.
+2024-11-20T08:44:10.191Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-20T08:44:10.465Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-20T08:44:10.465Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-20T08:44:11.181Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-20T08:44:11.181Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-20T08:44:11.182Z [INFO] Making requests for 24 VMs
+2024-11-20T08:44:11.668Z [INFO] Fetched and updated all VM details successfully.
+2024-11-20T08:44:11.669Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-20T08:44:11.677Z [INFO] No existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Creating a new entry.
+2024-11-20T08:48:02.799Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-20T08:48:02.803Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T08:48:02.804Z [INFO] Starting to fetch access token
+2024-11-20T08:48:02.845Z [INFO] Server is running on http://localhost:3000
+2024-11-20T08:48:02.859Z [INFO] Mongoose connected to MongoDB
+2024-11-20T08:48:03.395Z [INFO] Access token fetch script successfull.
+2024-11-20T08:48:03.396Z [INFO] Access Token fetched successfully
+2024-11-20T08:48:03.396Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTE2ODIsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiODNmM2Q4NmM2ZDkyNDFjYzhhMDQ5ZjYxZGU2YWFmNDEifQ.f3oafTZO-l4_nVJMHEtWS2nGvh85_dYs61TqEDbWNkFgE5ohggNnfSD2PH9GjvLjuBLKfw4kzN6R_1Zy6AcE8n587UPPKzzRGb6vMU1CAL7zTHNTugp2lXE86CPwurSCS3pXZ1BsyB2uT61FN2K_vmo1XeHSGeMugsCVM2vFSkKESlT3E_zVv9PB0JFYlBmLOw9C6uTmKRhcQtOEgLPWPvdmkkHtKp_VkkSHR0E9ab5ikD3Z_eK9USndqxRhDLsE2rAy-6NTUZXdkDSA04qUreUFIvR0KUbeGML9ea33N745vwlMThPYlKNh2Mri-3s_YAGSXEc_cPDKaVSjywwBPA
+2024-11-20T08:48:08.206Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-20T08:48:08.948Z [INFO] Fetched VDCs fpr successfully.
+2024-11-20T08:48:08.949Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-20T08:48:09.211Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-20T08:48:09.211Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-20T08:48:09.836Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-20T08:48:09.836Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-20T08:48:09.837Z [DEBUG] Prepared VM request for VM ID: c647c09f-c382-4c78-80be-d9a5da327f57, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-c647c09f-c382-4c78-80be-d9a5da327f57
+2024-11-20T08:48:09.837Z [DEBUG] Prepared VM request for VM ID: 8adff57f-8a2a-4416-a954-360a75efb0c0, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-8adff57f-8a2a-4416-a954-360a75efb0c0
+2024-11-20T08:48:09.838Z [DEBUG] Prepared VM request for VM ID: c643646b-80c9-4686-977f-f686ab5256bd, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-c643646b-80c9-4686-977f-f686ab5256bd
+2024-11-20T08:48:09.838Z [DEBUG] Prepared VM request for VM ID: 11d876d9-22e7-4eca-b99d-8653cdf4bf7a, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-11d876d9-22e7-4eca-b99d-8653cdf4bf7a
+2024-11-20T08:48:09.838Z [DEBUG] Prepared VM request for VM ID: bd41bde0-e739-4e7a-bed2-532ad5446ff2, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-bd41bde0-e739-4e7a-bed2-532ad5446ff2
+2024-11-20T08:48:09.838Z [DEBUG] Prepared VM request for VM ID: 52c93af7-13a7-4319-bb9e-789ad1231130, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-52c93af7-13a7-4319-bb9e-789ad1231130
+2024-11-20T08:48:09.838Z [DEBUG] Prepared VM request for VM ID: 328787cf-fc05-43c8-ae46-998df91caa43, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-328787cf-fc05-43c8-ae46-998df91caa43
+2024-11-20T08:48:09.838Z [DEBUG] Prepared VM request for VM ID: 14e860bf-345b-415c-96a2-c8689bcce180, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-14e860bf-345b-415c-96a2-c8689bcce180
+2024-11-20T08:48:09.839Z [DEBUG] Prepared VM request for VM ID: 4348cfac-0664-45dd-97d8-1fef7327cb83, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-4348cfac-0664-45dd-97d8-1fef7327cb83
+2024-11-20T08:48:09.839Z [DEBUG] Prepared VM request for VM ID: 5957d4f0-4ba5-4271-a558-8f8cc0ea7acc, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-5957d4f0-4ba5-4271-a558-8f8cc0ea7acc
+2024-11-20T08:48:09.839Z [DEBUG] Prepared VM request for VM ID: 23b11e2a-f96e-4597-af1d-aafd10dfef51, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-23b11e2a-f96e-4597-af1d-aafd10dfef51
+2024-11-20T08:48:09.839Z [DEBUG] Prepared VM request for VM ID: d080e6b5-06c6-4fe8-8e36-2f61618aa6e6, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-d080e6b5-06c6-4fe8-8e36-2f61618aa6e6
+2024-11-20T08:48:09.839Z [DEBUG] Prepared VM request for VM ID: feca85d7-c6c8-4369-8b02-2520a33d06f0, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-feca85d7-c6c8-4369-8b02-2520a33d06f0
+2024-11-20T08:48:09.839Z [DEBUG] Prepared VM request for VM ID: d001b501-bab0-495c-ae99-a70b530ee258, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-d001b501-bab0-495c-ae99-a70b530ee258
+2024-11-20T08:48:09.839Z [DEBUG] Prepared VM request for VM ID: 3a6a1c7a-4638-4d51-9b01-407efcc7f3e2, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-3a6a1c7a-4638-4d51-9b01-407efcc7f3e2
+2024-11-20T08:48:09.839Z [DEBUG] Prepared VM request for VM ID: 9759158c-3258-4295-a095-47b8ea57cffe, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-9759158c-3258-4295-a095-47b8ea57cffe
+2024-11-20T08:48:09.840Z [DEBUG] Prepared VM request for VM ID: 93abdbce-ae7a-4b01-b0cd-848e28a30b6e, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-93abdbce-ae7a-4b01-b0cd-848e28a30b6e
+2024-11-20T08:48:09.840Z [DEBUG] Prepared VM request for VM ID: 11af38e4-5758-4154-abb9-4d889ba37db4, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-11af38e4-5758-4154-abb9-4d889ba37db4
+2024-11-20T08:48:09.840Z [DEBUG] Prepared VM request for VM ID: 9c27ac88-06cc-4cfa-b6a3-fe435972899e, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-9c27ac88-06cc-4cfa-b6a3-fe435972899e
+2024-11-20T08:48:09.840Z [DEBUG] Prepared VM request for VM ID: a588a521-e68e-468d-9876-c7a5017d00d9, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-a588a521-e68e-468d-9876-c7a5017d00d9
+2024-11-20T08:48:09.840Z [DEBUG] Prepared VM request for VM ID: 67e2a721-9457-4a01-b570-fcce27bb5bb7, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-67e2a721-9457-4a01-b570-fcce27bb5bb7
+2024-11-20T08:48:09.840Z [DEBUG] Prepared VM request for VM ID: 32901edb-544d-450b-b953-1bec18fe1951, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-32901edb-544d-450b-b953-1bec18fe1951
+2024-11-20T08:48:09.841Z [DEBUG] Prepared VM request for VM ID: 3204e8ff-b721-4005-9f70-793346b05558, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-3204e8ff-b721-4005-9f70-793346b05558
+2024-11-20T08:48:09.841Z [DEBUG] Prepared VM request for VM ID: 5f830114-1ed4-4222-ad4d-5fcc992b1214, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-5f830114-1ed4-4222-ad4d-5fcc992b1214
+2024-11-20T08:48:09.841Z [INFO] Making requests for 24 VMs.
+2024-11-20T08:48:10.304Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57
+2024-11-20T08:48:10.305Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.305Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.305Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.305Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.5, MAC=00:50:56:06:a7:29, edgeGateway=undefined
+2024-11-20T08:48:10.306Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0
+2024-11-20T08:48:10.306Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.306Z [DEBUG] Looking up edgeGateway for network "test".
+2024-11-20T08:48:10.306Z [WARN] No edgeGateway found for network "test".
+2024-11-20T08:48:10.306Z [DEBUG] Network details: networkName=test, ipAddress=111.111.111.10, MAC=00:50:56:06:a3:e5, edgeGateway=undefined
+2024-11-20T08:48:10.306Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd
+2024-11-20T08:48:10.307Z [DEBUG] VM details updated: RAM=4096, numCpu=4
+2024-11-20T08:48:10.307Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T08:48:10.307Z [WARN] No edgeGateway found for network "none".
+2024-11-20T08:48:10.307Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a7:2a, edgeGateway=undefined
+2024-11-20T08:48:10.307Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T08:48:10.307Z [WARN] No edgeGateway found for network "none".
+2024-11-20T08:48:10.308Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a7:2b, edgeGateway=undefined
+2024-11-20T08:48:10.308Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a
+2024-11-20T08:48:10.308Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.308Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.308Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.309Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.8, MAC=00:50:56:06:a5:67, edgeGateway=undefined
+2024-11-20T08:48:10.309Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2
+2024-11-20T08:48:10.309Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T08:48:10.309Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.309Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.309Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.22, MAC=00:50:56:06:9d:47, edgeGateway=undefined
+2024-11-20T08:48:10.310Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T08:48:10.310Z [WARN] No edgeGateway found for network "none".
+2024-11-20T08:48:10.310Z [DEBUG] Network details: networkName=none, ipAddress=5.5.5.3, MAC=00:50:56:06:9d:46, edgeGateway=undefined
+2024-11-20T08:48:10.310Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.310Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.310Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.7, MAC=00:50:56:06:a4:f1, edgeGateway=undefined
+2024-11-20T08:48:10.311Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130
+2024-11-20T08:48:10.311Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T08:48:10.311Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.311Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.312Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.32, MAC=00:50:56:06:a0:d9, edgeGateway=undefined
+2024-11-20T08:48:10.312Z [DEBUG] Looking up edgeGateway for network "pebalog test".
+2024-11-20T08:48:10.312Z [WARN] No edgeGateway found for network "pebalog test".
+2024-11-20T08:48:10.312Z [DEBUG] Network details: networkName=pebalog test, ipAddress=5.5.5.2, MAC=00:50:56:06:a0:da, edgeGateway=undefined
+2024-11-20T08:48:10.312Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43
+2024-11-20T08:48:10.312Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.313Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.313Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.313Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.8, MAC=00:50:56:06:a4:e8, edgeGateway=undefined
+2024-11-20T08:48:10.313Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180
+2024-11-20T08:48:10.313Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T08:48:10.314Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.314Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.314Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.37, MAC=00:50:56:06:9b:05, edgeGateway=undefined
+2024-11-20T08:48:10.314Z [DEBUG] Looking up edgeGateway for network "testnetwork".
+2024-11-20T08:48:10.314Z [WARN] No edgeGateway found for network "testnetwork".
+2024-11-20T08:48:10.314Z [DEBUG] Network details: networkName=testnetwork, ipAddress=168.192.0.3, MAC=00:50:56:06:9b:06, edgeGateway=undefined
+2024-11-20T08:48:10.315Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83
+2024-11-20T08:48:10.315Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.315Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T08:48:10.316Z [WARN] No edgeGateway found for network "none".
+2024-11-20T08:48:10.316Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a6:ef, edgeGateway=undefined
+2024-11-20T08:48:10.317Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc
+2024-11-20T08:48:10.317Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T08:48:10.317Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.317Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.317Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.42, MAC=00:50:56:06:9e:e3, edgeGateway=undefined
+2024-11-20T08:48:10.317Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51
+2024-11-20T08:48:10.318Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T08:48:10.318Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.318Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.318Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.29, MAC=00:50:56:06:67:2f, edgeGateway=undefined
+2024-11-20T08:48:10.318Z [DEBUG] Looking up edgeGateway for network "pebalog test".
+2024-11-20T08:48:10.318Z [WARN] No edgeGateway found for network "pebalog test".
+2024-11-20T08:48:10.318Z [DEBUG] Network details: networkName=pebalog test, ipAddress=5.5.5.5, MAC=00:50:56:06:67:30, edgeGateway=undefined
+2024-11-20T08:48:10.319Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6
+2024-11-20T08:48:10.319Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T08:48:10.319Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.319Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.319Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.33, MAC=00:50:56:06:6e:5d, edgeGateway=undefined
+2024-11-20T08:48:10.319Z [DEBUG] Looking up edgeGateway for network "pebalog test".
+2024-11-20T08:48:10.319Z [WARN] No edgeGateway found for network "pebalog test".
+2024-11-20T08:48:10.320Z [DEBUG] Network details: networkName=pebalog test, ipAddress=5.5.5.6, MAC=00:50:56:06:80:53, edgeGateway=undefined
+2024-11-20T08:48:10.320Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0
+2024-11-20T08:48:10.320Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.320Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.320Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.320Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.200, MAC=00:50:56:06:a6:f7, edgeGateway=undefined
+2024-11-20T08:48:10.320Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.321Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.321Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.204, MAC=00:50:56:06:a6:fa, edgeGateway=undefined
+2024-11-20T08:48:10.321Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.321Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.321Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.203, MAC=00:50:56:06:a6:fb, edgeGateway=undefined
+2024-11-20T08:48:10.322Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.322Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.322Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.201, MAC=00:50:56:06:a6:fd, edgeGateway=undefined
+2024-11-20T08:48:10.322Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.323Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.323Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.202, MAC=00:50:56:06:a6:fc, edgeGateway=undefined
+2024-11-20T08:48:10.323Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258
+2024-11-20T08:48:10.323Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.323Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.323Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.324Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.101, MAC=00:50:56:06:a7:03, edgeGateway=undefined
+2024-11-20T08:48:10.324Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.324Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.324Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.100, MAC=00:50:56:06:a6:ff, edgeGateway=undefined
+2024-11-20T08:48:10.324Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.324Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.325Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.102, MAC=00:50:56:06:a7:02, edgeGateway=undefined
+2024-11-20T08:48:10.325Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.325Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.325Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.103, MAC=00:50:56:06:a7:01, edgeGateway=undefined
+2024-11-20T08:48:10.325Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.325Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.326Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.104, MAC=00:50:56:06:a7:00, edgeGateway=undefined
+2024-11-20T08:48:10.326Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2
+2024-11-20T08:48:10.326Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.326Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.326Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.326Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=null, MAC=00:50:56:06:a4:0b, edgeGateway=undefined
+2024-11-20T08:48:10.326Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T08:48:10.327Z [WARN] No edgeGateway found for network "none".
+2024-11-20T08:48:10.327Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a4:0c, edgeGateway=undefined
+2024-11-20T08:48:10.327Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe
+2024-11-20T08:48:10.327Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.327Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T08:48:10.327Z [WARN] No edgeGateway found for network "none".
+2024-11-20T08:48:10.328Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a5:fe, edgeGateway=undefined
+2024-11-20T08:48:10.328Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.328Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.328Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=null, MAC=00:50:56:06:a4:0f, edgeGateway=undefined
+2024-11-20T08:48:10.328Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e
+2024-11-20T08:48:10.329Z [DEBUG] VM details updated: RAM=8192, numCpu=4
+2024-11-20T08:48:10.329Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.329Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.329Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.43, MAC=00:50:56:06:a5:ab, edgeGateway=undefined
+2024-11-20T08:48:10.329Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.329Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.330Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.9, MAC=00:50:56:06:a5:aa, edgeGateway=undefined
+2024-11-20T08:48:10.330Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4
+2024-11-20T08:48:10.330Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T08:48:10.330Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.330Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.331Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=null, MAC=00:50:56:06:9e:d3, edgeGateway=undefined
+2024-11-20T08:48:10.331Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e
+2024-11-20T08:48:10.331Z [DEBUG] VM details updated: RAM=undefined, numCpu=undefined
+2024-11-20T08:48:10.331Z [WARN] No networks found for VM ID: urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e
+2024-11-20T08:48:10.331Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9
+2024-11-20T08:48:10.331Z [DEBUG] VM details updated: RAM=4096, numCpu=4
+2024-11-20T08:48:10.332Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.332Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.332Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.11, MAC=00:50:56:06:a6:13, edgeGateway=undefined
+2024-11-20T08:48:10.332Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T08:48:10.332Z [WARN] No edgeGateway found for network "Routed Network".
+2024-11-20T08:48:10.332Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.10, MAC=00:50:56:06:a6:14, edgeGateway=undefined
+2024-11-20T08:48:10.332Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7
+2024-11-20T08:48:10.333Z [DEBUG] VM details updated: RAM=7680, numCpu=2
+2024-11-20T08:48:10.333Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T08:48:10.333Z [WARN] No edgeGateway found for network "none".
+2024-11-20T08:48:10.333Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a7:22, edgeGateway=undefined
+2024-11-20T08:48:10.333Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951
+2024-11-20T08:48:10.333Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T08:48:10.334Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.335Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.335Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=null, MAC=00:50:56:06:a4:eb, edgeGateway=undefined
+2024-11-20T08:48:10.335Z [DEBUG] Looking up edgeGateway for network "Customertestnetwork".
+2024-11-20T08:48:10.335Z [WARN] No edgeGateway found for network "Customertestnetwork".
+2024-11-20T08:48:10.336Z [DEBUG] Network details: networkName=Customertestnetwork, ipAddress=10.0.0.50, MAC=00:50:56:06:a4:ec, edgeGateway=undefined
+2024-11-20T08:48:10.336Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558
+2024-11-20T08:48:10.336Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T08:48:10.336Z [DEBUG] Looking up edgeGateway for network "testnetwork".
+2024-11-20T08:48:10.336Z [WARN] No edgeGateway found for network "testnetwork".
+2024-11-20T08:48:10.337Z [DEBUG] Network details: networkName=testnetwork, ipAddress=fe80:0:0:0:250:56ff:fe06:9d4f, MAC=00:50:56:06:9d:4f, edgeGateway=undefined
+2024-11-20T08:48:10.337Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.337Z [WARN] No edgeGateway found for network "TSY-AdminLAN-01".
+2024-11-20T08:48:10.337Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=fe80:0:0:0:250:56ff:fe06:9d50, MAC=00:50:56:06:9d:50, edgeGateway=undefined
+2024-11-20T08:48:10.337Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214
+2024-11-20T08:48:10.337Z [DEBUG] VM details updated: RAM=undefined, numCpu=null
+2024-11-20T08:48:10.338Z [WARN] No networks found for VM ID: urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214
+2024-11-20T08:48:10.338Z [INFO] Fetched and updated all VM details successfully.
+2024-11-20T08:48:10.338Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-20T08:48:10.360Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2024-11-20T08:51:28.095Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-20T08:51:28.102Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T08:51:28.103Z [INFO] Starting to fetch access token
+2024-11-20T08:51:28.157Z [INFO] Server is running on http://localhost:3000
+2024-11-20T08:51:28.176Z [INFO] Mongoose connected to MongoDB
+2024-11-20T08:51:28.701Z [INFO] Access token fetch script successfull.
+2024-11-20T08:51:28.701Z [INFO] Access Token fetched successfully
+2024-11-20T08:51:28.701Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTE4ODgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOWI5ZTM2MWU1OTY3NDRlZGEyNmFkM2E4Y2RiZjlhYTAifQ.JlX8DCnffd_4mhhe5XaOhrLIwOyQ38irHgMff4aZkb5il1HKxrJBM6OjoYAQSTiIrtxxMk8ek-DZSiiyGwjkaTM9O64GsCiAZvcZwp40cqBXt8QZ1emVd-onfG2Qidn5zhlLESvlHxHgoMoxVAO44HH0j2IMhKOKbV9-FdbN2LUT2WnEuI2I32d4ea_4WjHGLfbRla2ssML1zysbP9nJBNB1Gytj9AkMeE3AoUGShq9i8zw28uC3YWEMYyEf6PcRy16R4jjeMnbPw3PGojFEfZ2eGB48es8kpoEMLodF1ltqP7IhASUTIg1pMez9dahwzfLJWaAiQVCrAx5JAmjBDQ
+2024-11-20T08:51:33.561Z [INFO] Fetching network data...
+2024-11-20T08:51:33.562Z [INFO] Initial request for Edge Gateways started
+2024-11-20T08:51:33.967Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T08:51:33.967Z [INFO] Making 115 edgeGateways requests
+2024-11-20T08:51:34.873Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T08:51:34.876Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-20T08:51:35.664Z [INFO] Initial request done!
+2024-11-20T08:51:35.666Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-20T08:51:37.011Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-20T08:51:37.016Z [INFO] Fetching firewall and NAT rules for 115 gatewaysX
+2024-11-20T09:06:46.906Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-20T09:06:46.913Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:06:46.914Z [INFO] Starting to fetch access token
+2024-11-20T09:06:46.994Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:06:47.017Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:06:47.571Z [INFO] Access token fetch script successfull.
+2024-11-20T09:06:47.571Z [INFO] Access Token fetched successfully
+2024-11-20T09:06:47.572Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTI4MDcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZjQwODUzZTZhZDBkNDRmZThhZmQyNzVkZjI3MjZkMzAifQ.Rt5uOv_-6brGjm01AqImK1MlKWz3vO34jjyaLV1rg34Tx7TL5Ne-3citWCaYSxvy1UXZ92_qNj3HOODTPlTKdBuFkPQCpQdL8NeUeeiOoJgHhN2F26CrK5cPHE4K5HdYb_TcCNkyky5DBWqp_EF7ad_zvShaznsxKrdPZheyHbvIH4mPvz1ucqbCvRNuvV8-8vU7Xk73sriGSuf6PHksH6-fPeihwmRkwd7mkaobWpCo9nxI3tvhVXyVd0M7GeDPk9uqG56WN_FMNvvfikiySUMbxh9mklnhrCvv7aDH3DxslcpbsnCRsm2In1x4MzzdXA-_CQ2gSmBkYQdxbGOYgA
+2024-11-20T09:07:45.287Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-20T09:07:45.294Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:07:45.296Z [INFO] Starting to fetch access token
+2024-11-20T09:07:45.349Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:07:45.368Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:07:45.916Z [INFO] Access token fetch script successfull.
+2024-11-20T09:07:45.916Z [INFO] Access Token fetched successfully
+2024-11-20T09:07:45.917Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTI4NjUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiM2FlNzAxYjk5MDdjNDgwYWE0NWEzZGJkNWQxZGE0OTQifQ.Cgmjif0YL1SUpBnP9V7ywfi2mcVXnbNP-XY5cXpOISimm40PKojKWg8kBm21LMTdJilkexo8AtB57iQWGhEwVA6ejFn-arcf2hYK3xJ2YUWStsY35vBExYJ-MFVqO4vyQy1JPGlpm5w1BjJdTp4PzpgK5TBG4_OeAii0GKulAnTkBzsbdGGRVF7h4PvLuyCpE0p7q4QsqJOzl-Ws5ev0hKfBziXEtvVyKly3YTmiqZPK9eRPMpzoq1me2Pz8PFdyGEJpdH-MtQKioiyC5nKXZDsBnhCXbpQAZz4-x73yuaEFQtDfs1WnNPMYORCYf-xErL4y6RT4cx2fbjDbaRowYg
+2024-11-20T09:17:25.058Z [WARN] orgVdcNetworks.json not found. Proceeding without network-edgeGateway data.
+2024-11-20T09:17:25.063Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:17:25.064Z [INFO] Starting to fetch access token
+2024-11-20T09:17:25.108Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:17:25.123Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:17:25.665Z [INFO] Access token fetch script successfull.
+2024-11-20T09:17:25.666Z [INFO] Access Token fetched successfully
+2024-11-20T09:17:25.666Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTM0NDUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZTE0OTFiYzkzNmI1NDkyNGE0NGFiMDY0MTc0ODViYzIifQ.Fa5ccv-5yW80Rh3Di0uVbaRRM43TNWcGaAjbswdHvHRHxKe2JdH6HzViQWQ5_l9vvqWIqSqAmK_71G3czKN6kYqQfBmpigP8zxsljEAePWJc4jHYFjQvN2YH1KIvzWYD2uvAFRBOW7g4OXJ36UuhBHZvOJYyzWwLKAGajCslpUSN_QKLVIPW7ma1V0raszdm_cUKkjql31-5_aXdPcs-g67GHk_EZl_fO1TESa3Amw3sfvxe4zLIMqr7TiNWc0lJWjzJ8EC7VY58uLOful_pHoJGGy7owMUmZG0QmIGVCNhN7RU-NjliIlNBLWmvwuE6BsFh90TMxos7U6BQ7ejiyg
+2024-11-20T09:18:17.991Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:18:17.996Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:18:17.996Z [DEBUG] Mapping network "000_AWS-Trans-LBW_164.33.112.0/30" to edgeGateway "mgmt_a_internet".
+2024-11-20T09:18:17.997Z [DEBUG] Mapping network "000_AWS-Trans-SAD_164.33.112.4/30" to edgeGateway "mgmt_a_internet".
+2024-11-20T09:18:17.997Z [DEBUG] Mapping network "000_INET_A_172.31.0.0/24-v2t" to edgeGateway "mgmt_a_internet".
+2024-11-20T09:18:17.997Z [DEBUG] Mapping network "000_MGMT_10.32.14.128/27" to edgeGateway "com-a-t29_1000020859-02-gw01".
+2024-11-20T09:18:17.997Z [DEBUG] Mapping network "000_MGMT_164.33.96.0/27-v2t" to edgeGateway "com-a-t29_1000020859-02-gw01-v2t".
+2024-11-20T09:18:17.998Z [DEBUG] Mapping network "000_MGMT_AWS-IPSecTransfer" to edgeGateway "mgmt_a_internet".
+2024-11-20T09:18:17.998Z [DEBUG] Mapping network "000_MGMT_CSA_Interconnect_172.32.0.0/24" to edgeGateway "neni".
+2024-11-20T09:18:17.999Z [DEBUG] Mapping network "000_MGMT_DT-ISP_VPN_172.31.2.128-v2t" to edgeGateway "mgmt_a_internet".
+2024-11-20T09:18:17.999Z [DEBUG] Mapping network "000_MGMT_DT-ISP_VPN_192.168.100.0/28-v2t" to edgeGateway "mgmt_b_internet".
+2024-11-20T09:18:17.999Z [DEBUG] Mapping network "000_MGMT_IPSecTransfer-v2t" to edgeGateway "mgmt_b_internet".
+2024-11-20T09:18:17.999Z [DEBUG] Mapping network "001_PROV_DD_164.22.55.128/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.000Z [DEBUG] Mapping network "001_PROV_RL_164.22.55.160/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.000Z [DEBUG] Mapping network "001_SERV_164.17.19.32/27" to edgeGateway "com-b-t29_1000020859-01-gw01".
+2024-11-20T09:18:18.000Z [DEBUG] Mapping network "10.10.96.0/21" to edgeGateway "com-a-tch_1000042338-01-gw02".
+2024-11-20T09:18:18.000Z [DEBUG] Mapping network "10.164.23.105_30-LS1047-RANCHER" to edgeGateway "dpdhl-alloc-cus-vdc-s02-01-gw".
+2024-11-20T09:18:18.000Z [DEBUG] Mapping network "14A_PROV_RL_164.22.59.224/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.001Z [DEBUG] Mapping network "14A_SERV_RL_164.17.17.192/26_B" to edgeGateway "com-b-t29_1000020859-01-gw05".
+2024-11-20T09:18:18.001Z [DEBUG] Mapping network "14A_SERV_RL_164.17.17.64/26_A" to edgeGateway "com-b-t29_1000020859-01-gw05".
+2024-11-20T09:18:18.001Z [DEBUG] Mapping network "AdmiLAN-Transfernetz" to edgeGateway "com-a-tsi-ga-dtag-prod-01-gw-01".
+2024-11-20T09:18:18.001Z [DEBUG] Mapping network "Admin-Netz" to edgeGateway "neni".
+2024-11-20T09:18:18.001Z [DEBUG] Mapping network "ADMIN-Netz-2" to edgeGateway "neni".
+2024-11-20T09:18:18.001Z [DEBUG] Mapping network "AD-TEMPORARY-10.188.144.1_24" to edgeGateway "com-a-dpdhl-02-gw01".
+2024-11-20T09:18:18.002Z [DEBUG] Mapping network "AD_VLAN1032_160.58.10.1_26" to edgeGateway "com-a-dpdhl-02-gw01".
+2024-11-20T09:18:18.002Z [DEBUG] Mapping network "AD_VLAN1033_160.58.10.65_26" to edgeGateway "com-a-dpdhl-02-gw01".
+2024-11-20T09:18:18.002Z [DEBUG] Mapping network "AD_VLAN1034_160.58.10.129_26" to edgeGateway "com-a-dpdhl-02-gw01".
+2024-11-20T09:18:18.002Z [DEBUG] Mapping network "AMT-GS-Cust" to edgeGateway "com-a-tsi-ga-dtag-prod-01-gw-02".
+2024-11-20T09:18:18.002Z [DEBUG] Mapping network "AMT-Transfer-LAN" to edgeGateway "com-a-tsi-ga-dtag-prod-01-gw-02".
+2024-11-20T09:18:18.002Z [DEBUG] Mapping network "APP-Server" to edgeGateway "neni".
+2024-11-20T09:18:18.002Z [DEBUG] Mapping network "BE_Access-Database" to edgeGateway "neni".
+2024-11-20T09:18:18.003Z [DEBUG] Mapping network "BEK_PROV_RL_164.22.58.96/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.003Z [DEBUG] Mapping network "BEK_SERV_RL_164.17.17.192/26_B" to edgeGateway "com-a-t29_1000020859-01-gw05".
+2024-11-20T09:18:18.003Z [DEBUG] Mapping network "BEK_SERV_RL_164.17.17.64/26_A" to edgeGateway "com-a-t29_1000020859-01-gw05".
+2024-11-20T09:18:18.003Z [DEBUG] Mapping network "benchmark-vlan-4000" to edgeGateway "neni".
+2024-11-20T09:18:18.003Z [DEBUG] Mapping network "BE_ObjectStorage" to edgeGateway "com-a-tea_1000031003-01-gw03".
+2024-11-20T09:18:18.004Z [DEBUG] Mapping network "Bernd-test" to edgeGateway "bas-b-testorg-01-gw-01".
+2024-11-20T09:18:18.004Z [DEBUG] Mapping network "BE_SQL-Cluster" to edgeGateway "neni".
+2024-11-20T09:18:18.009Z [DEBUG] Mapping network "CAAS_LB1-PoC" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.010Z [DEBUG] Mapping network "CAAS_LB2-PoC" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.010Z [DEBUG] Mapping network "CAAS_LB3-PacketPortal" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.010Z [DEBUG] Mapping network "CAAS_LB4-PacketPortal" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.011Z [DEBUG] Mapping network "Customertestnetwork" to edgeGateway "bas-a-testcustomer-01-gw-01".
+2024-11-20T09:18:18.011Z [DEBUG] Mapping network "DBCollector VLAN" to edgeGateway "neni".
+2024-11-20T09:18:18.011Z [DEBUG] Mapping network "DBS_E_VMX_MODKMLAN.DNS_P_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw01".
+2024-11-20T09:18:18.012Z [DEBUG] Mapping network "DBS_F_VMX_BEVDFUE_P_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw05".
+2024-11-20T09:18:18.012Z [DEBUG] Mapping network "DBS_F_VMX_COMGATE.EDP.APP_N_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw03".
+2024-11-20T09:18:18.012Z [DEBUG] Mapping network "DBS_F_VMX_COMGATE.EDP.APP_P_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw03".
+2024-11-20T09:18:18.012Z [DEBUG] Mapping network "DBS_F_VMX_ETVS.APP_N_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw04".
+2024-11-20T09:18:18.013Z [DEBUG] Mapping network "DBS_F_VMX_ETVS.APP_P_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw04".
+2024-11-20T09:18:18.013Z [DEBUG] Mapping network "DBS_F_VMX_ETVS.TM1.APP_P_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw04".
+2024-11-20T09:18:18.013Z [DEBUG] Mapping network "DBS_F_VMX_KMSPI_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw01".
+2024-11-20T09:18:18.013Z [DEBUG] Mapping network "DBS_F_VMX_RESREDIS.APP_N_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw02".
+2024-11-20T09:18:18.013Z [DEBUG] Mapping network "DBS_F_VMX_RESREDIS.APP_P_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw02".
+2024-11-20T09:18:18.015Z [DEBUG] Mapping network "DBS_F_VMX_RESREDIS.TEST_N_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw02".
+2024-11-20T09:18:18.015Z [DEBUG] Mapping network "DBS_F_VMX_SPDBS_N_CLS" to edgeGateway "com-a-tsr_1000042730-01-gw04".
+2024-11-20T09:18:18.016Z [DEBUG] Mapping network "DBS_F_VMX_TEST_N_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw01".
+2024-11-20T09:18:18.016Z [DEBUG] Mapping network "DBS_F_VMX_TIM_N_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw09".
+2024-11-20T09:18:18.016Z [DEBUG] Mapping network "DBS_F_VMX_TIM_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw09".
+2024-11-20T09:18:18.016Z [DEBUG] Mapping network "DBS_F_VMX_WHZ-DBN.Mitte_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw02".
+2024-11-20T09:18:18.017Z [DEBUG] Mapping network "DBS_F_VMX_WHZ-DBN.N_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw06".
+2024-11-20T09:18:18.017Z [DEBUG] Mapping network "DBS_F_VMX_WHZ-DBN.O_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw07".
+2024-11-20T09:18:18.017Z [DEBUG] Mapping network "DBS_F_VMX_WHZ-DBN.SO_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw08".
+2024-11-20T09:18:18.021Z [DEBUG] Mapping network "DBS_F_VMX_WHZ-DBN.S_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw03".
+2024-11-20T09:18:18.023Z [DEBUG] Mapping network "DBS_F_VMX_WHZ-DBN.SW_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw04".
+2024-11-20T09:18:18.024Z [DEBUG] Mapping network "DBS_F_VMX_WHZ-DBN.W_P_CLS" to edgeGateway "com-a-tsr_1000042730-02-gw05".
+2024-11-20T09:18:18.024Z [DEBUG] Mapping network "DBS_F_WSA_TIM.WANXFER-8_P_TRA" to edgeGateway "com-a-tsr_1000042730-02-gw09".
+2024-11-20T09:18:18.025Z [DEBUG] Mapping network "DBS_Q_VMX_MODKMLAN.DNS_P_CLS" to edgeGateway "com-b-tsr_1000042730-01-gw01".
+2024-11-20T09:18:18.025Z [DEBUG] Mapping network "DMZExt1" to edgeGateway "com-a-zbr_1000033594-01-gw05".
+2024-11-20T09:18:18.026Z [DEBUG] Mapping network "DMZExt2" to edgeGateway "com-a-zbr_1000033594-01-gw05".
+2024-11-20T09:18:18.027Z [DEBUG] Mapping network "DMZ-Extern" to edgeGateway "neni".
+2024-11-20T09:18:18.027Z [DEBUG] Mapping network "DMZ-Extern2" to edgeGateway "neni".
+2024-11-20T09:18:18.027Z [DEBUG] Mapping network "DMZInt1" to edgeGateway "com-a-zbr_1000033594-01-gw06".
+2024-11-20T09:18:18.028Z [DEBUG] Mapping network "DMZ_internal_GW05" to edgeGateway "com-a-ips_1000035712-01-gw05".
+2024-11-20T09:18:18.028Z [DEBUG] Mapping network "DMZInt-zebcltznet250" to edgeGateway "neni".
+2024-11-20T09:18:18.029Z [DEBUG] Mapping network "DUMMY-NETZ-192_168_255_249-29" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.029Z [DEBUG] Mapping network "EDGE-DBFM-5357-10.188.217.80-29" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.030Z [DEBUG] Mapping network "EDGE-EAGLEEYE-5318-10.188.221.64/28" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.031Z [DEBUG] Mapping network "EDGE-EPS-5367-2-10.188.221.40/29" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.031Z [DEBUG] Mapping network "EDGE-EPS-5367-2-10.188.221.48/28" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.031Z [DEBUG] Mapping network "EDGE-FACTS-5333-10.188.220.144/28" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.031Z [DEBUG] Mapping network "EDGE-GeoRoute-WTSv5-5492-10.188.221.144/28" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.032Z [DEBUG] Mapping network "EDGE-IBIS-WTSv5-5486-10.188.221.128/28" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.032Z [DEBUG] Mapping network "EDGE-NSX test migration 2 - 10.188.216.200-29" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.032Z [DEBUG] Mapping network "EDGE-RENTENSERVICE-5381-10.188.218.16/28" to edgeGateway "com-a-t00_1000026462-01-gw03".
+2024-11-20T09:18:18.032Z [DEBUG] Mapping network "EDGE-RENTENSERVICE-5381-2-10.188.221.96/27" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.032Z [DEBUG] Mapping network "EDGE-RENTENSERVICE-WSTv5-5381-10.188.221.160/28" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.033Z [DEBUG] Mapping network "EDGE-TestFactory-5370-10.188.217.128/26" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.033Z [DEBUG] Mapping network "EDGE-THB-Infra-1038-10.188.216.0/28" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.033Z [DEBUG] Mapping network "EDGE-THB-Infra-Linux-1038-10.188.216.96/28" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.033Z [DEBUG] Mapping network "EDGE-THB-OSS-10.188.216.32/30" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.033Z [DEBUG] Mapping network "EDGE-TIMES-5362-10.188.220.136/29" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.034Z [DEBUG] Mapping network "EDGE-TUT-BRIEF-5422-10.188.221.80/30" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.034Z [DEBUG] Mapping network "EDGE-WTSV5-REFMGMT 10.164.23.144_29" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.035Z [DEBUG] Mapping network "EPF_MGMT_10.32.105.112/28-v2t" to edgeGateway "com-a-t29_1000020859-01-gw11-v2t".
+2024-11-20T09:18:18.035Z [DEBUG] Mapping network "EPF_PROD_10.170.134.128/27-v2t" to edgeGateway "com-a-t29_1000020859-01-gw11-v2t".
+2024-11-20T09:18:18.035Z [DEBUG] Mapping network "EPF_PROD_10.170.134.160/27-v2t" to edgeGateway "com-a-t29_1000020859-01-gw11-v2t".
+2024-11-20T09:18:18.035Z [DEBUG] Mapping network "EXTRANET_MPLS" to edgeGateway "com-a-ips_1000035712-01-gw05".
+2024-11-20T09:18:18.036Z [DEBUG] Mapping network "FlexConnect-Internet" to edgeGateway "com-a-zbr_1000033594-01-gw01".
+2024-11-20T09:18:18.036Z [DEBUG] Mapping network "GFP_MGMT_IPAM/CSA_10.32.45.240/28-v2t" to edgeGateway "com-b-t29_1000020859-01-gw04-v2t".
+2024-11-20T09:18:18.036Z [DEBUG] Mapping network "GFP_PROD_CSA_10.32.47.240/29-v2t" to edgeGateway "com-b-t29_1000020859-01-gw04-v2t".
+2024-11-20T09:18:18.036Z [DEBUG] Mapping network "GFP_PROD_IPAM_10.32.47.224/29-v2t" to edgeGateway "com-b-t29_1000020859-01-gw04-v2t".
+2024-11-20T09:18:18.036Z [DEBUG] Mapping network "GFP_PROV_RL_164.22.60.32/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.037Z [DEBUG] Mapping network "GFP_SERV_CP_10.32.46.192/29-v2t" to edgeGateway "com-b-t29_1000020859-01-gw04-v2t".
+2024-11-20T09:18:18.037Z [DEBUG] Mapping network "GFP_SERV_CP_10.32.47.248/29-v2t" to edgeGateway "com-b-t29_1000020859-01-gw04-v2t".
+2024-11-20T09:18:18.038Z [DEBUG] Mapping network "GW01_TransferNet-172.16.200.1_24" to edgeGateway "com-a-t00_1000026462-01-gw01".
+2024-11-20T09:18:18.038Z [DEBUG] Mapping network "GW02_TransferNet_172.16.201.0_24" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.039Z [DEBUG] Mapping network "GW03_TransferNet-172.16.202.1_24" to edgeGateway "com-a-t00_1000026462-01-gw03".
+2024-11-20T09:18:18.039Z [DEBUG] Mapping network "HAG_PROV_RL_164.22.59.32/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.039Z [DEBUG] Mapping network "IGO_PROV_RL_164.22.58.160/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.039Z [DEBUG] Mapping network "Infoblox Customer Net" to edgeGateway "neni".
+2024-11-20T09:18:18.040Z [DEBUG] Mapping network "Infrastruktur" to edgeGateway "neni".
+2024-11-20T09:18:18.040Z [DEBUG] Mapping network "internet-gw3" to edgeGateway "com-a-sol_1000034386-01-gw03".
+2024-11-20T09:18:18.040Z [DEBUG] Mapping network "Internet_repo" to edgeGateway "com-a-heineken-hh3-mig-01-gw-01".
+2024-11-20T09:18:18.040Z [DEBUG] Mapping network "Internet-vlan" to edgeGateway "com-a-heineken-hh3-mig-01-gw-01".
+2024-11-20T09:18:18.040Z [DEBUG] Mapping network "intranet-gw2" to edgeGateway "com-a-sol_1000034386-01-gw02".
+2024-11-20T09:18:18.041Z [DEBUG] Mapping network "Ipsos_internal_GW05" to edgeGateway "com-a-ips_1000035712-01-gw05".
+2024-11-20T09:18:18.041Z [DEBUG] Mapping network "Ipsos-Voice-Network" to edgeGateway "com-b-ips_1000035712-01-gw02".
+2024-11-20T09:18:18.042Z [DEBUG] Mapping network "ISE_Guest" to edgeGateway "com-a-tdc_1000041086-01-gw01".
+2024-11-20T09:18:18.042Z [DEBUG] Mapping network "ISE_to be deleted" to edgeGateway "neni".
+2024-11-20T09:18:18.043Z [DEBUG] Mapping network "isolated-latency-test" to edgeGateway "neni".
+2024-11-20T09:18:18.043Z [DEBUG] Mapping network "isolated-network" to edgeGateway "neni".
+2024-11-20T09:18:18.043Z [DEBUG] Mapping network "isolated_network" to edgeGateway "neni".
+2024-11-20T09:18:18.044Z [DEBUG] Mapping network "isolated-test-2" to edgeGateway "neni".
+2024-11-20T09:18:18.044Z [DEBUG] Mapping network "jblodi_test_hnk" to edgeGateway "neni".
+2024-11-20T09:18:18.045Z [DEBUG] Mapping network "JN_net_access" to edgeGateway "com-a-testorg-02-gw-01".
+2024-11-20T09:18:18.045Z [DEBUG] Mapping network "JUMP_Hosts" to edgeGateway "com-a-tdc_1000041086-01-gw02".
+2024-11-20T09:18:18.045Z [DEBUG] Mapping network "LB-VIP_MDMS" to edgeGateway "com-a-t00_1000026462-01-gw02".
+2024-11-20T09:18:18.045Z [DEBUG] Mapping network "Legacy-Systems" to edgeGateway "neni".
+2024-11-20T09:18:18.046Z [DEBUG] Mapping network "Linux-Repo_Satellite" to edgeGateway "com-a-tsr_1000035400-01-gw01".
+2024-11-20T09:18:18.046Z [DEBUG] Mapping network "Management" to edgeGateway "neni".
+2024-11-20T09:18:18.046Z [DEBUG] Mapping network "MDMS-DEPLOY_10.188.142.1_26" to edgeGateway "bas-a-dpdhl-02-gw-03".
+2024-11-20T09:18:18.046Z [DEBUG] Mapping network "MGMT ISE" to edgeGateway "com-a-tdc_1000041086-01-gw02".
+2024-11-20T09:18:18.046Z [DEBUG] Mapping network "MLS_PROV_164.22.2.192/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.047Z [DEBUG] Mapping network "MLS_PROV_164.22.3.192/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.047Z [DEBUG] Mapping network "Need to delete" to edgeGateway "neni".
+2024-11-20T09:18:18.047Z [DEBUG] Mapping network "Nicht-verwenden" to edgeGateway "neni".
+2024-11-20T09:18:18.048Z [DEBUG] Mapping network "non-Secure LAN 01" to edgeGateway "com-a-dt-dorma-01-gw-01".
+2024-11-20T09:18:18.048Z [DEBUG] Mapping network "non-Secure LAN 02" to edgeGateway "com-a-dt-dorma-01-gw-01".
+2024-11-20T09:18:18.048Z [DEBUG] Mapping network "nw_one" to edgeGateway "session_count".
+2024-11-20T09:18:18.049Z [DEBUG] Mapping network "nw_two" to edgeGateway "session_count".
+2024-11-20T09:18:18.049Z [DEBUG] Mapping network "pebalog test" to edgeGateway "neni".
+2024-11-20T09:18:18.049Z [DEBUG] Mapping network "PLG-PROD-EDGE-TEST" to edgeGateway "neni".
+2024-11-20T09:18:18.049Z [DEBUG] Mapping network "PLG-TEST-10.188.128.41/29" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.050Z [DEBUG] Mapping network "PROD_App" to edgeGateway "com-a-tch_1000042332-01-gw04".
+2024-11-20T09:18:18.050Z [DEBUG] Mapping network "PROD_Core" to edgeGateway "com-a-tch_1000042332-01-gw02".
+2024-11-20T09:18:18.050Z [DEBUG] Mapping network "PROD_DMZ" to edgeGateway "com-a-tch_1000042332-01-gw03".
+2024-11-20T09:18:18.050Z [DEBUG] Mapping network "PROD_DMZe" to edgeGateway "com-a-tch_1000042332-01-gw05".
+2024-11-20T09:18:18.051Z [DEBUG] Mapping network "PROD_MigrationLine_HNKCZ" to edgeGateway "com-a-heineken-hh3-mig-01-gw-01".
+2024-11-20T09:18:18.051Z [DEBUG] Mapping network "PROD_MigrationLine_HNKSpain" to edgeGateway "com-a-heineken-hh3-mig-01-gw-01".
+2024-11-20T09:18:18.051Z [DEBUG] Mapping network "PROD_SQL_APP" to edgeGateway "com-a-tch_1000042332-01-gw06".
+2024-11-20T09:18:18.051Z [DEBUG] Mapping network "PROD_SQL_BACKUP" to edgeGateway "neni".
+2024-11-20T09:18:18.051Z [DEBUG] Mapping network "PROD_SQL_CLUSTER" to edgeGateway "neni".
+2024-11-20T09:18:18.052Z [DEBUG] Mapping network "PS_managementNW" to edgeGateway "neni".
+2024-11-20T09:18:18.052Z [DEBUG] Mapping network "Public_external_GW02" to edgeGateway "com-a-ips_1000035712-01-gw02".
+2024-11-20T09:18:18.052Z [DEBUG] Mapping network "pvdc1_admin_syn_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.052Z [DEBUG] Mapping network "pvdc1_admin_syn_02-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.052Z [DEBUG] Mapping network "pvdc1_admin_syn_03-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.052Z [DEBUG] Mapping network "pvdc1_admin_syn_04-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.053Z [DEBUG] Mapping network "pvdc1_admin_syn_05-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.053Z [DEBUG] Mapping network "pvdc1_admin_syn_06-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.053Z [DEBUG] Mapping network "pvdc1_admin_syn_07-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.053Z [DEBUG] Mapping network "pvdc1_admin_syn_09-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.053Z [DEBUG] Mapping network "pvdc1_admin_syn_10-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.053Z [DEBUG] Mapping network "pvdc1_admin_syn_11-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.054Z [DEBUG] Mapping network "pvdc1_admin_syn_12-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.054Z [DEBUG] Mapping network "pvdc1_admin_syn_13-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.054Z [DEBUG] Mapping network "pvdc1_admin_syn_14-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.054Z [DEBUG] Mapping network "pvdc1_admin_syn_15-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.054Z [DEBUG] Mapping network "pvdc1_admin_syn_16-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.054Z [DEBUG] Mapping network "pvdc1_admin_syn_17-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.055Z [DEBUG] Mapping network "pvdc1_admin_syn_18-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.055Z [DEBUG] Mapping network "pvdc1_admin_syn_19-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.055Z [DEBUG] Mapping network "pvdc1_dpdhl_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.055Z [DEBUG] Mapping network "pvdc1_dpdhl_cas_02-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.055Z [DEBUG] Mapping network "pvdc1_dt-dorma_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.055Z [DEBUG] Mapping network "pvdc1_heineken_cas_02-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.055Z [DEBUG] Mapping network "pvdc1_heineken-hh3_cas_03-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.055Z [DEBUG] Mapping network "pvdc1_heineken-hh3_cas_04-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.056Z [DEBUG] Mapping network "pvdc1_heineken-hh3_cas_05-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.056Z [DEBUG] Mapping network "pvdc1_heineken-hh3_cas_06-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.056Z [DEBUG] Mapping network "pvdc1_heineken-hh3_cas_07-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.056Z [DEBUG] Mapping network "pvdc1_heineken-hh3_cas_08-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.056Z [DEBUG] Mapping network "pvdc1_heineken-hh3_cas_09-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.056Z [DEBUG] Mapping network "pvdc1_ips_1000035712_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.057Z [DEBUG] Mapping network "pvdc1_t00_1000026462_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.057Z [DEBUG] Mapping network "pvdc1_t00_1000026462_cas_02-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.057Z [DEBUG] Mapping network "pvdc1_tcs_1000042743_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.057Z [DEBUG] Mapping network "pvdc1_tcs_1000042743_cas_02-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.057Z [DEBUG] Mapping network "pvdc1_tcs_1000042743_cas_03-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.057Z [DEBUG] Mapping network "pvdc1_tea_1000031003_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.058Z [DEBUG] Mapping network "pvdc1_testcustomer_cas_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.058Z [DEBUG] Mapping network "pvdc1_tnd_1000026409_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.058Z [DEBUG] Mapping network "pvdc1_tsf_1000037204_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.058Z [DEBUG] Mapping network "pvdc1_tsi-cic_03-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.058Z [DEBUG] Mapping network "pvdc1_tsi-cic_cas_04-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.058Z [DEBUG] Mapping network "pvdc1_tsi-cic_cas_05-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.058Z [DEBUG] Mapping network "pvdc1_tsi-ga-dtag_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.059Z [DEBUG] Mapping network "pvdc1_tsi-ga-dtag_02-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.060Z [DEBUG] Mapping network "pvdc1_tsr_1000035400_cas_02-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.060Z [DEBUG] Mapping network "pvdc1_tsr_1000035400_cas_03-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.061Z [DEBUG] Mapping network "pvdc1_tsr_1000035400_cas_04-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.061Z [DEBUG] Mapping network "pvdc1_tsr_1000035400_cas_05-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.061Z [DEBUG] Mapping network "pvdc1_tsr_1000035400_cas_06-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.061Z [DEBUG] Mapping network "pvdc1_tsr_1000035400_cas_07-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.062Z [DEBUG] Mapping network "pvdc1_tsr_1000042730_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.062Z [DEBUG] Mapping network "pvdc2_bri_1000041101_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.062Z [DEBUG] Mapping network "pvdc2_dpdhl_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.063Z [DEBUG] Mapping network "pvdc2_sol_1000034386_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.063Z [DEBUG] Mapping network "pvdc2_t00_1000033029_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.063Z [DEBUG] Mapping network "pvdc2_t29_1000020859_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.063Z [DEBUG] Mapping network "pvdc2_tch_1000042332_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.063Z [DEBUG] Mapping network "pvdc2_tch_1000042332_cas_02-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.064Z [DEBUG] Mapping network "pvdc2_tch_1000042332_cas_03-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.064Z [DEBUG] Mapping network "pvdc2_tch_1000042332_cas_04-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.064Z [DEBUG] Mapping network "pvdc2_tch_1000042332_cas_05-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.064Z [DEBUG] Mapping network "pvdc2_tch_1000042332_cas_06-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.064Z [DEBUG] Mapping network "pvdc2_tch_1000042338_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.065Z [DEBUG] Mapping network "pvdc2_tdc_1000041086_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.065Z [DEBUG] Mapping network "pvdc2_tsr_1000035340_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.065Z [DEBUG] Mapping network "pvdc2_tsr_1000035400_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.065Z [DEBUG] Mapping network "pvdc2_tsr_1000078106_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.065Z [DEBUG] Mapping network "pvdc2_zbr_1000033594_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.066Z [DEBUG] Mapping network "pvdc_admin_syn_08-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.066Z [DEBUG] Mapping network "routed_network" to edgeGateway "com-a-testorg-02-gw-01".
+2024-11-20T09:18:18.066Z [DEBUG] Mapping network "Routed Network" to edgeGateway "com-a-testcustomer-02-gw-01".
+2024-11-20T09:18:18.066Z [DEBUG] Mapping network "routed_network_2" to edgeGateway "com-a-testorg-02-gw-01".
+2024-11-20T09:18:18.066Z [DEBUG] Mapping network "Secure LAN" to edgeGateway "com-a-dt-dorma-01-gw-02".
+2024-11-20T09:18:18.067Z [DEBUG] Mapping network "Server" to edgeGateway "neni".
+2024-11-20T09:18:18.067Z [DEBUG] Mapping network "Shared -SRV" to edgeGateway "com-a-tdc_1000041086-01-gw03".
+2024-11-20T09:18:18.067Z [DEBUG] Mapping network "SIR_FMODATA_10.59.63.0/28-v2t" to edgeGateway "com-b-t29_1000020859-01-gw06-v2t".
+2024-11-20T09:18:18.067Z [DEBUG] Mapping network "SIR_MGMT_10.33.4.224/28-v2t" to edgeGateway "com-b-t29_1000020859-01-gw06-v2t".
+2024-11-20T09:18:18.067Z [DEBUG] Mapping network "SIR_PROV_DD_164.22.60.64/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.067Z [DEBUG] Mapping network "SIR_PROV_RL_164.22.60.96/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.068Z [DEBUG] Mapping network "SML_CUST_CP_10.253.44.240/28-v2t" to edgeGateway "com-b-t29_1000020859-01-gw07-v2t".
+2024-11-20T09:18:18.068Z [DEBUG] Mapping network "SML_MGMT_CP_10.95.0.0/28-v2t" to edgeGateway "com-b-t29_1000020859-01-gw07-v2t".
+2024-11-20T09:18:18.068Z [DEBUG] Mapping network "SML_PROV_RL_164.22.60.160/27" to edgeGateway "com-a-t29_1000020859-03-gw01".
+2024-11-20T09:18:18.068Z [DEBUG] Mapping network "SML_SERV_RL_164.17.17.192/26_B-v2t" to edgeGateway "com-b-t29_1000020859-01-gw07-v2t".
+2024-11-20T09:18:18.068Z [DEBUG] Mapping network "SML_SERV_RL_164.17.17.64/26_A-v2t" to edgeGateway "com-b-t29_1000020859-01-gw07-v2t".
+2024-11-20T09:18:18.068Z [DEBUG] Mapping network "SQL Cluster Network" to edgeGateway "neni".
+2024-11-20T09:18:18.069Z [DEBUG] Mapping network "Syslog" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.069Z [DEBUG] Mapping network "Team-Test-Network" to edgeGateway "neni".
+2024-11-20T09:18:18.069Z [DEBUG] Mapping network "Terminalserver" to edgeGateway "neni".
+2024-11-20T09:18:18.069Z [DEBUG] Mapping network "test" to edgeGateway "com-a-testcustomer-02-gw-01".
+2024-11-20T09:18:18.069Z [DEBUG] Mapping network "TEST-10.164.23.1-27" to edgeGateway "dpdhl-alloc-cus-vdc-s02-01-gw".
+2024-11-20T09:18:18.069Z [DEBUG] Mapping network "Test AD environment" to edgeGateway "com-a-tdc_1000041086-01-gw06".
+2024-11-20T09:18:18.070Z [DEBUG] Mapping network "TEST-ADMIN-Netz" to edgeGateway "neni".
+2024-11-20T09:18:18.070Z [DEBUG] Mapping network "TEST-ADMIN-Netz_2" to edgeGateway "neni".
+2024-11-20T09:18:18.070Z [DEBUG] Mapping network "TEST_App" to edgeGateway "com-a-tch_1000042332-02-gw04".
+2024-11-20T09:18:18.070Z [DEBUG] Mapping network "TEST_Core" to edgeGateway "com-a-tch_1000042332-02-gw02".
+2024-11-20T09:18:18.070Z [DEBUG] Mapping network "testcustomer-edit" to edgeGateway "neni".
+2024-11-20T09:18:18.071Z [DEBUG] Mapping network "TEST_DMZ" to edgeGateway "com-a-tch_1000042332-02-gw03".
+2024-11-20T09:18:18.071Z [DEBUG] Mapping network "TEST_DMZe" to edgeGateway "com-a-tch_1000042332-02-gw05".
+2024-11-20T09:18:18.071Z [DEBUG] Mapping network "test_iperf_net" to edgeGateway "com-a-testorg-02-gw-01".
+2024-11-20T09:18:18.071Z [DEBUG] Mapping network "test-jha" to edgeGateway "neni".
+2024-11-20T09:18:18.071Z [DEBUG] Mapping network "testnetwork" to edgeGateway "neni".
+2024-11-20T09:18:18.071Z [DEBUG] Mapping network "test-pebalog-routed" to edgeGateway "bas-b-testorg-01-gw-01".
+2024-11-20T09:18:18.072Z [DEBUG] Mapping network "Test_rcec" to edgeGateway "neni".
+2024-11-20T09:18:18.072Z [DEBUG] Mapping network "test-shared-network" to edgeGateway "neni".
+2024-11-20T09:18:18.072Z [DEBUG] Mapping network "TEST_SQL_APP" to edgeGateway "com-a-tch_1000042332-02-gw06".
+2024-11-20T09:18:18.072Z [DEBUG] Mapping network "TEST_SQL_BACKUP" to edgeGateway "neni".
+2024-11-20T09:18:18.072Z [DEBUG] Mapping network "TEST_SQL_CLUSTER" to edgeGateway "neni".
+2024-11-20T09:18:18.072Z [DEBUG] Mapping network "TRANSFER_172.16.250.1_24-dpdhl-alloc-cus-vdc-s02-01-gw" to edgeGateway "dpdhl-alloc-cus-vdc-s02-01-gw".
+2024-11-20T09:18:18.073Z [DEBUG] Mapping network "TRANSFER_172.16.255.1_24-bas-a-dpdhl-02-gw-01" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.073Z [DEBUG] Mapping network "TRANSFER_172.17.255.1_24-dpdhl-alloc-cus-vdc-s02-01-gw" to edgeGateway "dpdhl-alloc-cus-vdc-s02-01-gw".
+2024-11-20T09:18:18.073Z [DEBUG] Mapping network "TRANSFER_172.18.255.1_24-bas-a-dpdhl-02-gw-02" to edgeGateway "bas-a-dpdhl-02-gw-02".
+2024-11-20T09:18:18.073Z [DEBUG] Mapping network "Transfer-GW01" to edgeGateway "com-a-tea_1000031003-01-gw01".
+2024-11-20T09:18:18.073Z [DEBUG] Mapping network "Transfer-GW02" to edgeGateway "neni".
+2024-11-20T09:18:18.073Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.074Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.074Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.074Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.074Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.074Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.074Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.075Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.075Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.075Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.075Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.075Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.076Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.076Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.076Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.076Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.076Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.076Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.076Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.077Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.077Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.077Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.077Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.077Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.078Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.078Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.078Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.078Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.079Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.079Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.079Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.079Z [DEBUG] Mapping network "TSY-AdminLAN-01" to edgeGateway "neni".
+2024-11-20T09:18:18.080Z [DEBUG] Mapping network "TSY-AdminLAN-01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.080Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.080Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.080Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.080Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.080Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.080Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.080Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.081Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.081Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.081Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.081Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.081Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-02" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.082Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.147Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.148Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.148Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.148Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.148Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.148Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.149Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.149Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.149Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.149Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.149Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.149Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.150Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.150Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.150Z [DEBUG] Mapping network "TSY-AdminLAN-03" to edgeGateway "neni".
+2024-11-20T09:18:18.150Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.150Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.150Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.151Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.151Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.151Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.151Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.151Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.151Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.151Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.152Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.152Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.152Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.152Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.152Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.152Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.152Z [DEBUG] Mapping network "TSY-AdminLAN-04" to edgeGateway "neni".
+2024-11-20T09:18:18.153Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.153Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.153Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.153Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.153Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.153Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.154Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.154Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.154Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.154Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.154Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.154Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.155Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.155Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.155Z [DEBUG] Mapping network "TSY-AdminLAN-05" to edgeGateway "neni".
+2024-11-20T09:18:18.155Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.155Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.155Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.155Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.155Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.156Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.156Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.156Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.156Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.156Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.156Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.157Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.157Z [DEBUG] Mapping network "TSY-AdminLAN-06" to edgeGateway "neni".
+2024-11-20T09:18:18.157Z [DEBUG] Mapping network "TSY-AdminLAN-07" to edgeGateway "neni".
+2024-11-20T09:18:18.157Z [DEBUG] Mapping network "TSY-AdminLAN-07" to edgeGateway "neni".
+2024-11-20T09:18:18.157Z [DEBUG] Mapping network "TSY-AdminLAN-07" to edgeGateway "neni".
+2024-11-20T09:18:18.157Z [DEBUG] Mapping network "TSY-AdminLAN-07" to edgeGateway "neni".
+2024-11-20T09:18:18.157Z [DEBUG] Mapping network "TSY-AdminLAN-07" to edgeGateway "neni".
+2024-11-20T09:18:18.158Z [DEBUG] Mapping network "TSY-AdminLAN-07" to edgeGateway "neni".
+2024-11-20T09:18:18.158Z [DEBUG] Mapping network "TSY-AdminLAN-07" to edgeGateway "neni".
+2024-11-20T09:18:18.158Z [DEBUG] Mapping network "TSY-AdminLAN-07" to edgeGateway "neni".
+2024-11-20T09:18:18.158Z [DEBUG] Mapping network "TSY-AdminLAN-08" to edgeGateway "neni".
+2024-11-20T09:18:18.158Z [DEBUG] Mapping network "TSY-AdminLAN-08" to edgeGateway "neni".
+2024-11-20T09:18:18.158Z [DEBUG] Mapping network "TSY-AdminLAN-08" to edgeGateway "neni".
+2024-11-20T09:18:18.158Z [DEBUG] Mapping network "TSY-AdminLAN-08" to edgeGateway "neni".
+2024-11-20T09:18:18.158Z [DEBUG] Mapping network "TSY-AdminLAN-08" to edgeGateway "neni".
+2024-11-20T09:18:18.159Z [DEBUG] Mapping network "TSY-AdminLAN-09" to edgeGateway "neni".
+2024-11-20T09:18:18.159Z [DEBUG] Mapping network "TSY-AdminLAN-09" to edgeGateway "neni".
+2024-11-20T09:18:18.159Z [DEBUG] Mapping network "TSY-AdminLAN-09" to edgeGateway "neni".
+2024-11-20T09:18:18.159Z [DEBUG] Mapping network "TSY-AdminLAN-09" to edgeGateway "neni".
+2024-11-20T09:18:18.159Z [DEBUG] Mapping network "TSY-AdminLAN-09" to edgeGateway "neni".
+2024-11-20T09:18:18.159Z [DEBUG] Mapping network "TSY-AdminLAN-LNX" to edgeGateway "neni".
+2024-11-20T09:18:18.160Z [DEBUG] Mapping network "TSY-AdminLAN-LNX-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.160Z [DEBUG] Mapping network "TSY-AdminLAN-WIN" to edgeGateway "neni".
+2024-11-20T09:18:18.160Z [DEBUG] Mapping network "TSY-AdminLAN-WIN-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.160Z [DEBUG] Mapping network "TSY-CustomerLAN-LNX" to edgeGateway "com-a-dps-os-01-gw-01".
+2024-11-20T09:18:18.160Z [DEBUG] Mapping network "TSY-CustomerLAN-WIN" to edgeGateway "com-a-dps-os-01-gw-01".
+2024-11-20T09:18:18.160Z [DEBUG] Mapping network "vcenter_upgrade_network" to edgeGateway "neni".
+2024-11-20T09:18:18.160Z [DEBUG] Mapping network "VDC-Internet" to edgeGateway "com-a-tsi-ga-dtag-prod-01-gw-01".
+2024-11-20T09:18:18.161Z [DEBUG] Mapping network "VDC-Netzwerk" to edgeGateway "com-a-tsi-ga-dtag-prod-01-gw-02".
+2024-11-20T09:18:18.161Z [DEBUG] Mapping network "VIP_KID_PROD_10.188.128.145_30" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.161Z [DEBUG] Mapping network "VIP_KID_REF_10.188.128.149_30" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.161Z [DEBUG] Mapping network "VIP_KID_SPLUNK_10.188.128.153_30" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.161Z [DEBUG] Mapping network " VIP-MDMS-PROD-10.188.128.197_30" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.161Z [DEBUG] Mapping network "VIP-MDMS-REF-10.188.128.193_30" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.161Z [DEBUG] Mapping network "VIP_PLG_PROD_10.188.128.65_30" to edgeGateway "bas-a-dpdhl-02-gw-01".
+2024-11-20T09:18:18.162Z [DEBUG] Mapping network "vl0126-dwp-he-opt1-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.162Z [DEBUG] Mapping network "vl0126-dwp-he-opt1-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.162Z [DEBUG] Mapping network "vlan100_l2vpn" to edgeGateway "com-a-testorg-02-gw-01".
+2024-11-20T09:18:18.162Z [DEBUG] Mapping network "vlan200_l2vpn" to edgeGateway "com-a-testorg-02-gw-01".
+2024-11-20T09:18:18.162Z [DEBUG] Mapping network "VM04-HA-01" to edgeGateway "neni".
+2024-11-20T09:18:18.162Z [DEBUG] Mapping network "VM08-HA-01" to edgeGateway "neni".
+2024-11-20T09:18:18.162Z [DEBUG] Mapping network "VM16-HA-01" to edgeGateway "neni".
+2024-11-20T09:18:18.163Z [DEBUG] Mapping network "vm-vl0020-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.163Z [DEBUG] Mapping network "vm-vl0020-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.163Z [DEBUG] Mapping network "vm-vl0020-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.163Z [DEBUG] Mapping network "vm-vl0020-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.163Z [DEBUG] Mapping network "vm-vl0020-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.163Z [DEBUG] Mapping network "vm-vl0020-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.163Z [DEBUG] Mapping network "vm-vl0024-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.164Z [DEBUG] Mapping network "vm-vl0024-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.164Z [DEBUG] Mapping network "vm-vl0024-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.164Z [DEBUG] Mapping network "vm-vl0024-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.164Z [DEBUG] Mapping network "vm-vl0024-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.164Z [DEBUG] Mapping network "vm-vl0024-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.164Z [DEBUG] Mapping network "vm-vl0028-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.164Z [DEBUG] Mapping network "vm-vl0028-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.165Z [DEBUG] Mapping network "vm-vl0028-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.165Z [DEBUG] Mapping network "vm-vl0028-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.165Z [DEBUG] Mapping network "vm-vl0028-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.166Z [DEBUG] Mapping network "vm-vl0028-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.166Z [DEBUG] Mapping network "vm-vl0032-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.166Z [DEBUG] Mapping network "vm-vl0032-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.166Z [DEBUG] Mapping network "vm-vl0032-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.166Z [DEBUG] Mapping network "vm-vl0032-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.166Z [DEBUG] Mapping network "vm-vl0032-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.166Z [DEBUG] Mapping network "vm-vl0032-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.167Z [DEBUG] Mapping network "vm-vl0036-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.167Z [DEBUG] Mapping network "vm-vl0036-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.167Z [DEBUG] Mapping network "vm-vl0036-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.167Z [DEBUG] Mapping network "vm-vl0036-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.167Z [DEBUG] Mapping network "vm-vl0036-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.167Z [DEBUG] Mapping network "vm-vl0036-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.167Z [DEBUG] Mapping network "vm-vl0040-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.168Z [DEBUG] Mapping network "vm-vl0040-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.168Z [DEBUG] Mapping network "vm-vl0040-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.168Z [DEBUG] Mapping network "vm-vl0040-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.168Z [DEBUG] Mapping network "vm-vl0040-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.168Z [DEBUG] Mapping network "vm-vl0040-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.168Z [DEBUG] Mapping network "vm-vl01570-tnd_1000026409-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.168Z [DEBUG] Mapping network "vm-vl01573-tnd_1000026409-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.168Z [DEBUG] Mapping network "vm-vl01574-tnd_1000026409-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.169Z [DEBUG] Mapping network "vm-vl0159-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.169Z [DEBUG] Mapping network "vm-vl0159-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.169Z [DEBUG] Mapping network "vm-vl0257-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.169Z [DEBUG] Mapping network "vm-vl0257-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.169Z [DEBUG] Mapping network "vm-vl0257-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.169Z [DEBUG] Mapping network "vm-vl0257-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.170Z [DEBUG] Mapping network "vm-vl0257-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.170Z [DEBUG] Mapping network "vm-vl0257-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.170Z [DEBUG] Mapping network "vm-vl0259-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.170Z [DEBUG] Mapping network "vm-vl0259-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.170Z [DEBUG] Mapping network "vm-vl0259-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.170Z [DEBUG] Mapping network "vm-vl0259-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.170Z [DEBUG] Mapping network "vm-vl0259-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.171Z [DEBUG] Mapping network "vm-vl0259-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.171Z [DEBUG] Mapping network "vm-vl0260-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.171Z [DEBUG] Mapping network "vm-vl0260-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.171Z [DEBUG] Mapping network "vm-vl0260-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.171Z [DEBUG] Mapping network "vm-vl0260-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.171Z [DEBUG] Mapping network "vm-vl0260-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.171Z [DEBUG] Mapping network "vm-vl0260-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.172Z [DEBUG] Mapping network "vm-vl0261-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.172Z [DEBUG] Mapping network "vm-vl0261-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.172Z [DEBUG] Mapping network "vm-vl0261-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.172Z [DEBUG] Mapping network "vm-vl0261-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.172Z [DEBUG] Mapping network "vm-vl0261-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.172Z [DEBUG] Mapping network "vm-vl0261-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.173Z [DEBUG] Mapping network "vm-vl0262-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.173Z [DEBUG] Mapping network "vm-vl0262-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.173Z [DEBUG] Mapping network "vm-vl0262-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.173Z [DEBUG] Mapping network "vm-vl0262-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.173Z [DEBUG] Mapping network "vm-vl0262-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.173Z [DEBUG] Mapping network "vm-vl0262-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.174Z [DEBUG] Mapping network "vm-vl0263-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.174Z [DEBUG] Mapping network "vm-vl0263-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.174Z [DEBUG] Mapping network "vm-vl0263-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.174Z [DEBUG] Mapping network "vm-vl0263-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.174Z [DEBUG] Mapping network "vm-vl0263-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.183Z [DEBUG] Mapping network "vm-vl0263-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.184Z [DEBUG] Mapping network "vm-vl0274-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.184Z [DEBUG] Mapping network "vm-vl0274-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.184Z [DEBUG] Mapping network "vm-vl0444-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.184Z [DEBUG] Mapping network "vm-vl0444-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.184Z [DEBUG] Mapping network "vm-vl0444-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.185Z [DEBUG] Mapping network "vm-vl0544-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.185Z [DEBUG] Mapping network "vm-vl0616-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.185Z [DEBUG] Mapping network "vm-vl0616-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.185Z [DEBUG] Mapping network "vm-vl0616-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.185Z [DEBUG] Mapping network "vm-vl0616-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.186Z [DEBUG] Mapping network "vm-vl0616-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.186Z [DEBUG] Mapping network "vm-vl0616-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.186Z [DEBUG] Mapping network "vm-vl0617-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.186Z [DEBUG] Mapping network "vm-vl0617-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.186Z [DEBUG] Mapping network "vm-vl0617-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.186Z [DEBUG] Mapping network "vm-vl0617-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.186Z [DEBUG] Mapping network "vm-vl0617-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.186Z [DEBUG] Mapping network "vm-vl0617-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.187Z [DEBUG] Mapping network "vm-vl0882-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.187Z [DEBUG] Mapping network "vm-vl0882-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.187Z [DEBUG] Mapping network "vm-vl0882-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.187Z [DEBUG] Mapping network "vm-vl0882-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.187Z [DEBUG] Mapping network "vm-vl0920-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.187Z [DEBUG] Mapping network "vm-vl0920-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.188Z [DEBUG] Mapping network "vm-vl0957-dt-dorma-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.188Z [DEBUG] Mapping network "vm-vl1089-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.188Z [DEBUG] Mapping network "vm-vl1089-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.188Z [DEBUG] Mapping network "vm-vl1090-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.188Z [DEBUG] Mapping network "vm-vl1090-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.188Z [DEBUG] Mapping network "vm-vl1153-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.189Z [DEBUG] Mapping network "vm-vl1153-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.189Z [DEBUG] Mapping network "vm-vl1153-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.189Z [DEBUG] Mapping network "vm-vl1153-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.189Z [DEBUG] Mapping network "vm-vl1478-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.189Z [DEBUG] Mapping network "vm-vl1478-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.189Z [DEBUG] Mapping network "vm-vl1479-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.189Z [DEBUG] Mapping network "vm-vl1479-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.190Z [DEBUG] Mapping network "vm-vl1751-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.190Z [DEBUG] Mapping network "vm-vl1751-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.190Z [DEBUG] Mapping network "vm-vl1756-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.190Z [DEBUG] Mapping network "vm-vl1756-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.190Z [DEBUG] Mapping network "vm-vl1757-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.191Z [DEBUG] Mapping network "vm-vl1757-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.191Z [DEBUG] Mapping network "vm-vl1762-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.191Z [DEBUG] Mapping network "vm-vl1762-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.191Z [DEBUG] Mapping network "vm-vl1767-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.191Z [DEBUG] Mapping network "vm-vl1767-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.191Z [DEBUG] Mapping network "vm-vl1767-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.191Z [DEBUG] Mapping network "vm-vl1767-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.191Z [DEBUG] Mapping network "vm-vl1767-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.192Z [DEBUG] Mapping network "vm-vl1767-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.192Z [DEBUG] Mapping network "vm-vl1826-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.192Z [DEBUG] Mapping network "vm-vl1826-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.192Z [DEBUG] Mapping network "vm-vl1826-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.192Z [DEBUG] Mapping network "vm-vl1826-he-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.192Z [DEBUG] Mapping network "vm-vl1966-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.193Z [DEBUG] Mapping network "vm-vl1966-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.193Z [DEBUG] Mapping network "vm-vl2095-heineken-hh3-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.193Z [DEBUG] Mapping network "vm-vl2148-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.193Z [DEBUG] Mapping network "vm-vl2148-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.193Z [DEBUG] Mapping network "vm-vl2148-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.193Z [DEBUG] Mapping network "vm-vl2148-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.193Z [DEBUG] Mapping network "vm-vl2148-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.194Z [DEBUG] Mapping network "vm-vl2149-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.194Z [DEBUG] Mapping network "vm-vl2149-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.194Z [DEBUG] Mapping network "vm-vl2149-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.194Z [DEBUG] Mapping network "vm-vl2149-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.194Z [DEBUG] Mapping network "vm-vl2149-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.195Z [DEBUG] Mapping network "vm-vl2152-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.195Z [DEBUG] Mapping network "vm-vl2152-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.195Z [DEBUG] Mapping network "vm-vl2152-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.195Z [DEBUG] Mapping network "vm-vl2152-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.195Z [DEBUG] Mapping network "vm-vl2153-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.195Z [DEBUG] Mapping network "vm-vl2153-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.196Z [DEBUG] Mapping network "vm-vl2153-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.196Z [DEBUG] Mapping network "vm-vl2153-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.196Z [DEBUG] Mapping network "vm-vl2154-tsf_1000037204-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.196Z [DEBUG] Mapping network "vm-vl2154-tsf_1000037204-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.196Z [DEBUG] Mapping network "vm-vl2155-tsf_1000037204-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.196Z [DEBUG] Mapping network "vm-vl2155-tsf_1000037204-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.196Z [DEBUG] Mapping network "vm-vl2157-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.197Z [DEBUG] Mapping network "vm-vl2158-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.197Z [DEBUG] Mapping network "vm-vl2159-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.197Z [DEBUG] Mapping network "vm-vl2160-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.197Z [DEBUG] Mapping network "vm-vl2161-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.197Z [DEBUG] Mapping network "vm-vl2162-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.197Z [DEBUG] Mapping network "vm-vl2163-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.197Z [DEBUG] Mapping network "vm-vl2164-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.198Z [DEBUG] Mapping network "vm-vl2167-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.198Z [DEBUG] Mapping network "vm-vl2167-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.198Z [DEBUG] Mapping network "vm-vl2167-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.198Z [DEBUG] Mapping network "vm-vl2167-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.198Z [DEBUG] Mapping network "vm-vl2188-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.198Z [DEBUG] Mapping network "vm-vl2188-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.198Z [DEBUG] Mapping network "vm-vl2189-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.198Z [DEBUG] Mapping network "vm-vl2189-bri_1000041101-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.199Z [DEBUG] Mapping network "vm-vl2208-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.199Z [DEBUG] Mapping network "vm-vl2208-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.199Z [DEBUG] Mapping network "vm-vl2208-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.199Z [DEBUG] Mapping network "vm-vl2208-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.199Z [DEBUG] Mapping network "vm-vl2209-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.199Z [DEBUG] Mapping network "vm-vl2209-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.200Z [DEBUG] Mapping network "vm-vl2209-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.200Z [DEBUG] Mapping network "vm-vl2209-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.200Z [DEBUG] Mapping network "vm-vl2210-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.200Z [DEBUG] Mapping network "vm-vl2210-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.200Z [DEBUG] Mapping network "vm-vl2210-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.200Z [DEBUG] Mapping network "vm-vl2210-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.200Z [DEBUG] Mapping network "vm-vl2211-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.201Z [DEBUG] Mapping network "vm-vl2211-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.201Z [DEBUG] Mapping network "vm-vl2211-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.201Z [DEBUG] Mapping network "vm-vl2211-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.201Z [DEBUG] Mapping network "vm-vl2357-tsr_1000035400-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.201Z [DEBUG] Mapping network "vm-vl2437-tsr_1000078106-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.201Z [DEBUG] Mapping network "vm-vl2520-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.201Z [DEBUG] Mapping network "vm-vl2520-tcs_1000042743-cus" to edgeGateway "neni".
+2024-11-20T09:18:18.202Z [DEBUG] Mapping network "vm-vl3717-dsi-vcd-afw-vfw-trs-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.202Z [DEBUG] Mapping network "vm-vl3728-cust-vfw-fortigate-syn-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.202Z [DEBUG] Mapping network "vm-vl3729-fortigate-vir-adm-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.202Z [DEBUG] Mapping network "VMware Heartbeat" to edgeGateway "neni".
+2024-11-20T09:18:18.202Z [DEBUG] Mapping network "VoIP" to edgeGateway "neni".
+2024-11-20T09:18:18.202Z [DEBUG] Mapping network "VOR_CUST_CP_10.6.192.32/28-v2t" to edgeGateway "com-a-t29_1000020859-01-gw13-v2t".
+2024-11-20T09:18:18.202Z [DEBUG] Mapping network "VOR_CUST_CP_10.7.16.48/28" to edgeGateway "com-a-t29_1000020859-01-gw14-v2t".
+2024-11-20T09:18:18.202Z [DEBUG] Mapping network "VOR_CUST_IB_10.6.192.0/27-v2t" to edgeGateway "com-a-t29_1000020859-01-gw12-v2t".
+2024-11-20T09:18:18.203Z [DEBUG] Mapping network "VOR_MGMT_CP_10.7.16.32/28-v2t" to edgeGateway "com-a-t29_1000020859-01-gw13-v2t".
+2024-11-20T09:18:18.203Z [DEBUG] Mapping network "VOR_MGMT_CP_10.7.16.64/28-v2t" to edgeGateway "com-a-t29_1000020859-01-gw14-v2t".
+2024-11-20T09:18:18.203Z [DEBUG] Mapping network "VOR_MGMT_IB_10.7.16.0/27-v2t" to edgeGateway "com-a-t29_1000020859-01-gw12-v2t".
+2024-11-20T09:18:18.203Z [DEBUG] Mapping network "VPN-net" to edgeGateway "com-a-heineken-hh3-mig-01-gw-01".
+2024-11-20T09:18:18.203Z [DEBUG] Mapping network "VPN_test" to edgeGateway "com-a-testcustomer-02-gw-01".
+2024-11-20T09:18:18.203Z [DEBUG] Mapping network "VXLAN" to edgeGateway "neni".
+2024-11-20T09:18:18.203Z [DEBUG] Mapping network "vxlan_pvdc1_heineken_cas_01-v2t" to edgeGateway "neni".
+2024-11-20T09:18:18.203Z [DEBUG] Mapping network "zebcltznet01-new" to edgeGateway "neni".
+2024-11-20T09:18:18.204Z [DEBUG] Mapping network "zebcltznet02" to edgeGateway "neni".
+2024-11-20T09:18:18.204Z [DEBUG] Mapping network "zebcltznet03" to edgeGateway "neni".
+2024-11-20T09:18:18.204Z [DEBUG] Mapping network "zebcltznet10" to edgeGateway "neni".
+2024-11-20T09:18:18.204Z [DEBUG] Mapping network "zebcltznet254" to edgeGateway "com-a-zbr_1000033594-01-gw04".
+2024-11-20T09:18:18.204Z [DEBUG] Mapping network "zebcltznet255" to edgeGateway "neni".
+2024-11-20T09:18:18.204Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:18:18.205Z [INFO] Starting to fetch access token
+2024-11-20T09:18:18.205Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:18:18.213Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:18:18.703Z [INFO] Access token fetch script successfull.
+2024-11-20T09:18:18.704Z [INFO] Access Token fetched successfully
+2024-11-20T09:18:18.704Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTM0OTgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiODcyM2IwMTYyMzgyNDY1NjlhMjIzNTY4MjY5ZTM5N2EifQ.f1U3OdUy8ZZW_hu2XwM4izHXUA5F3LjXxCqr0kHqPTbo4tRZsSy6q5b0fJ6XM1yb96Qf_oYAF-4PX-7pqOv4Z1YrhcgOYNBfW8ldS_DNnNFIbd3ZnqGhdRUwOGSNVK05LCcvk3p29hFbj1c2PDzxjipKAoNDOeUSv-aRikfiNwKCTKKgOxC8088Pde7bum_IAgWwKrVGcNnet6q9KPI7Q2ToxHezOWzyXlCj1-huepjXPSyEFWFOJ2Q-ibzR_eHi477iDPYFUN_lw9uSVW_x5X7hyiK6EqufGYsVpPrt6VluOye5bb78U-XtBjiwex0wbk2z8BY5nGtl3N9QL7QuTA
+2024-11-20T09:20:21.529Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:20:21.537Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:20:21.544Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:20:21.546Z [INFO] Starting to fetch access token
+2024-11-20T09:20:21.613Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:20:21.633Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:20:22.213Z [INFO] Access token fetch script successfull.
+2024-11-20T09:20:22.214Z [INFO] Access Token fetched successfully
+2024-11-20T09:20:22.214Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTM2MjEsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOTI4MDE3ODk0YzYxNGYwN2EzNGJkYjVmNzE2MzAyMjgifQ.IqIXBlIAj3WpxARAsDeV5wyps_DAf7m_J1VJNCslKYM6Yjt3LyVdWHZo3R8uxQ3N9-gnOUlQzOU6-pSSJnfpEXC4elDll9bex2FUTK165sn1H7LsimszBaT1hKWG1cm5dlqJvXY2EIO_hC9pT8dIAUN8tzLr3DmOlljr5c0-2D6d0Y9SE_y-AZq4iCoRFcDBwTW2gTWKh4P5P9-knm55wXncC9A4e6k-SFi4F7mGmSSQ3VMvVLoTw1_ht9mTGoOgUud88spQ5oXorb1ZWuYReT-TGBtstimGuxiz8owVl0NQQkn_jbxcqT-zjGq1jalb_a_uy-msu5H5Cw47o1ku2A
+2024-11-20T09:20:37.736Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-11-20T09:20:38.445Z [INFO] Fetched VDCs fpr successfully.
+2024-11-20T09:20:38.445Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-11-20T09:20:38.730Z [INFO] Fetched VDCs and their vApps successfully.
+2024-11-20T09:20:38.730Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-11-20T09:20:39.451Z [INFO] Fetched and filtered vApp details successfully.
+2024-11-20T09:20:39.452Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-11-20T09:20:39.452Z [DEBUG] Prepared VM request for VM ID: c647c09f-c382-4c78-80be-d9a5da327f57, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-c647c09f-c382-4c78-80be-d9a5da327f57
+2024-11-20T09:20:39.453Z [DEBUG] Prepared VM request for VM ID: 8adff57f-8a2a-4416-a954-360a75efb0c0, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-8adff57f-8a2a-4416-a954-360a75efb0c0
+2024-11-20T09:20:39.453Z [DEBUG] Prepared VM request for VM ID: c643646b-80c9-4686-977f-f686ab5256bd, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-c643646b-80c9-4686-977f-f686ab5256bd
+2024-11-20T09:20:39.453Z [DEBUG] Prepared VM request for VM ID: 11d876d9-22e7-4eca-b99d-8653cdf4bf7a, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-11d876d9-22e7-4eca-b99d-8653cdf4bf7a
+2024-11-20T09:20:39.453Z [DEBUG] Prepared VM request for VM ID: bd41bde0-e739-4e7a-bed2-532ad5446ff2, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-bd41bde0-e739-4e7a-bed2-532ad5446ff2
+2024-11-20T09:20:39.453Z [DEBUG] Prepared VM request for VM ID: 52c93af7-13a7-4319-bb9e-789ad1231130, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-52c93af7-13a7-4319-bb9e-789ad1231130
+2024-11-20T09:20:39.454Z [DEBUG] Prepared VM request for VM ID: 328787cf-fc05-43c8-ae46-998df91caa43, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-328787cf-fc05-43c8-ae46-998df91caa43
+2024-11-20T09:20:39.454Z [DEBUG] Prepared VM request for VM ID: 14e860bf-345b-415c-96a2-c8689bcce180, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-14e860bf-345b-415c-96a2-c8689bcce180
+2024-11-20T09:20:39.454Z [DEBUG] Prepared VM request for VM ID: 4348cfac-0664-45dd-97d8-1fef7327cb83, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-4348cfac-0664-45dd-97d8-1fef7327cb83
+2024-11-20T09:20:39.454Z [DEBUG] Prepared VM request for VM ID: 5957d4f0-4ba5-4271-a558-8f8cc0ea7acc, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-5957d4f0-4ba5-4271-a558-8f8cc0ea7acc
+2024-11-20T09:20:39.454Z [DEBUG] Prepared VM request for VM ID: 23b11e2a-f96e-4597-af1d-aafd10dfef51, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-23b11e2a-f96e-4597-af1d-aafd10dfef51
+2024-11-20T09:20:39.454Z [DEBUG] Prepared VM request for VM ID: d080e6b5-06c6-4fe8-8e36-2f61618aa6e6, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-d080e6b5-06c6-4fe8-8e36-2f61618aa6e6
+2024-11-20T09:20:39.454Z [DEBUG] Prepared VM request for VM ID: feca85d7-c6c8-4369-8b02-2520a33d06f0, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-feca85d7-c6c8-4369-8b02-2520a33d06f0
+2024-11-20T09:20:39.455Z [DEBUG] Prepared VM request for VM ID: d001b501-bab0-495c-ae99-a70b530ee258, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-d001b501-bab0-495c-ae99-a70b530ee258
+2024-11-20T09:20:39.455Z [DEBUG] Prepared VM request for VM ID: 3a6a1c7a-4638-4d51-9b01-407efcc7f3e2, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-3a6a1c7a-4638-4d51-9b01-407efcc7f3e2
+2024-11-20T09:20:39.455Z [DEBUG] Prepared VM request for VM ID: 9759158c-3258-4295-a095-47b8ea57cffe, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-9759158c-3258-4295-a095-47b8ea57cffe
+2024-11-20T09:20:39.455Z [DEBUG] Prepared VM request for VM ID: 93abdbce-ae7a-4b01-b0cd-848e28a30b6e, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-93abdbce-ae7a-4b01-b0cd-848e28a30b6e
+2024-11-20T09:20:39.455Z [DEBUG] Prepared VM request for VM ID: 11af38e4-5758-4154-abb9-4d889ba37db4, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-11af38e4-5758-4154-abb9-4d889ba37db4
+2024-11-20T09:20:39.455Z [DEBUG] Prepared VM request for VM ID: 9c27ac88-06cc-4cfa-b6a3-fe435972899e, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-9c27ac88-06cc-4cfa-b6a3-fe435972899e
+2024-11-20T09:20:39.455Z [DEBUG] Prepared VM request for VM ID: a588a521-e68e-468d-9876-c7a5017d00d9, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-a588a521-e68e-468d-9876-c7a5017d00d9
+2024-11-20T09:20:39.456Z [DEBUG] Prepared VM request for VM ID: 67e2a721-9457-4a01-b570-fcce27bb5bb7, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-67e2a721-9457-4a01-b570-fcce27bb5bb7
+2024-11-20T09:20:39.456Z [DEBUG] Prepared VM request for VM ID: 32901edb-544d-450b-b953-1bec18fe1951, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-32901edb-544d-450b-b953-1bec18fe1951
+2024-11-20T09:20:39.456Z [DEBUG] Prepared VM request for VM ID: 3204e8ff-b721-4005-9f70-793346b05558, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-3204e8ff-b721-4005-9f70-793346b05558
+2024-11-20T09:20:39.456Z [DEBUG] Prepared VM request for VM ID: 5f830114-1ed4-4222-ad4d-5fcc992b1214, URL: https://vcloud-ffm-private.t-systems.de/api/vApp/vm-5f830114-1ed4-4222-ad4d-5fcc992b1214
+2024-11-20T09:20:39.456Z [INFO] Making requests for 24 VMs.
+2024-11-20T09:20:39.979Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57
+2024-11-20T09:20:39.980Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:39.980Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.980Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.980Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.5, MAC=00:50:56:06:a7:29, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.980Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0
+2024-11-20T09:20:39.981Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:39.981Z [DEBUG] Looking up edgeGateway for network "test".
+2024-11-20T09:20:39.981Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "test".
+2024-11-20T09:20:39.981Z [DEBUG] Network details: networkName=test, ipAddress=111.111.111.10, MAC=00:50:56:06:a3:e5, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.981Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd
+2024-11-20T09:20:39.982Z [DEBUG] VM details updated: RAM=4096, numCpu=4
+2024-11-20T09:20:39.982Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T09:20:39.982Z [WARN] No edgeGateway found for network "none".
+2024-11-20T09:20:39.983Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a7:2a, edgeGateway=undefined
+2024-11-20T09:20:39.983Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T09:20:39.983Z [WARN] No edgeGateway found for network "none".
+2024-11-20T09:20:39.983Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a7:2b, edgeGateway=undefined
+2024-11-20T09:20:39.984Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a
+2024-11-20T09:20:39.984Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:39.984Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.984Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.984Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.8, MAC=00:50:56:06:a5:67, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.984Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2
+2024-11-20T09:20:39.984Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T09:20:39.985Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.985Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.985Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.22, MAC=00:50:56:06:9d:47, edgeGateway=neni
+2024-11-20T09:20:39.985Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T09:20:39.985Z [WARN] No edgeGateway found for network "none".
+2024-11-20T09:20:39.985Z [DEBUG] Network details: networkName=none, ipAddress=5.5.5.3, MAC=00:50:56:06:9d:46, edgeGateway=undefined
+2024-11-20T09:20:39.986Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.986Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.986Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.7, MAC=00:50:56:06:a4:f1, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.986Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130
+2024-11-20T09:20:39.986Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T09:20:39.987Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.987Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.987Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.32, MAC=00:50:56:06:a0:d9, edgeGateway=neni
+2024-11-20T09:20:39.987Z [DEBUG] Looking up edgeGateway for network "pebalog test".
+2024-11-20T09:20:39.987Z [DEBUG] Found edgeGateway "neni" for network "pebalog test".
+2024-11-20T09:20:39.987Z [DEBUG] Network details: networkName=pebalog test, ipAddress=5.5.5.2, MAC=00:50:56:06:a0:da, edgeGateway=neni
+2024-11-20T09:20:39.988Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43
+2024-11-20T09:20:39.988Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:39.988Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.988Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.989Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.8, MAC=00:50:56:06:a4:e8, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.989Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180
+2024-11-20T09:20:39.989Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T09:20:39.989Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.989Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.990Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.37, MAC=00:50:56:06:9b:05, edgeGateway=neni
+2024-11-20T09:20:39.990Z [DEBUG] Looking up edgeGateway for network "testnetwork".
+2024-11-20T09:20:39.990Z [DEBUG] Found edgeGateway "neni" for network "testnetwork".
+2024-11-20T09:20:39.990Z [DEBUG] Network details: networkName=testnetwork, ipAddress=168.192.0.3, MAC=00:50:56:06:9b:06, edgeGateway=neni
+2024-11-20T09:20:39.990Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83
+2024-11-20T09:20:39.991Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:39.991Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T09:20:39.991Z [WARN] No edgeGateway found for network "none".
+2024-11-20T09:20:39.991Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a6:ef, edgeGateway=undefined
+2024-11-20T09:20:39.991Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc
+2024-11-20T09:20:39.991Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T09:20:39.992Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.992Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.992Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.42, MAC=00:50:56:06:9e:e3, edgeGateway=neni
+2024-11-20T09:20:39.992Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51
+2024-11-20T09:20:39.992Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T09:20:39.992Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.993Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.993Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.29, MAC=00:50:56:06:67:2f, edgeGateway=neni
+2024-11-20T09:20:39.993Z [DEBUG] Looking up edgeGateway for network "pebalog test".
+2024-11-20T09:20:39.993Z [DEBUG] Found edgeGateway "neni" for network "pebalog test".
+2024-11-20T09:20:39.993Z [DEBUG] Network details: networkName=pebalog test, ipAddress=5.5.5.5, MAC=00:50:56:06:67:30, edgeGateway=neni
+2024-11-20T09:20:39.993Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6
+2024-11-20T09:20:39.993Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T09:20:39.994Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.994Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:39.994Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.33, MAC=00:50:56:06:6e:5d, edgeGateway=neni
+2024-11-20T09:20:39.994Z [DEBUG] Looking up edgeGateway for network "pebalog test".
+2024-11-20T09:20:39.994Z [DEBUG] Found edgeGateway "neni" for network "pebalog test".
+2024-11-20T09:20:39.995Z [DEBUG] Network details: networkName=pebalog test, ipAddress=5.5.5.6, MAC=00:50:56:06:80:53, edgeGateway=neni
+2024-11-20T09:20:39.995Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0
+2024-11-20T09:20:39.995Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:39.995Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.995Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.996Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.200, MAC=00:50:56:06:a6:f7, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.996Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.996Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.996Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.204, MAC=00:50:56:06:a6:fa, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.997Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.997Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.997Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.203, MAC=00:50:56:06:a6:fb, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.997Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.997Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.997Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.201, MAC=00:50:56:06:a6:fd, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.998Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.998Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.998Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.202, MAC=00:50:56:06:a6:fc, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.998Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258
+2024-11-20T09:20:39.998Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:39.999Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.999Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:39.999Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.101, MAC=00:50:56:06:a7:03, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:39.999Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:39.999Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:40.000Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.100, MAC=00:50:56:06:a6:ff, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:40.000Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:40.000Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:40.000Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.102, MAC=00:50:56:06:a7:02, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:40.000Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:40.001Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:40.001Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.103, MAC=00:50:56:06:a7:01, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:40.001Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:40.001Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:40.002Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.104, MAC=00:50:56:06:a7:00, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:40.002Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2
+2024-11-20T09:20:40.002Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:40.002Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.003Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.003Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=null, MAC=00:50:56:06:a4:0b, edgeGateway=neni
+2024-11-20T09:20:40.003Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T09:20:40.003Z [WARN] No edgeGateway found for network "none".
+2024-11-20T09:20:40.003Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a4:0c, edgeGateway=undefined
+2024-11-20T09:20:40.003Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe
+2024-11-20T09:20:40.003Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:40.004Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T09:20:40.004Z [WARN] No edgeGateway found for network "none".
+2024-11-20T09:20:40.004Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a5:fe, edgeGateway=undefined
+2024-11-20T09:20:40.004Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.004Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.004Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=null, MAC=00:50:56:06:a4:0f, edgeGateway=neni
+2024-11-20T09:20:40.005Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e
+2024-11-20T09:20:40.005Z [DEBUG] VM details updated: RAM=8192, numCpu=4
+2024-11-20T09:20:40.005Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.005Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.005Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.43, MAC=00:50:56:06:a5:ab, edgeGateway=neni
+2024-11-20T09:20:40.006Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:40.006Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:40.006Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.9, MAC=00:50:56:06:a5:aa, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:40.006Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4
+2024-11-20T09:20:40.006Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T09:20:40.007Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.007Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.007Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=null, MAC=00:50:56:06:9e:d3, edgeGateway=neni
+2024-11-20T09:20:40.007Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e
+2024-11-20T09:20:40.007Z [DEBUG] VM details updated: RAM=undefined, numCpu=undefined
+2024-11-20T09:20:40.008Z [WARN] No networks found for VM ID: urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e
+2024-11-20T09:20:40.008Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9
+2024-11-20T09:20:40.008Z [DEBUG] VM details updated: RAM=4096, numCpu=4
+2024-11-20T09:20:40.008Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.008Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.008Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=6.204.130.11, MAC=00:50:56:06:a6:13, edgeGateway=neni
+2024-11-20T09:20:40.009Z [DEBUG] Looking up edgeGateway for network "Routed Network".
+2024-11-20T09:20:40.009Z [DEBUG] Found edgeGateway "com-a-testcustomer-02-gw-01" for network "Routed Network".
+2024-11-20T09:20:40.009Z [DEBUG] Network details: networkName=Routed Network, ipAddress=10.0.0.10, MAC=00:50:56:06:a6:14, edgeGateway=com-a-testcustomer-02-gw-01
+2024-11-20T09:20:40.009Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7
+2024-11-20T09:20:40.009Z [DEBUG] VM details updated: RAM=7680, numCpu=2
+2024-11-20T09:20:40.010Z [DEBUG] Looking up edgeGateway for network "none".
+2024-11-20T09:20:40.010Z [WARN] No edgeGateway found for network "none".
+2024-11-20T09:20:40.010Z [DEBUG] Network details: networkName=none, ipAddress=null, MAC=00:50:56:06:a7:22, edgeGateway=undefined
+2024-11-20T09:20:40.010Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951
+2024-11-20T09:20:40.010Z [DEBUG] VM details updated: RAM=4096, numCpu=2
+2024-11-20T09:20:40.010Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.011Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.011Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=null, MAC=00:50:56:06:a4:eb, edgeGateway=neni
+2024-11-20T09:20:40.011Z [DEBUG] Looking up edgeGateway for network "Customertestnetwork".
+2024-11-20T09:20:40.011Z [DEBUG] Found edgeGateway "bas-a-testcustomer-01-gw-01" for network "Customertestnetwork".
+2024-11-20T09:20:40.011Z [DEBUG] Network details: networkName=Customertestnetwork, ipAddress=10.0.0.50, MAC=00:50:56:06:a4:ec, edgeGateway=bas-a-testcustomer-01-gw-01
+2024-11-20T09:20:40.012Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558
+2024-11-20T09:20:40.012Z [DEBUG] VM details updated: RAM=4096, numCpu=1
+2024-11-20T09:20:40.012Z [DEBUG] Looking up edgeGateway for network "testnetwork".
+2024-11-20T09:20:40.012Z [DEBUG] Found edgeGateway "neni" for network "testnetwork".
+2024-11-20T09:20:40.012Z [DEBUG] Network details: networkName=testnetwork, ipAddress=fe80:0:0:0:250:56ff:fe06:9d4f, MAC=00:50:56:06:9d:4f, edgeGateway=neni
+2024-11-20T09:20:40.012Z [DEBUG] Looking up edgeGateway for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.012Z [DEBUG] Found edgeGateway "neni" for network "TSY-AdminLAN-01".
+2024-11-20T09:20:40.013Z [DEBUG] Network details: networkName=TSY-AdminLAN-01, ipAddress=fe80:0:0:0:250:56ff:fe06:9d50, MAC=00:50:56:06:9d:50, edgeGateway=neni
+2024-11-20T09:20:40.013Z [DEBUG] Processing VM data for VM ID: urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214
+2024-11-20T09:20:40.013Z [DEBUG] VM details updated: RAM=undefined, numCpu=null
+2024-11-20T09:20:40.013Z [WARN] No networks found for VM ID: urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214
+2024-11-20T09:20:40.013Z [INFO] Fetched and updated all VM details successfully.
+2024-11-20T09:20:40.013Z [INFO] Fetched VM details successfully from IP: ::1
+2024-11-20T09:20:40.032Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2024-11-20T09:38:04.829Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:38:04.833Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:38:04.836Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:38:04.837Z [INFO] Starting to fetch access token
+2024-11-20T09:38:04.885Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:38:04.901Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:38:05.483Z [INFO] Access token fetch script successfull.
+2024-11-20T09:38:05.484Z [INFO] Access Token fetched successfully
+2024-11-20T09:38:05.484Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTQ2ODUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiM2IyMTYxN2YwNzU1NDYwZWI3YzA0ODAyYWRlOGNiNTgifQ.dRwWmgfaxMp6UmkCsvH91AetZPvX3UI2wgkupwmotuEbOBPraGMXq87j1vdwoO7xf-E52c9HkyaIez-EN7COY5V8ZNooJv5egngmCj2FZRhXTsBQEfhsHtzOSqcM_7Rn9aNApsyyLBCdFfmHqPM_toeyo5YJ8kWxfKE037bqdZGSSqL6LDberpCOxQf_fMT14tM4EzXVNnbaUgDEGzkwjVJailsTswqNGxQumgvtqo6CZ7OPyzahThqVUREVho3AdTse4Vs6DyqDI4a_3_mWtSBn1Rpf_xA_1BldU9G08R6_zDlpvUaWM8albfUxTvj4EuPwpGKAJ4KWrLYCVr_FyA
+2024-11-20T09:38:24.003Z [INFO] Fetching network data...
+2024-11-20T09:38:24.004Z [INFO] Initial request for Edge Gateways started
+2024-11-20T09:38:24.260Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T09:38:24.261Z [INFO] Making 115 edgeGateways requests
+2024-11-20T09:40:56.836Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:40:56.842Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:40:56.846Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:40:56.848Z [INFO] Starting to fetch access token
+2024-11-20T09:40:56.907Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:40:56.937Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:40:57.503Z [INFO] Access token fetch script successfull.
+2024-11-20T09:40:57.503Z [INFO] Access Token fetched successfully
+2024-11-20T09:40:57.504Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTQ4NTcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiN2Y3NjZkMDc1NzAyNDIyMDkzZGNkMmIxYmQ3MWE3ZmEifQ.JCWiscnGzmHZAPl9HZTL8R0xsMQpUsIbCofamrxwsHvYhj4q8tEOTAC3icxRAzepatUMuY5QG_WzQ_YT2uw37Ab0hsXqLPDBYqj-99teuop-AbpKT65hOeiygAbIq8d1_i3MN6wbgnzQ0K5efwNdTY9mwe3DY7i3am1dGLYiPSC6FMfz-d99bHHD4tzTk2BtKq2aN9gPD_rVOO4_nlnwd196Rwpo3VbDuil-PIP4VPheFdX59VUrdF0APXLxUObAvzRMN7N0fCYrjD0SwVmr6sB9nlesBGxH2AKYVm4JdtdxYNeg4by8wqar0i-W3GjngVHpEVD1cZV83UoRs4qkCw
+2024-11-20T09:41:05.430Z [INFO] Fetching network data...
+2024-11-20T09:41:05.431Z [INFO] Initial request for Edge Gateways started
+2024-11-20T09:41:05.661Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T09:41:05.661Z [INFO] Making 115 edgeGateways requests
+2024-11-20T09:42:11.098Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:42:11.102Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:42:11.105Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:42:11.106Z [INFO] Starting to fetch access token
+2024-11-20T09:42:11.147Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:42:11.164Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:42:11.681Z [INFO] Access token fetch script successfull.
+2024-11-20T09:42:11.682Z [INFO] Access Token fetched successfully
+2024-11-20T09:42:11.682Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTQ5MzEsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZDA2ZjE3ZGI4YmUyNGNlY2E1Y2ZiOWZjZmNkMDM4OGYifQ.GceCsLJH_vAZE7ZcPezD_hFtbXQioxuU_l23wj8tocYpEqYd8YSx-Q8m9cjNNn7p1yo8XiQiq1IUQvXYWmBItTT20Ke3m6lWM6drTUMUroU_TdCkKMxB6NKpDbkVzNOdaaZpLJl3EamhGSoVcfVc8uOk1dZABjYKxb5EwyZii-8oQuusnCBKzPOHlEbRslvoB7dq4c3Q6-StTiAIse7WFYZNL9HRhXMKMkilUnTGglwDvg6g_sLuVJ2hCOyoXKee2GggrsKEpXb4MHEZggvt9p7fjA34Ezr7EkHiOtaR3E8XHcE536PaaAhT9vAyvgb7NKbparR7yT8lQ0EDYgtgTQ
+2024-11-20T09:42:14.603Z [INFO] Fetching network data...
+2024-11-20T09:42:14.603Z [INFO] Initial request for Edge Gateways started
+2024-11-20T09:42:14.833Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T09:42:14.833Z [INFO] Making 115 edgeGateways requests
+2024-11-20T09:42:18.381Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T09:42:18.381Z [ERROR] Error fetching Edge Gateways:
+2024-11-20T09:42:18.382Z [ERROR] Error fetching network data:
+2024-11-20T09:47:09.164Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:47:09.169Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:47:09.175Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:47:09.177Z [INFO] Starting to fetch access token
+2024-11-20T09:47:09.230Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:47:09.253Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:47:09.765Z [INFO] Access token fetch script successfull.
+2024-11-20T09:47:09.765Z [INFO] Access Token fetched successfully
+2024-11-20T09:47:09.766Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTUyMjksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZTIyY2M3MTUxODA1NDljMTgzYTQ4NzFlZmYzYWVlNzUifQ.OvwrOSuuTliVFzVUJGH3eYnDoMwJ2CH4Er4x3Yvz3xQcp_lupI08mzQqzsIMDJRV0zMaO1aBTMJ5l0dKs4s0DYijt4oBlqHWhiXJ7szkgHfhfZTdMuJSTXib8Mw43cUvrxpzGjMEDXpWp3bSvaSDtj69V3zJVDlqDwUQ2AXt0rNC2uCiOnq-tg0-wnvSHuxVQtm7xLdGWlCCiXap59iuuPpeMIWpjxHTC8-uythqhioq_Fq76BDvg6B8NlygFCVV-xk1Kq3T4QwVot05bh6n4C5ETLP9DMcTfR5PcJDcDgfS8JYHRZDEgwLgdkoO5OKX37EOlaBQ4tfMe6uIQBWvhQ
+2024-11-20T09:47:13.243Z [INFO] Fetching network data...
+2024-11-20T09:47:13.244Z [INFO] Initial request for Edge Gateways started
+2024-11-20T09:47:13.489Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T09:47:13.490Z [INFO] Making 115 edgeGateways requests
+2024-11-20T09:47:17.273Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T09:47:17.273Z [ERROR] Error fetching Edge Gateways:
+2024-11-20T09:47:17.273Z [ERROR] Error fetching network data:
+2024-11-20T09:48:17.881Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:48:17.885Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:48:17.889Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:48:17.891Z [INFO] Starting to fetch access token
+2024-11-20T09:48:17.936Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:48:17.966Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:48:18.537Z [INFO] Access token fetch script successfull.
+2024-11-20T09:48:18.538Z [INFO] Access Token fetched successfully
+2024-11-20T09:48:18.541Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTUyOTgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYWNiNjMzYjAxYWRiNDhjN2I5NGY1MzMwYmRlYjU4ZTEifQ.OwqbnVIDGfKgeNdK740UePDgc20SXFghlkL_gd6Bb7Q3qYFCyvRp6xXxvF1LRlGTjVntADX_Hu3abA-MBq7zxnwo4ekyUW1lgbl4PVrIbsZGIeeP-5PVZ5o5kBp_zuf-xOENuqyLI8vWtPM50K6ov-xY7JRvpN21cmyI0Kh1FbqH-wr6DPQF5oJuX3WDkxt1xmyCIJXi5UwL5i-iYmvIodILGCWinhovMXJ04u5ZyhCZ1flG_YCO1iCaI6EbcRnZdaiZbxvdUVbtHEcr8PpvwOvcwv4Get_on27oIj8JtC56P3qjoRSHoX3yMs9SBQqRcR5VdGpsRc_co-BDN-sbew
+2024-11-20T09:48:20.438Z [INFO] Fetching network data...
+2024-11-20T09:48:20.439Z [INFO] Initial request for Edge Gateways started
+2024-11-20T09:48:20.687Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T09:48:20.687Z [INFO] Making 115 edgeGateways requests
+2024-11-20T09:48:21.466Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T09:48:21.471Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-20T09:48:22.350Z [INFO] Initial request done!
+2024-11-20T09:48:22.350Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-20T09:48:23.811Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-20T09:48:23.817Z [INFO] Fetching firewall and NAT rules for 115 gatewaysX
+2024-11-20T09:50:13.634Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:50:13.638Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:50:13.641Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:50:13.642Z [INFO] Starting to fetch access token
+2024-11-20T09:50:13.687Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:50:13.705Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:50:14.268Z [INFO] Access token fetch script successfull.
+2024-11-20T09:50:14.269Z [INFO] Access Token fetched successfully
+2024-11-20T09:50:14.269Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTU0MTMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMjc1Mzk1ZGViMzdhNDYyMGIyYWZkZWExMjc4N2U0ODcifQ.jPKUEUCqxLpGze0ZQg9c91QYUIjpSwDUQK1M0vhcwriJAGac678GFyAjPMMxsLMs1cdYVTCcS3JGPDd-2YXP8LCDvwI5OTCofRpDUTM2evlqQatYH24qiVjaeJbtq8_o1gMu2rAJHOVoWsTsJmOfnBDgi3HOJegq8H-0m9qDVr2AebeqVMrH93aYL9l7EvfSjKt5d2sErq3COVAIknr2tSXgshG42CXc50-9DFtV7lALGHm-NEuRkJCq_txS1WkqtRuPD235auERFoLg8w-VbAoMEZGnxD84Q9modhnYaZQ4nH_EecQ9ng7oe9vv66rVkgz_Bl9Pc_IK8FWSK1-Tpg
+2024-11-20T09:50:18.092Z [INFO] Fetching network data...
+2024-11-20T09:50:18.092Z [INFO] Initial request for Edge Gateways started
+2024-11-20T09:50:18.331Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T09:50:18.332Z [INFO] Making 115 edgeGateways requests
+2024-11-20T09:50:21.991Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T09:50:21.994Z [ERROR] Error fetching network data:
+2024-11-20T09:51:31.422Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:51:31.426Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:51:31.429Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:51:31.430Z [INFO] Starting to fetch access token
+2024-11-20T09:51:31.482Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:51:31.502Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:51:32.026Z [INFO] Access token fetch script successfull.
+2024-11-20T09:51:32.027Z [INFO] Access Token fetched successfully
+2024-11-20T09:51:32.027Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTU0OTEsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOGIzZTIzNzlkOTdiNDg1Yzk1ZGRhZjhlNzVmYTkwYmUifQ.AjhfBOzdP-dxpK6T14HdLvGcT3G03PUschBrdMSp7kykG0wAuCVgq58WGFJQpuLl98_fwN2mkRpWG4IGW-60_8FwyUm1uGJz0myc3oAkkbEFd_cQDrdE3rE27TLzBvteoZkMPaLBjLuXi7TEw5ZRFBr8vc0tWQ6aSImE7mzx1fWfCzaA86Imxvj8srnOElOXFqNOrPDTYh-_9WVyHOH0y_2p0oioMU7YU4wgEmi6AjFhFKNuVohKqRvqUpeSgCBIFTv1SGiCiTwelN_BWDGGWnnTyck_nu_bX3Jvn30F2nt8J-ksj21vzicEmmNf9HrhS1aKswjJJJ0YLBFi87-yVQ
+2024-11-20T09:51:34.575Z [INFO] Fetching network data...
+2024-11-20T09:51:34.575Z [INFO] Initial request for Edge Gateways started
+2024-11-20T09:51:34.813Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T09:51:34.813Z [INFO] Making 115 edgeGateways requests
+2024-11-20T09:51:38.447Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T09:51:38.453Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-20T09:51:39.214Z [INFO] Initial request done!
+2024-11-20T09:51:39.214Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-20T09:51:41.042Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-20T09:51:41.050Z [INFO] Fetching firewall and NAT rules for 115 gatewaysX
+2024-11-20T09:51:47.016Z [INFO] Fetched and saved firewall and NAT rules for all gatewaysX successfully.
+2024-11-20T09:51:47.018Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-20T09:51:47.018Z [ERROR] Error fetching network data:
+2024-11-20T09:53:54.760Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T09:53:54.765Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T09:53:54.768Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T09:53:54.769Z [INFO] Starting to fetch access token
+2024-11-20T09:53:54.819Z [INFO] Server is running on http://localhost:3000
+2024-11-20T09:53:54.840Z [INFO] Mongoose connected to MongoDB
+2024-11-20T09:53:55.379Z [INFO] Access token fetch script successfull.
+2024-11-20T09:53:55.380Z [INFO] Access Token fetched successfully
+2024-11-20T09:53:55.380Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNTU2MzUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiY2VjODY4NmJjOWM3NGYzZWI4M2I4YTJhYTg0MzA5NzkifQ.hEjNpd_KG22ALWFfs3zfxmqYgMrmOS_aLpbJebCGOO3tohMt1CKL_eKhEUDE16_oxWNF2PuEcZcxroltEcmJSPG00oZHczM30aHNk9uVPeabh34JDRjlHRZvZIq8xHXUlsWh_KCy4qrK7ECE_W3C1ZagAT3coVlgoa4G6mKMLjdmDG38J-jQrrlxx7BgxUUQcLVqNSWwF9SGrxYYSSOxul2QgpgtXzT87nQJoI9pcHwgN-ZRjgtdPzUxdn7hl6hUIGWyyCz-TXyp7axwLEEi6-gAvRJaQieelYr_E-04BSFUI6mOEs2vctyGmiUxYrEv7jNwD7xfFAF5inNSKO55FA
+2024-11-20T09:54:02.000Z [INFO] Fetching network data...
+2024-11-20T09:54:02.000Z [INFO] Initial request for Edge Gateways started
+2024-11-20T09:54:02.238Z [INFO] Initial request for Edge Gateways done!
+2024-11-20T09:54:02.238Z [INFO] Making 115 edgeGateways requests
+2024-11-20T09:54:05.927Z [INFO] Fetched all Edge Gateways successfully.
+2024-11-20T09:54:05.935Z [INFO] Fetched Edge Gateways data successfully.
+2024-11-20T09:54:06.607Z [INFO] Initial request done!
+2024-11-20T09:54:06.608Z [INFO] Making 21 orgVDCNetworks requests
+2024-11-20T09:54:07.732Z [INFO] Fetched all orgVdcNetworks successfully.
+2024-11-20T09:54:07.737Z [INFO] Fetching firewall and NAT rules for 115 gatewaysX
+2024-11-20T09:54:21.140Z [INFO] Fetched and saved firewall and NAT rules for all gatewaysX successfully.
+2024-11-20T09:54:21.146Z [INFO] Fetched Org VDC Networks data successfully.
+2024-11-20T09:54:21.149Z [INFO] Network data sent successfully.
+2024-11-20T11:39:57.802Z [INFO] orgVdcNetworks.json found at path: C:\Users\A200155071\OneDrive - Deutsche Telekom AG\Desktop\vCloud\vMatrix\src\data\orgVdcNetworks.json
+2024-11-20T11:39:57.806Z [INFO] Parsed orgVdcNetworks.json successfully.
+2024-11-20T11:39:57.809Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-11-20T11:39:57.810Z [INFO] Starting to fetch access token
+2024-11-20T11:39:57.844Z [INFO] Server is running on http://localhost:3000
+2024-11-20T11:39:57.859Z [INFO] Mongoose connected to MongoDB
+2024-11-20T11:39:58.565Z [INFO] Access token fetch script successfull.
+2024-11-20T11:39:58.566Z [INFO] Access Token fetched successfully
+2024-11-20T11:39:58.567Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1qYnVkemFrIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiI0YzUxYmZhMS1kNTVhLTQ4ZTctYmI0NS1mNzRmY2Y0OWIyZDciLCJleHAiOjE3MzIzNjE5OTgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMDVkYzExMzBiYTI0NDU5Y2I1YmZkMDBkMjljNTMyZDIifQ.ZnRbPFuRYpD5hAkhMDuPwIShrLo80QxVBIYS43a1X3-bOq0Ce3mzEG7YIotB6nt_CJFZX2JxEI6wO-9J2eSRGz_4Mo6V6D2UTF2tHC0H_WPJVUWfPVgJ_5yK7VmYLXdjuIOhjDNsDR-cR1lIc8yj-XIYeQ-lk6itt2IssrLJJV3Y62785C1S4Z6RZ-DB9DXCzVWOqj3AD89n-XwusGT17u4kSICeJN2c4Vkbhyf5NcUgMQpwla6W994AiVFI6zMv2d2vabDJ5FFN05gNT-weDE2DweiTzttgkmQ6LBrB3YVFJqbzU5rhW6HBiacR25_adG0SET58-8rgS9fVcN0Jng
