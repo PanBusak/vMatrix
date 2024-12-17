@@ -1,0 +1,2565 @@
+{
+    "_id": {
+      "$oid": "673f02844f23addf823a42e4"
+    },
+    "name": "testcustomer",
+    "uuid": "15566d05-2741-4679-8892-ae00c911c699",
+    "topology": [
+      {
+        "timeStamp": {
+          "$date": "2024-11-21T09:51:00.066Z"
+        },
+        "data": [
+          {
+            "name": "testcustomer",
+            "uuid": "15566d05-2741-4679-8892-ae00c911c699",
+            "vdcs": [
+              {
+                "name": "com-a-testcustomer-02",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+                "urn": "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+                "vapps": [
+                  {
+                    "name": "TASTE-OS Test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-bb42bff9-f4fb-4683-bd08-e79b97533c65",
+                    "details": {
+                      "vAppName": "TASTE-OS Test",
+                      "VirtualMachines": [
+                        {
+                          "name": "VM1",
+                          "id": "urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.5",
+                              "MAC": "00:50:56:06:a7:29",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mig-tool",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9e0996c9-0e6f-46d2-a13c-e9ff12c4cd20",
+                    "details": {
+                      "vAppName": "mig-tool",
+                      "VirtualMachines": [
+                        {
+                          "name": "mig-tool-test",
+                          "id": "urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "test",
+                              "ipAddress": "111.111.111.10",
+                              "MAC": "00:50:56:06:a3:e5",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "managed-test-vm (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-47f998b0-b4bf-427a-8e45-34016102de0c",
+                    "details": {
+                      "vAppName": "managed-test-vm (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "rhel-managed-test",
+                          "id": "urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:2a",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:2b",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-1fbaf717-1abe-4920-826b-61e23318e542",
+                    "details": {
+                      "vAppName": "pebalog",
+                      "VirtualMachines": [
+                        {
+                          "name": "test-linux",
+                          "id": "urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.8",
+                              "MAC": "00:50:56:06:a5:67",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-98ed80d2-4e04-405d-b5f9-3df3f8e93d64",
+                    "details": {
+                      "vAppName": "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
+                      "VirtualMachines": [
+                        {
+                          "name": "testdeployW2K19STD_managed_FP_4",
+                          "id": "urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.22",
+                              "MAC": "00:50:56:06:9d:47",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": "5.5.5.3",
+                              "MAC": "00:50:56:06:9d:46",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.7",
+                              "MAC": "00:50:56:06:a4:f1",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4377868a-aed2-47b9-a310-e9e80c140479",
+                    "details": {
+                      "vAppName": "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
+                      "VirtualMachines": [
+                        {
+                          "name": "W2K22MAN23Test_FFP",
+                          "id": "urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.32",
+                              "MAC": "00:50:56:06:a0:d9",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.2",
+                              "MAC": "00:50:56:06:a0:da",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "rcec_test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0a7236a9-7b59-4284-993e-7b24e883cf6f",
+                    "details": {
+                      "vAppName": "rcec_test",
+                      "VirtualMachines": [
+                        {
+                          "name": "vm-17",
+                          "id": "urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.8",
+                              "MAC": "00:50:56:06:a4:e8",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-2e447374-102c-4952-bd76-6a75ff35b660",
+                    "details": {
+                      "vAppName": "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
+                      "VirtualMachines": [
+                        {
+                          "name": "redeploy-FFM-16",
+                          "id": "urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.37",
+                              "MAC": "00:50:56:06:9b:05",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "testnetwork",
+                              "ipAddress": "168.192.0.3",
+                              "MAC": "00:50:56:06:9b:06",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "rcec_test (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ebe0b7ad-d2fa-44b8-8e25-b11047e1db94",
+                    "details": {
+                      "vAppName": "rcec_test (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "vm-17",
+                          "id": "urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a6:ef",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-232dee91-6bc8-4812-b3ec-06e0aa751d4b",
+                    "details": {
+                      "vAppName": "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "FPR2022sm01",
+                          "id": "urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.42",
+                              "MAC": "00:50:56:06:9e:e3",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mcs-test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fbedded5-593c-4d6b-8a4a-82634644b8f7",
+                    "details": {
+                      "vAppName": "mcs-test",
+                      "VirtualMachines": [
+                        {
+                          "name": "mcs-image",
+                          "id": "urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.29",
+                              "MAC": "00:50:56:06:67:2f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.5",
+                              "MAC": "00:50:56:06:67:30",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "pwd-changed",
+                          "id": "urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.33",
+                              "MAC": "00:50:56:06:6e:5d",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.6",
+                              "MAC": "00:50:56:06:80:53",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "restore_test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-90066013-f96a-411e-bf7f-823c2fd72851",
+                    "details": {
+                      "vAppName": "restore_test",
+                      "VirtualMachines": []
+                    }
+                  },
+                  {
+                    "name": "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-dba002c8-abb8-4608-85cb-19ca028be073",
+                    "details": {
+                      "vAppName": "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
+                      "VirtualMachines": [
+                        {
+                          "name": "mdolnik-test-vmxnet",
+                          "id": "urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.200",
+                              "MAC": "00:50:56:06:a6:f7",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.204",
+                              "MAC": "00:50:56:06:a6:fa",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.203",
+                              "MAC": "00:50:56:06:a6:fb",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.201",
+                              "MAC": "00:50:56:06:a6:fd",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.202",
+                              "MAC": "00:50:56:06:a6:fc",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4683f848-00ca-456e-80bf-af94186961f0",
+                    "details": {
+                      "vAppName": "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
+                      "VirtualMachines": [
+                        {
+                          "name": "mdolnik-test-e1000",
+                          "id": "urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.101",
+                              "MAC": "00:50:56:06:a7:03",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.100",
+                              "MAC": "00:50:56:06:a6:ff",
+                              "adapter": "E1000E",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.102",
+                              "MAC": "00:50:56:06:a7:02",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.103",
+                              "MAC": "00:50:56:06:a7:01",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.104",
+                              "MAC": "00:50:56:06:a7:00",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "MOS Test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e5d13ba0-54c3-461f-94ab-13fc606fa9d2",
+                    "details": {
+                      "vAppName": "MOS Test",
+                      "VirtualMachines": [
+                        {
+                          "name": "bz240307_RHEL8_MANAGED_2023-01.1",
+                          "id": "urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0b",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0c",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-52e87e1b-843c-48f7-ac0e-bac46815cc4c",
+                    "details": {
+                      "vAppName": "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
+                      "VirtualMachines": [
+                        {
+                          "name": "jblodi_testKH",
+                          "id": "urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a5:fe",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "adminlan-test-deploy",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-df0cad85-a811-421f-bb50-f305e49f4bcd",
+                    "details": {
+                      "vAppName": "adminlan-test-deploy",
+                      "VirtualMachines": [
+                        {
+                          "name": "SELFMANAGED_ADMINLAN_test",
+                          "id": "urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e",
+                          "details": {
+                            "RAM": 8192,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.43",
+                              "MAC": "00:50:56:06:a5:ab",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.9",
+                              "MAC": "00:50:56:06:a5:aa",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3b1060bc-c0f8-4d32-b34c-9d44e79bec1d",
+                    "details": {
+                      "vAppName": "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
+                      "VirtualMachines": [
+                        {
+                          "name": "win22test",
+                          "id": "urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:9e:d3",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "test-managed",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5652a8f5-56a2-49cf-ba10-1ac2a99e8012",
+                    "details": {
+                      "vAppName": "test-managed",
+                      "VirtualMachines": [
+                        {
+                          "name": "test-managed",
+                          "id": "urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e",
+                          "networks": []
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "managed-test-vm",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a3f9d641-1920-4561-a019-f6e2b0c73265",
+                    "details": {
+                      "vAppName": "managed-test-vm",
+                      "VirtualMachines": [
+                        {
+                          "name": "rhel-managed-test",
+                          "id": "urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.11",
+                              "MAC": "00:50:56:06:a6:13",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.10",
+                              "MAC": "00:50:56:06:a6:14",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "bas-a-testcustomer-01",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/266ec39b-e79e-4011-81ab-e198e71135f2",
+                "urn": "urn:vcloud:vdc:266ec39b-e79e-4011-81ab-e198e71135f2",
+                "vapps": [
+                  {
+                    "name": "ssafrank_test22-d8cb3753-2f7c-4730-96f5-2bda9c842594",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-57cd3823-f8cd-48b7-9d6e-37d75c3a9022",
+                    "details": {
+                      "vAppName": "ssafrank_test22-d8cb3753-2f7c-4730-96f5-2bda9c842594",
+                      "VirtualMachines": [
+                        {
+                          "name": "ssafrank_test22",
+                          "id": "urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7",
+                          "details": {
+                            "RAM": 7680,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:22",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-676aeb0b-9959-44da-a30d-b5b613809714",
+                    "details": {
+                      "vAppName": "pebalog (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "MOSPB2",
+                          "id": "urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:eb",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Customertestnetwork",
+                              "ipAddress": "10.0.0.50",
+                              "MAC": "00:50:56:06:a4:ec",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "bas-a-testcustomer-01-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "bas-b-testcustomer-03",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/15c91fe6-569d-4207-a984-59f38c8efd6a",
+                "urn": "urn:vcloud:vdc:15c91fe6-569d-4207-a984-59f38c8efd6a",
+                "vapps": [
+                  {
+                    "name": "LB_test (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b1c68845-0062-482a-8c15-53d32460339c",
+                    "details": {
+                      "vAppName": "LB_test (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "pebalogtest",
+                          "id": "urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "testnetwork",
+                              "ipAddress": "fe80:0:0:0:250:56ff:fe06:9d4f",
+                              "MAC": "00:50:56:06:9d:4f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "fe80:0:0:0:250:56ff:fe06:9d50",
+                              "MAC": "00:50:56:06:9d:50",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "LB_test (1) (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-008aa9a6-c027-4c2c-8402-640486541308",
+                    "details": {
+                      "vAppName": "LB_test (1) (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "pebalogtest",
+                          "id": "urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214",
+                          "details": {
+                            "numCpu": null
+                          },
+                          "networks": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "compute": {
+              "cpu": {
+                "units": "MHz",
+                "allocated": 0,
+                "limit": 0,
+                "reserved": 0,
+                "used": 600,
+                "reservationUsed": 150,
+                "vCloudExtension": []
+              },
+              "memory": {
+                "units": "MB",
+                "allocated": 0,
+                "limit": 0,
+                "reserved": 0,
+                "used": 4096,
+                "reservationUsed": 2048,
+                "vCloudExtension": []
+              },
+              "vCloudExtension": []
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "673f02844f23addf823a42e5"
+        }
+      },
+      {
+        "timeStamp": {
+          "$date": "2024-11-21T09:51:06.847Z"
+        },
+        "data": [
+          {
+            "name": "testcustomer",
+            "uuid": "15566d05-2741-4679-8892-ae00c911c699",
+            "vdcs": [
+              {
+                "name": "com-a-testcustomer-02",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+                "urn": "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+                "vapps": [
+                  {
+                    "name": "TASTE-OS Test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-bb42bff9-f4fb-4683-bd08-e79b97533c65",
+                    "details": {
+                      "vAppName": "TASTE-OS Test",
+                      "VirtualMachines": [
+                        {
+                          "name": "VM1",
+                          "id": "urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.5",
+                              "MAC": "00:50:56:06:a7:29",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mig-tool",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9e0996c9-0e6f-46d2-a13c-e9ff12c4cd20",
+                    "details": {
+                      "vAppName": "mig-tool",
+                      "VirtualMachines": [
+                        {
+                          "name": "mig-tool-test",
+                          "id": "urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "test",
+                              "ipAddress": "111.111.111.10",
+                              "MAC": "00:50:56:06:a3:e5",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "managed-test-vm (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-47f998b0-b4bf-427a-8e45-34016102de0c",
+                    "details": {
+                      "vAppName": "managed-test-vm (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "rhel-managed-test",
+                          "id": "urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:2a",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:2b",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-1fbaf717-1abe-4920-826b-61e23318e542",
+                    "details": {
+                      "vAppName": "pebalog",
+                      "VirtualMachines": [
+                        {
+                          "name": "test-linux",
+                          "id": "urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.8",
+                              "MAC": "00:50:56:06:a5:67",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-98ed80d2-4e04-405d-b5f9-3df3f8e93d64",
+                    "details": {
+                      "vAppName": "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
+                      "VirtualMachines": [
+                        {
+                          "name": "testdeployW2K19STD_managed_FP_4",
+                          "id": "urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.22",
+                              "MAC": "00:50:56:06:9d:47",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": "5.5.5.3",
+                              "MAC": "00:50:56:06:9d:46",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.7",
+                              "MAC": "00:50:56:06:a4:f1",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4377868a-aed2-47b9-a310-e9e80c140479",
+                    "details": {
+                      "vAppName": "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
+                      "VirtualMachines": [
+                        {
+                          "name": "W2K22MAN23Test_FFP",
+                          "id": "urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.32",
+                              "MAC": "00:50:56:06:a0:d9",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.2",
+                              "MAC": "00:50:56:06:a0:da",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "rcec_test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0a7236a9-7b59-4284-993e-7b24e883cf6f",
+                    "details": {
+                      "vAppName": "rcec_test",
+                      "VirtualMachines": [
+                        {
+                          "name": "vm-17",
+                          "id": "urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.8",
+                              "MAC": "00:50:56:06:a4:e8",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-2e447374-102c-4952-bd76-6a75ff35b660",
+                    "details": {
+                      "vAppName": "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
+                      "VirtualMachines": [
+                        {
+                          "name": "redeploy-FFM-16",
+                          "id": "urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.37",
+                              "MAC": "00:50:56:06:9b:05",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "testnetwork",
+                              "ipAddress": "168.192.0.3",
+                              "MAC": "00:50:56:06:9b:06",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "rcec_test (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ebe0b7ad-d2fa-44b8-8e25-b11047e1db94",
+                    "details": {
+                      "vAppName": "rcec_test (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "vm-17",
+                          "id": "urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a6:ef",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-232dee91-6bc8-4812-b3ec-06e0aa751d4b",
+                    "details": {
+                      "vAppName": "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "FPR2022sm01",
+                          "id": "urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.42",
+                              "MAC": "00:50:56:06:9e:e3",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mcs-test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fbedded5-593c-4d6b-8a4a-82634644b8f7",
+                    "details": {
+                      "vAppName": "mcs-test",
+                      "VirtualMachines": [
+                        {
+                          "name": "mcs-image",
+                          "id": "urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.29",
+                              "MAC": "00:50:56:06:67:2f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.5",
+                              "MAC": "00:50:56:06:67:30",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "pwd-changed",
+                          "id": "urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.33",
+                              "MAC": "00:50:56:06:6e:5d",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.6",
+                              "MAC": "00:50:56:06:80:53",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "restore_test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-90066013-f96a-411e-bf7f-823c2fd72851",
+                    "details": {
+                      "vAppName": "restore_test",
+                      "VirtualMachines": []
+                    }
+                  },
+                  {
+                    "name": "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-dba002c8-abb8-4608-85cb-19ca028be073",
+                    "details": {
+                      "vAppName": "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
+                      "VirtualMachines": [
+                        {
+                          "name": "mdolnik-test-vmxnet",
+                          "id": "urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.200",
+                              "MAC": "00:50:56:06:a6:f7",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.204",
+                              "MAC": "00:50:56:06:a6:fa",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.203",
+                              "MAC": "00:50:56:06:a6:fb",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.201",
+                              "MAC": "00:50:56:06:a6:fd",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.202",
+                              "MAC": "00:50:56:06:a6:fc",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4683f848-00ca-456e-80bf-af94186961f0",
+                    "details": {
+                      "vAppName": "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
+                      "VirtualMachines": [
+                        {
+                          "name": "mdolnik-test-e1000",
+                          "id": "urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.101",
+                              "MAC": "00:50:56:06:a7:03",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.100",
+                              "MAC": "00:50:56:06:a6:ff",
+                              "adapter": "E1000E",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.102",
+                              "MAC": "00:50:56:06:a7:02",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.103",
+                              "MAC": "00:50:56:06:a7:01",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.104",
+                              "MAC": "00:50:56:06:a7:00",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "MOS Test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e5d13ba0-54c3-461f-94ab-13fc606fa9d2",
+                    "details": {
+                      "vAppName": "MOS Test",
+                      "VirtualMachines": [
+                        {
+                          "name": "bz240307_RHEL8_MANAGED_2023-01.1",
+                          "id": "urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0b",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0c",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-52e87e1b-843c-48f7-ac0e-bac46815cc4c",
+                    "details": {
+                      "vAppName": "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
+                      "VirtualMachines": [
+                        {
+                          "name": "jblodi_testKH",
+                          "id": "urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a5:fe",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "adminlan-test-deploy",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-df0cad85-a811-421f-bb50-f305e49f4bcd",
+                    "details": {
+                      "vAppName": "adminlan-test-deploy",
+                      "VirtualMachines": [
+                        {
+                          "name": "SELFMANAGED_ADMINLAN_test",
+                          "id": "urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e",
+                          "details": {
+                            "RAM": 8192,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.43",
+                              "MAC": "00:50:56:06:a5:ab",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.9",
+                              "MAC": "00:50:56:06:a5:aa",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3b1060bc-c0f8-4d32-b34c-9d44e79bec1d",
+                    "details": {
+                      "vAppName": "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
+                      "VirtualMachines": [
+                        {
+                          "name": "win22test",
+                          "id": "urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:9e:d3",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "test-managed",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5652a8f5-56a2-49cf-ba10-1ac2a99e8012",
+                    "details": {
+                      "vAppName": "test-managed",
+                      "VirtualMachines": [
+                        {
+                          "name": "test-managed",
+                          "id": "urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e",
+                          "networks": []
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "managed-test-vm",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a3f9d641-1920-4561-a019-f6e2b0c73265",
+                    "details": {
+                      "vAppName": "managed-test-vm",
+                      "VirtualMachines": [
+                        {
+                          "name": "rhel-managed-test",
+                          "id": "urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.11",
+                              "MAC": "00:50:56:06:a6:13",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.10",
+                              "MAC": "00:50:56:06:a6:14",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "bas-a-testcustomer-01",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/266ec39b-e79e-4011-81ab-e198e71135f2",
+                "urn": "urn:vcloud:vdc:266ec39b-e79e-4011-81ab-e198e71135f2",
+                "vapps": [
+                  {
+                    "name": "ssafrank_test22-d8cb3753-2f7c-4730-96f5-2bda9c842594",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-57cd3823-f8cd-48b7-9d6e-37d75c3a9022",
+                    "details": {
+                      "vAppName": "ssafrank_test22-d8cb3753-2f7c-4730-96f5-2bda9c842594",
+                      "VirtualMachines": [
+                        {
+                          "name": "ssafrank_test22",
+                          "id": "urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7",
+                          "details": {
+                            "RAM": 7680,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:22",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-676aeb0b-9959-44da-a30d-b5b613809714",
+                    "details": {
+                      "vAppName": "pebalog (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "MOSPB2",
+                          "id": "urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:eb",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Customertestnetwork",
+                              "ipAddress": "10.0.0.50",
+                              "MAC": "00:50:56:06:a4:ec",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "bas-a-testcustomer-01-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "bas-b-testcustomer-03",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/15c91fe6-569d-4207-a984-59f38c8efd6a",
+                "urn": "urn:vcloud:vdc:15c91fe6-569d-4207-a984-59f38c8efd6a",
+                "vapps": [
+                  {
+                    "name": "LB_test (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b1c68845-0062-482a-8c15-53d32460339c",
+                    "details": {
+                      "vAppName": "LB_test (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "pebalogtest",
+                          "id": "urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "testnetwork",
+                              "ipAddress": "fe80:0:0:0:250:56ff:fe06:9d4f",
+                              "MAC": "00:50:56:06:9d:4f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "fe80:0:0:0:250:56ff:fe06:9d50",
+                              "MAC": "00:50:56:06:9d:50",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "LB_test (1) (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-008aa9a6-c027-4c2c-8402-640486541308",
+                    "details": {
+                      "vAppName": "LB_test (1) (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "pebalogtest",
+                          "id": "urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214",
+                          "details": {
+                            "numCpu": null
+                          },
+                          "networks": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "compute": {
+              "cpu": {
+                "units": "MHz",
+                "allocated": 0,
+                "limit": 0,
+                "reserved": 0,
+                "used": 600,
+                "reservationUsed": 150,
+                "vCloudExtension": []
+              },
+              "memory": {
+                "units": "MB",
+                "allocated": 0,
+                "limit": 0,
+                "reserved": 0,
+                "used": 4096,
+                "reservationUsed": 2048,
+                "vCloudExtension": []
+              },
+              "vCloudExtension": []
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "673f028a4f23addf823a42e9"
+        }
+      },
+      {
+        "timeStamp": {
+          "$date": "2024-11-21T09:52:18.357Z"
+        },
+        "data": [
+          {
+            "name": "testcustomer",
+            "uuid": "15566d05-2741-4679-8892-ae00c911c699",
+            "vdcs": [
+              {
+                "name": "com-a-testcustomer-02",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+                "urn": "urn:vcloud:vdc:efdf41a4-c297-48c6-9e84-d9bd4658ded4",
+                "vapps": [
+                  {
+                    "name": "TASTE-OS Test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-bb42bff9-f4fb-4683-bd08-e79b97533c65",
+                    "details": {
+                      "vAppName": "TASTE-OS Test",
+                      "VirtualMachines": [
+                        {
+                          "name": "VM1",
+                          "id": "urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.5",
+                              "MAC": "00:50:56:06:a7:29",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mig-tool",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-9e0996c9-0e6f-46d2-a13c-e9ff12c4cd20",
+                    "details": {
+                      "vAppName": "mig-tool",
+                      "VirtualMachines": [
+                        {
+                          "name": "mig-tool-test",
+                          "id": "urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "test",
+                              "ipAddress": "111.111.111.10",
+                              "MAC": "00:50:56:06:a3:e5",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "managed-test-vm (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-47f998b0-b4bf-427a-8e45-34016102de0c",
+                    "details": {
+                      "vAppName": "managed-test-vm (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "rhel-managed-test",
+                          "id": "urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:2a",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:2b",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-1fbaf717-1abe-4920-826b-61e23318e542",
+                    "details": {
+                      "vAppName": "pebalog",
+                      "VirtualMachines": [
+                        {
+                          "name": "test-linux",
+                          "id": "urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.8",
+                              "MAC": "00:50:56:06:a5:67",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-98ed80d2-4e04-405d-b5f9-3df3f8e93d64",
+                    "details": {
+                      "vAppName": "testdeployW2K19STD_managed_FP_4-649cb27b-f2fa-422d-b59d-f6fa08aa5586",
+                      "VirtualMachines": [
+                        {
+                          "name": "testdeployW2K19STD_managed_FP_4",
+                          "id": "urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.22",
+                              "MAC": "00:50:56:06:9d:47",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": "5.5.5.3",
+                              "MAC": "00:50:56:06:9d:46",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.7",
+                              "MAC": "00:50:56:06:a4:f1",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4377868a-aed2-47b9-a310-e9e80c140479",
+                    "details": {
+                      "vAppName": "W2K22MAN23Test_FFP-6c7538b7-35be-47b3-8d79-af21ebde5d1a",
+                      "VirtualMachines": [
+                        {
+                          "name": "W2K22MAN23Test_FFP",
+                          "id": "urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.32",
+                              "MAC": "00:50:56:06:a0:d9",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.2",
+                              "MAC": "00:50:56:06:a0:da",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "rcec_test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-0a7236a9-7b59-4284-993e-7b24e883cf6f",
+                    "details": {
+                      "vAppName": "rcec_test",
+                      "VirtualMachines": [
+                        {
+                          "name": "vm-17",
+                          "id": "urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.8",
+                              "MAC": "00:50:56:06:a4:e8",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-2e447374-102c-4952-bd76-6a75ff35b660",
+                    "details": {
+                      "vAppName": "redeploy-FFM-16-2e16f1b2-3a84-49aa-a07d-ba012472abb1",
+                      "VirtualMachines": [
+                        {
+                          "name": "redeploy-FFM-16",
+                          "id": "urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.37",
+                              "MAC": "00:50:56:06:9b:05",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "testnetwork",
+                              "ipAddress": "168.192.0.3",
+                              "MAC": "00:50:56:06:9b:06",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "rcec_test (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-ebe0b7ad-d2fa-44b8-8e25-b11047e1db94",
+                    "details": {
+                      "vAppName": "rcec_test (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "vm-17",
+                          "id": "urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a6:ef",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-232dee91-6bc8-4812-b3ec-06e0aa751d4b",
+                    "details": {
+                      "vAppName": "pebalog-test2-3953abf7-96fd-44bf-ab8c-fef69154b034 (1) (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "FPR2022sm01",
+                          "id": "urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.42",
+                              "MAC": "00:50:56:06:9e:e3",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mcs-test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-fbedded5-593c-4d6b-8a4a-82634644b8f7",
+                    "details": {
+                      "vAppName": "mcs-test",
+                      "VirtualMachines": [
+                        {
+                          "name": "pwd-changed",
+                          "id": "urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.33",
+                              "MAC": "00:50:56:06:6e:5d",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.6",
+                              "MAC": "00:50:56:06:80:53",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "mcs-image",
+                          "id": "urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.29",
+                              "MAC": "00:50:56:06:67:2f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "pebalog test",
+                              "ipAddress": "5.5.5.5",
+                              "MAC": "00:50:56:06:67:30",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "restore_test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-90066013-f96a-411e-bf7f-823c2fd72851",
+                    "details": {
+                      "vAppName": "restore_test",
+                      "VirtualMachines": []
+                    }
+                  },
+                  {
+                    "name": "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-dba002c8-abb8-4608-85cb-19ca028be073",
+                    "details": {
+                      "vAppName": "mdolnik-test-vmxnet-8933fbaa-0ba7-4f05-8ad5-c17ba87bff74",
+                      "VirtualMachines": [
+                        {
+                          "name": "mdolnik-test-vmxnet",
+                          "id": "urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.200",
+                              "MAC": "00:50:56:06:a6:f7",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.204",
+                              "MAC": "00:50:56:06:a6:fa",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.203",
+                              "MAC": "00:50:56:06:a6:fb",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.201",
+                              "MAC": "00:50:56:06:a6:fd",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.202",
+                              "MAC": "00:50:56:06:a6:fc",
+                              "adapter": "VMXNET3",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-4683f848-00ca-456e-80bf-af94186961f0",
+                    "details": {
+                      "vAppName": "mdolnik-test-e1000-f7e8d904-319a-43ac-8dc2-712bc86c075b",
+                      "VirtualMachines": [
+                        {
+                          "name": "mdolnik-test-e1000",
+                          "id": "urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.101",
+                              "MAC": "00:50:56:06:a7:03",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.100",
+                              "MAC": "00:50:56:06:a6:ff",
+                              "adapter": "E1000E",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.102",
+                              "MAC": "00:50:56:06:a7:02",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.103",
+                              "MAC": "00:50:56:06:a7:01",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.104",
+                              "MAC": "00:50:56:06:a7:00",
+                              "adapter": "E1000E",
+                              "isConnected": false,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "MOS Test",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-e5d13ba0-54c3-461f-94ab-13fc606fa9d2",
+                    "details": {
+                      "vAppName": "MOS Test",
+                      "VirtualMachines": [
+                        {
+                          "name": "bz240307_RHEL8_MANAGED_2023-01.1",
+                          "id": "urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0b",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0c",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-52e87e1b-843c-48f7-ac0e-bac46815cc4c",
+                    "details": {
+                      "vAppName": "jblodi_testKH-326bae7b-75d0-4c10-9461-49ed90ad10f9",
+                      "VirtualMachines": [
+                        {
+                          "name": "jblodi_testKH",
+                          "id": "urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a5:fe",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            },
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:0f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "adminlan-test-deploy",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-df0cad85-a811-421f-bb50-f305e49f4bcd",
+                    "details": {
+                      "vAppName": "adminlan-test-deploy",
+                      "VirtualMachines": [
+                        {
+                          "name": "SELFMANAGED_ADMINLAN_test",
+                          "id": "urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e",
+                          "details": {
+                            "RAM": 8192,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.43",
+                              "MAC": "00:50:56:06:a5:ab",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.9",
+                              "MAC": "00:50:56:06:a5:aa",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-3b1060bc-c0f8-4d32-b34c-9d44e79bec1d",
+                    "details": {
+                      "vAppName": "win22test-afff3196-a362-4c17-aa3c-66d3e721327c",
+                      "VirtualMachines": [
+                        {
+                          "name": "win22test",
+                          "id": "urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:9e:d3",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "test-managed",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-5652a8f5-56a2-49cf-ba10-1ac2a99e8012",
+                    "details": {
+                      "vAppName": "test-managed",
+                      "VirtualMachines": [
+                        {
+                          "name": "test-managed",
+                          "id": "urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e",
+                          "networks": []
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "managed-test-vm",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-a3f9d641-1920-4561-a019-f6e2b0c73265",
+                    "details": {
+                      "vAppName": "managed-test-vm",
+                      "VirtualMachines": [
+                        {
+                          "name": "rhel-managed-test",
+                          "id": "urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 4
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "6.204.130.11",
+                              "MAC": "00:50:56:06:a6:13",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Routed Network",
+                              "ipAddress": "10.0.0.10",
+                              "MAC": "00:50:56:06:a6:14",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "com-a-testcustomer-02-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "bas-a-testcustomer-01",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/266ec39b-e79e-4011-81ab-e198e71135f2",
+                "urn": "urn:vcloud:vdc:266ec39b-e79e-4011-81ab-e198e71135f2",
+                "vapps": [
+                  {
+                    "name": "ssafrank_test22-d8cb3753-2f7c-4730-96f5-2bda9c842594",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-57cd3823-f8cd-48b7-9d6e-37d75c3a9022",
+                    "details": {
+                      "vAppName": "ssafrank_test22-d8cb3753-2f7c-4730-96f5-2bda9c842594",
+                      "VirtualMachines": [
+                        {
+                          "name": "ssafrank_test22",
+                          "id": "urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7",
+                          "details": {
+                            "RAM": 7680,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "none",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a7:22",
+                              "adapter": "VMXNET3",
+                              "isConnected": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "pebalog (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-676aeb0b-9959-44da-a30d-b5b613809714",
+                    "details": {
+                      "vAppName": "pebalog (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "MOSPB2",
+                          "id": "urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 2
+                          },
+                          "networks": [
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": null,
+                              "MAC": "00:50:56:06:a4:eb",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "Customertestnetwork",
+                              "ipAddress": "10.0.0.50",
+                              "MAC": "00:50:56:06:a4:ec",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "bas-a-testcustomer-01-gw-01"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "bas-b-testcustomer-03",
+                "href": "https://vcloud-ffm-private.t-systems.de/api/admin/vdc/15c91fe6-569d-4207-a984-59f38c8efd6a",
+                "urn": "urn:vcloud:vdc:15c91fe6-569d-4207-a984-59f38c8efd6a",
+                "vapps": [
+                  {
+                    "name": "LB_test (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-b1c68845-0062-482a-8c15-53d32460339c",
+                    "details": {
+                      "vAppName": "LB_test (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "pebalogtest",
+                          "id": "urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558",
+                          "details": {
+                            "RAM": 4096,
+                            "numCpu": 1
+                          },
+                          "networks": [
+                            {
+                              "networkName": "testnetwork",
+                              "ipAddress": "fe80:0:0:0:250:56ff:fe06:9d4f",
+                              "MAC": "00:50:56:06:9d:4f",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            },
+                            {
+                              "networkName": "TSY-AdminLAN-01",
+                              "ipAddress": "fe80:0:0:0:250:56ff:fe06:9d50",
+                              "MAC": "00:50:56:06:9d:50",
+                              "adapter": "VMXNET3",
+                              "isConnected": true,
+                              "edgeGateway": "neni"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "LB_test (1) (1)",
+                    "href": "https://vcloud-ffm-private.t-systems.de/api/vApp/vapp-008aa9a6-c027-4c2c-8402-640486541308",
+                    "details": {
+                      "vAppName": "LB_test (1) (1)",
+                      "VirtualMachines": [
+                        {
+                          "name": "pebalogtest",
+                          "id": "urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214",
+                          "details": {
+                            "numCpu": null
+                          },
+                          "networks": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "compute": {
+              "cpu": {
+                "units": "MHz",
+                "allocated": 0,
+                "limit": 0,
+                "reserved": 0,
+                "used": 600,
+                "reservationUsed": 150,
+                "vCloudExtension": []
+              },
+              "memory": {
+                "units": "MB",
+                "allocated": 0,
+                "limit": 0,
+                "reserved": 0,
+                "used": 4096,
+                "reservationUsed": 2048,
+                "vCloudExtension": []
+              },
+              "vCloudExtension": []
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "673f02d28b035dd3b5ddb00e"
+        }
+      }
+    ],
+    "history": [
+      {
+        "savedBy": "Jano",
+        "createdAt": {
+          "$date": "2024-11-21T09:51:06.849Z"
+        },
+        "_id": {
+          "$oid": "673f028a4f23addf823a42ea"
+        }
+      },
+      {
+        "savedBy": "Jano",
+        "createdAt": {
+          "$date": "2024-11-21T09:52:18.366Z"
+        },
+        "_id": {
+          "$oid": "673f02d28b035dd3b5ddb00f"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-11-21T09:51:00.071Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-21T09:52:18.366Z"
+    },
+    "__v": 2
+  }

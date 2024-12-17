@@ -15,7 +15,11 @@ router.post('/add-cron-jobs', async (req, res) => {
   const { name, topology } = req.body;
 
   if (!topology || !Array.isArray(topology) || topology.length === 0) {
-    return res.status(400).json({ error: 'A non-empty topology array is required' });
+    return res.status(400).json({ 
+      id: req.user.id,
+      username: req.user.username,
+      error: 'A non-empty topology array is required' 
+    });
   }
 
   const { dynamicName, dynamicUid } = generateDynamicNameAndUid(topology);
@@ -28,21 +32,27 @@ router.post('/add-cron-jobs', async (req, res) => {
       topology,
     });
 
-    newJob._savedBy = "Stevko";
-    await newJob.save();
+    newJob._savedBy = req.user.username; // Capture the username from the user context
+    const savedJob = await newJob.save();
 
-    res.status(201).json({ 
-        message: 'Cron job added successfully', 
-        job: {
-          id: savedJob._id, // Include the MongoDB ID
-          name: savedJob.name,
-          uuid: savedJob.uuid,
-          topology: savedJob.topology,
-        } 
-      });
+    res.status(201).json({
+      id: req.user.id,
+      username: req.user.username,
+      message: 'Cron job added successfully',
+      job: {
+        id: savedJob._id,
+        name: savedJob.name,
+        uuid: savedJob.uuid,
+        topology: savedJob.topology,
+      }
+    });
   } catch (error) {
     logger.error(`Error adding cron job: ${error.message}`);
-    res.status(500).json({ error: 'Failed to add cron job' });
+    res.status(500).json({
+      id: req.user.id,
+      username: req.user.username,
+      error: 'Failed to add cron job'
+    });
   }
 });
 
@@ -50,10 +60,18 @@ router.post('/add-cron-jobs', async (req, res) => {
 router.get('/jobs', async (req, res) => {
   try {
     const jobs = await TopologyJob.find();
-    res.json(jobs);
+    res.json({
+      id: req.user.id,
+      username: req.user.username,
+      data: jobs
+    });
   } catch (error) {
     logger.error(`Error fetching jobs: ${error.message}`);
-    res.status(500).json({ error: 'Failed to fetch jobs' });
+    res.status(500).json({
+      id: req.user.id,
+      username: req.user.username,
+      error: 'Failed to fetch jobs'
+    });
   }
 });
 
@@ -64,12 +82,24 @@ router.get('/jobs/:id', async (req, res) => {
   try {
     const job = await TopologyJob.findById(id);
     if (!job) {
-      return res.status(404).json({ error: 'Job not found' });
+      return res.status(404).json({
+        id: req.user.id,
+        username: req.user.username,
+        error: 'Job not found'
+      });
     }
-    res.json(job);
+    res.json({
+      id: req.user.id,
+      username: req.user.username,
+      data: job
+    });
   } catch (error) {
     logger.error(`Error fetching job with ID ${id}: ${error.message}`);
-    res.status(500).json({ error: 'Failed to fetch job' });
+    res.status(500).json({
+      id: req.user.id,
+      username: req.user.username,
+      error: 'Failed to fetch job'
+    });
   }
 });
 
@@ -81,23 +111,38 @@ router.put('/jobs/:id', async (req, res) => {
   try {
     const job = await TopologyJob.findById(id);
     if (!job) {
-      return res.status(404).json({ error: 'Job not found' });
+      return res.status(404).json({
+        id: req.user.id,
+        username: req.user.username,
+        error: 'Job not found'
+      });
     }
 
     if (topology && Array.isArray(topology) && topology.length > 0) {
       const { dynamicName, dynamicUid } = generateDynamicNameAndUid(topology);
       job.topology = topology;
       job.name = name || dynamicName;
-      job.uid = dynamicUid;
+      job.uuid = dynamicUid;
+      
+      
     } else if (name) {
       job.name = name;
     }
-
-    await job.save();
-    res.json({ message: 'Cron job updated successfully', job });
+    job._savedBy = req.user.username
+    const updatedJob = await job.save();
+    res.json({
+      id: req.user.id,
+      username: req.user.username,
+      message: 'Cron job updated successfully',
+      data: updatedJob
+    });
   } catch (error) {
     logger.error(`Error updating job with ID ${id}: ${error.message}`);
-    res.status(500).json({ error: 'Failed to update job' });
+    res.status(500).json({
+      id: req.user.id,
+      username: req.user.username,
+      error: 'Failed to update job'
+    });
   }
 });
 
@@ -108,12 +153,24 @@ router.delete('/jobs/:id', async (req, res) => {
   try {
     const job = await TopologyJob.findByIdAndDelete(id);
     if (!job) {
-      return res.status(404).json({ error: 'Job not found' });
+      return res.status(404).json({
+        id: req.user.id,
+        username: req.user.username,
+        error: 'Job not found'
+      });
     }
-    res.json({ message: 'Cron job deleted successfully' });
+    res.json({
+      id: req.user.id,
+      username: req.user.username,
+      message: 'Cron job deleted successfully'
+    });
   } catch (error) {
     logger.error(`Error deleting job with ID ${id}: ${error.message}`);
-    res.status(500).json({ error: 'Failed to delete job' });
+    res.status(500).json({
+      id: req.user.id,
+      username: req.user.username,
+      error: 'Failed to delete job'
+    });
   }
 });
 

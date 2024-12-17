@@ -57,13 +57,13 @@ async function fetchAllOrgVdcNetworks() {
       }))
     );
 
-    logger.info('Fetched all orgVdcNetworks successfully.');
-    fileUtils.saveToFile(allNetworks, 'orgVdcNetworks.json');
+    logger.info(`Fetched all orgVdcNetworks successfully  from ${config.apiUrl}.`);
+    fileUtils.saveToFile(allNetworks, `orgVdcNetworks.json`);
    
     return allNetworks;
   } catch (error) {
-    logger.error('Error fetching orgVdcNetworks:', error.response ? error.response.data : error.message);
-    throw new Error('Failed to fetch all orgVdcNetworks.');
+    logger.error(`Error fetching orgVdcNetworks  from ${config.apiUrl}:`, error.response ? error.response.data : error.message);
+    throw new Error(`Failed to fetch all orgVdcNetworks  from ${config.apiUrl}.`);
     
   }
 }

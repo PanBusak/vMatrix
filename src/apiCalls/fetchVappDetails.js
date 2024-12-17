@@ -5,7 +5,7 @@ const logger = require('../logger'); // Assuming you have a Winston logger set u
 
 async function fetchVappDetails(orgsDetails) {
   try {
-    // Create an array of vApp requests using flatMap for concurrent execution
+    
     const vappRequests = orgsDetails.flatMap(org =>
       org.vdcs.flatMap(vdc =>
         vdc.vapps.map(vapp => ({
@@ -24,10 +24,9 @@ async function fetchVappDetails(orgsDetails) {
       )
     );
 
-    // Execute all the requests concurrently
     const vappResponses = await axios.all(vappRequests.map(v => v.request));
 
-    // Process the responses and update the orgsDetails structure
+  
     vappResponses.forEach((response, index) => {
       const vappData = response.data;
       const vappRequest = vappRequests[index];
@@ -38,7 +37,7 @@ async function fetchVappDetails(orgsDetails) {
 
       const vms = [];
 
-      // Extract VMs (name and id) from the vApp response
+      
       if (vappData.children && vappData.children.vm) {
         vappData.children.vm.forEach(vm => {
           if (vm.name && vm.id) {
@@ -50,15 +49,13 @@ async function fetchVappDetails(orgsDetails) {
         });
       }
 
-      // Update the vApp details in the orgsDetails structure
       vapp.details = {
         vAppName: vappData.name,  // vApp name from the response
         VirtualMachines: vms      // Array of VM objects with name and id
       };
     });
 
-    // Save updated orgsDetails with the newly fetched vApp details
-   // fileUtils.saveToFile(orgsDetails);
+  
     logger.info('Fetched and filtered vApp details successfully.');
 
     return orgsDetails;

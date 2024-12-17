@@ -1,15 +1,19 @@
 const express = require('express');
-const logger = require('./logger'); 
+const logger = require('./logger');
 const mongoose = require('./db');
 const cron = require("node-cron")
 // Import Routes
 const cronRoutes = require('./cronroutes');
-const authRouter = require("./authRoutes")
-const authMiddleware = require('./auth')
+const authRouter = require("./authRoutes");
+const authMiddleware = require('./auth');
 const TopologyJob = require("./data/schemas/Topologyjob_Schema");
-const NetworkDataSchema = require('./data/schemas/NetworkDataSchema')
+const NetworkDataSchema = require('./data/schemas/NetworkDataSchema');
 // Schemas
 const OrgsVdcVm = require("./data/schemas/OrgsVdcVm_Schema");
+const FirewallNatRules_Schema = require("./data/schemas/FirewallNatRules_Schema")
+const Gateway_Schema = require("./data/schemas/Gateway_Schema")
+const OrgsVdcVm_Schema = require("./data/schemas/OrgVdcNetwork_Schema")
+
 
 // API Calls
 const { fetchOrganizations } = require('./apiCalls/fetchOrganization');
@@ -46,12 +50,13 @@ app.use((req, res, next) => {
   next();
 });
 
-
-
 app.use('/api/auth', authRouter);
-app.use('/api/cron',authMiddleware,cronRoutes);
+app.use('/api/cron', authMiddleware, cronRoutes);
 
 //*********Cron jobs service *********/
+
+
+
 const startCronJobs = async () => {
   try {
     const jobs = await TopologyJob.find();
@@ -63,7 +68,6 @@ const startCronJobs = async () => {
 
     logger.info(`[CRON_JOB] Found ${jobs.length} cron job(s). Executing them...`);
 
-    // Process jobs asynchronously
     await Promise.all(
       jobs.map(async (job) => {
         logger.info(`[CRON_JOB] Executing Job: ${job.name}`);
@@ -90,17 +94,15 @@ const startCronJobs = async () => {
           const topology = await fetchVmDetails(vappWithVm);
           logger.info(`[CRON_JOB] Fetched VM details for Job: ${job.name}`);
 
-          // Construct dynamic name and UUID
           const combinedName = topology.map((item) => item.name).join('-');
           const combinedUuid = topology.map((item) => item.uuid).join('/');
 
-          // Check for existing topology by UUID
           const existingTopology = await OrgsVdcVm.findOne({ uuid: combinedUuid });
 
           if (existingTopology) {
             logger.info(`Existing topology found for UUID: ${combinedUuid}. Appending new version.`);
             existingTopology.topology.push({ timeStamp: new Date(), data: topology });
-            existingTopology._savedBy = 'Stevko';
+            existingTopology._savedBy = req.user.username; // Save the username
             await existingTopology.save();
           } else {
             logger.info(`No existing topology found for UUID: ${combinedUuid}. Creating a new entry.`);
@@ -108,7 +110,7 @@ const startCronJobs = async () => {
               name: combinedName,
               uuid: combinedUuid,
               topology: [{ timeStamp: new Date(), data: topology }],
-              _savedBy: 'Stevko',
+              _savedBy: req.user.username, // Save the username
             });
             await newTopology.save();
           }
@@ -126,38 +128,53 @@ const startCronJobs = async () => {
   }
 };
 
-
 if(1 == 2) {
-cron.schedule('*/10 * * * * *', () => {
-  logger.info('Starting scheduled cron jobs...');
-  startCronJobs();
-}); ``
+  cron.schedule('*/10 * * * * *', () => {
+    logger.info('Starting scheduled cron jobs...');
+    startCronJobs();
+  });
 }
-
-
-//*********Cron jobs service *********/
 
 
 
 
 // Topology Endpoints
-app.get('/api/orgs', authMiddleware,async (req, res) => {
+
+
+
+
+
+app.get('/api/orgs', authMiddleware, async (req, res) => {
   try {
     const orgs = await fetchOrganizations();
     logger.info(`Fetched organizations successfully from IP: ${req.ipAddress}`);
-    res.json(orgs);
+    res.json({
+      id: req.user.id, 
+      username: req.user.username, 
+      data: orgs
+    });
   } catch (error) {
     logger.error(`Error fetching organizations from IP ${req.ipAddress}: ${error.message}`);
-    res.status(500).json({ error: 'Failed to fetch organizations' });
+    res.status(500).json({ 
+      id: req.user.id,
+      username: req.user.username, 
+      error: 'Failed to fetch organizations' 
+    });
   }
 });
 
-app.post('/api/topology', async (req, res) => {
+
+
+app.post('/api/topology',authMiddleware ,async (req, res) => {
   const orgDetailArray = req.body.orgs;
 
   if (!Array.isArray(orgDetailArray) || orgDetailArray.length === 0) {
     logger.error(`Invalid or missing 'orgs' array in request body from IP: ${req.ipAddress}`);
-    return res.status(400).json({ error: "Invalid or missing 'orgs' array in request body." });
+    return res.status(400).json({
+      id: req.user.id, 
+      username: req.user.username, 
+      error: "Invalid or missing 'orgs' array in request body."
+    });
   }
 
   try {
@@ -182,7 +199,7 @@ app.post('/api/topology', async (req, res) => {
     if (existingTopology) {
       logger.info(`Existing topology found for UUID: ${combinedUuid}. Appending new version.`);
       existingTopology.topology.push({ timeStamp: new Date(), data: topology });
-      existingTopology._savedBy = "Stevko";
+      existingTopology._savedBy = req.user.username; // Save the username
       await existingTopology.save();
     } else {
       logger.info(`No existing topology found for UUID: ${combinedUuid}. Creating a new entry.`);
@@ -190,15 +207,24 @@ app.post('/api/topology', async (req, res) => {
         name: combinedName,
         uuid: combinedUuid,
         topology: [{ timeStamp: new Date(), data: topology }],
-        _savedBy: "Stevko",
+       
       });
+      newTopology._savedBy = req.user.username
       await newTopology.save();
     }
 
-    res.json(topology);
+    res.json({
+      id: req.user.id,
+      username: req.user.username,
+      data: topology
+    });
   } catch (error) {
     logger.error(`Error fetching topology from IP ${req.ipAddress}: ${error.message}`);
-    res.status(500).json({ error: 'Failed to fetch topology' });
+    res.status(500).json({ 
+      id: req.user.id,
+      username: req.user.username, 
+      error: 'Failed to fetch topology' 
+    });
   }
 });
 
@@ -207,47 +233,83 @@ app.get('/api/updateNetworkData', authMiddleware, async (req, res) => {
     logger.info('Fetching network data...');
     const gatewaysData = await fetchAllEdgeGateways();
 
-    const GWRecord = new NetworkDataSchema({
-      name: "GatewayData",
-      
-      data:gatewaysData
-     
+    const timestamp = new Date().toISOString().replace('T', ' ').slice(0, 16); // e.g., "2024-12-16 13:00"
+
+    const GWRecord = new Gateway_Schema({
+      name: `Gateway ${timestamp}`,
+      data: gatewaysData
     });
-    GWRecord.save()
-    
+    await GWRecord.save();
+
     logger.info('Fetched Edge Gateways data successfully.');
 
     const orgVdcNetworksData = await fetchAllOrgVdcNetworks(gatewaysData);
 
-    const VdcNetworksRecord = new NetworkDataSchema({
-      name: "OrgVdcNetowork",
-      
-      data:orgVdcNetworksData
-     
+    const VdcNetworksRecord = new OrgsVdcVm_Schema({
+      name: `OrgVdcNetwork ${timestamp}`,
+      data: orgVdcNetworksData
     });
-    VdcNetworksRecord.save()
-
-    const edgeFirewalls = await fetchFirewallRulesForGateways(gatewaysData);
-    const EdgeFWRecord = new NetworkDataSchema({
-      name: "EdgeFW",
-      
-      data:edgeFirewalls
-     
-    });
-    EdgeFWRecord.save()
-    logger.info('Fetched Org VDC Networks data successfully.');
+    await VdcNetworksRecord.save();
 
     
-   
-    res.status(200).json();
+
+    logger.info('Fetched Org VDC Networks data successfully.');
+
+    res.status(200).json({
+      id: req.user.id,
+      username: req.user.username
+    });
+
     logger.info('Network data sent successfully.');
   } catch (error) {
     logger.error('Error fetching network data:', error.message);
-    res.status(500).json({ message: 'Failed to fetch network data.', error: error.message });
+    res.status(500).json({
+      id: req.user.id,
+      username: req.user.username,
+      message: 'Failed to fetch network data.',
+      error: error.message
+    });
   }
 });
 
-// Start the Server
+app.get('/api/gatewayRules', authMiddleware, async (req, res) => {
+  const { gatewayName } = req.query; // Extract gateway name from query parameter
+
+  if (!gatewayName) {
+    return res.status(400).json({ error: 'Missing gatewayName query parameter.' });
+  }
+
+  try {
+    // Fetch the latest record from the database
+    const latestRecord = await FirewallNatRules_Schema.findOne()
+      .sort({ createdAt: -1 })
+      .exec();
+
+    if (!latestRecord || !latestRecord.data) {
+      return res.status(404).json({ error: 'No firewall or NAT rules found.' });
+    }
+
+    // Filter firewall and NAT rules for the specific gateway
+    const firewallRules = latestRecord.data.firewallRules.filter(
+      rule => rule.gatewayName === gatewayName
+    );
+    const natRules = latestRecord.data.natRules.filter(
+      rule => rule.gatewayName === gatewayName
+    );
+
+    res.status(200).json({
+      gatewayName,
+      firewallRules,
+      natRules
+    });
+  } catch (error) {
+    logger.error(`Error fetching firewall and NAT rules: ${error.message}`);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+
+// Start the Server;
 app.listen(PORT, () => {
   logger.info(`Server is running on http://localhost:${PORT}`);
 });

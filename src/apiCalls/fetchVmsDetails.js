@@ -1,56 +1,79 @@
-const axios = require('axios');
-const fs = require('fs');
-const fileUtils = require('../utils/fileUtils');
+const logger = require('../logger'); // Logger setup
+const Gateway_Schema = require('../data/schemas/Gateway_Schema.js'); // MongoDB Model for gateways
+const OrgsVdcNetwork_Schema = require('../data/schemas/OrgVdcNetwork_Schema'); // MongoDB Model
 const config = require('../config');
-const logger = require('../logger'); // Assuming you have a Winston logger set up
+const axios = require('axios');
 
-const path = require('path');
+let networkToEdgeGatewayArray = []; // Network-to-edgeGateway mappings
+let gatewayDetails = []; // Gateways with firewall and NAT rules
 
-const orgVdcNetworksPath = path.resolve(__dirname, '../data/orgVdcNetworks.json');
-let orgVdcNetworks = [];
-
-if (fs.existsSync(orgVdcNetworksPath)) {
-  logger.info(`orgVdcNetworks.json found at path: ${orgVdcNetworksPath}`);
+// Load the latest gateways with firewall and NAT rules
+async function loadLatestGateways() {
   try {
-    const data = fs.readFileSync(orgVdcNetworksPath, 'utf-8');
-    orgVdcNetworks = JSON.parse(data);
-    logger.info('Parsed orgVdcNetworks.json successfully.');
+    logger.info('Fetching the latest Gateway records with firewall and NAT rules...');
+    const latestGatewayRecord = await Gateway_Schema.findOne()
+      .sort({ createdAt: -1 })
+      .exec();
+
+    if (latestGatewayRecord && latestGatewayRecord.data) {
+      gatewayDetails = latestGatewayRecord.data.map(gateway => ({
+        edgeGatewayName: gateway.name,
+        firewallRules: gateway.firewallRules || [],
+        natRules: gateway.natRules || []
+      }));
+      logger.info(`Loaded ${gatewayDetails.length} gateways with rules.`);
+    } else {
+      logger.warn('No gateway data found in the database.');
+    }
   } catch (error) {
-    logger.error(`Failed to read or parse orgVdcNetworks.json: ${error.message}`);
+    logger.error(`Error fetching latest gateways: ${error.message}`);
   }
-} else {
-  logger.warn(`orgVdcNetworks.json not found at path: ${orgVdcNetworksPath}`);
 }
 
-// Create an array of network-edgeGateway pairs
-const networkToEdgeGatewayArray = orgVdcNetworks.map(network => {
-  const networkName = network.name;
-  const edgeGatewayName = network.connection?.data?.routerRef?.name;
+// Load OrgVdcNetworks and map networks to edgeGateways
+async function loadLatestOrgVdcNetworks() {
+  try {
+    logger.info('Fetching the latest OrgVdcNetworks data from MongoDB...');
+    const latestRecord = await OrgsVdcNetwork_Schema.findOne()
+      .sort({ createdAt: -1 })
+      .exec();
 
- 
-  return { networkName, edgeGateway: edgeGatewayName || "neni" };
-});
-
-function getEdgeGateway(networkName) {
-  logger.debug(`Looking up edgeGateway for network "${networkName}".`);
-  const network = networkToEdgeGatewayArray.find(item => item.networkName === networkName);
-  if (network) {
-    logger.debug(`Found edgeGateway "${network.edgeGateway}" for network "${networkName}".`);
-  } else {
-    logger.warn(`No edgeGateway found for network "${networkName}".`);
+    if (latestRecord && latestRecord.data) {
+      networkToEdgeGatewayArray = latestRecord.data.map(network => ({
+        networkName: network.name,
+        edgeGateway: network.connection?.data?.routerRef?.name || 'neni'
+      }));
+      logger.info(`Loaded ${networkToEdgeGatewayArray.length} networks.`);
+    } else {
+      logger.warn('No OrgVdcNetworks data found in MongoDB.');
+    }
+  } catch (error) {
+    logger.error(`Error fetching latest OrgVdcNetworks data: ${error.message}`);
   }
-  return network?.edgeGateway;
 }
 
+// Get edge gateway details by name
+function getEdgeGatewayDetails(edgeGatewayName) {
+  return gatewayDetails.find(gateway => gateway.edgeGatewayName === edgeGatewayName) || {
+    edgeGatewayName,
+    firewallRules: [],
+    natRules: []
+  };
+}
+
+// Main function to fetch VM details
 async function fetchVmDetails(orgsData) {
   try {
+    // Load gateways and networks
+    await loadLatestGateways();
+    await loadLatestOrgVdcNetworks();
+
     const vmRequests = orgsData.flatMap(org =>
       org.vdcs.flatMap(vdc =>
         vdc.vapps.flatMap(vapp =>
           vapp.details.VirtualMachines.map(vm => {
             const vmId = vm.id.split(':').pop();
             const url = `https://vcloud-ffm-private.t-systems.de/api/vApp/vm-${vmId}`;
-            logger.debug(`Prepared VM request for VM ID: ${vmId}, URL: ${url}`);
             return { url, vm };
           })
         )
@@ -66,46 +89,50 @@ async function fetchVmDetails(orgsData) {
           'Authorization': `Bearer ${config.accessToken}`
         }
       }).catch(error => {
-        logger.error(`Error fetching VM at ${req.url}: ${error.response?.data || error.message}`);
-        throw error; // Stop processing on error to avoid partial updates.
+        logger.error(`Error fetching VM at ${req.url}: ${error.message}`);
+        return null;
       })
     ));
 
-    responses.forEach((response, index) => {
-      const vmData = response.data;
+    for (const [index, response] of responses.entries()) {
+      const vmData = response?.data;
       const { vm } = vmRequests[index];
-
-      logger.debug(`Processing VM data for VM ID: ${vm.id}`);
+      if (!vmData) continue;
 
       vm.details = {
         RAM: vmData.section[0]?.memoryResourceMb?.configured,
         numCpu: vmData.section[0]?.numCpus
       };
 
-      logger.debug(`VM details updated: RAM=${vm.details.RAM}, numCpu=${vm.details.numCpu}`);
-
+      // Map network connections with edge gateway, firewall, and NAT rules
       vm.networks = (vmData.section[3]?.networkConnection || []).map(network => {
-        const edgeGateway = getEdgeGateway(network.network);
-        logger.debug(`Network details: networkName=${network.network}, ipAddress=${network.ipAddress}, MAC=${network.macAddress}, edgeGateway=${edgeGateway}`);
+        const edgeGatewayName = networkToEdgeGatewayArray.find(
+          item => item.networkName === network.network
+        )?.edgeGateway;
+
+        const edgeGatewayDetails = getEdgeGatewayDetails(edgeGatewayName);
+
         return {
           networkName: network.network,
           ipAddress: network.ipAddress,
           MAC: network.macAddress,
           adapter: network.networkAdapterType,
           isConnected: network.isConnected,
-          edgeGateway
+          edgeGateway: {
+            edgeGatewayName: edgeGatewayDetails.edgeGatewayName,
+            firewallRules: edgeGatewayDetails.firewallRules,
+            natRules: edgeGatewayDetails.natRules
+          }
         };
       });
 
-      if (vm.networks.length === 0) {
-        logger.warn(`No networks found for VM ID: ${vm.id}`);
-      }
-    });
+      logger.debug(`Processed VM ID ${vm.id}:`, vm.networks);
+    }
 
     logger.info('Fetched and updated all VM details successfully.');
     return orgsData;
   } catch (error) {
-    logger.error(`Error fetching VM details: ${error.response ? error.response.data : error.message}`);
+    logger.error(`Error fetching VM details: ${error.message}`);
     throw new Error('Failed to fetch VM details.');
   }
 }
