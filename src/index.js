@@ -202,7 +202,7 @@ app.post('/api/topology', async (req, res) => {
   }
 });
 
-app.get('/api/updateNetworkData',authMiddleware, async (req, res) => {
+app.get('/api/updateNetworkData', authMiddleware, async (req, res) => {
   try {
     logger.info('Fetching network data...');
     const gatewaysData = await fetchAllEdgeGateways();
