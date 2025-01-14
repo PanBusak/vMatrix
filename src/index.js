@@ -2,17 +2,23 @@ const express = require('express');
 const logger = require('./logger');
 const mongoose = require('./db');
 const cron = require("node-cron")
+const cors = require('cors');
+const cookieParser = require('cookie-parser');
+require('dotenv').config();
+
 // Import Routes
 const cronRoutes = require('./cronroutes');
 const authRouter = require("./authRoutes");
+const sessionRoutes = require("./session");
 const authMiddleware = require('./auth');
 const TopologyJob = require("./data/schemas/Topologyjob_Schema");
-const NetworkDataSchema = require('./data/schemas/NetworkDataSchema');
+
 // Schemas
 const OrgsVdcVm = require("./data/schemas/OrgsVdcVm_Schema");
-const FirewallNatRules_Schema = require("./data/schemas/FirewallNatRules_Schema")
+
 const Gateway_Schema = require("./data/schemas/Gateway_Schema")
 const OrgsVdcVm_Schema = require("./data/schemas/OrgVdcNetwork_Schema")
+const ExternalNetworks_Schema = require("./data/schemas/ExternalNetworks_Schema")
 
 
 // API Calls
@@ -24,6 +30,7 @@ const { fetchVmDetails } = require('./apiCalls/fetchVmsDetails');
 const fetchAccessToken = require('./apiCalls/fetchAccessToken');
 const { fetchAllEdgeGateways } = require('./apiCalls/fetchAllEdgeGateways');
 const { fetchAllOrgVdcNetworks } = require('./apiCalls/fetchAllOrgVdcNetworks');
+const { fetchAllExternalNetworks } = require('./apiCalls/fetchAllExternalNetworks');
 const { fetchFirewallRulesForGateways } = require('./apiCalls/fetchFirewallRules');
 const config = require('./config');
 
@@ -50,9 +57,22 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/api/auth', authRouter);
-app.use('/api/cron', authMiddleware, cronRoutes);
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      
+      callback(null, true);
+    },
+    credentials: true, 
+  })
+);
+app.use(cookieParser()); 
 
+
+
+app.use('/auth', authRouter);
+app.use('/api/cron', authMiddleware, cronRoutes);
+app.use('/session',authMiddleware ,sessionRoutes);
 //*********Cron jobs service *********/
 
 
@@ -243,6 +263,20 @@ app.get('/api/updateNetworkData', authMiddleware, async (req, res) => {
 
     logger.info('Fetched Edge Gateways data successfully.');
 
+
+    logger.info('Fetching External networks...');
+    const ExternalNetData = await fetchAllExternalNetworks();
+
+       const ExternalNetRecord = new ExternalNetworks_Schema({
+      name: `External Networks ${timestamp}`,
+      data: ExternalNetData
+    });
+    await ExternalNetRecord.save();
+
+
+
+    logger.info('Fetched External Networks data successfully.');
+
     const orgVdcNetworksData = await fetchAllOrgVdcNetworks(gatewaysData);
 
     const VdcNetworksRecord = new OrgsVdcVm_Schema({
@@ -275,35 +309,44 @@ app.get('/api/updateNetworkData', authMiddleware, async (req, res) => {
 app.get('/api/gatewayRules', authMiddleware, async (req, res) => {
   const { gatewayName } = req.query; // Extract gateway name from query parameter
 
-  if (!gatewayName) {
-    return res.status(400).json({ error: 'Missing gatewayName query parameter.' });
-  }
-
   try {
-    // Fetch the latest record from the database
-    const latestRecord = await FirewallNatRules_Schema.findOne()
-      .sort({ createdAt: -1 })
+    // Fetch the latest record from GatewaySchema
+    const latestRecord = await GatewaySchema.findOne()
+      .sort({ createdAt: -1 }) // Get the latest record
       .exec();
 
     if (!latestRecord || !latestRecord.data) {
-      return res.status(404).json({ error: 'No firewall or NAT rules found.' });
+      return res.status(404).json({ error: 'No gateway data found.' });
     }
 
-    // Filter firewall and NAT rules for the specific gateway
-    const firewallRules = latestRecord.data.firewallRules.filter(
-      rule => rule.gatewayName === gatewayName
-    );
-    const natRules = latestRecord.data.natRules.filter(
-      rule => rule.gatewayName === gatewayName
-    );
+    const gateways = latestRecord.data; // Array of gateways with firewall and NAT rules
 
-    res.status(200).json({
-      gatewayName,
-      firewallRules,
-      natRules
+    if (gatewayName) {
+      // Find the specific gateway by name
+      const specificGateway = gateways.find(gateway => gateway.name === gatewayName);
+
+      if (!specificGateway) {
+        return res.status(404).json({ error: `Gateway '${gatewayName}' not found.` });
+      }
+
+      return res.status(200).json({
+        gatewayName: specificGateway.name,
+        firewallRules: specificGateway.firewallRules || [],
+        natRules: specificGateway.natRules || []
+      });
+    }
+
+    // If no gatewayName is provided, return all gateways
+    return res.status(200).json({
+      gateways: gateways.map(gateway => ({
+        gatewayName: gateway.name,
+        firewallRules: gateway.firewallRules || [],
+        natRules: gateway.natRules || []
+      }))
     });
+
   } catch (error) {
-    logger.error(`Error fetching firewall and NAT rules: ${error.message}`);
+    logger.error(`Error fetching gateway rules: ${error.message}`);
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });

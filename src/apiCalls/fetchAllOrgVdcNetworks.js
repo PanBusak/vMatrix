@@ -68,7 +68,6 @@ async function fetchAllOrgVdcNetworks() {
   }
 }
 
-// Call the function if needed for testing or execution
-//fetchAllOrgVdcNetworks();
+
 
 module.exports = { fetchAllOrgVdcNetworks };

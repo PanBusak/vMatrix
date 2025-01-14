@@ -1,13 +1,12 @@
-const logger = require('../logger'); // Logger setup
+const logger = require('../logger'); // Logger setup 
 const Gateway_Schema = require('../data/schemas/Gateway_Schema.js'); // MongoDB Model for gateways
 const OrgsVdcNetwork_Schema = require('../data/schemas/OrgVdcNetwork_Schema'); // MongoDB Model
 const config = require('../config');
 const axios = require('axios');
 
-let networkToEdgeGatewayArray = []; // Network-to-edgeGateway mappings
-let gatewayDetails = []; // Gateways with firewall and NAT rules
+let networkToEdgeGatewayArray = []; 
+let gatewayDetails = []; 
 
-// Load the latest gateways with firewall and NAT rules
 async function loadLatestGateways() {
   try {
     logger.info('Fetching the latest Gateway records with firewall and NAT rules...');
@@ -37,12 +36,55 @@ async function loadLatestOrgVdcNetworks() {
     const latestRecord = await OrgsVdcNetwork_Schema.findOne()
       .sort({ createdAt: -1 })
       .exec();
-
+    
     if (latestRecord && latestRecord.data) {
-      networkToEdgeGatewayArray = latestRecord.data.map(network => ({
-        networkName: network.name,
-        edgeGateway: network.connection?.data?.routerRef?.name || 'neni'
-      }));
+      networkToEdgeGatewayArray = latestRecord.data.map(network => {
+        const networkType = network.networkType;
+        const usedIpCount = network.usedIpCount;
+
+        if (networkType === "NAT_ROUTED" && network.connection?.data?.routerRef) {
+          return {
+            networkName: network.name,
+            natRoutedNetwork: {
+              edgeGatewayName: network.connection.data.routerRef.name,
+              firewallRules: [],
+              natRules: []
+            },
+            usedIpCount,
+            networkType
+          };
+        } else if (networkType === "DIRECT" && network.ownerRef?.name && network.parentNetworkId?.name) {
+          return {
+            networkName: network.name,
+            directNetwork: {
+              ownerRefName: network.ownerRef.name,
+              parentNetwork: {
+                name: network.parentNetworkId.name,
+                id: network.parentNetworkId.id
+              }
+            },
+            usedIpCount,
+            networkType
+          };
+        } else if (networkType === "ISOLATED" && network.ownerRef?.name) {
+          return {
+            networkName: network.name,
+            isolatedNetwork: {
+              ownerRefName: network.ownerRef.name
+            },
+            usedIpCount,
+            networkType
+          };
+        } else {
+          return {
+            networkName: network.name,
+            undefinedNetwork: null,
+            usedIpCount,
+            networkType
+          };
+        }
+      });
+      
       logger.info(`Loaded ${networkToEdgeGatewayArray.length} networks.`);
     } else {
       logger.warn('No OrgVdcNetworks data found in MongoDB.');
@@ -104,13 +146,11 @@ async function fetchVmDetails(orgsData) {
         numCpu: vmData.section[0]?.numCpus
       };
 
-      // Map network connections with edge gateway, firewall, and NAT rules
+      // Map network connections with appropriate network type
       vm.networks = (vmData.section[3]?.networkConnection || []).map(network => {
-        const edgeGatewayName = networkToEdgeGatewayArray.find(
+        const networkData = networkToEdgeGatewayArray.find(
           item => item.networkName === network.network
-        )?.edgeGateway;
-
-        const edgeGatewayDetails = getEdgeGatewayDetails(edgeGatewayName);
+        );
 
         return {
           networkName: network.network,
@@ -118,11 +158,7 @@ async function fetchVmDetails(orgsData) {
           MAC: network.macAddress,
           adapter: network.networkAdapterType,
           isConnected: network.isConnected,
-          edgeGateway: {
-            edgeGatewayName: edgeGatewayDetails.edgeGatewayName,
-            firewallRules: edgeGatewayDetails.firewallRules,
-            natRules: edgeGatewayDetails.natRules
-          }
+          ...networkData
         };
       });
 

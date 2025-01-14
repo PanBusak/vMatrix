@@ -201,3 +201,87 @@
 2024-12-17T08:46:06.348Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
 2024-12-17T08:46:06.432Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
 2024-12-17T08:46:06.484Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2024-12-18T09:42:08.442Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2024-12-18T09:42:08.499Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2024-12-18T09:42:08.549Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2024-12-18T09:42:08.582Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2024-12-18T09:42:08.587Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2024-12-18T09:42:08.611Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2024-12-18T09:42:08.668Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2024-12-18T09:42:08.774Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2024-12-18T09:42:08.792Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2024-12-18T09:42:08.817Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2024-12-18T09:42:08.856Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2024-12-18T09:42:08.900Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2024-12-18T09:42:08.928Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2024-12-18T09:42:08.938Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2024-12-18T09:42:08.946Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.033Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2024-12-18T09:42:09.094Z [ERROR] Error fetching firewall rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2024-12-18T09:42:09.115Z [ERROR] Error fetching NAT rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2024-12-18T09:42:09.120Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2024-12-18T09:42:09.166Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2024-12-18T09:42:09.179Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2024-12-18T09:42:09.230Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2024-12-18T09:42:09.231Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2024-12-18T09:42:09.262Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2024-12-18T09:42:09.317Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.318Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2024-12-18T09:42:09.323Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.329Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.348Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2024-12-18T09:42:09.349Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2024-12-18T09:42:09.384Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.436Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2024-12-18T09:42:09.474Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2024-12-18T09:42:09.483Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2024-12-18T09:42:09.485Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2024-12-18T09:42:09.486Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2024-12-18T09:42:09.512Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2024-12-18T09:42:09.522Z [ERROR] Error fetching NAT rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2024-12-18T09:42:09.571Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.614Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2024-12-18T09:42:09.618Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.627Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2024-12-18T09:42:09.634Z [ERROR] Error fetching NAT rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.662Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2024-12-18T09:42:09.665Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.672Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.721Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.751Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2024-12-18T09:42:11.182Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2024-12-18T09:42:11.209Z [ERROR] Error fetching firewall rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2024-12-18T09:42:11.239Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2024-12-18T09:42:11.355Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-01-14T08:58:20.141Z [ERROR] Error fetching access token:
+2025-01-14T08:58:20.141Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:02:27.111Z [ERROR] Error fetching access token:
+2025-01-14T09:02:27.112Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:04:57.406Z [ERROR] Error fetching access token:
+2025-01-14T09:04:57.408Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:06:57.799Z [ERROR] Error fetching access token:
+2025-01-14T09:06:57.800Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:07:38.057Z [ERROR] Error fetching access token:
+2025-01-14T09:07:38.058Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:13:02.665Z [ERROR] Error fetching access token:
+2025-01-14T09:13:02.666Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:13:28.195Z [ERROR] Error fetching access token:
+2025-01-14T09:13:28.196Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:25:51.159Z [ERROR] Error fetching access token:
+2025-01-14T09:25:51.159Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:41:32.886Z [ERROR] Error fetching access token:
+2025-01-14T09:41:32.887Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:48:05.748Z [ERROR] Error fetching access token:
+2025-01-14T09:48:05.748Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:51:55.366Z [ERROR] Error fetching access token:
+2025-01-14T09:51:55.367Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T10:46:09.482Z [ERROR] Error fetching access token:
+2025-01-14T10:46:09.483Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T10:53:04.668Z [ERROR] Error fetching access token:
+2025-01-14T10:53:04.669Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T10:53:40.166Z [ERROR] Error fetching access token:
+2025-01-14T10:53:40.167Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T11:02:57.205Z [ERROR] Error fetching access token:
+2025-01-14T11:02:57.206Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T11:07:49.558Z [ERROR] Error fetching access token:
+2025-01-14T11:07:49.559Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?

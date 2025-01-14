@@ -5181,3 +5181,961 @@
 2024-12-17T09:20:48.936Z [INFO] Fetched and updated all VM details successfully.
 2024-12-17T09:20:48.937Z [INFO] Fetched VM details successfully from IP: ::1
 2024-12-17T09:20:48.940Z [INFO] No existing topology found for UUID: 07f52be0-f5f4-414e-91aa-e4ac348c5557. Creating a new entry.
+2024-12-18T09:40:58.845Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-12-18T09:40:58.849Z [INFO] Starting to fetch access token
+2024-12-18T09:40:58.888Z [INFO] Server is running on http://localhost:3000
+2024-12-18T09:40:58.907Z [INFO] Mongoose connected to MongoDB
+2024-12-18T09:40:59.411Z [INFO] Access token fetch script successfull.
+2024-12-18T09:40:59.412Z [INFO] Access Token fetched successfully
+2024-12-18T09:40:59.412Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzQ3NzQwNTksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOWRlMjJmOTYyY2I5NGMyYTg2Y2MxZTQxMmFhZTg3ZGIifQ.ChLHSAlCFJHtOWLctquq9-hIAPxci4CW2q4mBu8_HjHGLdnrg1CYGSl86ux9_OAqiVwS0Q1Tu9ZfFYtjxDQHBq-iWkUPNeglGNSqoFyhSCHwWBOs0GHgCMhfRH4ItR6NahoiKCoteDTmOeEsj7hAPTE0jevNe3Pk_GMl2l_jId3AzKX0WgJsNgCCgPBeVapKZO-XcAZEAXIViaVnQUptaWGgntvJPmGcaSpfz900EAAtiFslPf3EnVOuMo09_ZuLRn0feUbhoZFvDCVI9Ib-4pz8HD5yAsZZsGvwAX0wDLq2f0U12_QWi09TYk7a7BClYb_qwb1c56ydnB7IN99x2Q
+2024-12-18T09:42:06.411Z [INFO] Fetching network data...
+2024-12-18T09:42:06.412Z [INFO] Initial request for Edge Gateways started
+2024-12-18T09:42:06.661Z [INFO] Initial request for Edge Gateways done!
+2024-12-18T09:42:06.662Z [INFO] Making 115 edgeGateways requests
+2024-12-18T09:42:07.530Z [INFO] Fetched all Edge Gateways successfully from https://vcloud-ffm-private.t-systems.de.
+2024-12-18T09:42:08.442Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2024-12-18T09:42:08.499Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2024-12-18T09:42:08.549Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2024-12-18T09:42:08.582Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2024-12-18T09:42:08.587Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2024-12-18T09:42:08.611Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2024-12-18T09:42:08.668Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2024-12-18T09:42:08.774Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2024-12-18T09:42:08.792Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2024-12-18T09:42:08.817Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2024-12-18T09:42:08.856Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2024-12-18T09:42:08.900Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2024-12-18T09:42:08.928Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2024-12-18T09:42:08.938Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2024-12-18T09:42:08.946Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.033Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2024-12-18T09:42:09.094Z [ERROR] Error fetching firewall rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2024-12-18T09:42:09.115Z [ERROR] Error fetching NAT rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2024-12-18T09:42:09.120Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2024-12-18T09:42:09.166Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2024-12-18T09:42:09.179Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2024-12-18T09:42:09.230Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2024-12-18T09:42:09.231Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2024-12-18T09:42:09.262Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2024-12-18T09:42:09.317Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.318Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2024-12-18T09:42:09.323Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.329Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.348Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2024-12-18T09:42:09.349Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2024-12-18T09:42:09.384Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.436Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2024-12-18T09:42:09.474Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2024-12-18T09:42:09.483Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2024-12-18T09:42:09.485Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2024-12-18T09:42:09.486Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2024-12-18T09:42:09.512Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2024-12-18T09:42:09.522Z [ERROR] Error fetching NAT rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2024-12-18T09:42:09.571Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.614Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2024-12-18T09:42:09.618Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.627Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2024-12-18T09:42:09.634Z [ERROR] Error fetching NAT rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.662Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2024-12-18T09:42:09.665Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2024-12-18T09:42:09.672Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.721Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2024-12-18T09:42:09.751Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2024-12-18T09:42:11.182Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2024-12-18T09:42:11.209Z [ERROR] Error fetching firewall rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2024-12-18T09:42:11.239Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2024-12-18T09:42:11.355Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2024-12-18T09:42:17.608Z [INFO] Fetched all Edge Gateways along with firewall and NAT rules successfully.
+2024-12-18T09:42:17.652Z [INFO] Fetched Edge Gateways data successfully.
+2024-12-18T09:42:17.652Z [INFO] Fetching External networks...
+2024-12-18T09:42:17.900Z [INFO] Initial request done!
+2024-12-18T09:42:17.900Z [INFO] Making 470 externalNetworks requests
+2024-12-18T09:42:21.934Z [INFO] Fetched all externalNetworks successfully.
+2024-12-18T09:42:21.954Z [INFO] Fetched External Networks data successfully.
+2024-12-18T09:42:22.763Z [INFO] Initial request done!
+2024-12-18T09:42:22.763Z [INFO] Making 21 orgVDCNetworks requests
+2024-12-18T09:42:24.144Z [INFO] Fetched all orgVdcNetworks successfully  from https://vcloud-ffm-private.t-systems.de.
+2024-12-18T09:42:24.170Z [INFO] Fetched Org VDC Networks data successfully.
+2024-12-18T09:42:24.174Z [INFO] Network data sent successfully.
+2024-12-18T12:29:47.328Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-12-18T12:29:47.331Z [INFO] Starting to fetch access token
+2024-12-18T12:29:47.370Z [INFO] Server is running on http://localhost:3000
+2024-12-18T12:29:47.387Z [INFO] Mongoose connected to MongoDB
+2024-12-18T12:29:47.912Z [INFO] Access token fetch script successfull.
+2024-12-18T12:29:47.913Z [INFO] Access Token fetched successfully
+2024-12-18T12:29:47.913Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzQ3ODQxODcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNGFhMDIwNzljYjQ0NDViYThkMWUzOTMxMzg4ZmZmYTMifQ.eRY2dJnCn-22G1Wy1y20yAjb3FZIRWQhC3kqHLrQJFuZR00RdCgjwpC8WwVfxVQST7qael5Qm2pJzQMB6uq7AURqD6R1N_4vbKBE2XQcroAjuWCRA9vGbfdEFdupJx1cdwfXSZXMsswLtK4H2L_SHxWDE42MjGJFWk2f8gicyMjPDkCew2HyFGYkezSOYt5hJ95g0Cb-T3hk6BOBedPLIDnLo4shjj1O_Awu8YZen74bBd2SfOawKjHKe6MVM-ov9xZ_olkAf6IT2EsqtMjX3ZJGvsCurKyHb7IeBtDqhds3eAl147bvT32ShvxRQ79nd-IF10U5Bl--ymZRGCAymg
+2024-12-18T12:30:26.411Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-12-18T12:30:26.813Z [INFO] Fetched VDCs fpr successfully.
+2024-12-18T12:30:26.813Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-12-18T12:30:27.091Z [INFO] Fetched VDCs and their vApps successfully.
+2024-12-18T12:30:27.092Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-12-18T12:30:27.657Z [INFO] Fetched and filtered vApp details successfully.
+2024-12-18T12:30:27.657Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-12-18T12:30:27.657Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2024-12-18T12:30:27.702Z [INFO] Loaded 115 gateways with rules.
+2024-12-18T12:30:27.702Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2024-12-18T12:30:27.717Z [INFO] Loaded 641 networks.
+2024-12-18T12:30:27.718Z [INFO] Making requests for 25 VMs.
+2024-12-18T12:30:28.181Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2024-12-18T12:30:28.182Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2024-12-18T12:30:28.182Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2024-12-18T12:30:28.182Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2024-12-18T12:30:28.182Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2024-12-18T12:30:28.182Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2024-12-18T12:30:28.183Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2024-12-18T12:30:28.183Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2024-12-18T12:30:28.183Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2024-12-18T12:30:28.183Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2024-12-18T12:30:28.183Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2024-12-18T12:30:28.183Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2024-12-18T12:30:28.184Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2024-12-18T12:30:28.184Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2024-12-18T12:30:28.184Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2024-12-18T12:30:28.184Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2024-12-18T12:30:28.184Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2024-12-18T12:30:28.185Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2024-12-18T12:30:28.185Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2024-12-18T12:30:28.185Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2024-12-18T12:30:28.185Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2024-12-18T12:30:28.185Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2024-12-18T12:30:28.186Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2024-12-18T12:30:28.186Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2024-12-18T12:30:28.186Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2024-12-18T12:30:28.186Z [INFO] Fetched and updated all VM details successfully.
+2024-12-18T12:30:28.186Z [INFO] Fetched VM details successfully from IP: ::1
+2024-12-18T12:30:28.197Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2024-12-18T12:51:10.265Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-12-18T12:51:10.268Z [INFO] Starting to fetch access token
+2024-12-18T12:51:10.304Z [INFO] Server is running on http://localhost:3000
+2024-12-18T12:51:10.318Z [INFO] Mongoose connected to MongoDB
+2024-12-18T12:51:10.868Z [INFO] Access token fetch script successfull.
+2024-12-18T12:51:10.869Z [INFO] Access Token fetched successfully
+2024-12-18T12:51:10.869Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzQ3ODU0NzAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNjNjNjhhMDYzOGFhNDIyMWJiMjlkNTQwYzQwNGZlODUifQ.cjYMA4DbMliSlb8cjV5HYXf1JqE8V8nHszoexo-qyj_z-59maeSjIzv6BtA5CT8xjrqEQTsuWesaUjqIBBHQ-fBH3lEIGWXBsohonbOSutE2rQV4NhvnbdHNTOWdrn6auE5N1PAzOH50cgmj9GKMVXI11iWRhxDZfUsMu55mNkNLXsttuUZ9QxmW7ADfwajLyhWWq6WzwGPBEGVOJhzpvgGYO0_67jIET0MBwYf_mtawvJ6EJLwoOC3Fh9GGpvixPo81vBj6EZiWB8YFyBX5rPrtb5c1RG6EWnFV360gy6ZgLv74S9zwnEUxjBCLUt-J3g_jqZHC9kA3Mu5n2qxm1A
+2024-12-18T12:51:29.656Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-12-18T12:51:30.059Z [INFO] Fetched VDCs fpr successfully.
+2024-12-18T12:51:30.059Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-12-18T12:51:30.312Z [INFO] Fetched VDCs and their vApps successfully.
+2024-12-18T12:51:30.313Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-12-18T12:51:30.912Z [INFO] Fetched and filtered vApp details successfully.
+2024-12-18T12:51:30.913Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-12-18T12:51:30.913Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2024-12-18T12:51:30.952Z [INFO] Loaded 115 gateways with rules.
+2024-12-18T12:51:30.953Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2024-12-18T12:51:30.968Z [INFO] Loaded 641 networks.
+2024-12-18T12:51:30.969Z [INFO] Making requests for 25 VMs.
+2024-12-18T12:51:31.429Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2024-12-18T12:51:31.430Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2024-12-18T12:51:31.430Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2024-12-18T12:51:31.430Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2024-12-18T12:51:31.430Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2024-12-18T12:51:31.430Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2024-12-18T12:51:31.431Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2024-12-18T12:51:31.431Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2024-12-18T12:51:31.431Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2024-12-18T12:51:31.431Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2024-12-18T12:51:31.431Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2024-12-18T12:51:31.432Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2024-12-18T12:51:31.432Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2024-12-18T12:51:31.432Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2024-12-18T12:51:31.432Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2024-12-18T12:51:31.432Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2024-12-18T12:51:31.432Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2024-12-18T12:51:31.433Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2024-12-18T12:51:31.433Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2024-12-18T12:51:31.433Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2024-12-18T12:51:31.433Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2024-12-18T12:51:31.433Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2024-12-18T12:51:31.434Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2024-12-18T12:51:31.434Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2024-12-18T12:51:31.434Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2024-12-18T12:51:31.434Z [INFO] Fetched and updated all VM details successfully.
+2024-12-18T12:51:31.434Z [INFO] Fetched VM details successfully from IP: ::1
+2024-12-18T12:51:31.444Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2024-12-18T13:03:13.603Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-12-18T13:03:13.606Z [INFO] Starting to fetch access token
+2024-12-18T13:03:13.642Z [INFO] Server is running on http://localhost:3000
+2024-12-18T13:03:13.657Z [INFO] Mongoose connected to MongoDB
+2024-12-18T13:03:14.211Z [INFO] Access token fetch script successfull.
+2024-12-18T13:03:14.212Z [INFO] Access Token fetched successfully
+2024-12-18T13:03:14.212Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzQ3ODYxOTMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMzU2MWJkOGVjNmU4NGIwNzgzYTBmYTUzYTUyYTg2M2IifQ.eFrZaLHQVIPfPzt4w7HGtGGZeB-leLfitoyStd6naWu5pUqkoYoxBw-mnC_iupdIdQLAfqU36ULBj7scvhkvS9KrhbPLJzBnzqYZ5LPU-Xs3aPAVGb6XwF8IGp9mx8QaW7byFe54mPg32Rcq7GyfKmAUoxRjWHmBugHT3kicSt7TznsqIBNDOEewi0Ea__EaOQYEKWoYut6RCM-TENbvVaOCLSsrZQv3nAv3EJw-sSimw-ZDTi2VGobHOtItE-L7qwoqaEJZUSupqevQec6vX_viEHM7npyHBTexX1BVyyAjQPPYglPZCQSxt72qJTRdnBsq2aKhFUGIONDRIj9vUw
+2024-12-18T13:03:17.196Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-12-18T13:03:17.590Z [INFO] Fetched VDCs fpr successfully.
+2024-12-18T13:03:17.590Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-12-18T13:03:17.915Z [INFO] Fetched VDCs and their vApps successfully.
+2024-12-18T13:03:17.916Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-12-18T13:03:18.626Z [INFO] Fetched and filtered vApp details successfully.
+2024-12-18T13:03:18.626Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-12-18T13:03:18.627Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2024-12-18T13:03:18.663Z [INFO] Loaded 115 gateways with rules.
+2024-12-18T13:03:18.663Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2024-12-18T13:03:18.683Z [INFO] Loaded 641 networks.
+2024-12-18T13:03:18.683Z [INFO] Making requests for 25 VMs.
+2024-12-18T13:03:19.184Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2024-12-18T13:03:19.185Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2024-12-18T13:03:19.185Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2024-12-18T13:03:19.185Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2024-12-18T13:03:19.185Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2024-12-18T13:03:19.186Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2024-12-18T13:03:19.186Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2024-12-18T13:03:19.186Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2024-12-18T13:03:19.186Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2024-12-18T13:03:19.186Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2024-12-18T13:03:19.187Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2024-12-18T13:03:19.187Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2024-12-18T13:03:19.187Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2024-12-18T13:03:19.187Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2024-12-18T13:03:19.187Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2024-12-18T13:03:19.187Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2024-12-18T13:03:19.188Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2024-12-18T13:03:19.188Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2024-12-18T13:03:19.188Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2024-12-18T13:03:19.188Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2024-12-18T13:03:19.188Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2024-12-18T13:03:19.189Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2024-12-18T13:03:19.189Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2024-12-18T13:03:19.189Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2024-12-18T13:03:19.189Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2024-12-18T13:03:19.189Z [INFO] Fetched and updated all VM details successfully.
+2024-12-18T13:03:19.189Z [INFO] Fetched VM details successfully from IP: ::1
+2024-12-18T13:03:19.199Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2024-12-18T13:21:41.055Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-12-18T13:21:41.058Z [INFO] Starting to fetch access token
+2024-12-18T13:21:41.093Z [INFO] Server is running on http://localhost:3000
+2024-12-18T13:21:41.107Z [INFO] Mongoose connected to MongoDB
+2024-12-18T13:21:41.596Z [INFO] Access token fetch script successfull.
+2024-12-18T13:21:41.596Z [INFO] Access Token fetched successfully
+2024-12-18T13:21:41.597Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzQ3ODczMDEsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYTE1YmM5MjQxZjhhNDliZGIwYTg0OTVkOWJmMmJlZTUifQ.f2Tlx6Fc0EEnSxI5KNzJ-BVBqvjoBb37mKKfhE1dSgdX9PxihmuGi_wJw9FO3gCKzS0M4wTYvJxG_48zq5zTNHHi7y-a1mass8RJ8fNUY6lCUlsWtaI5VPaypbajletBgRhk9CvJIxpAB2oR7vnmfapdPGG46P818IgdZX5w-cl5NQzDR6x8-UVaUDvVgPx2xyDcfCmRDfQRjC2joA9adislhwi9qocLo-cYoCrvp3SPZT54ZsJwEzYf9ndzi0AbOfsBoFCJsWQKb-C5N58kJBIXm21vESuQoSwyi2Lhr-STR7Mnj6D-uZkz43IdADBHGmSRADaG1CzJuUf6xL66iA
+2024-12-18T13:21:44.582Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-12-18T13:21:44.965Z [INFO] Fetched VDCs fpr successfully.
+2024-12-18T13:21:44.965Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-12-18T13:21:45.264Z [INFO] Fetched VDCs and their vApps successfully.
+2024-12-18T13:21:45.264Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-12-18T13:21:45.867Z [INFO] Fetched and filtered vApp details successfully.
+2024-12-18T13:21:45.868Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-12-18T13:21:45.868Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2024-12-18T13:21:45.907Z [INFO] Loaded 115 gateways with rules.
+2024-12-18T13:21:45.908Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2024-12-18T13:21:45.922Z [INFO] Loaded 641 networks.
+2024-12-18T13:21:45.922Z [INFO] Making requests for 25 VMs.
+2024-12-18T13:21:46.418Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2024-12-18T13:21:46.418Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2024-12-18T13:21:46.419Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2024-12-18T13:21:46.419Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2024-12-18T13:21:46.419Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2024-12-18T13:21:46.419Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2024-12-18T13:21:46.419Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2024-12-18T13:21:46.420Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2024-12-18T13:21:46.420Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2024-12-18T13:21:46.420Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2024-12-18T13:21:46.420Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2024-12-18T13:21:46.420Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2024-12-18T13:21:46.420Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2024-12-18T13:21:46.421Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2024-12-18T13:21:46.421Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2024-12-18T13:21:46.421Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2024-12-18T13:21:46.421Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2024-12-18T13:21:46.421Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2024-12-18T13:21:46.422Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2024-12-18T13:21:46.422Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2024-12-18T13:21:46.422Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2024-12-18T13:21:46.422Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2024-12-18T13:21:46.422Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2024-12-18T13:21:46.423Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2024-12-18T13:21:46.423Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2024-12-18T13:21:46.423Z [INFO] Fetched and updated all VM details successfully.
+2024-12-18T13:21:46.423Z [INFO] Fetched VM details successfully from IP: ::1
+2024-12-18T13:21:46.433Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2024-12-18T13:26:26.504Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-12-18T13:26:26.507Z [INFO] Starting to fetch access token
+2024-12-18T13:26:26.552Z [INFO] Server is running on http://localhost:3000
+2024-12-18T13:26:26.571Z [INFO] Mongoose connected to MongoDB
+2024-12-18T13:26:27.068Z [INFO] Access token fetch script successfull.
+2024-12-18T13:26:27.068Z [INFO] Access Token fetched successfully
+2024-12-18T13:26:27.068Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzQ3ODc1ODYsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNmFiYzU2NmIzYTliNDZjZTlmOTY3OTgwYzE4MDNlMTEifQ.II9-jr2P_TQZKKYZ4Xr_wrncg_rn06g_fYfBRPeFxwEdklBvBvNreNdrzKE7VQgB3ztSy7MyS8jsiBcn4HkpAcJL0onDalJ22DN_dGnIun4DQdO7gl-3iai9Mgvtc90vs5ZZnxquVRScGPJDZ5OUZZVOtjoB57kxbKKh3HRXJPDVNAhWAJxry1-IvLO26n5jErdV7CyHgDlYuhrf1NNK0_cO9gJxkwLFQUOhtQjadVWfINuZc69Ytlsyf0kWdjRJ7LhNJTnCP0dzc2fJs0DzxL7Cp50_TNA6M4_9qYF5-BdcDedh4_z1D3fMAeXUroeEBjtfMj3L13BAq6g2UgBURw
+2024-12-18T13:26:28.975Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-12-18T13:26:29.373Z [INFO] Fetched VDCs fpr successfully.
+2024-12-18T13:26:29.373Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-12-18T13:26:29.623Z [INFO] Fetched VDCs and their vApps successfully.
+2024-12-18T13:26:29.624Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-12-18T13:26:30.213Z [INFO] Fetched and filtered vApp details successfully.
+2024-12-18T13:26:30.213Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-12-18T13:26:30.214Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2024-12-18T13:26:30.246Z [INFO] Loaded 115 gateways with rules.
+2024-12-18T13:26:30.246Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2024-12-18T13:26:30.264Z [INFO] Loaded 641 networks.
+2024-12-18T13:26:30.265Z [INFO] Making requests for 25 VMs.
+2024-12-18T13:26:30.749Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2024-12-18T13:26:30.750Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2024-12-18T13:26:30.750Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2024-12-18T13:26:30.750Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2024-12-18T13:26:30.750Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2024-12-18T13:26:30.750Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2024-12-18T13:26:30.751Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2024-12-18T13:26:30.751Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2024-12-18T13:26:30.751Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2024-12-18T13:26:30.751Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2024-12-18T13:26:30.751Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2024-12-18T13:26:30.752Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2024-12-18T13:26:30.752Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2024-12-18T13:26:30.752Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2024-12-18T13:26:30.752Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2024-12-18T13:26:30.752Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2024-12-18T13:26:30.752Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2024-12-18T13:26:30.753Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2024-12-18T13:26:30.753Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2024-12-18T13:26:30.753Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2024-12-18T13:26:30.753Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2024-12-18T13:26:30.753Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2024-12-18T13:26:30.754Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2024-12-18T13:26:30.754Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2024-12-18T13:26:30.754Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2024-12-18T13:26:30.754Z [INFO] Fetched and updated all VM details successfully.
+2024-12-18T13:26:30.754Z [INFO] Fetched VM details successfully from IP: ::1
+2024-12-18T13:26:30.764Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2024-12-18T13:27:20.845Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2024-12-18T13:27:20.845Z [INFO] Fetched organizations successfully from IP: ::1
+2024-12-18T13:27:38.084Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-12-18T13:27:38.645Z [INFO] Fetched VDCs fpr successfully.
+2024-12-18T13:27:38.645Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-12-18T13:27:39.014Z [INFO] Fetched VDCs and their vApps successfully.
+2024-12-18T13:27:39.015Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-12-18T13:27:44.594Z [INFO] Fetched and filtered vApp details successfully.
+2024-12-18T13:27:44.594Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-12-18T13:27:44.594Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2024-12-18T13:27:44.624Z [INFO] Loaded 115 gateways with rules.
+2024-12-18T13:27:44.625Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2024-12-18T13:27:44.643Z [INFO] Loaded 641 networks.
+2024-12-18T13:27:44.644Z [INFO] Making requests for 435 VMs.
+2024-12-18T13:27:48.044Z [DEBUG] Processed VM ID urn:vcloud:vm:7720f9ed-5532-4156-88bc-938322af53fc:
+2024-12-18T13:27:48.044Z [DEBUG] Processed VM ID urn:vcloud:vm:efb03e9b-d62d-459a-b56b-ed8699b2846b:
+2024-12-18T13:27:48.045Z [DEBUG] Processed VM ID urn:vcloud:vm:ad57d749-99a3-4df1-b08f-833dbf71c6d1:
+2024-12-18T13:27:48.045Z [DEBUG] Processed VM ID urn:vcloud:vm:7bee75b0-688c-4e73-b438-1bc54f6ed590:
+2024-12-18T13:27:48.045Z [DEBUG] Processed VM ID urn:vcloud:vm:6fc8cfa2-78eb-4992-bb18-c887569308c0:
+2024-12-18T13:27:48.045Z [DEBUG] Processed VM ID urn:vcloud:vm:1ddc6803-761d-4d86-a360-c5e86c8471f0:
+2024-12-18T13:27:48.045Z [DEBUG] Processed VM ID urn:vcloud:vm:5e16b89b-4462-41b6-8bad-71bea5664fae:
+2024-12-18T13:27:48.045Z [DEBUG] Processed VM ID urn:vcloud:vm:fbe85eae-0f8a-4378-b684-8c6ba06c457b:
+2024-12-18T13:27:48.046Z [DEBUG] Processed VM ID urn:vcloud:vm:712a3e7c-f0b7-4b5b-8356-ac46c688da31:
+2024-12-18T13:27:48.046Z [DEBUG] Processed VM ID urn:vcloud:vm:63ce88d8-621b-4974-850b-507a2481d41f:
+2024-12-18T13:27:48.046Z [DEBUG] Processed VM ID urn:vcloud:vm:12212f79-184a-4a1f-ab6c-b0eae4c20818:
+2024-12-18T13:27:48.046Z [DEBUG] Processed VM ID urn:vcloud:vm:4c9e9441-8060-469f-927d-0e118b2a43ad:
+2024-12-18T13:27:48.046Z [DEBUG] Processed VM ID urn:vcloud:vm:7c28f432-97c2-46d7-9ad2-8f6bae01b39b:
+2024-12-18T13:27:48.048Z [DEBUG] Processed VM ID urn:vcloud:vm:11c31498-aa3b-44d5-af57-c0040b0922e5:
+2024-12-18T13:27:48.049Z [DEBUG] Processed VM ID urn:vcloud:vm:496b12c3-2aef-42bf-9f0f-b808b070c5ee:
+2024-12-18T13:27:48.049Z [DEBUG] Processed VM ID urn:vcloud:vm:e4298a83-38d6-4f35-940c-47df6ca14aba:
+2024-12-18T13:27:48.049Z [DEBUG] Processed VM ID urn:vcloud:vm:a4558778-2fee-464b-83aa-934aa06a8c78:
+2024-12-18T13:27:48.049Z [DEBUG] Processed VM ID urn:vcloud:vm:a9b32d88-0b06-442b-a8d2-fabd7355fb63:
+2024-12-18T13:27:48.050Z [DEBUG] Processed VM ID urn:vcloud:vm:d086e92f-3d23-4245-bdfa-f33ba2a096ff:
+2024-12-18T13:27:48.050Z [DEBUG] Processed VM ID urn:vcloud:vm:e8078bd1-f940-4b5f-a4f8-9bff20b08ebc:
+2024-12-18T13:27:48.050Z [DEBUG] Processed VM ID urn:vcloud:vm:690dc9ac-7291-44a6-9aab-72f0b93fb3e0:
+2024-12-18T13:27:48.050Z [DEBUG] Processed VM ID urn:vcloud:vm:e2cbf1be-4880-433e-a0e2-ffc244d6c18c:
+2024-12-18T13:27:48.050Z [DEBUG] Processed VM ID urn:vcloud:vm:0b814e1c-56cf-4d91-8d71-ef3f164c7cb0:
+2024-12-18T13:27:48.051Z [DEBUG] Processed VM ID urn:vcloud:vm:74541035-5e60-4341-813b-e06d097540fb:
+2024-12-18T13:27:48.051Z [DEBUG] Processed VM ID urn:vcloud:vm:ea4bf52d-1539-475e-b555-8b63007af256:
+2024-12-18T13:27:48.051Z [DEBUG] Processed VM ID urn:vcloud:vm:2e43b770-0aae-4d52-af40-c08ef0aa02e1:
+2024-12-18T13:27:48.051Z [DEBUG] Processed VM ID urn:vcloud:vm:4df159db-3089-4387-a5ec-54d0cec9acb5:
+2024-12-18T13:27:48.051Z [DEBUG] Processed VM ID urn:vcloud:vm:a1cc5c9d-b7b7-4ab6-960d-abe3314264bb:
+2024-12-18T13:27:48.052Z [DEBUG] Processed VM ID urn:vcloud:vm:a2ba2408-4673-4744-8946-bede28da4337:
+2024-12-18T13:27:48.052Z [DEBUG] Processed VM ID urn:vcloud:vm:02b1fe53-359f-4d0b-b7c0-d797f654bca9:
+2024-12-18T13:27:48.052Z [DEBUG] Processed VM ID urn:vcloud:vm:bafaebcf-c7cc-4f37-83d0-cd63ce813a7c:
+2024-12-18T13:27:48.052Z [DEBUG] Processed VM ID urn:vcloud:vm:16b3169e-de84-42c8-8117-7268a2ec3c45:
+2024-12-18T13:27:48.052Z [DEBUG] Processed VM ID urn:vcloud:vm:8194607d-91b3-40c4-83a0-1e8fcb8814a9:
+2024-12-18T13:27:48.052Z [DEBUG] Processed VM ID urn:vcloud:vm:deed97b3-88b1-403e-8ddb-78e475538f42:
+2024-12-18T13:27:48.053Z [DEBUG] Processed VM ID urn:vcloud:vm:b0634666-8751-4b60-a8bd-f9fa645dff94:
+2024-12-18T13:27:48.053Z [DEBUG] Processed VM ID urn:vcloud:vm:5bbff44e-80b2-4dca-9e84-35c3f297f5cb:
+2024-12-18T13:27:48.053Z [DEBUG] Processed VM ID urn:vcloud:vm:8dd21d78-ebed-4df6-9776-e375662f5a80:
+2024-12-18T13:27:48.053Z [DEBUG] Processed VM ID urn:vcloud:vm:8277b711-9682-4812-a099-e76edfb6f1d1:
+2024-12-18T13:27:48.053Z [DEBUG] Processed VM ID urn:vcloud:vm:88fc09d6-c6bd-47b1-91ed-daefda30634c:
+2024-12-18T13:27:48.054Z [DEBUG] Processed VM ID urn:vcloud:vm:46cfb5d3-0f25-4ea1-84cd-9b36c0bb36f0:
+2024-12-18T13:27:48.054Z [DEBUG] Processed VM ID urn:vcloud:vm:59a3e364-42bd-4ed8-b111-a79058116534:
+2024-12-18T13:27:48.054Z [DEBUG] Processed VM ID urn:vcloud:vm:5ca0e060-45b9-4ea2-853a-1be8354ffc76:
+2024-12-18T13:27:48.054Z [DEBUG] Processed VM ID urn:vcloud:vm:1987807b-917f-460d-a183-14debf62fdf3:
+2024-12-18T13:27:48.055Z [DEBUG] Processed VM ID urn:vcloud:vm:a8083b13-770d-46b8-b85e-b82fd894497a:
+2024-12-18T13:27:48.055Z [DEBUG] Processed VM ID urn:vcloud:vm:c30e004d-f9e6-48d4-a0ab-c54d15f0fbe6:
+2024-12-18T13:27:48.055Z [DEBUG] Processed VM ID urn:vcloud:vm:dadc9e21-68d4-434c-9ca3-7d738a8527e1:
+2024-12-18T13:27:48.055Z [DEBUG] Processed VM ID urn:vcloud:vm:1ea3f3e8-4a6f-4928-96eb-9f5c8b9f6bd0:
+2024-12-18T13:27:48.055Z [DEBUG] Processed VM ID urn:vcloud:vm:705d47c0-5aa2-4012-94ff-b47c85e93515:
+2024-12-18T13:27:48.056Z [DEBUG] Processed VM ID urn:vcloud:vm:88df3e91-0c10-47fd-a42d-e76aad1ae092:
+2024-12-18T13:27:48.056Z [DEBUG] Processed VM ID urn:vcloud:vm:3ca31029-210a-4391-a4dc-a1807a7e1a29:
+2024-12-18T13:27:48.056Z [DEBUG] Processed VM ID urn:vcloud:vm:5de8658b-472c-4a42-9d7f-b9249831cb5a:
+2024-12-18T13:27:48.056Z [DEBUG] Processed VM ID urn:vcloud:vm:6d8d19a3-05f2-475a-8d25-7a16221f1444:
+2024-12-18T13:27:48.057Z [DEBUG] Processed VM ID urn:vcloud:vm:0223ecb2-4ca3-4f7c-b461-59719b91264a:
+2024-12-18T13:27:48.057Z [DEBUG] Processed VM ID urn:vcloud:vm:f56d8045-4648-4afa-b36a-3f3759663701:
+2024-12-18T13:27:48.057Z [DEBUG] Processed VM ID urn:vcloud:vm:04fafb46-05dc-4578-9602-5760839c4e87:
+2024-12-18T13:27:48.057Z [DEBUG] Processed VM ID urn:vcloud:vm:56b397bf-168b-4718-a525-2db2f2e7e073:
+2024-12-18T13:27:48.057Z [DEBUG] Processed VM ID urn:vcloud:vm:a34d7a2c-b872-4b3c-82fb-d41616a74c23:
+2024-12-18T13:27:48.058Z [DEBUG] Processed VM ID urn:vcloud:vm:ae52101f-4133-4701-9757-4ff492252a10:
+2024-12-18T13:27:48.058Z [DEBUG] Processed VM ID urn:vcloud:vm:76c1505e-2f4c-46c7-ac3d-68fdcdeaca19:
+2024-12-18T13:27:48.058Z [DEBUG] Processed VM ID urn:vcloud:vm:339e245b-0005-4237-b50d-3d942b59bcdc:
+2024-12-18T13:27:48.058Z [DEBUG] Processed VM ID urn:vcloud:vm:519fc4a9-ad5d-4e5d-a153-4cbf4f67cfae:
+2024-12-18T13:27:48.058Z [DEBUG] Processed VM ID urn:vcloud:vm:dce24254-38cc-469c-a7dd-0f2838587dae:
+2024-12-18T13:27:48.058Z [DEBUG] Processed VM ID urn:vcloud:vm:63588a19-1fb9-4dba-87e9-64078ef1a134:
+2024-12-18T13:27:48.059Z [DEBUG] Processed VM ID urn:vcloud:vm:4ddd284c-de77-4af5-a1cd-ef3bd228b372:
+2024-12-18T13:27:48.059Z [DEBUG] Processed VM ID urn:vcloud:vm:6ae28b93-26ba-446b-ac98-0ffbf16adf80:
+2024-12-18T13:27:48.059Z [DEBUG] Processed VM ID urn:vcloud:vm:47606273-0f83-4113-92e0-2718e8d02518:
+2024-12-18T13:27:48.059Z [DEBUG] Processed VM ID urn:vcloud:vm:55361cf6-9986-4b49-b62a-25bc938fa324:
+2024-12-18T13:27:48.060Z [DEBUG] Processed VM ID urn:vcloud:vm:bde0099a-fc19-48df-898e-57989164c71e:
+2024-12-18T13:27:48.060Z [DEBUG] Processed VM ID urn:vcloud:vm:fddb2a78-bb8d-4ef9-865d-65c421b71d45:
+2024-12-18T13:27:48.060Z [DEBUG] Processed VM ID urn:vcloud:vm:1d9b333d-aaa6-4ac7-8651-8c61f4dafa2f:
+2024-12-18T13:27:48.060Z [DEBUG] Processed VM ID urn:vcloud:vm:08497978-9e5b-4f08-84e2-01d43c428911:
+2024-12-18T13:27:48.060Z [DEBUG] Processed VM ID urn:vcloud:vm:74bfca3b-f2a9-4843-a2e6-c742712dabb4:
+2024-12-18T13:27:48.060Z [DEBUG] Processed VM ID urn:vcloud:vm:bb54ad49-bbf7-4c04-8d3d-b5c2b1799b95:
+2024-12-18T13:27:48.061Z [DEBUG] Processed VM ID urn:vcloud:vm:c121aa89-5c0e-40a0-8d83-ac444f0bd8da:
+2024-12-18T13:27:48.061Z [DEBUG] Processed VM ID urn:vcloud:vm:8e43cb36-fab8-4222-a691-2b80a37d7046:
+2024-12-18T13:27:48.061Z [DEBUG] Processed VM ID urn:vcloud:vm:f72228a7-b8ac-47ad-806d-91de0c0f3e82:
+2024-12-18T13:27:48.061Z [DEBUG] Processed VM ID urn:vcloud:vm:6004c9b6-6f7b-480f-a52c-dec0452fef3d:
+2024-12-18T13:27:48.061Z [DEBUG] Processed VM ID urn:vcloud:vm:3584c94b-8126-4c86-a1a6-3a850517b885:
+2024-12-18T13:27:48.061Z [DEBUG] Processed VM ID urn:vcloud:vm:f8dcee9d-fa4c-4916-b177-97b0da1726b6:
+2024-12-18T13:27:48.062Z [DEBUG] Processed VM ID urn:vcloud:vm:ebfb5365-7a26-486c-88b7-9fbfa13f3a7c:
+2024-12-18T13:27:48.062Z [DEBUG] Processed VM ID urn:vcloud:vm:a3a41f06-b3a1-4e19-8b68-9508a0310673:
+2024-12-18T13:27:48.062Z [DEBUG] Processed VM ID urn:vcloud:vm:059a3b28-d8f0-4b10-ad12-1c6fae892228:
+2024-12-18T13:27:48.062Z [DEBUG] Processed VM ID urn:vcloud:vm:455fdaf0-9619-483f-80de-6cbded678b1a:
+2024-12-18T13:27:48.062Z [DEBUG] Processed VM ID urn:vcloud:vm:f55b2aee-3797-483e-9f3a-8d633227bdcc:
+2024-12-18T13:27:48.062Z [DEBUG] Processed VM ID urn:vcloud:vm:ab519303-e51d-48c1-894d-25a72b8205a0:
+2024-12-18T13:27:48.062Z [DEBUG] Processed VM ID urn:vcloud:vm:6df6717e-2801-4294-b30b-869ac06844b0:
+2024-12-18T13:27:48.063Z [DEBUG] Processed VM ID urn:vcloud:vm:6f477ef7-240b-459d-803e-fb81344a9790:
+2024-12-18T13:27:48.063Z [DEBUG] Processed VM ID urn:vcloud:vm:784ec28f-2d8c-4631-bcde-14944b9dab6e:
+2024-12-18T13:27:48.063Z [DEBUG] Processed VM ID urn:vcloud:vm:03591073-eafb-4755-8eb4-fa52c9f669c7:
+2024-12-18T13:27:48.064Z [DEBUG] Processed VM ID urn:vcloud:vm:f5bf39dc-ad0d-4ef0-9c72-5bf990cd79ce:
+2024-12-18T13:27:48.064Z [DEBUG] Processed VM ID urn:vcloud:vm:f60bcaca-8ae7-4289-bf07-79288ddeb440:
+2024-12-18T13:27:48.064Z [DEBUG] Processed VM ID urn:vcloud:vm:0fe356ed-0155-4e37-8e3e-390d01161669:
+2024-12-18T13:27:48.064Z [DEBUG] Processed VM ID urn:vcloud:vm:ecce9ab8-6b90-4226-b37d-9ce69e9cbdfa:
+2024-12-18T13:27:48.064Z [DEBUG] Processed VM ID urn:vcloud:vm:b97533be-3a4a-469b-8b25-e5976b371871:
+2024-12-18T13:27:48.065Z [DEBUG] Processed VM ID urn:vcloud:vm:5d43cb0d-8fc1-46cf-9cdc-6a423170080d:
+2024-12-18T13:27:48.065Z [DEBUG] Processed VM ID urn:vcloud:vm:d3e8eee6-a5a4-41e0-b065-632cde1ba822:
+2024-12-18T13:27:48.065Z [DEBUG] Processed VM ID urn:vcloud:vm:2c59e7fd-acc2-4b63-8e26-4b4175dc0785:
+2024-12-18T13:27:48.065Z [DEBUG] Processed VM ID urn:vcloud:vm:9d5af648-795e-4bf5-a543-698620ef89e1:
+2024-12-18T13:27:48.065Z [DEBUG] Processed VM ID urn:vcloud:vm:0bfc554a-7110-4d4b-9e66-3bd1ad4e975e:
+2024-12-18T13:27:48.066Z [DEBUG] Processed VM ID urn:vcloud:vm:b8463ca3-da60-4e31-b836-6e34e7b067c5:
+2024-12-18T13:27:48.066Z [DEBUG] Processed VM ID urn:vcloud:vm:7dad4cc5-af6f-406a-be3d-ed86a240cb16:
+2024-12-18T13:27:48.066Z [DEBUG] Processed VM ID urn:vcloud:vm:49251277-2e02-4441-8319-9c79902f86d8:
+2024-12-18T13:27:48.066Z [DEBUG] Processed VM ID urn:vcloud:vm:58d7cd9d-dc91-4178-bfbf-577a9d66fc06:
+2024-12-18T13:27:48.067Z [DEBUG] Processed VM ID urn:vcloud:vm:a4b97a2e-c3fe-4faf-b56c-05d6922d3314:
+2024-12-18T13:27:48.067Z [DEBUG] Processed VM ID urn:vcloud:vm:a12689b4-b43d-40c1-a22d-095d464d18cb:
+2024-12-18T13:27:48.067Z [DEBUG] Processed VM ID urn:vcloud:vm:91ba1d4c-9912-4420-947e-dbcb1302862c:
+2024-12-18T13:27:48.067Z [DEBUG] Processed VM ID urn:vcloud:vm:715e6710-9cb8-407f-81bc-70157f4bdb33:
+2024-12-18T13:27:48.067Z [DEBUG] Processed VM ID urn:vcloud:vm:b00311b7-5425-4ee2-a6e1-d003dc710c6f:
+2024-12-18T13:27:48.067Z [DEBUG] Processed VM ID urn:vcloud:vm:92549969-3765-4cc3-9c66-3678b43ce2cb:
+2024-12-18T13:27:48.068Z [DEBUG] Processed VM ID urn:vcloud:vm:1186ee6a-a6a8-4ef8-bc0c-8df725a608b7:
+2024-12-18T13:27:48.068Z [DEBUG] Processed VM ID urn:vcloud:vm:2c613cc6-7edd-47e9-8107-112fccf6794f:
+2024-12-18T13:27:48.068Z [DEBUG] Processed VM ID urn:vcloud:vm:f1dd83e2-5e1c-4e48-afa9-1f44869ed054:
+2024-12-18T13:27:48.068Z [DEBUG] Processed VM ID urn:vcloud:vm:5adf1029-3aa4-4d0e-9ae0-eff076fd9638:
+2024-12-18T13:27:48.068Z [DEBUG] Processed VM ID urn:vcloud:vm:bff93859-bc0d-4a04-8f21-602d3bc9f4a4:
+2024-12-18T13:27:48.069Z [DEBUG] Processed VM ID urn:vcloud:vm:be4b25df-e1ac-4a63-bba9-a6bd249875fc:
+2024-12-18T13:27:48.069Z [DEBUG] Processed VM ID urn:vcloud:vm:c445d5b4-f3f0-4cb4-a7d5-8b163dfe05f6:
+2024-12-18T13:27:48.069Z [DEBUG] Processed VM ID urn:vcloud:vm:6326c76c-af45-4ea5-b1b2-befb5503b404:
+2024-12-18T13:27:48.069Z [DEBUG] Processed VM ID urn:vcloud:vm:fd6511a0-c34f-48af-9618-660a9fbbecb7:
+2024-12-18T13:27:48.069Z [DEBUG] Processed VM ID urn:vcloud:vm:628a7703-03f0-4927-87dc-b3e4ac245cbc:
+2024-12-18T13:27:48.070Z [DEBUG] Processed VM ID urn:vcloud:vm:31368c4e-138f-4849-a932-f502ccfe4b88:
+2024-12-18T13:27:48.070Z [DEBUG] Processed VM ID urn:vcloud:vm:0ae26b37-5215-4701-910e-546c0074d254:
+2024-12-18T13:27:48.070Z [DEBUG] Processed VM ID urn:vcloud:vm:6155b241-fa4a-4b21-b962-47c53a636f90:
+2024-12-18T13:27:48.070Z [DEBUG] Processed VM ID urn:vcloud:vm:5e052e33-7c63-4cbd-ae03-d9f535076b29:
+2024-12-18T13:27:48.071Z [DEBUG] Processed VM ID urn:vcloud:vm:090ac60d-3392-4b68-b257-480b0322c5f5:
+2024-12-18T13:27:48.071Z [DEBUG] Processed VM ID urn:vcloud:vm:c9536682-1510-4191-88c2-dbfb646daa65:
+2024-12-18T13:27:48.071Z [DEBUG] Processed VM ID urn:vcloud:vm:78c5aaa1-34b5-4343-924a-d0362631c74e:
+2024-12-18T13:27:48.071Z [DEBUG] Processed VM ID urn:vcloud:vm:f1efe599-1f98-4bd8-9c31-82f69310575a:
+2024-12-18T13:27:48.071Z [DEBUG] Processed VM ID urn:vcloud:vm:7de5de3c-d695-4583-a674-10ccd5ccf78c:
+2024-12-18T13:27:48.072Z [DEBUG] Processed VM ID urn:vcloud:vm:74e270ac-527e-4951-8b0a-266956ab2472:
+2024-12-18T13:27:48.072Z [DEBUG] Processed VM ID urn:vcloud:vm:070ef1c4-04d6-4b83-b7d9-92baf46d421f:
+2024-12-18T13:27:48.072Z [DEBUG] Processed VM ID urn:vcloud:vm:3db949b8-b939-42c5-a224-7dc7784a1544:
+2024-12-18T13:27:48.072Z [DEBUG] Processed VM ID urn:vcloud:vm:da5ac656-aea8-401d-b4e4-a7bf9f18e10a:
+2024-12-18T13:27:48.072Z [DEBUG] Processed VM ID urn:vcloud:vm:3e1c0b6d-f6fd-4bec-99ea-f8a2d6966ee0:
+2024-12-18T13:27:48.072Z [DEBUG] Processed VM ID urn:vcloud:vm:8d05d251-e664-4482-8fcd-2643147b783a:
+2024-12-18T13:27:48.073Z [DEBUG] Processed VM ID urn:vcloud:vm:74907db5-dab4-4123-8bd0-120ae50fa42f:
+2024-12-18T13:27:48.073Z [DEBUG] Processed VM ID urn:vcloud:vm:c731ced6-d6e8-446d-a572-e84770b63bac:
+2024-12-18T13:27:48.073Z [DEBUG] Processed VM ID urn:vcloud:vm:ae9da6c3-5d4b-4a16-9c67-820c4b21457c:
+2024-12-18T13:27:48.073Z [DEBUG] Processed VM ID urn:vcloud:vm:6272893b-f34b-4ac9-8414-10fa21c59317:
+2024-12-18T13:27:48.073Z [DEBUG] Processed VM ID urn:vcloud:vm:edb425ce-938b-4c7b-ae7d-16cc22a581b7:
+2024-12-18T13:27:48.074Z [DEBUG] Processed VM ID urn:vcloud:vm:3c551921-78ac-4ca1-99df-9ae92b7a83b8:
+2024-12-18T13:27:48.074Z [DEBUG] Processed VM ID urn:vcloud:vm:992e782c-2db1-423f-8789-79c1167ae966:
+2024-12-18T13:27:48.074Z [DEBUG] Processed VM ID urn:vcloud:vm:275616c2-ef93-4662-902d-8dd762bb7d67:
+2024-12-18T13:27:48.074Z [DEBUG] Processed VM ID urn:vcloud:vm:cc855172-45c2-4806-aec8-00bef6fa6df4:
+2024-12-18T13:27:48.074Z [DEBUG] Processed VM ID urn:vcloud:vm:169e496a-f6b5-487e-806f-30d449035883:
+2024-12-18T13:27:48.074Z [DEBUG] Processed VM ID urn:vcloud:vm:977a68bb-57db-4b08-aa7a-a05c88f696a3:
+2024-12-18T13:27:48.075Z [DEBUG] Processed VM ID urn:vcloud:vm:f34bae50-cead-45ff-bc9a-3505da4eeee5:
+2024-12-18T13:27:48.075Z [DEBUG] Processed VM ID urn:vcloud:vm:50623c27-5aeb-45fa-86eb-b58b1a3a4cd4:
+2024-12-18T13:27:48.075Z [DEBUG] Processed VM ID urn:vcloud:vm:16f4d450-8062-49fc-93d7-23bf60512de5:
+2024-12-18T13:27:48.075Z [DEBUG] Processed VM ID urn:vcloud:vm:2b418323-4cbe-4076-8694-f0bba8c506ad:
+2024-12-18T13:27:48.075Z [DEBUG] Processed VM ID urn:vcloud:vm:a2eda002-081e-4646-ae61-caa77681fa3a:
+2024-12-18T13:27:48.076Z [DEBUG] Processed VM ID urn:vcloud:vm:14139650-43b2-4388-9ac0-d3305ba1c337:
+2024-12-18T13:27:48.076Z [DEBUG] Processed VM ID urn:vcloud:vm:68b0d726-aa43-43cc-a471-4f0c87c91106:
+2024-12-18T13:27:48.076Z [DEBUG] Processed VM ID urn:vcloud:vm:2d23ade8-c87a-4fb4-8fa1-f5957033bf0f:
+2024-12-18T13:27:48.076Z [DEBUG] Processed VM ID urn:vcloud:vm:cd6b3c23-e893-43c1-b1a2-3a9e984fc6ce:
+2024-12-18T13:27:48.076Z [DEBUG] Processed VM ID urn:vcloud:vm:aebf2527-f384-4ff2-9a72-f29b79a996ab:
+2024-12-18T13:27:48.076Z [DEBUG] Processed VM ID urn:vcloud:vm:75dcf1a2-8a37-43d8-9cf6-83d28b57f129:
+2024-12-18T13:27:48.076Z [DEBUG] Processed VM ID urn:vcloud:vm:3fbb483b-471e-4d10-93de-d1534a5e0db6:
+2024-12-18T13:27:48.077Z [DEBUG] Processed VM ID urn:vcloud:vm:5add2946-b924-4a14-b4c5-e106ee748cc1:
+2024-12-18T13:27:48.077Z [DEBUG] Processed VM ID urn:vcloud:vm:f03ef069-8817-437a-a854-265eb361ec01:
+2024-12-18T13:27:48.077Z [DEBUG] Processed VM ID urn:vcloud:vm:8928a37e-cb2a-4d5a-a290-cf347c00a611:
+2024-12-18T13:27:48.077Z [DEBUG] Processed VM ID urn:vcloud:vm:a1218084-22ae-495d-9b77-95ce29bcc251:
+2024-12-18T13:27:48.077Z [DEBUG] Processed VM ID urn:vcloud:vm:b958f72b-58fa-4957-b9c1-37e858d170cb:
+2024-12-18T13:27:48.078Z [DEBUG] Processed VM ID urn:vcloud:vm:5e8f5ffd-3b2b-4ee7-8076-13b98008b0f4:
+2024-12-18T13:27:48.078Z [DEBUG] Processed VM ID urn:vcloud:vm:950eee94-0228-4f72-9afc-be1e680e4ed7:
+2024-12-18T13:27:48.078Z [DEBUG] Processed VM ID urn:vcloud:vm:b3fe6758-0da8-46e1-8ff0-cdffb3fcc96a:
+2024-12-18T13:27:48.078Z [DEBUG] Processed VM ID urn:vcloud:vm:b7b5e5f8-ed01-4cfe-aa34-d342b80e799d:
+2024-12-18T13:27:48.078Z [DEBUG] Processed VM ID urn:vcloud:vm:c4ef0512-f1cd-4df3-8c05-90ef0a8e83d2:
+2024-12-18T13:27:48.078Z [DEBUG] Processed VM ID urn:vcloud:vm:b654d0c4-68fb-43dc-affa-e1dda96db6a2:
+2024-12-18T13:27:48.079Z [DEBUG] Processed VM ID urn:vcloud:vm:f8c7fa10-28eb-4974-ad7e-e2623e9e5716:
+2024-12-18T13:27:48.079Z [DEBUG] Processed VM ID urn:vcloud:vm:0d139691-e810-48bb-9d56-2777e4c2b3a6:
+2024-12-18T13:27:48.079Z [DEBUG] Processed VM ID urn:vcloud:vm:79fa1634-3f22-4702-aae3-f70a92ed9576:
+2024-12-18T13:27:48.079Z [DEBUG] Processed VM ID urn:vcloud:vm:d9dfec83-0c46-48e5-9d7f-aaffae536726:
+2024-12-18T13:27:48.079Z [DEBUG] Processed VM ID urn:vcloud:vm:c394f913-2eed-44ca-8f5d-aa78e5ee5009:
+2024-12-18T13:27:48.079Z [DEBUG] Processed VM ID urn:vcloud:vm:8a073ddd-b6f7-410b-8630-bb1afe60c88a:
+2024-12-18T13:27:48.080Z [DEBUG] Processed VM ID urn:vcloud:vm:83cd7d99-4cc2-4837-8399-68a14cf9412e:
+2024-12-18T13:27:48.080Z [DEBUG] Processed VM ID urn:vcloud:vm:febc6f88-9801-4a74-95bf-679173a46b30:
+2024-12-18T13:27:48.080Z [DEBUG] Processed VM ID urn:vcloud:vm:ed30a62f-898f-4a40-a1bb-bb1ebbf4c974:
+2024-12-18T13:27:48.080Z [DEBUG] Processed VM ID urn:vcloud:vm:5332d8c2-d899-4661-8478-dcda803144cb:
+2024-12-18T13:27:48.080Z [DEBUG] Processed VM ID urn:vcloud:vm:3d958cc3-06e2-4a67-b136-728aeaf6fb28:
+2024-12-18T13:27:48.081Z [DEBUG] Processed VM ID urn:vcloud:vm:db087c84-35ae-4eb6-9fee-c180097a1df0:
+2024-12-18T13:27:48.081Z [DEBUG] Processed VM ID urn:vcloud:vm:b31de717-e22f-4918-ba63-ce311f582205:
+2024-12-18T13:27:48.081Z [DEBUG] Processed VM ID urn:vcloud:vm:e7793474-fb3f-4d77-aade-da04fb85ceec:
+2024-12-18T13:27:48.081Z [DEBUG] Processed VM ID urn:vcloud:vm:40c4221c-8c57-4cc3-8419-6f530a2f2add:
+2024-12-18T13:27:48.081Z [DEBUG] Processed VM ID urn:vcloud:vm:5f9698ee-21c7-4ad9-8c12-87eccb3aba08:
+2024-12-18T13:27:48.082Z [DEBUG] Processed VM ID urn:vcloud:vm:58e8efb6-4b6f-4047-9443-658f38b8b2d3:
+2024-12-18T13:27:48.082Z [DEBUG] Processed VM ID urn:vcloud:vm:9d604ca5-9833-44a4-8004-6f03c8543c9f:
+2024-12-18T13:27:48.082Z [DEBUG] Processed VM ID urn:vcloud:vm:dd5d2cf2-2c26-43db-a15e-50f78275e065:
+2024-12-18T13:27:48.082Z [DEBUG] Processed VM ID urn:vcloud:vm:d24c90d4-3a59-487b-a815-d35a06f8376a:
+2024-12-18T13:27:48.082Z [DEBUG] Processed VM ID urn:vcloud:vm:328669e6-ed8e-43ad-b399-db9636f4f4ba:
+2024-12-18T13:27:48.083Z [DEBUG] Processed VM ID urn:vcloud:vm:25af4310-b472-4978-8f20-1caa9f45a859:
+2024-12-18T13:27:48.083Z [DEBUG] Processed VM ID urn:vcloud:vm:ba4372be-e2a0-497d-a844-3b8cacf73c2d:
+2024-12-18T13:27:48.083Z [DEBUG] Processed VM ID urn:vcloud:vm:57a1ade9-20a5-48c4-9403-0c3cdd244e30:
+2024-12-18T13:27:48.083Z [DEBUG] Processed VM ID urn:vcloud:vm:f17392b9-ea24-4694-9d95-3a62cbeb457d:
+2024-12-18T13:27:48.083Z [DEBUG] Processed VM ID urn:vcloud:vm:72ade770-5013-410d-b398-4cb78d27acaf:
+2024-12-18T13:27:48.084Z [DEBUG] Processed VM ID urn:vcloud:vm:fe6e4839-1beb-4903-b318-9c9f23cb5429:
+2024-12-18T13:27:48.084Z [DEBUG] Processed VM ID urn:vcloud:vm:2bb7837c-b577-48e1-abc0-0d975da172eb:
+2024-12-18T13:27:48.084Z [DEBUG] Processed VM ID urn:vcloud:vm:b283df47-1450-4d66-97ab-0c735a04d328:
+2024-12-18T13:27:48.084Z [DEBUG] Processed VM ID urn:vcloud:vm:fe3fa32f-f381-464b-84c4-7fafb0f4066a:
+2024-12-18T13:27:48.085Z [DEBUG] Processed VM ID urn:vcloud:vm:e53dfcb4-c5a3-449a-8a9b-d7795074c50d:
+2024-12-18T13:27:48.085Z [DEBUG] Processed VM ID urn:vcloud:vm:39045bc0-d3e4-4577-8465-33524d87a830:
+2024-12-18T13:27:48.085Z [DEBUG] Processed VM ID urn:vcloud:vm:46eae8a1-13d6-4d71-8b77-281a930bffd4:
+2024-12-18T13:27:48.085Z [DEBUG] Processed VM ID urn:vcloud:vm:09903e7e-1726-4b09-9810-46cc0e28450e:
+2024-12-18T13:27:48.085Z [DEBUG] Processed VM ID urn:vcloud:vm:11a94f99-ead6-4919-a1e1-e687fd082664:
+2024-12-18T13:27:48.086Z [DEBUG] Processed VM ID urn:vcloud:vm:96107301-c7ee-47ea-a466-f1359ac7bc3d:
+2024-12-18T13:27:48.086Z [DEBUG] Processed VM ID urn:vcloud:vm:a875314c-b976-445c-86b4-a9d3bfce7384:
+2024-12-18T13:27:48.086Z [DEBUG] Processed VM ID urn:vcloud:vm:e583d4b1-2c50-40d1-ae00-cd43d99ae525:
+2024-12-18T13:27:48.086Z [DEBUG] Processed VM ID urn:vcloud:vm:9b06cde7-3a84-4f26-bd1c-94135fcf9d8e:
+2024-12-18T13:27:48.087Z [DEBUG] Processed VM ID urn:vcloud:vm:d6533e7c-0d40-43d0-8f45-0920b4c460f2:
+2024-12-18T13:27:48.087Z [DEBUG] Processed VM ID urn:vcloud:vm:87f0bdf2-149c-4b90-bd03-ce65980ba157:
+2024-12-18T13:27:48.087Z [DEBUG] Processed VM ID urn:vcloud:vm:cadbf41b-cc76-4791-939f-493a76099285:
+2024-12-18T13:27:48.087Z [DEBUG] Processed VM ID urn:vcloud:vm:afbc90bd-29e1-4118-a9b0-464adbdce851:
+2024-12-18T13:27:48.087Z [DEBUG] Processed VM ID urn:vcloud:vm:9c296c77-9633-4653-9217-0a4c08e84672:
+2024-12-18T13:27:48.087Z [DEBUG] Processed VM ID urn:vcloud:vm:4ff5a5d5-1d69-456f-a088-9ef7e12950dc:
+2024-12-18T13:27:48.088Z [DEBUG] Processed VM ID urn:vcloud:vm:5281c95c-250a-4e64-b916-066b5c9f59ad:
+2024-12-18T13:27:48.088Z [DEBUG] Processed VM ID urn:vcloud:vm:6ef50084-eedc-489a-b6fe-d5afe2c69435:
+2024-12-18T13:27:48.088Z [DEBUG] Processed VM ID urn:vcloud:vm:19832524-3385-4518-8576-96074573c348:
+2024-12-18T13:27:48.088Z [DEBUG] Processed VM ID urn:vcloud:vm:f161cfe8-11ab-46b2-a359-56316c1a51d5:
+2024-12-18T13:27:48.088Z [DEBUG] Processed VM ID urn:vcloud:vm:c8336f78-e907-4f37-afec-1705416e812f:
+2024-12-18T13:27:48.089Z [DEBUG] Processed VM ID urn:vcloud:vm:0942db6d-d989-4496-a21d-2fe4f11eca22:
+2024-12-18T13:27:48.089Z [DEBUG] Processed VM ID urn:vcloud:vm:8ae889f9-35a5-4fba-a0e1-3a7f340d3507:
+2024-12-18T13:27:48.089Z [DEBUG] Processed VM ID urn:vcloud:vm:cb006f97-3206-4916-8c7a-95167a816822:
+2024-12-18T13:27:48.089Z [DEBUG] Processed VM ID urn:vcloud:vm:6a39f791-edc8-4378-8395-b0e6345537a9:
+2024-12-18T13:27:48.089Z [DEBUG] Processed VM ID urn:vcloud:vm:ac04202e-f182-4bf0-b714-d2607e9b5d65:
+2024-12-18T13:27:48.090Z [DEBUG] Processed VM ID urn:vcloud:vm:328d1fbb-1732-4b36-823b-18c165741db1:
+2024-12-18T13:27:48.090Z [DEBUG] Processed VM ID urn:vcloud:vm:fa6ec354-0e3e-4959-9666-5c5dae23194a:
+2024-12-18T13:27:48.090Z [DEBUG] Processed VM ID urn:vcloud:vm:2cbd3bda-4a81-48c7-89b1-fc2c652c1659:
+2024-12-18T13:27:48.090Z [DEBUG] Processed VM ID urn:vcloud:vm:427fa608-02c2-48b5-9736-f685cfcd4d8d:
+2024-12-18T13:27:48.090Z [DEBUG] Processed VM ID urn:vcloud:vm:51e7d153-57c5-40f5-bf13-53487fa71527:
+2024-12-18T13:27:48.090Z [DEBUG] Processed VM ID urn:vcloud:vm:b2aabd37-c0d5-48db-9e01-45e76f42150f:
+2024-12-18T13:27:48.091Z [DEBUG] Processed VM ID urn:vcloud:vm:5644aee0-b8e2-44a4-845a-9362bac79e7f:
+2024-12-18T13:27:48.091Z [DEBUG] Processed VM ID urn:vcloud:vm:c52ffa74-cbbf-4663-8bde-538189588b05:
+2024-12-18T13:27:48.091Z [DEBUG] Processed VM ID urn:vcloud:vm:7c133d93-dd70-4b87-8044-88a65dd8547e:
+2024-12-18T13:27:48.091Z [DEBUG] Processed VM ID urn:vcloud:vm:4a992132-7c4f-4860-90df-8c1db9b5b87d:
+2024-12-18T13:27:48.091Z [DEBUG] Processed VM ID urn:vcloud:vm:6956e587-926f-4771-972e-ae82aa14432b:
+2024-12-18T13:27:48.091Z [DEBUG] Processed VM ID urn:vcloud:vm:8cce2973-79b4-444a-b477-213311814175:
+2024-12-18T13:27:48.092Z [DEBUG] Processed VM ID urn:vcloud:vm:3164f905-6e66-47ed-9e2d-746b74842335:
+2024-12-18T13:27:48.092Z [DEBUG] Processed VM ID urn:vcloud:vm:067ba1e2-7dd4-4e05-9360-0b63ef73bfff:
+2024-12-18T13:27:48.092Z [DEBUG] Processed VM ID urn:vcloud:vm:0321cbc3-72fc-4c7c-a8af-a9fba3315825:
+2024-12-18T13:27:48.092Z [DEBUG] Processed VM ID urn:vcloud:vm:5791691b-c717-43a7-9c59-b01c13dbf7fd:
+2024-12-18T13:27:48.092Z [DEBUG] Processed VM ID urn:vcloud:vm:aa15b0a7-e2d0-45e6-8e46-855e8e6a5775:
+2024-12-18T13:27:48.092Z [DEBUG] Processed VM ID urn:vcloud:vm:d8060c25-7d75-493b-914c-12f434ef16d0:
+2024-12-18T13:27:48.092Z [DEBUG] Processed VM ID urn:vcloud:vm:d7c96e9c-1e81-4531-a1b8-c89f5e1a4900:
+2024-12-18T13:27:48.093Z [DEBUG] Processed VM ID urn:vcloud:vm:cd48d293-b6be-43a1-899b-b6f96663110a:
+2024-12-18T13:27:48.093Z [DEBUG] Processed VM ID urn:vcloud:vm:937044ad-028e-494e-9478-f5a5b3165a84:
+2024-12-18T13:27:48.093Z [DEBUG] Processed VM ID urn:vcloud:vm:f369d9c5-08f4-4776-a5a3-e5ee850c1509:
+2024-12-18T13:27:48.093Z [DEBUG] Processed VM ID urn:vcloud:vm:8ef1bd7d-25b0-4ab5-af80-2a633783ba14:
+2024-12-18T13:27:48.093Z [DEBUG] Processed VM ID urn:vcloud:vm:ac570009-d601-4b48-a96c-7b2952ae0d05:
+2024-12-18T13:27:48.094Z [DEBUG] Processed VM ID urn:vcloud:vm:8568a310-dcb7-4cb1-ae90-d7e589d35b8e:
+2024-12-18T13:27:48.094Z [DEBUG] Processed VM ID urn:vcloud:vm:d6f9578b-2800-4dc0-958e-95a2ac2380c3:
+2024-12-18T13:27:48.094Z [DEBUG] Processed VM ID urn:vcloud:vm:5e99ec60-f45c-4246-b19e-841571e32ad8:
+2024-12-18T13:27:48.094Z [DEBUG] Processed VM ID urn:vcloud:vm:409e04b0-3168-45f5-b369-16254f912786:
+2024-12-18T13:27:48.094Z [DEBUG] Processed VM ID urn:vcloud:vm:2bd2a51a-4627-452b-adf7-6fd17e32f794:
+2024-12-18T13:27:48.094Z [DEBUG] Processed VM ID urn:vcloud:vm:da37605e-3ec9-4abb-a50f-74684bbe6f5a:
+2024-12-18T13:27:48.095Z [DEBUG] Processed VM ID urn:vcloud:vm:e3b6646b-74be-4f4e-83ee-5ef01b935451:
+2024-12-18T13:27:48.095Z [DEBUG] Processed VM ID urn:vcloud:vm:fb20957b-69f5-4009-8338-a61ba029a26b:
+2024-12-18T13:27:48.095Z [DEBUG] Processed VM ID urn:vcloud:vm:f0f57f36-d72c-4500-ad38-f0d6699fdabd:
+2024-12-18T13:27:48.095Z [DEBUG] Processed VM ID urn:vcloud:vm:98692176-e06e-4277-a128-90c61ecd46b9:
+2024-12-18T13:27:48.095Z [DEBUG] Processed VM ID urn:vcloud:vm:fbbd9f94-04de-44d4-a20c-a59b24345afa:
+2024-12-18T13:27:48.096Z [DEBUG] Processed VM ID urn:vcloud:vm:50c5d6ae-314c-40c3-ad9b-e31eeca65d3f:
+2024-12-18T13:27:48.096Z [DEBUG] Processed VM ID urn:vcloud:vm:dcf17b84-4eb1-4af0-a2d1-82c8295cde7c:
+2024-12-18T13:27:48.096Z [DEBUG] Processed VM ID urn:vcloud:vm:605a0c67-c59d-43ec-9e8d-55416de1ae6a:
+2024-12-18T13:27:48.096Z [DEBUG] Processed VM ID urn:vcloud:vm:474b34ec-2d30-4908-a434-389fb41c42e2:
+2024-12-18T13:27:48.097Z [DEBUG] Processed VM ID urn:vcloud:vm:38243fa0-77ea-48db-9ee4-6ed4306018d6:
+2024-12-18T13:27:48.097Z [DEBUG] Processed VM ID urn:vcloud:vm:3cd0a4f6-847c-43ed-9d19-cf34ed58765b:
+2024-12-18T13:27:48.097Z [DEBUG] Processed VM ID urn:vcloud:vm:7d5afd07-b800-41b3-9512-fe8f7e94cf05:
+2024-12-18T13:27:48.097Z [DEBUG] Processed VM ID urn:vcloud:vm:d5217134-4ad2-4a13-a6bc-defaf739f57e:
+2024-12-18T13:27:48.098Z [DEBUG] Processed VM ID urn:vcloud:vm:72095448-dd51-4cb9-9280-5b3659edb4bc:
+2024-12-18T13:27:48.098Z [DEBUG] Processed VM ID urn:vcloud:vm:5ad03c7c-f828-43d1-b8a7-d5b3641ac68b:
+2024-12-18T13:27:48.098Z [DEBUG] Processed VM ID urn:vcloud:vm:aa4423a7-f2bc-4296-81ef-ed6910626419:
+2024-12-18T13:27:48.098Z [DEBUG] Processed VM ID urn:vcloud:vm:c8609042-ebd5-47f0-b043-2c947f877f5b:
+2024-12-18T13:27:48.100Z [DEBUG] Processed VM ID urn:vcloud:vm:67f7e88c-dad8-442f-a514-7d07aba830ee:
+2024-12-18T13:27:48.101Z [DEBUG] Processed VM ID urn:vcloud:vm:26d05877-3e33-4299-8aa0-6c0187e943d9:
+2024-12-18T13:27:48.101Z [DEBUG] Processed VM ID urn:vcloud:vm:cb11b628-9730-4be6-a446-2452b6ba9607:
+2024-12-18T13:27:48.101Z [DEBUG] Processed VM ID urn:vcloud:vm:f491692b-ead2-4395-918d-e298b223bab8:
+2024-12-18T13:27:48.101Z [DEBUG] Processed VM ID urn:vcloud:vm:ac820608-e3d2-4054-93e1-587072d4955c:
+2024-12-18T13:27:48.101Z [DEBUG] Processed VM ID urn:vcloud:vm:3c9a74ce-e581-4839-b7ea-c8cfd6016394:
+2024-12-18T13:27:48.102Z [DEBUG] Processed VM ID urn:vcloud:vm:ada1e68d-0ab6-41c5-ab42-b7efeb3349a2:
+2024-12-18T13:27:48.102Z [DEBUG] Processed VM ID urn:vcloud:vm:f88f19e8-ef8c-45b6-8f4e-bedd1fa5dc06:
+2024-12-18T13:27:48.102Z [DEBUG] Processed VM ID urn:vcloud:vm:34271baa-4894-4168-bff8-af75c856d142:
+2024-12-18T13:27:48.102Z [DEBUG] Processed VM ID urn:vcloud:vm:5ae3313c-fdba-404f-a974-e558a999f458:
+2024-12-18T13:27:48.103Z [DEBUG] Processed VM ID urn:vcloud:vm:118bb85d-42f6-471e-8d53-06e628bd1618:
+2024-12-18T13:27:48.103Z [DEBUG] Processed VM ID urn:vcloud:vm:bf6cb13b-7008-48ba-a5fa-5159b96ec863:
+2024-12-18T13:27:48.103Z [DEBUG] Processed VM ID urn:vcloud:vm:f29f82e1-ced1-4f15-8bc4-7ee941a5649f:
+2024-12-18T13:27:48.103Z [DEBUG] Processed VM ID urn:vcloud:vm:5a196f9b-73cd-4d1a-9150-5fce8a353ab0:
+2024-12-18T13:27:48.103Z [DEBUG] Processed VM ID urn:vcloud:vm:1b409a1b-79fe-4c20-86a8-6cc34f7251a3:
+2024-12-18T13:27:48.103Z [DEBUG] Processed VM ID urn:vcloud:vm:6efe9421-ecc9-4542-b60d-e3e122f010d7:
+2024-12-18T13:27:48.104Z [DEBUG] Processed VM ID urn:vcloud:vm:c1ff9417-174b-4682-8869-525343274a66:
+2024-12-18T13:27:48.104Z [DEBUG] Processed VM ID urn:vcloud:vm:dab319a1-aea0-4977-959b-0dafa63155ad:
+2024-12-18T13:27:48.104Z [DEBUG] Processed VM ID urn:vcloud:vm:2f5f033e-bec1-4991-88ad-f032b602a447:
+2024-12-18T13:27:48.104Z [DEBUG] Processed VM ID urn:vcloud:vm:e5f98362-b198-4a76-ad81-ab28c0d2e4c4:
+2024-12-18T13:27:48.104Z [DEBUG] Processed VM ID urn:vcloud:vm:24a8da0a-22c9-4c1a-b09e-6c4ed281688e:
+2024-12-18T13:27:48.104Z [DEBUG] Processed VM ID urn:vcloud:vm:8e49ec9f-b2d8-4b01-9992-cffee11d582e:
+2024-12-18T13:27:48.105Z [DEBUG] Processed VM ID urn:vcloud:vm:421f71a1-7feb-43b0-9400-54a3f67da525:
+2024-12-18T13:27:48.105Z [DEBUG] Processed VM ID urn:vcloud:vm:a82c7e67-6f1a-4ca3-86e1-abd7ea12605b:
+2024-12-18T13:27:48.105Z [DEBUG] Processed VM ID urn:vcloud:vm:dfd2aacd-c118-43d7-8bbd-421435d0b867:
+2024-12-18T13:27:48.105Z [DEBUG] Processed VM ID urn:vcloud:vm:eacb6e69-2580-41c7-bf87-785fbb6c1a41:
+2024-12-18T13:27:48.105Z [DEBUG] Processed VM ID urn:vcloud:vm:22f33e18-b0f0-4b78-9f6e-3767f6f4f9e7:
+2024-12-18T13:27:48.105Z [DEBUG] Processed VM ID urn:vcloud:vm:e8544a8d-435b-4c30-8403-df88a19f8b76:
+2024-12-18T13:27:48.106Z [DEBUG] Processed VM ID urn:vcloud:vm:9f3d5b1b-5f10-4775-8693-ba7445a86742:
+2024-12-18T13:27:48.106Z [DEBUG] Processed VM ID urn:vcloud:vm:0660a12f-fc84-42ed-a267-f5ba26a3554e:
+2024-12-18T13:27:48.106Z [DEBUG] Processed VM ID urn:vcloud:vm:25112a02-d1d4-4c02-964a-c7029bda7498:
+2024-12-18T13:27:48.106Z [DEBUG] Processed VM ID urn:vcloud:vm:c96d179c-2bda-413a-968a-503eaa3197cb:
+2024-12-18T13:27:48.106Z [DEBUG] Processed VM ID urn:vcloud:vm:883dcf79-e059-4b87-b68a-fa6843d6a33e:
+2024-12-18T13:27:48.107Z [DEBUG] Processed VM ID urn:vcloud:vm:ecd496e7-6b7c-401c-aaea-cacd7a939a89:
+2024-12-18T13:27:48.107Z [DEBUG] Processed VM ID urn:vcloud:vm:d8ffd808-8a9c-46e6-8f18-451c41330c72:
+2024-12-18T13:27:48.107Z [DEBUG] Processed VM ID urn:vcloud:vm:e08b64fb-4e7d-4566-baac-e62f3f4d54bd:
+2024-12-18T13:27:48.107Z [DEBUG] Processed VM ID urn:vcloud:vm:d3e47a11-c4d7-4795-bfff-56973490ceee:
+2024-12-18T13:27:48.107Z [DEBUG] Processed VM ID urn:vcloud:vm:24510c8d-f00f-4eb0-9ebc-43836d69f28c:
+2024-12-18T13:27:48.107Z [DEBUG] Processed VM ID urn:vcloud:vm:173c53de-0977-4736-af1e-512ea8804de0:
+2024-12-18T13:27:48.108Z [DEBUG] Processed VM ID urn:vcloud:vm:476757c6-eff5-45e5-b496-887e91ef6cf2:
+2024-12-18T13:27:48.108Z [DEBUG] Processed VM ID urn:vcloud:vm:3c97855f-45d9-4eeb-b964-1b74c8c9f9f0:
+2024-12-18T13:27:48.108Z [DEBUG] Processed VM ID urn:vcloud:vm:19ae6456-dbe8-45ba-bf13-7efbf4c38eab:
+2024-12-18T13:27:48.108Z [DEBUG] Processed VM ID urn:vcloud:vm:55cd760e-ccc8-4af4-b67c-40bcbdef8336:
+2024-12-18T13:27:48.108Z [DEBUG] Processed VM ID urn:vcloud:vm:0ebc86d1-b2bb-4bee-96e1-0fe18ead94a1:
+2024-12-18T13:27:48.109Z [DEBUG] Processed VM ID urn:vcloud:vm:018c63ea-e132-4849-bbec-765b5d9d1bd1:
+2024-12-18T13:27:48.109Z [DEBUG] Processed VM ID urn:vcloud:vm:e2538a0f-6663-45ca-85e2-f5526c3ca3ed:
+2024-12-18T13:27:48.109Z [DEBUG] Processed VM ID urn:vcloud:vm:44e33774-fa56-4423-9f45-18308b448294:
+2024-12-18T13:27:48.109Z [DEBUG] Processed VM ID urn:vcloud:vm:e5e52557-8b5d-4bc4-986e-6d49d855b053:
+2024-12-18T13:27:48.109Z [DEBUG] Processed VM ID urn:vcloud:vm:8a7ddd24-6d9d-4777-83fc-5a7dc9fe4749:
+2024-12-18T13:27:48.109Z [DEBUG] Processed VM ID urn:vcloud:vm:f786a2b0-0d89-466f-abd1-3e19674f3b87:
+2024-12-18T13:27:48.110Z [DEBUG] Processed VM ID urn:vcloud:vm:c289c4aa-d263-4e6f-98d3-fcc9132c8e97:
+2024-12-18T13:27:48.110Z [DEBUG] Processed VM ID urn:vcloud:vm:ae385a5f-5e9a-4c67-a1e8-3e9436e7610d:
+2024-12-18T13:27:48.110Z [DEBUG] Processed VM ID urn:vcloud:vm:75e0d759-0932-476d-b67e-ae5bc03f1c17:
+2024-12-18T13:27:48.110Z [DEBUG] Processed VM ID urn:vcloud:vm:6baa4445-9bfd-417c-b819-f008b10529e3:
+2024-12-18T13:27:48.110Z [DEBUG] Processed VM ID urn:vcloud:vm:833f164c-1978-48c8-b940-959590c472af:
+2024-12-18T13:27:48.111Z [DEBUG] Processed VM ID urn:vcloud:vm:f3e1ad0b-5cb7-4fbf-9d3e-a5c93e06c891:
+2024-12-18T13:27:48.111Z [DEBUG] Processed VM ID urn:vcloud:vm:19c8aff4-e48f-4141-8ba9-436f1de9e00b:
+2024-12-18T13:27:48.111Z [DEBUG] Processed VM ID urn:vcloud:vm:9473711f-3308-4084-90aa-44b63e674604:
+2024-12-18T13:27:48.111Z [DEBUG] Processed VM ID urn:vcloud:vm:562c8133-d632-4243-9df4-b2dd212e953f:
+2024-12-18T13:27:48.111Z [DEBUG] Processed VM ID urn:vcloud:vm:ee32de57-a5ea-4d2e-be22-1392c150df91:
+2024-12-18T13:27:48.112Z [DEBUG] Processed VM ID urn:vcloud:vm:517180dc-e841-49be-b70f-2a9e1a4d6e49:
+2024-12-18T13:27:48.112Z [DEBUG] Processed VM ID urn:vcloud:vm:80b8e077-71bb-4c9f-af2e-75195712fb23:
+2024-12-18T13:27:48.112Z [DEBUG] Processed VM ID urn:vcloud:vm:5ce1be07-30a9-4ce1-a713-df921ed3c09b:
+2024-12-18T13:27:48.112Z [DEBUG] Processed VM ID urn:vcloud:vm:a3fcb856-0858-4a10-8883-c8802676dcf2:
+2024-12-18T13:27:48.112Z [DEBUG] Processed VM ID urn:vcloud:vm:64a7f0c5-2f37-49d8-a94d-6d482c65160d:
+2024-12-18T13:27:48.112Z [DEBUG] Processed VM ID urn:vcloud:vm:ec7f2a23-dc4f-4bb6-aa13-142dfa1139aa:
+2024-12-18T13:27:48.113Z [DEBUG] Processed VM ID urn:vcloud:vm:07da6800-4d2f-45bf-97ee-705fb17e9e98:
+2024-12-18T13:27:48.113Z [DEBUG] Processed VM ID urn:vcloud:vm:5b39d1e0-06b5-4175-b7cc-6c1eec9b24b4:
+2024-12-18T13:27:48.113Z [DEBUG] Processed VM ID urn:vcloud:vm:29736166-3b74-4249-8830-0bc9045be24f:
+2024-12-18T13:27:48.113Z [DEBUG] Processed VM ID urn:vcloud:vm:f4343ea9-16f2-4987-8531-ca428a0e2637:
+2024-12-18T13:27:48.114Z [DEBUG] Processed VM ID urn:vcloud:vm:20a5aba9-41dc-43f2-a884-f1c3668409cf:
+2024-12-18T13:27:48.114Z [DEBUG] Processed VM ID urn:vcloud:vm:20840942-1e27-4463-8d9d-dd38c1b09617:
+2024-12-18T13:27:48.114Z [DEBUG] Processed VM ID urn:vcloud:vm:43d32dea-ab7c-46fa-964a-d946c0411742:
+2024-12-18T13:27:48.114Z [DEBUG] Processed VM ID urn:vcloud:vm:475a7b6f-1a9d-4276-b72c-b6a3ce4db0f2:
+2024-12-18T13:27:48.115Z [DEBUG] Processed VM ID urn:vcloud:vm:ad7f10b7-2abf-44db-a742-529d12154ba1:
+2024-12-18T13:27:48.115Z [DEBUG] Processed VM ID urn:vcloud:vm:61c89762-03ca-49e0-bf2b-8943116ae3da:
+2024-12-18T13:27:48.115Z [DEBUG] Processed VM ID urn:vcloud:vm:3420ef3b-5709-4913-9ee6-b609b5cf00fb:
+2024-12-18T13:27:48.115Z [DEBUG] Processed VM ID urn:vcloud:vm:3d55a21b-61ca-4b7c-8c52-1ad68692d491:
+2024-12-18T13:27:48.115Z [DEBUG] Processed VM ID urn:vcloud:vm:96c92986-9075-4295-9b0e-2e4dd371e20d:
+2024-12-18T13:27:48.115Z [DEBUG] Processed VM ID urn:vcloud:vm:34681e8c-8b32-42f4-b4a9-914e6424c083:
+2024-12-18T13:27:48.116Z [DEBUG] Processed VM ID urn:vcloud:vm:5a3cf359-7684-4acb-ba36-278aa9927c62:
+2024-12-18T13:27:48.116Z [DEBUG] Processed VM ID urn:vcloud:vm:709f072f-abc0-4cf7-aa2e-1c73dded78f3:
+2024-12-18T13:27:48.116Z [DEBUG] Processed VM ID urn:vcloud:vm:420c8bce-f09e-426e-9231-cedb5728df31:
+2024-12-18T13:27:48.116Z [DEBUG] Processed VM ID urn:vcloud:vm:27ae28fe-4f81-408c-b6fc-10a3fddc2d6a:
+2024-12-18T13:27:48.116Z [DEBUG] Processed VM ID urn:vcloud:vm:506ae0b5-8c12-417e-af4d-5661496eef3d:
+2024-12-18T13:27:48.117Z [DEBUG] Processed VM ID urn:vcloud:vm:85b2c2eb-ca4e-4b92-9223-ed3ce6362b3d:
+2024-12-18T13:27:48.117Z [DEBUG] Processed VM ID urn:vcloud:vm:46a42d76-1807-49c5-adfa-66e41d1ef0cf:
+2024-12-18T13:27:48.117Z [DEBUG] Processed VM ID urn:vcloud:vm:da08fab2-251a-411c-a7a6-80319f39fef0:
+2024-12-18T13:27:48.117Z [DEBUG] Processed VM ID urn:vcloud:vm:297683d1-bdc2-4264-a926-891dc57f349e:
+2024-12-18T13:27:48.117Z [DEBUG] Processed VM ID urn:vcloud:vm:3b5f3fa6-83c6-4706-97a1-9349e657b1b9:
+2024-12-18T13:27:48.118Z [DEBUG] Processed VM ID urn:vcloud:vm:830c258a-fc7f-4b56-964b-1fe759472f69:
+2024-12-18T13:27:48.118Z [DEBUG] Processed VM ID urn:vcloud:vm:f611cae5-93ec-49a6-83b4-af88b7c51885:
+2024-12-18T13:27:48.118Z [DEBUG] Processed VM ID urn:vcloud:vm:3bb1a9a1-47c1-4fb3-8f20-0953a2f187ad:
+2024-12-18T13:27:48.118Z [DEBUG] Processed VM ID urn:vcloud:vm:3733ff89-38aa-4167-99bd-83ddc7801943:
+2024-12-18T13:27:48.118Z [DEBUG] Processed VM ID urn:vcloud:vm:7f78ef51-5254-4174-9497-e4e379ab6749:
+2024-12-18T13:27:48.118Z [DEBUG] Processed VM ID urn:vcloud:vm:d73f4dab-b1de-48fb-b40c-e6067b5a2105:
+2024-12-18T13:27:48.119Z [DEBUG] Processed VM ID urn:vcloud:vm:52afe279-4e53-4e2b-aa3d-8b0b20fa92aa:
+2024-12-18T13:27:48.119Z [DEBUG] Processed VM ID urn:vcloud:vm:79b5c975-d4b3-4824-8fb1-85c6320e898d:
+2024-12-18T13:27:48.119Z [DEBUG] Processed VM ID urn:vcloud:vm:ed492d68-7b67-4599-9bde-a5f2ba97f89a:
+2024-12-18T13:27:48.119Z [DEBUG] Processed VM ID urn:vcloud:vm:3e286772-6029-4171-a45e-8d0965af3a22:
+2024-12-18T13:27:48.119Z [DEBUG] Processed VM ID urn:vcloud:vm:bb9dded0-1c95-44b7-90a6-75092c4d4cc1:
+2024-12-18T13:27:48.119Z [DEBUG] Processed VM ID urn:vcloud:vm:fd43708b-2a0c-402a-8e1b-cc6e608057a3:
+2024-12-18T13:27:48.119Z [DEBUG] Processed VM ID urn:vcloud:vm:ea27bcf4-ebc2-4929-9429-c1da95e70cc2:
+2024-12-18T13:27:48.120Z [DEBUG] Processed VM ID urn:vcloud:vm:7546cbe3-21ff-4b5a-b2ae-db5d5443c2fa:
+2024-12-18T13:27:48.120Z [DEBUG] Processed VM ID urn:vcloud:vm:bd1b0dbd-7d9a-4880-b634-9bae5fff8ecc:
+2024-12-18T13:27:48.120Z [DEBUG] Processed VM ID urn:vcloud:vm:fbd05ceb-1e49-49e8-87e2-fb4fa11ecc0b:
+2024-12-18T13:27:48.120Z [DEBUG] Processed VM ID urn:vcloud:vm:e87f90ef-7a35-460d-8b1c-3d6fd9fc5638:
+2024-12-18T13:27:48.120Z [DEBUG] Processed VM ID urn:vcloud:vm:c044f2fc-13be-498c-b007-6ef993682557:
+2024-12-18T13:27:48.121Z [DEBUG] Processed VM ID urn:vcloud:vm:3fc85441-37e7-4c41-be6f-d1bb4796d72c:
+2024-12-18T13:27:48.121Z [DEBUG] Processed VM ID urn:vcloud:vm:e20cb274-039c-44d4-86cc-3d410342e077:
+2024-12-18T13:27:48.121Z [DEBUG] Processed VM ID urn:vcloud:vm:464d8167-4518-44fd-8327-b366b801f41d:
+2024-12-18T13:27:48.121Z [DEBUG] Processed VM ID urn:vcloud:vm:d8173ff2-ae5a-49fd-b3fe-0253604bea67:
+2024-12-18T13:27:48.121Z [DEBUG] Processed VM ID urn:vcloud:vm:09d2efd9-bc3a-4a6f-ace2-6ba73db4aeef:
+2024-12-18T13:27:48.122Z [DEBUG] Processed VM ID urn:vcloud:vm:49bac59a-3450-4b6c-93a3-067a3439b7c0:
+2024-12-18T13:27:48.122Z [DEBUG] Processed VM ID urn:vcloud:vm:e6aee771-ecc2-4eff-88c1-87a41acf7862:
+2024-12-18T13:27:48.122Z [DEBUG] Processed VM ID urn:vcloud:vm:cc973dbf-ca5e-4d15-a4ad-d00e8ffd2bb7:
+2024-12-18T13:27:48.122Z [DEBUG] Processed VM ID urn:vcloud:vm:55256a79-2d12-4bf9-aa8f-515ce8d3c267:
+2024-12-18T13:27:48.122Z [DEBUG] Processed VM ID urn:vcloud:vm:d89a2cda-8e6f-4c03-8608-c1fc7594f67c:
+2024-12-18T13:27:48.122Z [DEBUG] Processed VM ID urn:vcloud:vm:999a16a2-1332-4cf7-8d0b-fef068136d4c:
+2024-12-18T13:27:48.123Z [DEBUG] Processed VM ID urn:vcloud:vm:a3fe39c7-fbd6-4705-b1db-670eb32dda45:
+2024-12-18T13:27:48.123Z [DEBUG] Processed VM ID urn:vcloud:vm:d539e750-c75e-4d94-8f0b-528fa49dc9a2:
+2024-12-18T13:27:48.123Z [DEBUG] Processed VM ID urn:vcloud:vm:3dede675-df7e-4ea9-b35b-e1c34dd5f26c:
+2024-12-18T13:27:48.123Z [DEBUG] Processed VM ID urn:vcloud:vm:f57ae1ec-237d-4bfe-8fb6-0ce44e8082d0:
+2024-12-18T13:27:48.123Z [DEBUG] Processed VM ID urn:vcloud:vm:9cf0b4d3-295a-41d7-b152-46be35bc5996:
+2024-12-18T13:27:48.123Z [DEBUG] Processed VM ID urn:vcloud:vm:72b35360-439c-4658-b5a2-85764b09f0ef:
+2024-12-18T13:27:48.124Z [DEBUG] Processed VM ID urn:vcloud:vm:323bb54d-701e-4ef7-96b3-c8e6f00ff00c:
+2024-12-18T13:27:48.124Z [DEBUG] Processed VM ID urn:vcloud:vm:9ff6f01b-c4ac-4c94-8c15-e451dba8a1c8:
+2024-12-18T13:27:48.124Z [DEBUG] Processed VM ID urn:vcloud:vm:b012c25d-a29b-44de-b58d-204a5ed4cfc7:
+2024-12-18T13:27:48.124Z [DEBUG] Processed VM ID urn:vcloud:vm:a6dc9a00-6261-4203-b5b3-8d7a7c3b1401:
+2024-12-18T13:27:48.124Z [DEBUG] Processed VM ID urn:vcloud:vm:041d87c6-106a-4069-8b35-20d9fb6bf937:
+2024-12-18T13:27:48.124Z [DEBUG] Processed VM ID urn:vcloud:vm:6a707784-76aa-4949-ab3f-45349b730175:
+2024-12-18T13:27:48.125Z [DEBUG] Processed VM ID urn:vcloud:vm:35ef5a6a-afb5-4035-9aa5-1710c51980a4:
+2024-12-18T13:27:48.125Z [DEBUG] Processed VM ID urn:vcloud:vm:b73196dc-4b68-455b-b874-2be1acd4e5db:
+2024-12-18T13:27:48.125Z [DEBUG] Processed VM ID urn:vcloud:vm:904cae84-eb57-4889-a282-d555ae507ee0:
+2024-12-18T13:27:48.125Z [DEBUG] Processed VM ID urn:vcloud:vm:cd8e840b-10c3-488a-97f2-e794067cb5c7:
+2024-12-18T13:27:48.125Z [DEBUG] Processed VM ID urn:vcloud:vm:6ef44886-8d0d-4b06-bb58-13b4c8d181ca:
+2024-12-18T13:27:48.126Z [DEBUG] Processed VM ID urn:vcloud:vm:3a406511-72fe-4d33-9765-6f399e6236ab:
+2024-12-18T13:27:48.126Z [DEBUG] Processed VM ID urn:vcloud:vm:06ce4fdb-ab20-4c1d-a074-9456c204e484:
+2024-12-18T13:27:48.126Z [DEBUG] Processed VM ID urn:vcloud:vm:9a8852a3-8fcf-46b7-8f39-17ea01e646ec:
+2024-12-18T13:27:48.126Z [DEBUG] Processed VM ID urn:vcloud:vm:4ebd3397-7cc8-4e4e-b0d4-180b1de5fedb:
+2024-12-18T13:27:48.126Z [DEBUG] Processed VM ID urn:vcloud:vm:541fc035-eaae-4a59-90c2-19fd1c6a15a3:
+2024-12-18T13:27:48.127Z [DEBUG] Processed VM ID urn:vcloud:vm:d86b72f8-a094-4760-8365-706ba807ad1c:
+2024-12-18T13:27:48.127Z [DEBUG] Processed VM ID urn:vcloud:vm:e5944add-d0b1-4c03-9364-bf7213875b9c:
+2024-12-18T13:27:48.127Z [DEBUG] Processed VM ID urn:vcloud:vm:11ad41ba-70de-4460-9c88-bb7601f23118:
+2024-12-18T13:27:48.127Z [DEBUG] Processed VM ID urn:vcloud:vm:963155d3-3505-4cf8-a987-94242ec57e73:
+2024-12-18T13:27:48.127Z [DEBUG] Processed VM ID urn:vcloud:vm:50361fea-7199-4c92-978c-cb76e2d30413:
+2024-12-18T13:27:48.127Z [DEBUG] Processed VM ID urn:vcloud:vm:88dddef9-ed52-498e-a711-fb5d99667c61:
+2024-12-18T13:27:48.127Z [DEBUG] Processed VM ID urn:vcloud:vm:87aa868c-2c5d-417f-95b1-10a526f16e8a:
+2024-12-18T13:27:48.128Z [DEBUG] Processed VM ID urn:vcloud:vm:7ffadc64-5a47-4f5a-88b7-caa54cc127ec:
+2024-12-18T13:27:48.128Z [DEBUG] Processed VM ID urn:vcloud:vm:524967d3-2617-4bf4-bcdb-c7e42748a54c:
+2024-12-18T13:27:48.128Z [DEBUG] Processed VM ID urn:vcloud:vm:2ec97c20-f2ec-4e6d-8304-b6551c5e353b:
+2024-12-18T13:27:48.128Z [DEBUG] Processed VM ID urn:vcloud:vm:e6229aa8-043b-4043-890c-8b3e8f0f2a6d:
+2024-12-18T13:27:48.128Z [DEBUG] Processed VM ID urn:vcloud:vm:06eabf26-9d20-4e23-812e-b72a0919b7ff:
+2024-12-18T13:27:48.128Z [DEBUG] Processed VM ID urn:vcloud:vm:e881d9bc-fcdd-4337-9894-90c1ad77839b:
+2024-12-18T13:27:48.129Z [DEBUG] Processed VM ID urn:vcloud:vm:1d1579a9-6d7b-461f-bcbd-644c49bcf4be:
+2024-12-18T13:27:48.129Z [DEBUG] Processed VM ID urn:vcloud:vm:96b1ee6a-84b4-44f0-af5a-7828145291fa:
+2024-12-18T13:27:48.129Z [DEBUG] Processed VM ID urn:vcloud:vm:a3b702d5-85d3-4bdb-a8c1-f76ecba0bb8b:
+2024-12-18T13:27:48.129Z [DEBUG] Processed VM ID urn:vcloud:vm:54eed027-bc08-478b-a7e4-5735d8582d43:
+2024-12-18T13:27:48.129Z [DEBUG] Processed VM ID urn:vcloud:vm:f0c86859-d43c-43bc-b0b6-5828e3a73d01:
+2024-12-18T13:27:48.129Z [DEBUG] Processed VM ID urn:vcloud:vm:a9136ae1-5611-48b8-a4f0-35f31ca64cd4:
+2024-12-18T13:27:48.129Z [DEBUG] Processed VM ID urn:vcloud:vm:78527a7c-b810-4db0-8105-effa096931b7:
+2024-12-18T13:27:48.129Z [DEBUG] Processed VM ID urn:vcloud:vm:e1dfc2e7-504a-45d2-b327-bfdd5bc493a7:
+2024-12-18T13:27:48.130Z [DEBUG] Processed VM ID urn:vcloud:vm:94979cba-8630-429b-aafd-981a4b51aa74:
+2024-12-18T13:27:48.130Z [DEBUG] Processed VM ID urn:vcloud:vm:5f6ba61e-64d4-47bf-8046-1ba07b478fab:
+2024-12-18T13:27:48.130Z [DEBUG] Processed VM ID urn:vcloud:vm:bdf41c4b-abbd-4162-8a34-a0d92cf24ae3:
+2024-12-18T13:27:48.130Z [INFO] Fetched and updated all VM details successfully.
+2024-12-18T13:27:48.130Z [INFO] Fetched VM details successfully from IP: ::1
+2024-12-18T13:27:48.157Z [INFO] Existing topology found for UUID: 07f52be0-f5f4-414e-91aa-e4ac348c5557. Appending new version.
+2024-12-18T13:30:40.074Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-12-18T13:30:40.384Z [INFO] Fetched VDCs fpr successfully.
+2024-12-18T13:30:40.385Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-12-18T13:30:40.635Z [INFO] Fetched VDCs and their vApps successfully.
+2024-12-18T13:30:40.635Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-12-18T13:30:41.246Z [INFO] Fetched and filtered vApp details successfully.
+2024-12-18T13:30:41.246Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-12-18T13:30:41.246Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2024-12-18T13:30:41.268Z [INFO] Loaded 115 gateways with rules.
+2024-12-18T13:30:41.269Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2024-12-18T13:30:41.280Z [INFO] Loaded 641 networks.
+2024-12-18T13:30:41.281Z [INFO] Making requests for 25 VMs.
+2024-12-18T13:30:41.764Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2024-12-18T13:30:41.765Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2024-12-18T13:30:41.765Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2024-12-18T13:30:41.765Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2024-12-18T13:30:41.765Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2024-12-18T13:30:41.765Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2024-12-18T13:30:41.765Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2024-12-18T13:30:41.766Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2024-12-18T13:30:41.766Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2024-12-18T13:30:41.766Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2024-12-18T13:30:41.767Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2024-12-18T13:30:41.767Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2024-12-18T13:30:41.767Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2024-12-18T13:30:41.767Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2024-12-18T13:30:41.767Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2024-12-18T13:30:41.767Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2024-12-18T13:30:41.768Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2024-12-18T13:30:41.768Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2024-12-18T13:30:41.768Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2024-12-18T13:30:41.768Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2024-12-18T13:30:41.768Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2024-12-18T13:30:41.768Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2024-12-18T13:30:41.768Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2024-12-18T13:30:41.769Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2024-12-18T13:30:41.769Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2024-12-18T13:30:41.769Z [INFO] Fetched and updated all VM details successfully.
+2024-12-18T13:30:41.769Z [INFO] Fetched VM details successfully from IP: ::1
+2024-12-18T13:30:41.780Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2024-12-18T13:31:45.463Z [INFO] Fetching topology for specified orgs from IP: ::1
+2024-12-18T13:31:45.737Z [INFO] Fetched VDCs fpr successfully.
+2024-12-18T13:31:45.737Z [INFO] Fetched VDCs successfully from IP: ::1
+2024-12-18T13:31:46.020Z [INFO] Fetched VDCs and their vApps successfully.
+2024-12-18T13:31:46.020Z [INFO] Fetched VDC details successfully from IP: ::1
+2024-12-18T13:31:46.623Z [INFO] Fetched and filtered vApp details successfully.
+2024-12-18T13:31:46.624Z [INFO] Fetched vApp details successfully from IP: ::1
+2024-12-18T13:31:46.624Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2024-12-18T13:31:46.641Z [INFO] Loaded 115 gateways with rules.
+2024-12-18T13:31:46.641Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2024-12-18T13:31:46.654Z [INFO] Loaded 641 networks.
+2024-12-18T13:31:46.655Z [INFO] Making requests for 25 VMs.
+2024-12-18T13:31:47.146Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2024-12-18T13:31:47.146Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2024-12-18T13:31:47.146Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2024-12-18T13:31:47.146Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2024-12-18T13:31:47.147Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2024-12-18T13:31:47.147Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2024-12-18T13:31:47.147Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2024-12-18T13:31:47.147Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2024-12-18T13:31:47.147Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2024-12-18T13:31:47.147Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2024-12-18T13:31:47.147Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2024-12-18T13:31:47.148Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2024-12-18T13:31:47.148Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2024-12-18T13:31:47.148Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2024-12-18T13:31:47.148Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2024-12-18T13:31:47.148Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2024-12-18T13:31:47.148Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2024-12-18T13:31:47.149Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2024-12-18T13:31:47.149Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2024-12-18T13:31:47.149Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2024-12-18T13:31:47.149Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2024-12-18T13:31:47.149Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2024-12-18T13:31:47.149Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2024-12-18T13:31:47.149Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2024-12-18T13:31:47.150Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2024-12-18T13:31:47.150Z [INFO] Fetched and updated all VM details successfully.
+2024-12-18T13:31:47.150Z [INFO] Fetched VM details successfully from IP: ::1
+2024-12-18T13:31:47.152Z [INFO] No existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Creating a new entry.
+2024-12-19T12:26:19.574Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2024-12-19T12:26:19.577Z [INFO] Starting to fetch access token
+2024-12-19T12:26:19.632Z [INFO] Server is running on http://localhost:3000
+2024-12-19T12:26:19.654Z [INFO] Mongoose connected to MongoDB
+2024-12-19T12:26:20.216Z [INFO] Access token fetch script successfull.
+2024-12-19T12:26:20.217Z [INFO] Access Token fetched successfully
+2024-12-19T12:26:20.217Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzQ4NzAzNzksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMzEwM2FlZjQwNWYzNGQ5NGE5OTM3NjkzMTdjNzExNDkifQ.KX9pVGAuZpGmdJ9DuHx2H5vEQ2j6AiORxfaLgzve9inUkpeXy_sHKXKD6Eyhx8Uvtfu-lmmT6NMyVj2EP99YGyUetqax-B-QnbT-VnB4JcvFwsatErcwZfjvTCkTqfHiH9VBFmU6XFk1hFQKvGXXeRgOMqNRgifECzvlenSe65YyRuTbIj7Y3JhoyvlOzFPav7_HfDfl1i4OKgHWlbcSTIvtEusagkCia9SuFrEJo7jiAZcUq9ATJ5aAjx3Rabr6TpZ2k-mZ8ZJLSFhGIge6MOBpTOp7AykH2EUpKcqtKCQ3vEQbmMkTIBLT6ajvMqVu31FPf2asbd35VExO3JXUdQ
+2025-01-14T08:57:59.038Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T08:57:59.041Z [INFO] Starting to fetch access token
+2025-01-14T08:57:59.080Z [INFO] Server is running on http://localhost:3000
+2025-01-14T08:57:59.099Z [INFO] Mongoose connected to MongoDB
+2025-01-14T08:58:20.141Z [ERROR] Error fetching access token:
+2025-01-14T08:58:20.141Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:01:22.502Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:01:22.507Z [INFO] Starting to fetch access token
+2025-01-14T09:01:22.568Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:01:22.588Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:02:06.022Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:02:06.025Z [INFO] Starting to fetch access token
+2025-01-14T09:02:06.071Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:02:06.101Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:02:27.111Z [ERROR] Error fetching access token:
+2025-01-14T09:02:27.112Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:04:36.298Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:04:36.303Z [INFO] Starting to fetch access token
+2025-01-14T09:04:36.347Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:04:36.370Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:04:57.406Z [ERROR] Error fetching access token:
+2025-01-14T09:04:57.408Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:06:36.684Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:06:36.688Z [INFO] Starting to fetch access token
+2025-01-14T09:06:36.742Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:06:36.766Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:06:57.799Z [ERROR] Error fetching access token:
+2025-01-14T09:06:57.800Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:07:16.966Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:07:16.969Z [INFO] Starting to fetch access token
+2025-01-14T09:07:17.018Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:07:17.043Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:07:38.057Z [ERROR] Error fetching access token:
+2025-01-14T09:07:38.058Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:12:41.533Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:12:41.536Z [INFO] Starting to fetch access token
+2025-01-14T09:12:41.578Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:12:41.596Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:13:02.665Z [ERROR] Error fetching access token:
+2025-01-14T09:13:02.666Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:13:07.092Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:13:07.096Z [INFO] Starting to fetch access token
+2025-01-14T09:13:07.140Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:13:07.163Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:13:28.195Z [ERROR] Error fetching access token:
+2025-01-14T09:13:28.196Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:18:09.166Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:18:09.170Z [INFO] Starting to fetch access token
+2025-01-14T09:18:09.222Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:18:09.243Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:25:30.065Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:25:30.069Z [INFO] Starting to fetch access token
+2025-01-14T09:25:30.112Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:25:30.131Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:25:51.159Z [ERROR] Error fetching access token:
+2025-01-14T09:25:51.159Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:41:11.795Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:41:11.798Z [INFO] Starting to fetch access token
+2025-01-14T09:41:11.843Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:41:11.859Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:41:32.886Z [ERROR] Error fetching access token:
+2025-01-14T09:41:32.887Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:47:44.644Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:47:44.648Z [INFO] Starting to fetch access token
+2025-01-14T09:47:44.686Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:47:44.704Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:48:05.748Z [ERROR] Error fetching access token:
+2025-01-14T09:48:05.748Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T09:51:34.273Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T09:51:34.276Z [INFO] Starting to fetch access token
+2025-01-14T09:51:34.312Z [INFO] Server is running on http://localhost:3000
+2025-01-14T09:51:34.328Z [INFO] Mongoose connected to MongoDB
+2025-01-14T09:51:55.366Z [ERROR] Error fetching access token:
+2025-01-14T09:51:55.367Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T10:45:48.389Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T10:45:48.391Z [INFO] Starting to fetch access token
+2025-01-14T10:45:48.424Z [INFO] Server is running on http://localhost:3000
+2025-01-14T10:45:48.438Z [INFO] Mongoose connected to MongoDB
+2025-01-14T10:46:09.482Z [ERROR] Error fetching access token:
+2025-01-14T10:46:09.483Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T10:52:43.586Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T10:52:43.589Z [INFO] Starting to fetch access token
+2025-01-14T10:52:43.625Z [INFO] Server is running on http://localhost:3000
+2025-01-14T10:52:43.636Z [INFO] Mongoose connected to MongoDB
+2025-01-14T10:53:04.668Z [ERROR] Error fetching access token:
+2025-01-14T10:53:04.669Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T10:53:19.084Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T10:53:19.087Z [INFO] Starting to fetch access token
+2025-01-14T10:53:19.119Z [INFO] Server is running on http://localhost:3000
+2025-01-14T10:53:19.131Z [INFO] Mongoose connected to MongoDB
+2025-01-14T10:53:40.166Z [ERROR] Error fetching access token:
+2025-01-14T10:53:40.167Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T11:02:09.282Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T11:02:09.284Z [INFO] Starting to fetch access token
+2025-01-14T11:02:09.320Z [INFO] Server is running on http://localhost:3000
+2025-01-14T11:02:09.334Z [INFO] Mongoose connected to MongoDB
+2025-01-14T11:02:36.117Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T11:02:36.120Z [INFO] Starting to fetch access token
+2025-01-14T11:02:36.155Z [INFO] Server is running on http://localhost:3000
+2025-01-14T11:02:36.168Z [INFO] Mongoose connected to MongoDB
+2025-01-14T11:02:57.205Z [ERROR] Error fetching access token:
+2025-01-14T11:02:57.206Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T11:07:28.489Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T11:07:28.491Z [INFO] Starting to fetch access token
+2025-01-14T11:07:28.526Z [INFO] Server is running on http://localhost:3000
+2025-01-14T11:07:28.540Z [INFO] Mongoose connected to MongoDB
+2025-01-14T11:07:49.558Z [ERROR] Error fetching access token:
+2025-01-14T11:07:49.559Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
