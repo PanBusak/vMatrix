@@ -6139,3 +6139,9 @@
 2025-01-14T11:07:28.540Z [INFO] Mongoose connected to MongoDB
 2025-01-14T11:07:49.558Z [ERROR] Error fetching access token:
 2025-01-14T11:07:49.559Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T11:09:39.412Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T11:09:39.414Z [INFO] Starting to fetch access token
+2025-01-14T11:09:39.452Z [INFO] Server is running on http://localhost:3000
+2025-01-14T11:09:39.467Z [INFO] Mongoose connected to MongoDB
+2025-01-14T11:10:00.503Z [ERROR] Error fetching access token:
+2025-01-14T11:10:00.504Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
