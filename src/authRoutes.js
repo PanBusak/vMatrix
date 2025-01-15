@@ -25,7 +25,7 @@ router.post('/register', async (req, res) => {
     }
 
     const user = new User({ username, email, password });
-    await user.save(); // Hashing handled by the model
+    await user.save(); 
 
     const token = generateToken(user._id);
     res.cookie('token', token, { httpOnly: true, secure: false, sameSite: 'strict' });
@@ -36,29 +36,33 @@ router.post('/register', async (req, res) => {
   }
 });
 
-// Login Route
 router.post('/login', async (req, res) => {
   const { username, password } = req.body;
 
   try {
-    // 1. Check if username and password are provided
+   
     if (!username || !password) {
       return res.status(400).json({ message: 'Username and password are required' });
     }
 
-    // 2. Check if user exists
+  
     const user = await User.findOne({ username });
     if (!user) {
       return res.status(404).json({ message: 'Username does not exist' });
     }
 
-    // 3. Check if password matches
+  
+    if (!user.account_enabled) {
+      return res.status(403).json({ message: 'Your account is disabled. Please contact support.' });
+    }
+
+    
     const passwordMatch = await bcrypt.compare(password, user.password);
     if (!passwordMatch) {
       return res.status(401).json({ message: 'Incorrect password' });
     }
 
-    // Generate JWT token if login is successful
+    
     const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
     res.cookie('token', token, {
@@ -90,11 +94,11 @@ router.get('/check', (req, res) => {
 });
 
 
-// Logout Route (GET)
+
 router.get('/logout', (req, res) => {
   res.clearCookie('token', {
     httpOnly: true,
-    secure: process.env.NODE_ENV === 'production', // Use secure cookies in production
+    secure: process.env.NODE_ENV === 'production', 
     sameSite: 'strict', // Prevent CSRF
   });
   res.status(200).json({ message: 'Logged out successfully' });

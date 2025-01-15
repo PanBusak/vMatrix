@@ -1,9 +1,11 @@
 const express = require('express');
+const jwt = require('jsonwebtoken');
 const router = express.Router();
+
 const TopologyJob = require("./data/schemas/Topologyjob_Schema");
+const User = require("./data/schemas/User_Schema")
 const logger = require('./logger');
 
-// Utility function to generate dynamic name and UID
 const generateDynamicNameAndUid = (topology) => {
   const dynamicName = topology.map(t => t.name).join('-');
   const dynamicUid = topology.map(t => t.uuid).join('/');
@@ -12,49 +14,66 @@ const generateDynamicNameAndUid = (topology) => {
 
 // Add a new cron job
 router.post('/add-cron-jobs', async (req, res) => {
-  const { name, topology } = req.body;
+  const token = req.cookies?.token || req.headers['authorization']?.split(' ')[1];
 
-  if (!topology || !Array.isArray(topology) || topology.length === 0) {
-    return res.status(400).json({ 
-      id: req.user.id,
-      username: req.user.username,
-      error: 'A non-empty topology array is required' 
-    });
+  if (!token) {
+    return res.status(401).json({ error: 'Unauthorized, token missing' });
   }
 
-  const { dynamicName, dynamicUid } = generateDynamicNameAndUid(topology);
-  const jobName = name || dynamicName;
-
   try {
+    // Decode the token
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const userId = decoded.id;
+
+    // Fetch the user details from the database
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ error: 'User not found' });
+    }
+    console.log("Mame user",user)
+
+    const { name, topology } = req.body;
+
+    if (!topology || !Array.isArray(topology) || topology.length === 0) {
+      return res.status(400).json({
+        id: userId,
+        username: user.username,
+        error: 'A non-empty topology array is required',
+      });
+    }
+
+    const { dynamicName, dynamicUid } = generateDynamicNameAndUid(topology);
+    const jobName = name || dynamicName;
+
+    // Create a new TopologyJob
     const newJob = new TopologyJob({
       name: jobName,
       uuid: dynamicUid,
       topology,
+      _savedBy: user.username, // Save the username
     });
 
-    newJob._savedBy = req.user.username; // Capture the username from the user context
     const savedJob = await newJob.save();
 
     res.status(201).json({
-      id: req.user.id,
-      username: req.user.username,
+      id: userId,
+      username: user.username,
       message: 'Cron job added successfully',
       job: {
         id: savedJob._id,
         name: savedJob.name,
         uuid: savedJob.uuid,
         topology: savedJob.topology,
-      }
+      },
     });
   } catch (error) {
     logger.error(`Error adding cron job: ${error.message}`);
     res.status(500).json({
-      id: req.user.id,
-      username: req.user.username,
-      error: 'Failed to add cron job'
+      error: 'Failed to add cron job',
     });
   }
 });
+
 
 // Get all jobs
 router.get('/jobs', async (req, res) => {

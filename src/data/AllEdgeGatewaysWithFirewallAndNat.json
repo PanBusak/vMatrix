@@ -2968,7 +2968,7 @@
       },
       {
         "id": "8b810090-bd77-4e26-b514-db9896def46a",
-        "name": "WebServer ipxw-wwphy01-133171",
+        "name": "DEFRA2-digiweb",
         "description": null,
         "sourceFirewallGroups": null,
         "sourceFirewallIpAddresses": null,
@@ -2976,32 +2976,40 @@
           {
             "name": "217.150.150.48",
             "id": "urn:vcloud:firewallGroup:e27e34db-c667-4e9e-88ae-c6a9e982e671"
+          },
+          {
+            "name": "172.26.1.48",
+            "id": "urn:vcloud:firewallGroup:83da53c2-071a-46b1-9b14-5b702674fffb"
           }
         ],
         "destinationFirewallIpAddresses": null,
         "applicationPortProfiles": [
           {
+            "name": "HTTPS",
+            "id": "urn:vcloud:applicationPortProfile:018e0cb5-4328-35a2-9e55-36bca1fee716"
+          },
+          {
             "name": "HTTP",
             "id": "urn:vcloud:applicationPortProfile:caf8e70d-5ee6-342e-8b9a-30bdde7973fd"
           },
           {
-            "name": "VMware-SRM-VAMI",
-            "id": "urn:vcloud:applicationPortProfile:bc9c4c0a-bb8b-38e9-9245-b3a3caf67f8e"
+            "name": "Allow-TCP-8080",
+            "id": "urn:vcloud:applicationPortProfile:902ef601-97e0-4a67-a892-1ee20aeba0fb"
           },
           {
-            "name": "VMware-SRM-H5-UI",
-            "id": "urn:vcloud:applicationPortProfile:a2173596-6445-3c0d-bc5b-fd7626717241"
+            "name": "CUSTOM-TCP-8443",
+            "id": "urn:vcloud:applicationPortProfile:ba56aa99-c3a8-456f-b346-815eafd213c4"
           }
         ],
         "rawPortProtocols": null,
         "ipProtocol": "IPV4_IPV6",
-        "actionValue": "DROP",
+        "actionValue": "ALLOW",
         "direction": "IN_OUT",
         "logging": false,
         "networkContextProfiles": null,
-        "active": false,
+        "active": true,
         "version": {
-          "version": 3
+          "version": 19
         },
         "comments": null,
         "appliedTo": null,
@@ -6065,6 +6073,10 @@
           {
             "name": "172.20.20./24",
             "id": "urn:vcloud:firewallGroup:adeedf7b-5a42-4b53-879b-f6bc4ad253db"
+          },
+          {
+            "name": "172.20.195.x",
+            "id": "urn:vcloud:firewallGroup:b724229d-833d-473b-adc7-b9f4356636ee"
           }
         ],
         "sourceFirewallIpAddresses": null,
@@ -6097,11 +6109,50 @@
         "networkContextProfiles": null,
         "active": true,
         "version": {
-          "version": 23
+          "version": 24
         },
         "comments": null,
         "appliedTo": null,
         "loggingId": "4201",
+        "relativePosition": null
+      },
+      {
+        "id": "5c371154-34ca-4a33-99f1-6a7b5b95aab2",
+        "name": "SMB to DEFRA2-LSAPP02",
+        "description": null,
+        "sourceFirewallGroups": [
+          {
+            "name": "172.20.195.x",
+            "id": "urn:vcloud:firewallGroup:b724229d-833d-473b-adc7-b9f4356636ee"
+          }
+        ],
+        "sourceFirewallIpAddresses": null,
+        "destinationFirewallGroups": [
+          {
+            "name": "172.26.3.112",
+            "id": "urn:vcloud:firewallGroup:c707ee15-1558-46f7-9c81-18c0972d02d3"
+          }
+        ],
+        "destinationFirewallIpAddresses": null,
+        "applicationPortProfiles": [
+          {
+            "name": "SAP Exchange Groupware Connector (DCOM)",
+            "id": "urn:vcloud:applicationPortProfile:038ffb19-d5dd-3d2f-b606-6f54f13449ad"
+          }
+        ],
+        "rawPortProtocols": null,
+        "ipProtocol": "IPV4",
+        "actionValue": "ALLOW",
+        "direction": "IN_OUT",
+        "logging": false,
+        "networkContextProfiles": null,
+        "active": true,
+        "version": {
+          "version": 3
+        },
+        "comments": null,
+        "appliedTo": null,
+        "loggingId": "6553",
         "relativePosition": null
       },
       {
@@ -6160,7 +6211,7 @@
         "networkContextProfiles": null,
         "active": true,
         "version": {
-          "version": 22
+          "version": 24
         },
         "comments": null,
         "appliedTo": null,

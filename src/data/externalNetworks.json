@@ -181,7 +181,7 @@
     "backingNetworkType": "UNKNOWN",
     "backingId": "vm-vl2210-tsr_1000035400-cus",
     "networkType": "IMPORTED_T_LOGICAL_SWITCH",
-    "usedIpCount": 1
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:a4b5a296-e485-4e8a-94a1-7bab37d568b6",
@@ -277,7 +277,7 @@
     "backingNetworkType": "UNKNOWN",
     "backingId": "vm-vl0024-he-cus",
     "networkType": "IMPORTED_T_LOGICAL_SWITCH",
-    "usedIpCount": 35
+    "usedIpCount": 34
   },
   {
     "id": "urn:vcloud:network:59a12836-4ea5-4499-b0ea-077282512d7e",
@@ -421,7 +421,7 @@
     "backingNetworkType": "UNKNOWN",
     "backingId": "vm-vl2208-tsr_1000035400-cus",
     "networkType": "IMPORTED_T_LOGICAL_SWITCH",
-    "usedIpCount": 2
+    "usedIpCount": 1
   },
   {
     "id": "urn:vcloud:network:e328f502-b859-4c43-bf50-663ff63a3b8d",
@@ -789,7 +789,7 @@
     "backingNetworkType": "UNKNOWN",
     "backingId": "vm-vl0260-he-cus",
     "networkType": "IMPORTED_T_LOGICAL_SWITCH",
-    "usedIpCount": 24
+    "usedIpCount": 22
   },
   {
     "id": "urn:vcloud:network:30376bd9-03f2-45ed-8e4f-f3ec51e08809",
@@ -1685,7 +1685,7 @@
     "backingNetworkType": "UNKNOWN",
     "backingId": "vm-vl0259-he-cus",
     "networkType": "IMPORTED_T_LOGICAL_SWITCH",
-    "usedIpCount": 63
+    "usedIpCount": 62
   },
   {
     "id": "urn:vcloud:network:6bd131fc-3728-4f3b-af09-659624717f46",
@@ -1797,7 +1797,7 @@
     "backingNetworkType": "UNKNOWN",
     "backingId": "vm-vl0257-he-cus",
     "networkType": "IMPORTED_T_LOGICAL_SWITCH",
-    "usedIpCount": 79
+    "usedIpCount": 77
   },
   {
     "id": "urn:vcloud:network:75fd58c4-27c8-43ed-b1f8-452282f6fd65",

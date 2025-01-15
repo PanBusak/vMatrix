@@ -66,7 +66,7 @@
         "connected": true
       }
     },
-    "usedIpCount": 2
+    "usedIpCount": 1
   },
   {
     "id": "urn:vcloud:network:e3920b17-79a8-4009-8ee6-728875c2f6e7",
@@ -1796,7 +1796,7 @@
         "connected": true
       }
     },
-    "usedIpCount": 3
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:3dc794c6-7613-4928-a9af-f6cac3e6e3d7",
@@ -1822,7 +1822,7 @@
         "connected": true
       }
     },
-    "usedIpCount": 1
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:f16e5127-8edd-4715-83c0-deb89165a849",
@@ -3165,7 +3165,7 @@
         "connected": true
       }
     },
-    "usedIpCount": 75
+    "usedIpCount": 73
   },
   {
     "id": "urn:vcloud:network:10b2c10b-8c53-4dc8-943d-7a79b9cfd85e",
@@ -5214,7 +5214,7 @@
         "connected": true
       }
     },
-    "usedIpCount": 1
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:4940d749-6822-432b-967c-69fb0624777c",
@@ -5237,7 +5237,7 @@
         "connected": true
       }
     },
-    "usedIpCount": 1
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:d687410f-2bdd-48ed-b4e4-5a5cf8803279",
@@ -9730,7 +9730,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 35
+    "usedIpCount": 34
   },
   {
     "id": "urn:vcloud:network:066bce18-9cd8-4ee0-b046-2fc84ccb0a3d",
@@ -9752,7 +9752,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 35
+    "usedIpCount": 34
   },
   {
     "id": "urn:vcloud:network:7f4e4441-d783-4433-a012-fce27d4e7066",
@@ -9774,7 +9774,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 35
+    "usedIpCount": 34
   },
   {
     "id": "urn:vcloud:network:9805e606-d36c-4acd-9ac3-1ce9a643f1bf",
@@ -9796,7 +9796,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 35
+    "usedIpCount": 34
   },
   {
     "id": "urn:vcloud:network:63d593b4-16fd-4b50-8655-79cfd0442eb6",
@@ -9818,7 +9818,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 35
+    "usedIpCount": 34
   },
   {
     "id": "urn:vcloud:network:ae876475-4e9a-4d58-8098-7d05db2947ee",
@@ -9840,7 +9840,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 35
+    "usedIpCount": 34
   },
   {
     "id": "urn:vcloud:network:99aa40ef-89c2-4709-bc6f-423cc5f9de0d",
@@ -10491,7 +10491,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 79
+    "usedIpCount": 77
   },
   {
     "id": "urn:vcloud:network:76ab9219-b565-4157-a437-dc5650ef86c8",
@@ -10513,7 +10513,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 79
+    "usedIpCount": 77
   },
   {
     "id": "urn:vcloud:network:2a13f763-9e11-4180-ab8c-dcf613903cc1",
@@ -10535,7 +10535,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 79
+    "usedIpCount": 77
   },
   {
     "id": "urn:vcloud:network:5e975d7b-d055-42ae-854c-3394d8f36812",
@@ -10557,7 +10557,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 79
+    "usedIpCount": 77
   },
   {
     "id": "urn:vcloud:network:1db2d6bc-3092-4f57-9ab4-2003fd9bb4e8",
@@ -10579,7 +10579,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 79
+    "usedIpCount": 77
   },
   {
     "id": "urn:vcloud:network:9ab40429-879c-47a6-a589-b905369866f2",
@@ -10601,7 +10601,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 79
+    "usedIpCount": 77
   },
   {
     "id": "urn:vcloud:network:27c26cbc-b340-4989-9668-173b2dbf7ed5",
@@ -10623,7 +10623,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 63
+    "usedIpCount": 62
   },
   {
     "id": "urn:vcloud:network:2446d8f6-63a3-40c0-aa83-b310cda42056",
@@ -10645,7 +10645,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 63
+    "usedIpCount": 62
   },
   {
     "id": "urn:vcloud:network:ddd3795b-f1a6-4ac4-8b7f-2c60c6ee19af",
@@ -10667,7 +10667,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 63
+    "usedIpCount": 62
   },
   {
     "id": "urn:vcloud:network:3dae59dc-797c-4832-ac34-937002d536ca",
@@ -10689,7 +10689,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 63
+    "usedIpCount": 62
   },
   {
     "id": "urn:vcloud:network:48e1ce6d-6a31-4b60-bab5-2a425972516e",
@@ -10711,7 +10711,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 63
+    "usedIpCount": 62
   },
   {
     "id": "urn:vcloud:network:0c0f1f3f-37c0-4847-9c76-9d060cb3a41f",
@@ -10733,7 +10733,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 63
+    "usedIpCount": 62
   },
   {
     "id": "urn:vcloud:network:23192d55-e1e8-436b-8922-21d5f5d70834",
@@ -10755,7 +10755,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 24
+    "usedIpCount": 22
   },
   {
     "id": "urn:vcloud:network:ed726a9b-43bd-44c9-95bc-24976ccb7b74",
@@ -10777,7 +10777,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 24
+    "usedIpCount": 22
   },
   {
     "id": "urn:vcloud:network:4306d8e5-c0bb-483f-8156-154027cf060b",
@@ -10799,7 +10799,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 24
+    "usedIpCount": 22
   },
   {
     "id": "urn:vcloud:network:86f83c40-fde1-4f1f-89b1-88eacafde708",
@@ -10821,7 +10821,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 24
+    "usedIpCount": 22
   },
   {
     "id": "urn:vcloud:network:11925f28-a721-4622-a5a6-51fa99f6d4a8",
@@ -10843,7 +10843,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 24
+    "usedIpCount": 22
   },
   {
     "id": "urn:vcloud:network:036c628b-ce89-4f43-9461-d211f353fe79",
@@ -10865,7 +10865,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 24
+    "usedIpCount": 22
   },
   {
     "id": "urn:vcloud:network:f7215145-493e-4165-8b5a-2ba9a6c22b06",
@@ -13025,7 +13025,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 20
+    "usedIpCount": 9
   },
   {
     "id": "urn:vcloud:network:f097782b-a931-48d1-b06e-6dacdda150a5",
@@ -13041,7 +13041,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 44
+    "usedIpCount": 43
   },
   {
     "id": "urn:vcloud:network:910a5675-1e6c-43dc-8e1e-8fa9e79bdd1e",
@@ -13057,7 +13057,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 37
+    "usedIpCount": 39
   },
   {
     "id": "urn:vcloud:network:9b77b833-36b0-47c0-a7eb-0ad4573bb39c",
@@ -13073,7 +13073,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 22
+    "usedIpCount": 20
   },
   {
     "id": "urn:vcloud:network:f5382d62-d38b-4904-b8ed-43991380d469",
@@ -13089,7 +13089,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 17
+    "usedIpCount": 10
   },
   {
     "id": "urn:vcloud:network:32028a3c-b823-4dcc-b0a8-7112976a61e9",
@@ -13105,7 +13105,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 15
+    "usedIpCount": 11
   },
   {
     "id": "urn:vcloud:network:61f77c14-5e47-4c2c-bd03-955891147cd1",
@@ -13121,7 +13121,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 18
+    "usedIpCount": 4
   },
   {
     "id": "urn:vcloud:network:e233f5dc-97fe-4067-b7f2-154d295e0ac7",
@@ -13137,7 +13137,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 8
+    "usedIpCount": 5
   },
   {
     "id": "urn:vcloud:network:e72d24f7-242a-44e8-b05f-3f0adf57acd3",
@@ -13335,7 +13335,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 2
+    "usedIpCount": 1
   },
   {
     "id": "urn:vcloud:network:c913ed85-55a3-45a7-bc84-f6ea85b3557d",
@@ -13357,7 +13357,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 2
+    "usedIpCount": 1
   },
   {
     "id": "urn:vcloud:network:22dc6c2b-eedc-4ed7-b7db-b7ca0cc216fd",
@@ -13379,7 +13379,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 2
+    "usedIpCount": 1
   },
   {
     "id": "urn:vcloud:network:8ca181e1-b3ef-4442-95dc-c846426d51ae",
@@ -13401,7 +13401,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 2
+    "usedIpCount": 1
   },
   {
     "id": "urn:vcloud:network:cc27e5c2-b48a-4790-a8f4-cf345617a442",
@@ -13511,7 +13511,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 1
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:d411f554-f2eb-4405-aade-67316196ec29",
@@ -13533,7 +13533,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 1
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:72ea860c-89a9-4816-b1b7-45826f410aca",
@@ -13555,7 +13555,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 1
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:cfdc6ff1-e46a-4cf1-b197-ecb7238eea69",
@@ -13577,7 +13577,7 @@
     "connection": {
       "data": null
     },
-    "usedIpCount": 1
+    "usedIpCount": 0
   },
   {
     "id": "urn:vcloud:network:2cd8bb4d-85ee-4e41-a906-c0218d1c6744",

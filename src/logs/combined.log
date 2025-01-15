@@ -6145,3 +6145,1213 @@
 2025-01-14T11:09:39.467Z [INFO] Mongoose connected to MongoDB
 2025-01-14T11:10:00.503Z [ERROR] Error fetching access token:
 2025-01-14T11:10:00.504Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T13:29:20.567Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T13:29:20.572Z [INFO] Starting to fetch access token
+2025-01-14T13:29:20.625Z [INFO] Server is running on http://localhost:3000
+2025-01-14T13:29:20.646Z [INFO] Mongoose connected to MongoDB
+2025-01-14T13:29:38.609Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T13:29:38.611Z [INFO] Starting to fetch access token
+2025-01-14T13:29:38.650Z [INFO] Server is running on http://localhost:3000
+2025-01-14T13:29:38.666Z [INFO] Mongoose connected to MongoDB
+2025-01-14T13:29:40.416Z [ERROR] Error fetching jobs: Cannot read properties of undefined (reading 'id')
+2025-01-14T13:30:32.242Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-14T13:30:32.245Z [INFO] Starting to fetch access token
+2025-01-14T13:30:32.285Z [INFO] Server is running on http://localhost:3000
+2025-01-14T13:30:32.304Z [INFO] Mongoose connected to MongoDB
+2025-01-14T13:30:53.315Z [ERROR] Error fetching access token:
+2025-01-14T13:30:53.315Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-15T11:35:28.297Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T11:35:28.300Z [INFO] Starting to fetch access token
+2025-01-15T11:35:28.334Z [INFO] Server is running on http://localhost:3000
+2025-01-15T11:35:28.353Z [INFO] Mongoose connected to MongoDB
+2025-01-15T11:35:28.977Z [INFO] Access token fetch script successfull.
+2025-01-15T11:35:28.977Z [INFO] Access Token fetched successfully
+2025-01-15T11:35:28.978Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDAxMjgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZmNkYmIwMzc1ZDQyNGZlMGIwM2ZkMGI2MDBjNDg3NTMifQ.JxF6J4XRQztVlL2_5MdKT1WVRPLdtoOBqqw6KkStLPsmazc-xlj8KaWOd49SftR-DXk-Bd3I5JKIKT43KVZB1jCR0Gl6kxKd4LNF1DH9l4aW3harL_4qeXJG4yYaflId9aKT8PZygQPIzoIBw_1Xyxs1PAKGkSXt8JF3__8gTrogPEr57zWugjqfMvwUlFsa_nwSVCqO3oIXRfD5LPL93WoSo1JAO98vghGCS2nhP9GgmrOi1INnYo1rBb-VlKp268TUgEHe0UYap6seyu6PMD77l2w4mWoEX_x5X-bvDRt_pRnHYj-mZmFubmkxUixWobTAtdftTSCyOz4mTgy_qQ
+2025-01-15T11:37:12.724Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T11:37:12.727Z [INFO] Starting to fetch access token
+2025-01-15T11:37:12.775Z [INFO] Server is running on http://localhost:3000
+2025-01-15T11:37:12.789Z [INFO] Mongoose connected to MongoDB
+2025-01-15T11:37:13.373Z [INFO] Access token fetch script successfull.
+2025-01-15T11:37:13.373Z [INFO] Access Token fetched successfully
+2025-01-15T11:37:13.374Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDAyMzIsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYTQ1ZmU5MGYxMzU4NDk0NWI3NzBhNjBmNzg0Yjg5OWQifQ.Wm2vNFRhVdFXeZ2U87aDjDV8EFzxy70vNQcS2C0PovquKEaFdvpY5o6-QrrGDfdz2Jppd9dkLZzJ3OIsmdE-XedYXfgF0_LHdwSjoKfdLLqDGbkWYELnFQq9lL0FZC7wVUmWdP_Ji-42CCiqGPAP2SDakD4AU9iLrj_kHn63qnu0MSZjDmRYV03phx7xN_n0CGFHStVCF8F72fRQjyuVEoZRRrh8SV0grV66aJcH2yDf0LzZWQYQTC9gAI8-GCnXjD80L0NcrmLzwXU_aQQHMIpAN-djgkZB7pxoVDC-dc88CjW4niMmdMOcElmD4W-Lqm7w3kJlSedmOTwLxk06JQ
+2025-01-15T11:40:27.298Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-15T11:40:27.299Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-15T11:41:50.816Z [INFO] Fetching topology for specified orgs from IP: ::1
+2025-01-15T11:41:51.300Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:41:51.300Z [INFO] Fetched VDCs successfully from IP: ::1
+2025-01-15T11:41:51.586Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:41:51.586Z [INFO] Fetched VDC details successfully from IP: ::1
+2025-01-15T11:41:52.187Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:41:52.188Z [INFO] Fetched vApp details successfully from IP: ::1
+2025-01-15T11:41:52.188Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:41:52.238Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:41:52.241Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:41:52.258Z [INFO] Loaded 641 networks.
+2025-01-15T11:41:52.259Z [INFO] Making requests for 25 VMs.
+2025-01-15T11:41:52.733Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T11:41:52.734Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T11:41:52.734Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T11:41:52.734Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T11:41:52.734Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T11:41:52.734Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T11:41:52.735Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T11:41:52.735Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T11:41:52.735Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T11:41:52.735Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T11:41:52.735Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T11:41:52.736Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T11:41:52.736Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T11:41:52.736Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T11:41:52.736Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T11:41:52.736Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T11:41:52.736Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T11:41:52.737Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T11:41:52.737Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T11:41:52.737Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T11:41:52.737Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T11:41:52.737Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T11:41:52.738Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T11:41:52.738Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T11:41:52.738Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T11:41:52.738Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:41:52.738Z [INFO] Fetched VM details successfully from IP: ::1
+2025-01-15T11:41:52.747Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T11:42:17.287Z [ERROR] Error fetching jobs: Cannot read properties of undefined (reading 'id')
+2025-01-15T11:46:20.638Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T11:46:20.641Z [INFO] Starting to fetch access token
+2025-01-15T11:46:20.684Z [INFO] Server is running on http://localhost:3000
+2025-01-15T11:46:20.699Z [INFO] Mongoose connected to MongoDB
+2025-01-15T11:46:21.350Z [INFO] Access token fetch script successfull.
+2025-01-15T11:46:21.351Z [INFO] Access Token fetched successfully
+2025-01-15T11:46:21.351Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDA3ODAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYWQyZGZhNzMzNjBjNGFiZDgzZmFkNmVjNzZjZDhlYjUifQ.CbQGqVOpozu-rsQ9b2wBW1fRk8aeNSyZu8aORuiC6f-Ii5pfsw3Xu8QomyV4e-OyDZ2OMODgU2tRkctuQo6aXFrQLptmogtjKWkNu3ZeG6i0AM9MFbVbWuxkBjROuvMFEVQOm0DH6Bp-1yalYfEgGwT2wdH0jUSwe4BRG1xWQqMKFyNW8ZtV8kbuzcNY2-le5d8WGvsToIaIfyDP-sYn_eWBHPrqM3y5_-YZhyaAq5umgREXtp5yk96g72zWa_EEzkHoxe3kR6pP3a2VS34zYZne6r1PNWooiT3BgxnwSOZCsqtKt_AUO6RhDwasDfvyjlHPOrsipOycJ-0Zs5P4jg
+2025-01-15T11:46:59.467Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T11:46:59.470Z [INFO] Starting to fetch access token
+2025-01-15T11:46:59.513Z [INFO] Server is running on http://localhost:3000
+2025-01-15T11:46:59.530Z [INFO] Mongoose connected to MongoDB
+2025-01-15T11:47:00.046Z [INFO] Access token fetch script successfull.
+2025-01-15T11:47:00.046Z [INFO] Access Token fetched successfully
+2025-01-15T11:47:00.047Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDA4MTksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiY2RlODNmODQzZTJhNDFkY2E3YzE0MGIwNTA5MWRjZTgifQ.FZLL9Kr_jxgHgDFUtBlikVkT9o1fDq04tBw21xyOeBwtaWkYgjbGIjK0liPp8g0VurFZFRY7IH_Xkt6JgeIAfRhcViuflBpun-HtqvXHCwNbIRTnpGiNjqxVLXNJCUVMpo2m-gdzqrrw-kxvHF9OlLnDbqwHhSEl3xecNR8vh03rYPGJTinCv3zF5kLpkixwXVw0CedgyMwtJH7lU6zVIWCFYWsjBSjxlce31s1yk0y9Lhew8_ZXERQWABAd7-5IrMjVgqWDzB845_s5DwCDWR-3G8VfNxE7NlORAs0mrm4CSKibuwkLRf1rD1Cck0_mE3BG1KQjSLeeY890SHfeSw
+2025-01-15T11:47:00.509Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:47:00.520Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T11:47:00.521Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:47:00.522Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:47:00.876Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:47:00.876Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:47:01.087Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:47:01.087Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:47:01.088Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:47:01.088Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:47:01.088Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:47:01.110Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:47:01.110Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:47:01.124Z [INFO] Loaded 641 networks.
+2025-01-15T11:47:01.125Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:47:01.125Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:47:01.125Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:47:01.127Z [INFO] No existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Creating a new entry.
+2025-01-15T11:47:01.127Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:47:01.128Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:49:55.783Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T11:49:55.785Z [INFO] Starting to fetch access token
+2025-01-15T11:49:55.827Z [INFO] Server is running on http://localhost:3000
+2025-01-15T11:49:55.843Z [INFO] Mongoose connected to MongoDB
+2025-01-15T11:49:56.448Z [INFO] Access token fetch script successfull.
+2025-01-15T11:49:56.448Z [INFO] Access Token fetched successfully
+2025-01-15T11:49:56.449Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDA5OTYsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOGI1NWFiNmE5ODg1NDA5YTg5MTEwYjhlMTAxYjYyOTEifQ.Eb21UVVGKJxpF9cAdMXs0OGQQJ29m_eFG_v26Utm3W5hJzuw1XduUXJDJI-ZVjZ8sXqHYiZkkVZKvINDSG0ky9Hz52XzEhj1sViek1Ut_tGp8VqwltACHHKxd2ycTOqcSinkVUXRGyfthxTZT9Q5z6Hg-GT8rYQ1Vd3Cpkch1C5ozsfUZumeGujmszHRDMgKUqnVo7vFQYxKefriCEXPcF1duCF9D1d-NVpkPTMkiittB34IXBE3bbVRGDtL1m-KeYYb6kkoaAky8sjZ6U3dODaND8QuxXhl2B4MeOE1ZSWlF487GnPLlAOxgIPaT-db5KwgD1NfRwMBsBN7TbJFsA
+2025-01-15T11:50:00.856Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:50:00.865Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T11:50:00.866Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:50:00.867Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:50:01.167Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:50:01.167Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:50:01.405Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:50:01.405Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:50:01.406Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:50:01.406Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:50:01.406Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:50:01.427Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:50:01.428Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:50:01.441Z [INFO] Loaded 641 networks.
+2025-01-15T11:50:01.442Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:50:01.442Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:50:01.442Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:50:01.445Z [INFO] No existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Creating a new entry.
+2025-01-15T11:50:01.445Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:50:01.445Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:50:10.919Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:50:10.923Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T11:50:10.923Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:50:10.924Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:50:11.159Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:50:11.160Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:50:11.414Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:50:11.415Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:50:11.415Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:50:11.415Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:50:11.415Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:50:11.443Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:50:11.444Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:50:11.456Z [INFO] Loaded 641 networks.
+2025-01-15T11:50:11.456Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:50:11.456Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:50:11.457Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:50:11.458Z [INFO] No existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Creating a new entry.
+2025-01-15T11:50:11.459Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:50:11.459Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:50:20.981Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:50:20.984Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T11:50:20.985Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:50:20.985Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:50:21.216Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:50:21.217Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:50:21.466Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:50:21.467Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:50:21.467Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:50:21.467Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:50:21.467Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:50:21.483Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:50:21.484Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:50:21.496Z [INFO] Loaded 641 networks.
+2025-01-15T11:50:21.496Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:50:21.497Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:50:21.497Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:50:21.499Z [INFO] No existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Creating a new entry.
+2025-01-15T11:50:21.499Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:50:21.499Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:50:53.706Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T11:50:53.709Z [INFO] Starting to fetch access token
+2025-01-15T11:50:53.757Z [INFO] Server is running on http://localhost:3000
+2025-01-15T11:50:53.773Z [INFO] Mongoose connected to MongoDB
+2025-01-15T11:50:54.311Z [INFO] Access token fetch script successfull.
+2025-01-15T11:50:54.312Z [INFO] Access Token fetched successfully
+2025-01-15T11:50:54.312Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDEwNTMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYTRhYTEyNTVjODI4NDM1OTgzNTQxOGEwZmMwNWY1YmYifQ.iCFSNng3qX1-uUVjokUe7N36JtT5qNVi7t-CGY5TCBwfLQSzs0BZGBaKOdqk3n9wBY2yCAs9LtSMuFaBR4OJonPqJFnbOFrelcrzuA5MhjKBCyrJr24hQO0ODwpQUc4dskiXXCToztdDCr01Xc6Z-NT7Izwu7c-P0kWAW0ciafapp6cXvFVOh_DfcGS9AtTplV9lOE6LEOOSI4CRsaep6Y-9gjOlqO7dEAF6nlVChZUZSKeSw-43Y7I6ObEgh30WT-CKh3UUTgL00yczq-exoIUHV5RG2YsiO_UYQ0KhONdbaPlipSszMDgmu39MVxQM7HwfdXkslhb0M-iiMYV5jQ
+2025-01-15T11:51:00.795Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:51:00.800Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T11:51:00.801Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:51:00.802Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:51:01.118Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:51:01.119Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:51:01.367Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:51:01.368Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:51:01.368Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:51:01.368Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:51:01.369Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:51:01.390Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:51:01.390Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:51:01.404Z [INFO] Loaded 641 networks.
+2025-01-15T11:51:01.405Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:51:01.405Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:51:01.405Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:51:01.410Z [INFO] No existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Creating a new entry.
+2025-01-15T11:51:01.411Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:51:01.411Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:51:01.884Z [INFO] Fetching topology for specified orgs from IP: ::1
+2025-01-15T11:51:02.114Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:51:02.115Z [INFO] Fetched VDCs successfully from IP: ::1
+2025-01-15T11:51:02.347Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:51:02.347Z [INFO] Fetched VDC details successfully from IP: ::1
+2025-01-15T11:51:02.347Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:51:02.347Z [INFO] Fetched vApp details successfully from IP: ::1
+2025-01-15T11:51:02.347Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:51:02.364Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:51:02.364Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:51:02.376Z [INFO] Loaded 641 networks.
+2025-01-15T11:51:02.376Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:51:02.377Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:51:02.377Z [INFO] Fetched VM details successfully from IP: ::1
+2025-01-15T11:51:02.379Z [INFO] No existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Creating a new entry.
+2025-01-15T11:51:30.989Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:51:30.993Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T11:51:30.993Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:51:30.993Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:51:31.222Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:51:31.222Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:51:31.429Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:51:31.430Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:51:31.430Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:51:31.430Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:51:31.430Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:51:31.457Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:51:31.457Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:51:31.473Z [INFO] Loaded 641 networks.
+2025-01-15T11:51:31.473Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:51:31.473Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:51:31.474Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:51:31.477Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:51:31.478Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:51:31.479Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:52:00.157Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:52:00.160Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T11:52:00.160Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:52:00.160Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:52:00.163Z [INFO] [CRON_JOB] Executing Job: testorg
+2025-01-15T11:52:00.163Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:52:00.376Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:52:00.377Z [INFO] [CRON_JOB] Fetched VDCs for Job: testorg
+2025-01-15T11:52:00.410Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:52:00.410Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:52:00.644Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:52:00.644Z [INFO] [CRON_JOB] Fetched VDC details for Job: testorg
+2025-01-15T11:52:00.644Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:52:00.645Z [INFO] [CRON_JOB] Fetched vApp details for Job: testorg
+2025-01-15T11:52:00.645Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:52:00.662Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:52:00.662Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:52:00.673Z [INFO] Loaded 641 networks.
+2025-01-15T11:52:00.673Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:52:00.674Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:52:00.674Z [INFO] [CRON_JOB] Fetched VM details for Job: testorg
+2025-01-15T11:52:00.675Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:52:00.675Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:52:00.676Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:52:00.676Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:52:00.676Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:52:00.678Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:52:00.678Z [ERROR] [CRON_JOB] Error processing job testorg: req is not defined
+2025-01-15T11:52:00.689Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:52:00.689Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:52:00.702Z [INFO] Loaded 641 networks.
+2025-01-15T11:52:00.702Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:52:00.702Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:52:00.702Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:52:00.708Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:52:00.709Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:52:00.709Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:52:30.341Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:52:30.344Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T11:52:30.345Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:52:30.345Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:52:30.347Z [INFO] [CRON_JOB] Executing Job: testorg
+2025-01-15T11:52:30.347Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:52:30.580Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:52:30.580Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:52:30.597Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:52:30.597Z [INFO] [CRON_JOB] Fetched VDCs for Job: testorg
+2025-01-15T11:52:30.835Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:52:30.835Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:52:30.835Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:52:30.836Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:52:30.836Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:52:30.857Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:52:30.857Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:52:30.868Z [INFO] Loaded 641 networks.
+2025-01-15T11:52:30.869Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:52:30.869Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:52:30.869Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:52:30.871Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:52:30.872Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:52:30.873Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:52:30.873Z [INFO] [CRON_JOB] Fetched VDC details for Job: testorg
+2025-01-15T11:52:30.873Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:52:30.873Z [INFO] [CRON_JOB] Fetched vApp details for Job: testorg
+2025-01-15T11:52:30.873Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:52:30.888Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:52:30.888Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:52:30.897Z [INFO] Loaded 641 networks.
+2025-01-15T11:52:30.897Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:52:30.897Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:52:30.897Z [INFO] [CRON_JOB] Fetched VM details for Job: testorg
+2025-01-15T11:52:30.901Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:52:30.901Z [ERROR] [CRON_JOB] Error processing job testorg: req is not defined
+2025-01-15T11:52:30.902Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:54:25.137Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T11:54:25.140Z [INFO] Starting to fetch access token
+2025-01-15T11:54:25.183Z [INFO] Server is running on http://localhost:3000
+2025-01-15T11:54:25.197Z [INFO] Mongoose connected to MongoDB
+2025-01-15T11:54:25.739Z [INFO] Access token fetch script successfull.
+2025-01-15T11:54:25.739Z [INFO] Access Token fetched successfully
+2025-01-15T11:54:25.740Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDEyNjUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMmQwNjkzMDZmNzIzNDgyYjllODRlM2JjN2ZmZjE5NGUifQ.Z9v999dunOTQnLWA0M6doBHu2459-t_64kytGtnqV9GocctyRobdzvDjREImpRSyrTJ5SOAjDZH1AKyoaBEutG1ZR7-cFH1zOtSCJky4OglQs7U6O_U_e-_nd1QZDqbxr3Zi9BjgwNtqOdK7pzyh9uU-ZCIAEMqYYYDKGto2qdd4HCdKV3xQi9TusbR1LvUlxtfDU-Y8owJbxiH3fDxVfhYRgJ-3j_RIMemzrZ49qZkaktyRpFlfaIm_mLvCWZsnWzczNin0tudSs4-pXzHHWP5BaaPXgJCTDuZcpehiCzBnV3wQbzlWiDqOV9wmTrdQ6PjTG7cQ0qs2i-pb4CfbIg
+2025-01-15T11:54:30.214Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:54:30.224Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T11:54:30.224Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:54:30.225Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:54:30.227Z [INFO] [CRON_JOB] Executing Job: testorg
+2025-01-15T11:54:30.227Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:54:30.542Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:54:30.542Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:54:30.559Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:54:30.559Z [INFO] [CRON_JOB] Fetched VDCs for Job: testorg
+2025-01-15T11:54:30.766Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:54:30.766Z [INFO] [CRON_JOB] Fetched VDC details for Job: testorg
+2025-01-15T11:54:30.766Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:54:30.766Z [INFO] [CRON_JOB] Fetched vApp details for Job: testorg
+2025-01-15T11:54:30.767Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:54:30.789Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:54:30.789Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:54:30.803Z [INFO] Loaded 641 networks.
+2025-01-15T11:54:30.803Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:54:30.803Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:54:30.803Z [INFO] [CRON_JOB] Fetched VM details for Job: testorg
+2025-01-15T11:54:30.807Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:54:30.810Z [ERROR] [CRON_JOB] Error processing job testorg: req is not defined
+2025-01-15T11:54:30.825Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:54:30.825Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:54:30.825Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:54:30.825Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:54:30.825Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:54:30.842Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:54:30.842Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:54:30.855Z [INFO] Loaded 641 networks.
+2025-01-15T11:54:30.856Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:54:30.856Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:54:30.856Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:54:30.863Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:54:30.865Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:54:30.865Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T11:55:22.664Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T11:55:22.667Z [INFO] Starting to fetch access token
+2025-01-15T11:55:22.705Z [INFO] Server is running on http://localhost:3000
+2025-01-15T11:55:22.716Z [INFO] Mongoose connected to MongoDB
+2025-01-15T11:55:23.193Z [INFO] Access token fetch script successfull.
+2025-01-15T11:55:23.194Z [INFO] Access Token fetched successfully
+2025-01-15T11:55:23.194Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDEzMjIsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNDI2NDAzNTVmY2RhNGEyMDliNTc1ZDNiNDg2NjliOTUifQ.EQVOYFReoV0ZqF1DDE4GIFHRXCFQiES3j8Wcmi-oPWTBxzHHWugcfgQuaQiFt3DDCbCwh-LXEhmB3eKQMmtLe6QEt5w-89wp-YbAF2PI5m4dNfi6jWQZoxIFKvd9dem-oDpdDOf-OpA2bV8BMQK_nzDEgFrJXsL0_JHFbTZF-_LWItBu4Du26QTNv4tNJ7nmPwpUBd-EJSUqnmmHiC3mz54TerDBTTyNY36ldxfGs97kgvFx2hYh_IpFkU4UAJL3EZRA79xcnYLR9TSQa8gtEgVExxyGjMO0zHDaRaO71os7HBvsR_NFgDcxKPpdJjpsf0sXy9h6xwlZAQNKO001Nw
+2025-01-15T11:55:30.749Z [INFO] Starting scheduled cron jobs...
+2025-01-15T11:55:30.759Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T11:55:30.759Z [INFO] [CRON_JOB] Executing Job: hopa2
+2025-01-15T11:55:30.760Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:55:30.762Z [INFO] [CRON_JOB] Executing Job: testorg
+2025-01-15T11:55:30.762Z [INFO] [CRON_JOB] Fetching topology for specified organizations.
+2025-01-15T11:55:31.118Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:55:31.119Z [INFO] [CRON_JOB] Fetched VDCs for Job: testorg
+2025-01-15T11:55:31.123Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T11:55:31.123Z [INFO] [CRON_JOB] Fetched VDCs for Job: hopa2
+2025-01-15T11:55:31.370Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:55:31.370Z [INFO] [CRON_JOB] Fetched VDC details for Job: testorg
+2025-01-15T11:55:31.371Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:55:31.371Z [INFO] [CRON_JOB] Fetched vApp details for Job: testorg
+2025-01-15T11:55:31.372Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:55:31.397Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:55:31.397Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:55:31.400Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T11:55:31.400Z [INFO] [CRON_JOB] Fetched VDC details for Job: hopa2
+2025-01-15T11:55:31.400Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T11:55:31.400Z [INFO] [CRON_JOB] Fetched vApp details for Job: hopa2
+2025-01-15T11:55:31.400Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T11:55:31.411Z [INFO] Loaded 641 networks.
+2025-01-15T11:55:31.412Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:55:31.412Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:55:31.412Z [INFO] [CRON_JOB] Fetched VM details for Job: testorg
+2025-01-15T11:55:31.425Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T11:55:31.425Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T11:55:31.429Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:55:31.458Z [INFO] Loaded 641 networks.
+2025-01-15T11:55:31.458Z [INFO] Making requests for 0 VMs.
+2025-01-15T11:55:31.458Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T11:55:31.458Z [INFO] [CRON_JOB] Fetched VM details for Job: hopa2
+2025-01-15T11:55:31.461Z [INFO] [CRON_JOB] Successfully executed and saved job: testorg
+2025-01-15T11:55:31.463Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-01-15T11:55:31.470Z [INFO] [CRON_JOB] Successfully executed and saved job: hopa2
+2025-01-15T11:55:31.470Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:40:16.426Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:40:16.429Z [INFO] Starting to fetch access token
+2025-01-15T13:40:16.474Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:40:16.493Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:40:17.056Z [INFO] Access token fetch script successfull.
+2025-01-15T13:40:17.056Z [INFO] Access Token fetched successfully
+2025-01-15T13:40:17.056Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDc2MTYsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNTBiNGZkY2RiMzI2NGNmZDgyNWRlMGU3Zjc5OTc3ODUifQ.BTOrEKO1Rrly8q4TzweCxQPWx38Hk-hyg4xDvrsM2gOAqqk9hPb8AchYB9rQf7peXI8IBQk_dxAWyu4GeZHQ4bDWxUruP44SQz3VKWaMn6qxCQwyUgLdFeTBNoCLz_WaSwqzClQZQuRuGPw6AmmJBZ7hVmZT2zJaOqStqthUempvKvw_g6bB3IIgyBNMJEMV8SDmAKZ-Zcgvwlb6DXHgvxIOIouMbRWYf-dbqDDfr0nxhVpPm_aNyDeky7meLTz1cq6ZgqOcHMbkUe1Bep-R3b0v8myzQ-zYYLyuV3t07Ut60J2eVBPQuL8QMnkEAl8c2z2cImzKTsKmKUE0kjKUww
+2025-01-15T13:40:30.549Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:40:30.557Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-15T13:40:53.524Z [ERROR] Error adding cron job: jwt is not defined
+2025-01-15T13:41:00.751Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:41:00.754Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-15T13:41:23.478Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:41:23.481Z [INFO] Starting to fetch access token
+2025-01-15T13:41:23.522Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:41:23.537Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:41:24.046Z [INFO] Access token fetch script successfull.
+2025-01-15T13:41:24.046Z [INFO] Access Token fetched successfully
+2025-01-15T13:41:24.047Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDc2ODMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZGMyZDY2YTlhNmVjNDBkNjk1YzMxMDRlMDJmMTdmNzEifQ.eA9esr09kdsZkP9HE2pLeciz39p6SxZxrzKLytUYnGuaIINr_AOgBRzY1Gcpb5frwtJmzyFOSjd-okDTYQF_Rxg6ThUjQ0UsOjj3Nn-NhCxejPhT3pGu44PEKn_opBHksk95AfzVZXmiDQ4itkp4ROlglm7fyFFIMwGcSJmUgBjQMOsYUaSmUC8HtGtfZStBShz7OrcFUOjSnnigdZJs2dXUiMU69ufi471ydGN2WTpKMkf0CxMwFiv3UwIQub0S-e5-gg1gfYbLLY_7k0lQbonwux7qJQEyVnXYft3Z2_xG18nT0Mx0WUoho02mJ0gyAeIv6DphetxTUpwR9pirSA
+2025-01-15T13:41:30.572Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:41:30.576Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:41:30.577Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:41:30.578Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:41:30.578Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:42:00.786Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:42:00.791Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:42:00.791Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:42:00.792Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:42:00.792Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:44:29.049Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:44:29.052Z [INFO] Starting to fetch access token
+2025-01-15T13:44:29.107Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:44:29.122Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:44:29.746Z [INFO] Access token fetch script successfull.
+2025-01-15T13:44:29.746Z [INFO] Access Token fetched successfully
+2025-01-15T13:44:29.747Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDc4NjksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYzIxY2I5OGVjNTAxNGJjOGE3Y2NiYzJlYmZlMmIxNTgifQ.eeO7KBXgitPWvlaqEl3S4tQA7ljmvDmEVbeWTOgBrrsh-CePMteLuVTCa--AibwHPZEUmpFU_6tz6t0NcKDxhC5d7oAp5JaMATVhw-jnygnFe-pfw7LpPm9BHhPR6I3CSYdz9COyWwt1_H3FLfmouTCeZYHv-bP29y_DfQnjddfSezIddJzbqsloqEFD8_o2033Zn0BMSJBNwYwGcaE5ZLBNScDxUFgmsDLP6s0iVUqBfogjk84SQh67N5gknnFFs3eozb4l0xzfpkASrf9WFdmOH9MKOKT7XdMbh6ova2gef396niTb7IM5dc3uuSXQtk0KpzSpBcItCsS8rhe1gg
+2025-01-15T13:44:30.116Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:44:30.125Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:44:30.126Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:44:30.127Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:44:30.127Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:45:00.320Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:45:00.324Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:45:00.324Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:45:00.325Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:45:00.325Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:45:30.486Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:45:30.490Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:45:30.490Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:45:30.490Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:45:30.491Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:45:58.154Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-15T13:45:58.155Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-15T13:46:00.708Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:46:00.712Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:46:00.712Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:46:00.712Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:46:00.713Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:46:30.925Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:46:30.928Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:46:30.929Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:46:30.929Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:46:30.929Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:47:00.129Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:47:00.132Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:47:00.132Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:47:00.133Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:47:00.133Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:47:30.308Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:47:30.310Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:47:30.311Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:47:30.311Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:47:30.311Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:48:00.491Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:48:00.494Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:48:00.494Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:48:00.494Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:48:00.494Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:49:56.270Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:49:56.273Z [INFO] Starting to fetch access token
+2025-01-15T13:49:56.339Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:49:56.358Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:49:56.889Z [INFO] Access token fetch script successfull.
+2025-01-15T13:49:56.890Z [INFO] Access Token fetched successfully
+2025-01-15T13:49:56.890Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDgxOTYsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNGI3YjE0N2RiYmQ1NGZjOGFlMTMwOGY0YjhiM2EzNTIifQ.VfKoYZDTk4Nr56q1Wzv7G3jv0gHukhqfbS7-LURV2Nv-8C95DKO-kIZQpO6eoTOXEutXGUPcXrztfkI5M0LPL0AuJp-4b89cli70SyxKGbodcXGb0BIUTYJu_aVrG5fcAf50gEKVPtCyDyxKbkNEeFjYpjVOVYTGU2FEC-FeYDQbu-tvKXOE9EDLqUoxtlWMbPAyJ3NsP1isYCH6zPphrg5SoZkeczRWZ9iUlCD9OPlY00GmNrGL8OlUPH_Su4WmSSByS3fnaFcTr22minWkAh-JoIEMQfrTqYtfn9WgE_945p6adJefJSLiKg54AwiITHDUZfVFUlRlqfrtS8NDFQ
+2025-01-15T13:50:00.348Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:50:00.361Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:50:00.362Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:50:00.363Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:50:00.363Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:50:10.416Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:50:10.420Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:50:10.421Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:50:10.421Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:50:10.421Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:53:50.053Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:53:50.056Z [INFO] Starting to fetch access token
+2025-01-15T13:53:50.112Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:53:50.127Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:53:50.639Z [INFO] Access token fetch script successfull.
+2025-01-15T13:53:50.640Z [INFO] Access Token fetched successfully
+2025-01-15T13:53:50.640Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDg0MzAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYTExYjZlNzYyMWQ3NDU2MzkwNDQ5ZGQ1ODdjNzc0OWMifQ.WI9QFbJ2w4qcMLlbVNdFF2mJZo_qwB4pz8ieHT3NrsEp2VTOAjmflT9IPNwyB7Mxq8aXFmK4zVlTR4_o7ih9ElXLw1UMR7AZvHNJLy7bIfjtkO7vxHs1kpiW2j_BCtxtZIRXpeYyKJAqYOYpUfGy4U-PkpUOx999XtH5g4UwzUX-YqS3xDVUXHIx0gt1EUBjczA4t6H5ngSAKpae-nfsTYhwc1tO1RhRyHTwQWvQwlPNdo_vWoqyIwN5FDQns7W5J6Zs2bVXl3Ppm20lInvGkXpxpacvuV9OklyhF42n4InmxvIzPV4sZCXR9JkzouI7F2RV625XO3tH4QujSrRD1g
+2025-01-15T13:54:00.183Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:54:00.197Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:54:00.197Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:54:00.198Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:54:00.198Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:54:48.310Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:54:48.313Z [INFO] Starting to fetch access token
+2025-01-15T13:54:48.378Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:54:48.398Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:54:48.910Z [INFO] Access token fetch script successfull.
+2025-01-15T13:54:48.911Z [INFO] Access Token fetched successfully
+2025-01-15T13:54:48.911Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDg0ODgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYzgzNjA4OWQxMDhmNDY5YWJmNTdjOGQ5OGY0OTgzNjIifQ.eBey5Qv8HGXE-uNko5UTdVQyWhwyhiJD1rN4wRViaYdqy9qKzv3oUDpPjKrKr3eTpYQnvvouUO_Kh5tQRCAaGWj96vJUaEYtsz_LevAaDCgORkEHdknzpQ7-P2pNZmskHF_YmrUP482PRbbdg5EoL2JkYVz73dE0NBo_wOo8xXFDZo_7-fHOB9l06b1ltHQ0sToCNRM5ZZ_Ghh61nFHJLBGEDr7Y_sFe6o8RPRomF5s0xFK7EBSDL2yQJy4WMEVdoNyxpZ5V27EW-Aaejs2rwmdbRn6HraHVhMdGQPARciJLZxaf5GnU5cRCzo0a2yrcb-r0SVz4r27-DfgL3Z294Q
+2025-01-15T13:54:50.399Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:54:50.412Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:54:50.413Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:54:50.414Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:54:50.414Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:55:33.566Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:55:33.568Z [INFO] Starting to fetch access token
+2025-01-15T13:55:33.609Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:55:33.626Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:55:34.127Z [INFO] Access token fetch script successfull.
+2025-01-15T13:55:34.128Z [INFO] Access Token fetched successfully
+2025-01-15T13:55:34.128Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDg1MzMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZWI3NjhkOTZhNTM4NGQ0ZmJmYjQ4ZTYwZDQ2MjY0MGUifQ.M1tOygtLFokOMueZWW2FrGmf_34L8m5-KT3zULUcGq0YLUCgXOfx7xI6fZd2LGo1_0XU2pb9hzzBrYu7zzwJIa5UaW7y8MCYvpVpzpJwUG2KXtShzDO788tgtYuxXVHrRkUkbTQzMjs-tAiJFI429jqnQuoOBarDW1gmCpHkbOyIu1iZVLVYnVgHDmSUkbobOr089eq2ejpNFxHLR9Z-hzMTLoJijt2jWX8dGX2RVqdWSW5fAd7zoXE61F8iQ8y0soNO_22AI3y45jwfsLlXJyt-KvN6ncmnOSZKJTpAvgbwQIzl8t0lPHhaeyrT2Gh8K9WaPNucp6bY58r1tNvd3A
+2025-01-15T13:55:40.649Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:55:40.664Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-15T13:55:40.665Z [INFO] [CRON_JOB] Processing job with ID: 6787bb09bd7e70499e7b9166
+2025-01-15T13:55:40.666Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:55:40.666Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:57:08.495Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:57:08.498Z [INFO] Starting to fetch access token
+2025-01-15T13:57:08.550Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:57:08.574Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:57:09.091Z [INFO] Access token fetch script successfull.
+2025-01-15T13:57:09.091Z [INFO] Access Token fetched successfully
+2025-01-15T13:57:09.092Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDg2MjgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiN2JlMGY1ZjQ3Yzk1NDhkNmEzZDY2Yzk5YTVmNDZhMmEifQ.Y7fMemqh2X6JI9uAMIjLan5LimOY8JUKTw_34vvTBuNtHledr76hTK9zjZo0IB4ebAlcbbAD7PSodwgVGwaxtgHrzCkfaDVVhtSJMbHFqnPjbCrqGg_G-1ECvdRyE-qF_LD_bxkwPL1to-z7oOHBDoXIr9RalHdHC_URErTeL5ZHV8ZxKs7MZs5wJqi4t0nTHNgf0NUxQ3HDcuctopTW9zfnZCpmkCALkkb6Ac86II4HCf0YbFhLSfM_cQ54uxDt8EVTkJ6eaFxf9-9hOdwAPTdn6MStucDmVURrHlVZWAc5oLk3lqnJG3sVOy0A2XXG55vLRsB5Qv5NVIv0mS3CgQ
+2025-01-15T13:57:10.557Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:57:10.564Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-15T13:57:14.226Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-15T13:57:14.226Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-15T13:57:20.612Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:57:20.615Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-15T13:57:30.680Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:57:30.682Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-15T13:57:40.743Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:57:40.746Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-15T13:57:50.818Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:57:50.825Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T13:57:50.825Z [INFO] [CRON_JOB] Processing job with ID: 6787bed6a3f210d43746f02d
+2025-01-15T13:57:50.826Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bed6a3f210d43746f02d: Invalid or missing 'orgs' array.
+2025-01-15T13:57:50.826Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T13:57:50.827Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bedca3f210d43746f030: Invalid or missing 'orgs' array.
+2025-01-15T13:57:50.827Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:58:00.886Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:58:00.891Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T13:58:00.891Z [INFO] [CRON_JOB] Processing job with ID: 6787bed6a3f210d43746f02d
+2025-01-15T13:58:00.892Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bed6a3f210d43746f02d: Invalid or missing 'orgs' array.
+2025-01-15T13:58:00.892Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T13:58:00.892Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bedca3f210d43746f030: Invalid or missing 'orgs' array.
+2025-01-15T13:58:00.893Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:58:34.112Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:58:34.115Z [INFO] Starting to fetch access token
+2025-01-15T13:58:34.184Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:58:34.251Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:58:34.789Z [INFO] Access token fetch script successfull.
+2025-01-15T13:58:34.790Z [INFO] Access Token fetched successfully
+2025-01-15T13:58:34.790Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDg3MTQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYTNiZDk1ZjkwYTAwNGZjNjk5NDAzOTUxMGE4OGQzNjMifQ.geCWbh91mo-qY1HjzvDevniBaS1WB_pD1Wqh7_bBkJkZsQqRXRfVvWgn0Ku4UXgoii8HjPwOgehkjmzdF-Ax3oLu9gU0KxxNsXzrP55Tzphi-LFReRRuzxJA-zLw6K50u9ReI1rG35FDqZ5uWOQrMDCjFREJAS1MiKfKhgZmUsJwmYrfeKP9MNp7s-8Ib6GWoXw8Erxv-gxeGxXt1kSW_FZHWLgu21eqCyx4hRJWk3mSlpCFeEFnKUgYZ5ZnlQZMRfIJ5PyBQwAqPQycZ9KSOJ1H7GIxRwxKyFsWHUZgZW3EredEQo5vN2LXH855lLCADVZmSrDHa7x87nxS2Y9uww
+2025-01-15T13:58:40.233Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:58:40.262Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T13:58:40.263Z [INFO] [CRON_JOB] Processing job with ID: 6787bed6a3f210d43746f02d
+2025-01-15T13:58:40.264Z [INFO] Fetching topology for specified orgs
+2025-01-15T13:58:40.640Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T13:58:40.640Z [INFO] Fetched VDCs successfully
+2025-01-15T13:58:40.897Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T13:58:40.897Z [INFO] Fetched VDC details successfully
+2025-01-15T13:58:41.482Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T13:58:41.483Z [INFO] Fetched vApp details successfully
+2025-01-15T13:58:41.484Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T13:58:41.536Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T13:58:41.536Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T13:58:41.555Z [INFO] Loaded 641 networks.
+2025-01-15T13:58:41.556Z [INFO] Making requests for 25 VMs.
+2025-01-15T13:58:42.021Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T13:58:42.022Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T13:58:42.022Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T13:58:42.022Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T13:58:42.023Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T13:58:42.023Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T13:58:42.024Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T13:58:42.024Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T13:58:42.024Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T13:58:42.024Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T13:58:42.025Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T13:58:42.025Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T13:58:42.025Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T13:58:42.025Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T13:58:42.026Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T13:58:42.026Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T13:58:42.026Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T13:58:42.027Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T13:58:42.027Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T13:58:42.027Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T13:58:42.028Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T13:58:42.028Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T13:58:42.028Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T13:58:42.028Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T13:58:42.028Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T13:58:42.029Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T13:58:42.029Z [INFO] Fetched VM details successfully
+2025-01-15T13:58:42.036Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T13:58:42.061Z [INFO] [CRON_JOB] Job with ID: 6787bed6a3f210d43746f02d processed successfully.
+2025-01-15T13:58:42.061Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T13:58:42.062Z [INFO] Fetching topology for specified orgs
+2025-01-15T13:58:42.386Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T13:58:42.386Z [INFO] Fetched VDCs successfully
+2025-01-15T13:58:42.626Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T13:58:42.626Z [INFO] Fetched VDC details successfully
+2025-01-15T13:58:43.217Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T13:58:43.217Z [INFO] Fetched vApp details successfully
+2025-01-15T13:58:43.217Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T13:58:43.241Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T13:58:43.241Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T13:58:43.271Z [INFO] Loaded 641 networks.
+2025-01-15T13:58:43.272Z [INFO] Making requests for 25 VMs.
+2025-01-15T13:58:43.743Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T13:58:43.749Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T13:58:43.750Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T13:58:43.750Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T13:58:43.750Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T13:58:43.751Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T13:58:43.751Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T13:58:43.752Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T13:58:43.752Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T13:58:43.752Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T13:58:43.752Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T13:58:43.753Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T13:58:43.753Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T13:58:43.753Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T13:58:43.753Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T13:58:43.754Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T13:58:43.754Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T13:58:43.754Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T13:58:43.754Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T13:58:43.754Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T13:58:43.754Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T13:58:43.755Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T13:58:43.755Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T13:58:43.756Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T13:58:43.756Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T13:58:43.756Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T13:58:43.756Z [INFO] Fetched VM details successfully
+2025-01-15T13:58:43.762Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T13:58:43.775Z [INFO] [CRON_JOB] Job with ID: 6787bedca3f210d43746f030 processed successfully.
+2025-01-15T13:58:43.775Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T13:59:39.140Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T13:59:39.143Z [INFO] Starting to fetch access token
+2025-01-15T13:59:39.186Z [INFO] Server is running on http://localhost:3000
+2025-01-15T13:59:39.204Z [INFO] Mongoose connected to MongoDB
+2025-01-15T13:59:39.734Z [INFO] Access token fetch script successfull.
+2025-01-15T13:59:39.735Z [INFO] Access Token fetched successfully
+2025-01-15T13:59:39.735Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMDg3NzksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNTg1NmI0OWQ2ZjJkNDE5ZmE3OTJiYTNjNDg1NzMwNDIifQ.CDdQ-ocVUeS2UD5yfKrkDBbVfxo6GfBg5W6ftqiFkAxu7BulZ0ioO9jOfo2KC0ciIoFgY7U4ZZWtQIeqYia8R-RH3vC22pZXeg_IP5H3fXICdjSXrIhSr0YrwmU9moAgW7bhihxXuRg_3yPknpYeDed29EeVeRvMGHC8VdIDbqjQVCvZL2k_TuvbWjcitH7X32GidD9OgLA8Cw1PkYkqhHS3iP9kGNDN-5Vo9jk_T_KOmsFSOk_0XK4uP1VCGU3an0hxnPvXqs-F22fMxNlZcrwePoFYKR4OFqAYA4dLyP0igW031AO8qWKwfB8HOtk_uv760EUvh4QBI_PWon84ag
+2025-01-15T13:59:40.187Z [INFO] Starting scheduled cron jobs...
+2025-01-15T13:59:40.202Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T13:59:40.203Z [INFO] [CRON_JOB] Processing job with ID: 6787bed6a3f210d43746f02d
+2025-01-15T13:59:40.204Z [INFO] Fetching topology for specified orgs
+2025-01-15T13:59:40.632Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T13:59:40.633Z [INFO] Fetched VDCs successfully
+2025-01-15T13:59:40.882Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T13:59:40.882Z [INFO] Fetched VDC details successfully
+2025-01-15T13:59:41.439Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T13:59:41.439Z [INFO] Fetched vApp details successfully
+2025-01-15T13:59:41.440Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T13:59:41.466Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T13:59:41.467Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T13:59:41.480Z [INFO] Loaded 641 networks.
+2025-01-15T13:59:41.481Z [INFO] Making requests for 25 VMs.
+2025-01-15T13:59:41.923Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T13:59:41.924Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T13:59:41.924Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T13:59:41.924Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T13:59:41.924Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T13:59:41.924Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T13:59:41.925Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T13:59:41.925Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T13:59:41.925Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T13:59:41.926Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T13:59:41.926Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T13:59:41.926Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T13:59:41.926Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T13:59:41.927Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T13:59:41.927Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T13:59:41.927Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T13:59:41.927Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T13:59:41.928Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T13:59:41.928Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T13:59:41.928Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T13:59:41.928Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T13:59:41.929Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T13:59:41.929Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T13:59:41.929Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T13:59:41.929Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T13:59:41.929Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T13:59:41.929Z [INFO] Fetched VM details successfully
+2025-01-15T13:59:41.939Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T13:59:41.964Z [INFO] [CRON_JOB] Job with ID: 6787bed6a3f210d43746f02d processed successfully.
+2025-01-15T13:59:41.964Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T13:59:41.965Z [INFO] Fetching topology for specified orgs
+2025-01-15T13:59:42.242Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T13:59:42.243Z [INFO] Fetched VDCs successfully
+2025-01-15T13:59:42.483Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T13:59:42.483Z [INFO] Fetched VDC details successfully
+2025-01-15T13:59:43.005Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T13:59:43.005Z [INFO] Fetched vApp details successfully
+2025-01-15T13:59:43.005Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T13:59:43.025Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T13:59:43.025Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T13:59:43.038Z [INFO] Loaded 641 networks.
+2025-01-15T13:59:43.039Z [INFO] Making requests for 25 VMs.
+2025-01-15T13:59:43.472Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T13:59:43.473Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T13:59:43.473Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T13:59:43.473Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T13:59:43.473Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T13:59:43.473Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T13:59:43.474Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T13:59:43.474Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T13:59:43.474Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T13:59:43.474Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T13:59:43.474Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T13:59:43.474Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T13:59:43.474Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T13:59:43.475Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T13:59:43.475Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T13:59:43.475Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T13:59:43.475Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T13:59:43.475Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T13:59:43.475Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T13:59:43.475Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T13:59:43.476Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T13:59:43.476Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T13:59:43.476Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T13:59:43.476Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T13:59:43.477Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T13:59:43.477Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T13:59:43.477Z [INFO] Fetched VM details successfully
+2025-01-15T13:59:43.483Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T13:59:43.491Z [INFO] [CRON_JOB] Job with ID: 6787bedca3f210d43746f030 processed successfully.
+2025-01-15T13:59:43.492Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T14:25:58.604Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T14:25:58.607Z [INFO] Starting to fetch access token
+2025-01-15T14:25:58.658Z [INFO] Server is running on http://localhost:3000
+2025-01-15T14:25:58.675Z [INFO] Mongoose connected to MongoDB
+2025-01-15T14:25:59.206Z [INFO] Access token fetch script successfull.
+2025-01-15T14:25:59.207Z [INFO] Access Token fetched successfully
+2025-01-15T14:25:59.207Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMTAzNTgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZDhmZWUzMGI4OWIxNDFmNTk0MzcwMTgzYWFjZTA3NmQifQ.Gt4vxcWg-oh0fa67RxGoeIBqyVGHayTAL6KIGz2QJ05QTlgo_SDbmVPzJyeMwghv7M2-HaQjIvJ8ZQgd0qJCzv9ZHx8y-k5Bb0IZfJ15w6FrYhgTCu9z1atRLfzNIFwzHFFzm5zRZjx525FLSOhNeNa2O6sj6BVGWNSFf5Hte_eQJXwMFGIbiJXgEzQpn-dQEaefarI4E7oiLJX1qOReaHR-w2Uliux9QG-P0IZ3b-IZtYup4bJzC_NloxFOVaqkH744ldxf5naz2tWPMp20VvozFXaAG-FOa89l4JPMAPVmjqFGZr6DT6gOQd-g0mWIt2IcJ0LiSs4e20AgBunkhw
+2025-01-15T14:26:00.664Z [INFO] Starting scheduled cron jobs...
+2025-01-15T14:26:00.678Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T14:26:00.679Z [INFO] [CRON_JOB] Processing job with ID: 6787bed6a3f210d43746f02d
+2025-01-15T14:26:00.680Z [INFO] Fetching topology for specified orgs
+2025-01-15T14:26:01.098Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T14:26:01.098Z [INFO] Fetched VDCs successfully
+2025-01-15T14:26:01.350Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T14:26:01.350Z [INFO] Fetched VDC details successfully
+2025-01-15T14:26:01.993Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T14:26:01.993Z [INFO] Fetched vApp details successfully
+2025-01-15T14:26:01.994Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T14:26:02.017Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T14:26:02.018Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T14:26:02.030Z [INFO] Loaded 641 networks.
+2025-01-15T14:26:02.030Z [INFO] Making requests for 25 VMs.
+2025-01-15T14:26:02.519Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T14:26:02.520Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T14:26:02.520Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T14:26:02.520Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T14:26:02.520Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T14:26:02.521Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T14:26:02.521Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T14:26:02.521Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T14:26:02.521Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T14:26:02.521Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T14:26:02.521Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T14:26:02.522Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T14:26:02.522Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T14:26:02.522Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T14:26:02.522Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T14:26:02.522Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T14:26:02.522Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T14:26:02.523Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T14:26:02.523Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T14:26:02.523Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T14:26:02.523Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T14:26:02.523Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T14:26:02.524Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T14:26:02.524Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T14:26:02.524Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T14:26:02.524Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T14:26:02.524Z [INFO] Fetched VM details successfully
+2025-01-15T14:26:02.527Z [INFO] No existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Creating a new entry.
+2025-01-15T14:26:02.544Z [INFO] [CRON_JOB] Job with ID: 6787bed6a3f210d43746f02d processed successfully.
+2025-01-15T14:26:02.544Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T14:26:02.545Z [INFO] Fetching topology for specified orgs
+2025-01-15T14:26:02.815Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T14:26:02.815Z [INFO] Fetched VDCs successfully
+2025-01-15T14:26:03.053Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T14:26:03.053Z [INFO] Fetched VDC details successfully
+2025-01-15T14:26:03.647Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T14:26:03.648Z [INFO] Fetched vApp details successfully
+2025-01-15T14:26:03.648Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T14:26:03.666Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T14:26:03.666Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T14:26:03.678Z [INFO] Loaded 641 networks.
+2025-01-15T14:26:03.678Z [INFO] Making requests for 25 VMs.
+2025-01-15T14:26:04.144Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T14:26:04.144Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T14:26:04.144Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T14:26:04.145Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T14:26:04.145Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T14:26:04.145Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T14:26:04.145Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T14:26:04.145Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T14:26:04.145Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T14:26:04.146Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T14:26:04.146Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T14:26:04.146Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T14:26:04.146Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T14:26:04.146Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T14:26:04.146Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T14:26:04.146Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T14:26:04.146Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T14:26:04.147Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T14:26:04.147Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T14:26:04.147Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T14:26:04.147Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T14:26:04.147Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T14:26:04.147Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T14:26:04.147Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T14:26:04.148Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T14:26:04.148Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T14:26:04.148Z [INFO] Fetched VM details successfully
+2025-01-15T14:26:04.154Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T14:26:04.162Z [INFO] [CRON_JOB] Job with ID: 6787bedca3f210d43746f030 processed successfully.
+2025-01-15T14:26:04.162Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T19:13:04.737Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T19:13:04.741Z [INFO] Starting to fetch access token
+2025-01-15T19:13:04.798Z [INFO] Server is running on http://localhost:3000
+2025-01-15T19:13:04.815Z [INFO] Mongoose connected to MongoDB
+2025-01-15T19:13:05.347Z [INFO] Access token fetch script successfull.
+2025-01-15T19:13:05.348Z [INFO] Access Token fetched successfully
+2025-01-15T19:13:05.348Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMjc1ODQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZGM3NTIzNWJiOWI5NDQ4Y2IyZmFlZGRkNDg2Y2Q3NGIifQ.TJOCMUf4uFIpX_wSGAf0BIpy1nu24_1jAcK8EkoXgMJvX8VS7VaLUoCOOIS2C7m_UGSXIcSNIfeAA1-1gSzzNWeuvUEnAc12G9wF4tAjstrbfbb0Yq3HDAFXmNtSQJfKUnA_kfVYJaYNIx6E0n1RK6yRi06S8KmURA20mazzRe9zm62cpImsx1e8FLyvKCDn0QUA5hCX8HRm6t_Tsx27lbVqpCtarXH_G4xkJY3qADGDJh6AIWeHaHVUKEiNBD39zugFnxRTs2tsu0SqYVh9L7tQPQb-S6igCdG6yR8OmVlfhWgkPvWLCwMtPKbTpppuOMncUjLj2sN7v_8opMjdMw
+2025-01-15T19:14:00.365Z [INFO] Starting scheduled cron jobs...
+2025-01-15T19:14:00.373Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T19:14:00.373Z [INFO] [CRON_JOB] Processing job with ID: 6787bed6a3f210d43746f02d
+2025-01-15T19:14:00.375Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:14:00.745Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T19:14:00.745Z [INFO] Fetched VDCs successfully
+2025-01-15T19:14:01.053Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T19:14:01.053Z [INFO] Fetched VDC details successfully
+2025-01-15T19:14:07.840Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T19:14:07.841Z [INFO] Fetched vApp details successfully
+2025-01-15T19:14:07.841Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T19:14:07.878Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T19:14:07.878Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T19:14:07.895Z [INFO] Loaded 641 networks.
+2025-01-15T19:14:07.895Z [INFO] Making requests for 25 VMs.
+2025-01-15T19:14:08.513Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T19:14:08.514Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T19:14:08.514Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T19:14:08.514Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T19:14:08.514Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T19:14:08.514Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T19:14:08.515Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T19:14:08.515Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T19:14:08.515Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T19:14:08.515Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T19:14:08.515Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T19:14:08.516Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T19:14:08.516Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T19:14:08.516Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T19:14:08.516Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T19:14:08.517Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T19:14:08.517Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T19:14:08.517Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T19:14:08.517Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T19:14:08.518Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T19:14:08.518Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T19:14:08.518Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T19:14:08.518Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T19:14:08.518Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T19:14:08.519Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T19:14:08.519Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T19:14:08.519Z [INFO] Fetched VM details successfully
+2025-01-15T19:14:08.525Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T19:14:08.546Z [INFO] [CRON_JOB] Job with ID: 6787bed6a3f210d43746f02d processed successfully.
+2025-01-15T19:14:08.546Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T19:14:08.547Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:14:08.847Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T19:14:08.847Z [INFO] Fetched VDCs successfully
+2025-01-15T19:14:09.185Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T19:14:09.185Z [INFO] Fetched VDC details successfully
+2025-01-15T19:14:12.894Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T19:14:12.895Z [INFO] Fetched vApp details successfully
+2025-01-15T19:14:12.895Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T19:14:12.926Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T19:14:12.926Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T19:14:12.946Z [INFO] Loaded 641 networks.
+2025-01-15T19:14:12.946Z [INFO] Making requests for 25 VMs.
+2025-01-15T19:14:18.065Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T19:14:18.066Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T19:14:18.066Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T19:14:18.066Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T19:14:18.066Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T19:14:18.067Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T19:14:18.067Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T19:14:18.067Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T19:14:18.067Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T19:14:18.067Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T19:14:18.068Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T19:14:18.068Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T19:14:18.068Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T19:14:18.068Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T19:14:18.068Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T19:14:18.069Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T19:14:18.069Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T19:14:18.069Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T19:14:18.069Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T19:14:18.069Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T19:14:18.070Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T19:14:18.070Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T19:14:18.070Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T19:14:18.070Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T19:14:18.071Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T19:14:18.071Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T19:14:18.071Z [INFO] Fetched VM details successfully
+2025-01-15T19:14:18.078Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T19:14:18.087Z [INFO] [CRON_JOB] Job with ID: 6787bedca3f210d43746f030 processed successfully.
+2025-01-15T19:14:18.087Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T19:15:00.991Z [INFO] Starting scheduled cron jobs...
+2025-01-15T19:15:00.998Z [INFO] [CRON_JOB] Found 3 cron job(s). Executing them...
+2025-01-15T19:15:00.998Z [INFO] [CRON_JOB] Processing job with ID: 6787bed6a3f210d43746f02d
+2025-01-15T19:15:00.999Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:15:01.264Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T19:15:01.265Z [INFO] Fetched VDCs successfully
+2025-01-15T19:15:01.513Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T19:15:01.513Z [INFO] Fetched VDC details successfully
+2025-01-15T19:15:11.183Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T19:15:11.183Z [INFO] Fetched vApp details successfully
+2025-01-15T19:15:11.183Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T19:15:11.199Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T19:15:11.199Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T19:15:11.212Z [INFO] Loaded 641 networks.
+2025-01-15T19:15:11.212Z [INFO] Making requests for 25 VMs.
+2025-01-15T19:15:14.871Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T19:15:14.871Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T19:15:14.872Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T19:15:14.872Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T19:15:14.872Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T19:15:14.872Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T19:15:14.872Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T19:15:14.873Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T19:15:14.873Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T19:15:14.873Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T19:15:14.873Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T19:15:14.873Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T19:15:14.873Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T19:15:14.874Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T19:15:14.874Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T19:15:14.874Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T19:15:14.874Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T19:15:14.874Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T19:15:14.875Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T19:15:14.875Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T19:15:14.875Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T19:15:14.875Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T19:15:14.875Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T19:15:14.875Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T19:15:14.876Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T19:15:14.876Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T19:15:14.876Z [INFO] Fetched VM details successfully
+2025-01-15T19:15:14.883Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T19:15:14.890Z [INFO] [CRON_JOB] Job with ID: 6787bed6a3f210d43746f02d processed successfully.
+2025-01-15T19:15:14.891Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T19:15:14.891Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:15:15.136Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T19:15:15.137Z [INFO] Fetched VDCs successfully
+2025-01-15T19:15:15.444Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T19:15:15.444Z [INFO] Fetched VDC details successfully
+2025-01-15T19:15:19.270Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T19:15:19.271Z [INFO] Fetched vApp details successfully
+2025-01-15T19:15:19.271Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T19:15:19.294Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T19:15:19.294Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T19:15:19.309Z [INFO] Loaded 641 networks.
+2025-01-15T19:15:19.310Z [INFO] Making requests for 25 VMs.
+2025-01-15T19:15:20.975Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T19:15:20.976Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T19:15:20.976Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T19:15:20.976Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T19:15:20.976Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T19:15:20.977Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T19:15:20.977Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T19:15:20.977Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T19:15:20.977Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T19:15:20.977Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T19:15:20.978Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T19:15:20.978Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T19:15:20.978Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T19:15:20.978Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T19:15:20.978Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T19:15:20.979Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T19:15:20.979Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T19:15:20.979Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T19:15:20.979Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T19:15:20.980Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T19:15:20.980Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T19:15:20.980Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T19:15:20.980Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T19:15:20.981Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T19:15:20.981Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T19:15:20.981Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T19:15:20.981Z [INFO] Fetched VM details successfully
+2025-01-15T19:15:20.987Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T19:15:20.997Z [INFO] [CRON_JOB] Job with ID: 6787bedca3f210d43746f030 processed successfully.
+2025-01-15T19:15:20.997Z [INFO] [CRON_JOB] Processing job with ID: 678809170d93abe09492e8f9
+2025-01-15T19:15:20.998Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:15:21.211Z [ERROR] Error fetching VDC: Bad request: UUID string too large
+2025-01-15T19:15:21.212Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-15T19:15:21.212Z [ERROR] [CRON_JOB] Error processing job with ID: 678809170d93abe09492e8f9: Failed to fetch VDC.
+2025-01-15T19:15:21.212Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T19:19:07.116Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T19:19:07.119Z [INFO] Starting to fetch access token
+2025-01-15T19:19:07.158Z [INFO] Server is running on http://localhost:3000
+2025-01-15T19:19:07.171Z [INFO] Mongoose connected to MongoDB
+2025-01-15T19:19:07.632Z [INFO] Access token fetch script successfull.
+2025-01-15T19:19:07.633Z [INFO] Access Token fetched successfully
+2025-01-15T19:19:07.633Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMjc5NDcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNzlkNjU2YjlkOWYzNDhjNWFhODE3ZTFlOTlhYzg0NmEifQ.PpvdISUmK6EQfhQLPHPoqV0WctwsWqPhlLTLCDMCWln0cRyVjgOjbZAimZ_nP9xVxKahCJGiSCa51mVBMcBlDrlXsnKQ0WuN7cRlR7_vLrLcmEmqS9GP3d9pGZxVVFF2ec2p2SpwLaN36jaltZAa0DumJ0yuOGzUkL5HO8Jbp8cleMX34gAMZ0NYMBXT4-OfSLBEfKtMZrmidD4BE_TV0Fr3fmrMq_phiyRU0hx9o3HqMELWjchZgjQ_rVg24czmJHFOskGrMxEht9Z8XMxfQ4j995WGns1keraBU0DeOPI50JveZudeAOnF9COZ6UkL-W7612-PFYaG32BLZ6yPCA
+2025-01-15T19:25:00.354Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-15T19:25:00.357Z [INFO] Starting to fetch access token
+2025-01-15T19:25:00.396Z [INFO] Server is running on http://localhost:3000
+2025-01-15T19:25:00.410Z [INFO] Mongoose connected to MongoDB
+2025-01-15T19:25:00.902Z [INFO] Access token fetch script successfull.
+2025-01-15T19:25:00.902Z [INFO] Access Token fetched successfully
+2025-01-15T19:25:00.904Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzcyMjgzMDAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMWU0ZjIzZjkwZDIxNDEyMmIwY2UyZGY1Mjk3ODkwY2YifQ.JHbkO9xHtPoG9VlkRD0M7yOP28zeoIR8pynB8EYR82BWJxE77q7aTZywgbiwdVYEMzf9Zsw-E6LLBefO1QIOMrqe-PqP5SbEBhAiCbPKJrOjPvXG1XPS0jvvbMmpUoslq6bCLR_p0QCcGbpG-9FHV7W8CqTDUoXigtK3HhDMRqL1_M82AkNrNnImkcJ2aG6gePjk7KuiccRrI-ZL_3k_kBJk67xXY4VxMj-4SgfjPYHJ6AOm4WOfvfCGhChrcjXRtxp6_HUeFaEZQQgC7ggZU_jxCKk8jkdZUOVJun5o6xZyil2edTnpcFaCGkzJ1fiAfvgAHSz75qg-DFRvWUATQQ
+2025-01-15T19:25:23.932Z [INFO] Fetching network data...
+2025-01-15T19:25:23.933Z [INFO] Initial request for Edge Gateways started
+2025-01-15T19:25:24.157Z [INFO] Initial request for Edge Gateways done!
+2025-01-15T19:25:24.158Z [INFO] Making 115 edgeGateways requests
+2025-01-15T19:25:30.776Z [INFO] Fetched all Edge Gateways successfully from https://vcloud-ffm-private.t-systems.de.
+2025-01-15T19:25:31.425Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-01-15T19:25:31.493Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-01-15T19:25:31.506Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-01-15T19:25:31.562Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-01-15T19:25:31.651Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-01-15T19:25:31.666Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-01-15T19:25:31.708Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-01-15T19:25:31.740Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-01-15T19:25:31.766Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2025-01-15T19:25:31.788Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-01-15T19:25:31.796Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-01-15T19:25:31.820Z [ERROR] Error fetching NAT rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-01-15T19:25:31.821Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-01-15T19:25:31.831Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-01-15T19:25:31.836Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-01-15T19:25:31.853Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-01-15T19:25:31.854Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2025-01-15T19:25:31.855Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-01-15T19:25:31.871Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-01-15T19:25:31.881Z [ERROR] Error fetching firewall rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-01-15T19:25:31.917Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-01-15T19:25:31.977Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-01-15T19:25:31.982Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-01-15T19:25:32.004Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-01-15T19:25:32.010Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-01-15T19:25:32.035Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-01-15T19:25:32.037Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-01-15T19:25:32.037Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-01-15T19:25:32.067Z [ERROR] Error fetching NAT rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-01-15T19:25:32.090Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-01-15T19:25:32.114Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-01-15T19:25:32.139Z [ERROR] Error fetching firewall rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-01-15T19:25:32.147Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-01-15T19:25:32.267Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-01-15T19:25:32.273Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-01-15T19:25:32.276Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-01-15T19:25:32.311Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-01-15T19:25:32.332Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-01-15T19:25:32.446Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-01-15T19:25:32.485Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-01-15T19:25:32.627Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-01-15T19:25:34.560Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-01-15T19:25:34.613Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-01-15T19:25:34.619Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-01-15T19:25:35.617Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-01-15T19:25:37.600Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-01-15T19:25:37.690Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-01-15T19:25:37.730Z [ERROR] Error fetching NAT rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-01-15T19:25:37.884Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-01-15T19:25:37.885Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-01-15T19:25:37.925Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-01-15T19:25:38.055Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-01-15T19:25:38.892Z [INFO] Fetched all Edge Gateways along with firewall and NAT rules successfully.
+2025-01-15T19:25:38.942Z [INFO] Fetched Edge Gateways data successfully.
+2025-01-15T19:25:38.943Z [INFO] Fetching External networks...
+2025-01-15T19:25:39.154Z [INFO] Initial request done!
+2025-01-15T19:25:39.154Z [INFO] Making 470 externalNetworks requests
+2025-01-15T19:25:49.312Z [INFO] Fetched all externalNetworks successfully.
+2025-01-15T19:25:49.332Z [INFO] Fetched External Networks data successfully.
+2025-01-15T19:25:50.060Z [INFO] Initial request done!
+2025-01-15T19:25:50.061Z [INFO] Making 21 orgVDCNetworks requests
+2025-01-15T19:25:51.324Z [INFO] Fetched all orgVdcNetworks successfully  from https://vcloud-ffm-private.t-systems.de.
+2025-01-15T19:25:51.355Z [INFO] Fetched Org VDC Networks data successfully.
+2025-01-15T19:25:51.360Z [INFO] Network data sent successfully.
+2025-01-15T19:26:00.975Z [INFO] Starting scheduled cron jobs...
+2025-01-15T19:26:00.991Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T19:26:00.992Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T19:26:00.993Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:26:01.263Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T19:26:01.264Z [INFO] Fetched VDCs successfully
+2025-01-15T19:26:01.521Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T19:26:01.521Z [INFO] Fetched VDC details successfully
+2025-01-15T19:26:02.143Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T19:26:02.143Z [INFO] Fetched vApp details successfully
+2025-01-15T19:26:02.143Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T19:26:02.177Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T19:26:02.177Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T19:26:02.190Z [INFO] Loaded 641 networks.
+2025-01-15T19:26:02.191Z [INFO] Making requests for 25 VMs.
+2025-01-15T19:26:04.012Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T19:26:04.012Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T19:26:04.012Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T19:26:04.013Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T19:26:04.013Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T19:26:04.013Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T19:26:04.014Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T19:26:04.014Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T19:26:04.014Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T19:26:04.014Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T19:26:04.015Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T19:26:04.015Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T19:26:04.015Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T19:26:04.016Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T19:26:04.016Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T19:26:04.017Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T19:26:04.017Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T19:26:04.017Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T19:26:04.018Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T19:26:04.018Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T19:26:04.018Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T19:26:04.019Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T19:26:04.019Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T19:26:04.019Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T19:26:04.019Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T19:26:04.020Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T19:26:04.020Z [INFO] Fetched VM details successfully
+2025-01-15T19:26:04.029Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T19:26:04.043Z [INFO] [CRON_JOB] Job with ID: 6787bedca3f210d43746f030 processed successfully.
+2025-01-15T19:26:04.043Z [INFO] [CRON_JOB] Processing job with ID: 678809170d93abe09492e8f9
+2025-01-15T19:26:04.044Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:26:04.226Z [ERROR] Error fetching VDC: Bad request: UUID string too large
+2025-01-15T19:26:04.227Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-15T19:26:04.227Z [ERROR] [CRON_JOB] Error processing job with ID: 678809170d93abe09492e8f9: Failed to fetch VDC.
+2025-01-15T19:26:04.227Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-15T19:27:00.576Z [INFO] Starting scheduled cron jobs...
+2025-01-15T19:27:00.580Z [INFO] [CRON_JOB] Found 2 cron job(s). Executing them...
+2025-01-15T19:27:00.581Z [INFO] [CRON_JOB] Processing job with ID: 6787bedca3f210d43746f030
+2025-01-15T19:27:00.581Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:27:00.870Z [INFO] Fetched VDCs fpr successfully.
+2025-01-15T19:27:00.871Z [INFO] Fetched VDCs successfully
+2025-01-15T19:27:01.129Z [INFO] Fetched VDCs and their vApps successfully.
+2025-01-15T19:27:01.130Z [INFO] Fetched VDC details successfully
+2025-01-15T19:27:02.023Z [INFO] Fetched and filtered vApp details successfully.
+2025-01-15T19:27:02.023Z [INFO] Fetched vApp details successfully
+2025-01-15T19:27:02.023Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-01-15T19:27:02.043Z [INFO] Loaded 115 gateways with rules.
+2025-01-15T19:27:02.043Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-01-15T19:27:02.053Z [INFO] Loaded 641 networks.
+2025-01-15T19:27:02.053Z [INFO] Making requests for 25 VMs.
+2025-01-15T19:27:03.625Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-01-15T19:27:03.625Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-01-15T19:27:03.625Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-01-15T19:27:03.626Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-01-15T19:27:03.626Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-01-15T19:27:03.626Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-01-15T19:27:03.626Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-01-15T19:27:03.626Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-01-15T19:27:03.627Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-01-15T19:27:03.627Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-01-15T19:27:03.627Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-01-15T19:27:03.627Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-01-15T19:27:03.627Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-01-15T19:27:03.628Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-01-15T19:27:03.628Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-01-15T19:27:03.628Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-01-15T19:27:03.628Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-01-15T19:27:03.628Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-01-15T19:27:03.629Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-01-15T19:27:03.629Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-01-15T19:27:03.629Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-01-15T19:27:03.629Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-01-15T19:27:03.629Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-01-15T19:27:03.629Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-01-15T19:27:03.630Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-01-15T19:27:03.630Z [INFO] Fetched and updated all VM details successfully.
+2025-01-15T19:27:03.630Z [INFO] Fetched VM details successfully
+2025-01-15T19:27:03.639Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-01-15T19:27:03.649Z [INFO] [CRON_JOB] Job with ID: 6787bedca3f210d43746f030 processed successfully.
+2025-01-15T19:27:03.649Z [INFO] [CRON_JOB] Processing job with ID: 678809170d93abe09492e8f9
+2025-01-15T19:27:03.650Z [INFO] Fetching topology for specified orgs
+2025-01-15T19:27:03.900Z [ERROR] Error fetching VDC: Bad request: UUID string too large
+2025-01-15T19:27:03.901Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-15T19:27:03.901Z [ERROR] [CRON_JOB] Error processing job with ID: 678809170d93abe09492e8f9: Failed to fetch VDC.
+2025-01-15T19:27:03.901Z [INFO] [CRON_JOB] All jobs processed successfully.

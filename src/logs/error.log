@@ -287,3 +287,100 @@
 2025-01-14T11:07:49.559Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
 2025-01-14T11:10:00.503Z [ERROR] Error fetching access token:
 2025-01-14T11:10:00.504Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-14T13:29:40.416Z [ERROR] Error fetching jobs: Cannot read properties of undefined (reading 'id')
+2025-01-14T13:30:53.315Z [ERROR] Error fetching access token:
+2025-01-14T13:30:53.315Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-15T11:42:17.287Z [ERROR] Error fetching jobs: Cannot read properties of undefined (reading 'id')
+2025-01-15T11:47:01.127Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:50:01.445Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:50:11.459Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:50:21.499Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:51:01.411Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:51:31.478Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:52:00.678Z [ERROR] [CRON_JOB] Error processing job testorg: req is not defined
+2025-01-15T11:52:00.709Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:52:30.872Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T11:52:30.901Z [ERROR] [CRON_JOB] Error processing job testorg: req is not defined
+2025-01-15T11:54:30.810Z [ERROR] [CRON_JOB] Error processing job testorg: req is not defined
+2025-01-15T11:54:30.865Z [ERROR] [CRON_JOB] Error processing job hopa2: req is not defined
+2025-01-15T13:40:53.524Z [ERROR] Error adding cron job: jwt is not defined
+2025-01-15T13:41:30.578Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:42:00.792Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:44:30.127Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:45:00.325Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:45:30.490Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:46:00.712Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:46:30.929Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:47:00.133Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:47:30.311Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:48:00.494Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:50:00.363Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:50:10.421Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:54:00.198Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:54:50.414Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:55:40.666Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bb09bd7e70499e7b9166: Invalid or missing 'orgs' array.
+2025-01-15T13:57:50.826Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bed6a3f210d43746f02d: Invalid or missing 'orgs' array.
+2025-01-15T13:57:50.827Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bedca3f210d43746f030: Invalid or missing 'orgs' array.
+2025-01-15T13:58:00.892Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bed6a3f210d43746f02d: Invalid or missing 'orgs' array.
+2025-01-15T13:58:00.892Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bedca3f210d43746f030: Invalid or missing 'orgs' array.
+2025-01-15T19:15:21.211Z [ERROR] Error fetching VDC: Bad request: UUID string too large
+2025-01-15T19:15:21.212Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-15T19:15:21.212Z [ERROR] [CRON_JOB] Error processing job with ID: 678809170d93abe09492e8f9: Failed to fetch VDC.
+2025-01-15T19:25:31.425Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-01-15T19:25:31.493Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-01-15T19:25:31.506Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-01-15T19:25:31.562Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-01-15T19:25:31.651Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-01-15T19:25:31.666Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-01-15T19:25:31.708Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-01-15T19:25:31.740Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-01-15T19:25:31.766Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2025-01-15T19:25:31.788Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-01-15T19:25:31.796Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-01-15T19:25:31.820Z [ERROR] Error fetching NAT rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-01-15T19:25:31.821Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-01-15T19:25:31.831Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-01-15T19:25:31.836Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-01-15T19:25:31.853Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-01-15T19:25:31.854Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2025-01-15T19:25:31.855Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-01-15T19:25:31.871Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-01-15T19:25:31.881Z [ERROR] Error fetching firewall rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-01-15T19:25:31.917Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-01-15T19:25:31.977Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-01-15T19:25:31.982Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-01-15T19:25:32.004Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-01-15T19:25:32.010Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-01-15T19:25:32.035Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-01-15T19:25:32.037Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-01-15T19:25:32.037Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-01-15T19:25:32.067Z [ERROR] Error fetching NAT rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-01-15T19:25:32.090Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-01-15T19:25:32.114Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-01-15T19:25:32.139Z [ERROR] Error fetching firewall rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-01-15T19:25:32.147Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-01-15T19:25:32.267Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-01-15T19:25:32.273Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-01-15T19:25:32.276Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-01-15T19:25:32.311Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-01-15T19:25:32.332Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-01-15T19:25:32.446Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-01-15T19:25:32.485Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-01-15T19:25:32.627Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-01-15T19:25:34.560Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-01-15T19:25:34.613Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-01-15T19:25:34.619Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-01-15T19:25:35.617Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-01-15T19:25:37.600Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-01-15T19:25:37.690Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-01-15T19:25:37.730Z [ERROR] Error fetching NAT rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-01-15T19:25:37.884Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-01-15T19:25:37.885Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-01-15T19:25:37.925Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-01-15T19:25:38.055Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-01-15T19:26:04.226Z [ERROR] Error fetching VDC: Bad request: UUID string too large
+2025-01-15T19:26:04.227Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-15T19:26:04.227Z [ERROR] [CRON_JOB] Error processing job with ID: 678809170d93abe09492e8f9: Failed to fetch VDC.
+2025-01-15T19:27:03.900Z [ERROR] Error fetching VDC: Bad request: UUID string too large
+2025-01-15T19:27:03.901Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-15T19:27:03.901Z [ERROR] [CRON_JOB] Error processing job with ID: 678809170d93abe09492e8f9: Failed to fetch VDC.
