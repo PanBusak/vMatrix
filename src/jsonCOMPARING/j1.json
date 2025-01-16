@@ -1,0 +1,13 @@
+{
+  "name": "John Doe",
+  "age": 31,
+ 
+  "preferences": {
+    "newsletter": false,
+    "notifications": {
+      "email": true,
+      "sms": true
+    }
+  },
+  "tags": ["developer", "gamer"]
+}

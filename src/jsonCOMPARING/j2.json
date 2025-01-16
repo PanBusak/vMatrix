@@ -1,0 +1,17 @@
+{
+  "name": "John Doe",
+  "age": 32,
+  "address": {
+    "city": "New York",
+    "zip": "20002",
+    "street": "5th Avenue"
+  },
+  "preferences": {
+    "newsletter": false,
+    "notifications": {
+      "email": true,
+      "sms": true
+    }
+  },
+  "tags": ["developer", "gamer"]
+}
