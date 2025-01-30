@@ -384,3 +384,40 @@
 2025-01-15T19:27:03.900Z [ERROR] Error fetching VDC: Bad request: UUID string too large
 2025-01-15T19:27:03.901Z [ERROR] Error processing topology: Failed to fetch VDC.
 2025-01-15T19:27:03.901Z [ERROR] [CRON_JOB] Error processing job with ID: 678809170d93abe09492e8f9: Failed to fetch VDC.
+2025-01-29T19:14:55.186Z [ERROR] Error fetching access token:
+2025-01-29T19:14:55.188Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-29T19:15:21.434Z [ERROR] Error fetching VDC:
+2025-01-29T19:15:21.434Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T19:15:21.435Z [ERROR] [CRON_JOB] Error processing job with ID: 6787bedca3f210d43746f030: Failed to fetch VDC.
+2025-01-29T19:15:42.475Z [ERROR] Error fetching VDC:
+2025-01-29T19:15:42.475Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T19:15:42.476Z [ERROR] [CRON_JOB] Error processing job with ID: 678809170d93abe09492e8f9: Failed to fetch VDC.
+2025-01-29T19:22:49.989Z [ERROR] Error fetching access token:
+2025-01-29T19:22:49.990Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-29T19:38:10.863Z [ERROR] Error fetching access token:
+2025-01-29T19:38:10.864Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-29T21:00:21.362Z [ERROR] Error fetching VDC:
+2025-01-29T21:00:21.363Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T21:00:21.363Z [ERROR] [CRON_JOB] Error processing job with ID: 679a969770f8109e6378963e: Failed to fetch VDC.
+2025-01-29T21:01:21.932Z [ERROR] Error fetching VDC:
+2025-01-29T21:01:21.933Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T21:01:21.933Z [ERROR] [CRON_JOB] Error processing job with ID: 679a969770f8109e6378963e: Failed to fetch VDC.
+2025-01-29T21:02:04.216Z [ERROR] Error deleting job with ID undefined: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "TopologyJobs"
+2025-01-29T21:02:07.977Z [ERROR] Error deleting job with ID undefined: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "TopologyJobs"
+2025-01-29T21:02:21.494Z [ERROR] Error fetching VDC:
+2025-01-29T21:02:21.494Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T21:02:21.494Z [ERROR] [CRON_JOB] Error processing job with ID: 679a969770f8109e6378963e: Failed to fetch VDC.
+2025-01-29T21:02:42.535Z [ERROR] Error fetching VDC:
+2025-01-29T21:02:42.536Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T21:02:42.536Z [ERROR] [CRON_JOB] Error processing job with ID: 679a973570f8109e63789659: Failed to fetch VDC.
+2025-01-29T21:06:21.889Z [ERROR] Error fetching VDC:
+2025-01-29T21:06:21.890Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T21:06:21.890Z [ERROR] [CRON_JOB] Error processing job with ID: 679a983670f8109e6378966a: Failed to fetch VDC.
+2025-01-29T21:07:21.480Z [ERROR] Error fetching VDC:
+2025-01-29T21:07:21.481Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T21:07:21.481Z [ERROR] [CRON_JOB] Error processing job with ID: 679a983670f8109e6378966a: Failed to fetch VDC.
+2025-01-29T21:08:22.062Z [ERROR] Error fetching VDC:
+2025-01-29T21:08:22.063Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-29T21:08:22.063Z [ERROR] [CRON_JOB] Error processing job with ID: 679a983670f8109e6378966a: Failed to fetch VDC.
+2025-01-29T21:12:08.930Z [ERROR] Error fetching organizations:
+2025-01-29T21:12:08.931Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.

@@ -19,6 +19,19 @@ router.get('/',  async (req, res) => {
   }
 });
 
+router.get('/me', async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id, 'username'); // Fetch username using user ID
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+    res.json({ username: user.username }); // Return username
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Failed to retrieve session', error: error.message });
+  }
+});
+
 // Update session state (dark mode)
 router.post('/',  async (req, res) => {
   const { darkMode } = req.body;

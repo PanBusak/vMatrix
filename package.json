@@ -1,6 +1,14 @@
 {
   "name": "vmatrix",
   "version": "1.0.0",
+
+
+
+  
+
+
+
+
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,6 +26,7 @@
     "deep-diff": "^1.0.2",
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
+    "jsondiffpatch": "^0.6.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.0",
     "node-cron": "^3.0.3",

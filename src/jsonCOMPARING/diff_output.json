@@ -1,0 +1,38 @@
+[
+  {
+    "type": "unchanged",
+    "content": "{\n  \"name\": \""
+  },
+  {
+    "type": "removed",
+    "content": "jebo"
+  },
+  {
+    "type": "added",
+    "content": "John Doe"
+  },
+  {
+    "type": "unchanged",
+    "content": "\",\n  \"age\":"
+  },
+  {
+    "type": "removed",
+    "content": "0"
+  },
+  {
+    "type": "added",
+    "content": "32"
+  },
+  {
+    "type": "unchanged",
+    "content": ",\n  \"address\": {\n    \"city\": \"New York\",\n    \"zip\": \"10002\",\n    \"street\": \"5th Avenue\"\n  },\n  \"preferences\": {\n    \"newsletter\": false,\n    \"notifications\": {\n      \"email\": true,\n      \"sms\": true"
+  },
+  {
+    "type": "removed",
+    "content": ",\n      \"xy\": \"ano\""
+  },
+  {
+    "type": "unchanged",
+    "content": "}\n  },\n  \"tags\": [\n    \"developer\",\n    \"gamer\"\n  ]\n}"
+  }
+]
