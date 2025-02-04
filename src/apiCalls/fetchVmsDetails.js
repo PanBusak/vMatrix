@@ -18,7 +18,8 @@ async function loadLatestGateways() {
       gatewayDetails = latestGatewayRecord.data.map(gateway => ({
         edgeGatewayName: gateway.name,
         firewallRules: gateway.firewallRules || [],
-        natRules: gateway.natRules || []
+        natRules: gateway.natRules || [],
+        routeAdvertisement: [] || []
       }));
       logger.info(`Loaded ${gatewayDetails.length} gateways with rules.`);
     } else {
@@ -29,7 +30,7 @@ async function loadLatestGateways() {
   }
 }
 
-// Load OrgVdcNetworks and map networks to edgeGateways
+
 async function loadLatestOrgVdcNetworks() {
   try {
     logger.info('Fetching the latest OrgVdcNetworks data from MongoDB...');

@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fileUtils = require('../utils/fileUtils');
 const config = require('../config');
-const logger = require('../logger'); // Assuming you have a Winston logger set up
+const logger = require('../logger');
 
 async function fetchAllEdgeGateways() {
   try {
@@ -22,7 +22,6 @@ async function fetchAllEdgeGateways() {
 
     logger.info(`Making ${pageCount} edgeGateways requests`);
 
-    // Generate an array of requests for each page
     const gatewayRequests = Array.from({ length: pageCount }, (_, i) => {
       const url = `${config.apiUrl}/cloudapi/1.0.0/edgeGateways?pageSize=32&page=${i + 1}`;
       return axios({
@@ -35,10 +34,8 @@ async function fetchAllEdgeGateways() {
       });
     });
 
-    // Fetch all pages concurrently
     const responses = await axios.all(gatewayRequests);
 
-    // Extract and combine data from each page
     const allEdgeGateways = responses.flatMap(response =>
       response.data.values.map(gateway => ({
         id: gateway.id,
@@ -63,56 +60,65 @@ async function fetchAllEdgeGateways() {
           type: iface.type,
           subnet: iface.subnet
         })) || [],
-        firewallRules: [], // Placeholder for firewall rules
-        natRules: []       // Placeholder for NAT rules
+        firewallRules: [],
+        natRules: [],
+        routeAdvertisement: []
       }))
     );
 
     logger.info(`Fetched all Edge Gateways successfully from ${config.apiUrl}.`);
 
-    // Fetch firewall rules and NAT rules for each gateway
-    const rulesRequests = allEdgeGateways.map(gateway => {
+    const rulesRequests = allEdgeGateways.map(async (gateway) => {
       const firewallRequestUrl = `${config.apiUrl}/cloudapi/2.0.0/edgeGateways/${gateway.id}/firewall/rules`;
       const natRequestUrl = `${config.apiUrl}/cloudapi/2.0.0/edgeGateways/${gateway.id}/nat/rules`;
+      const routeAdvertisementUrl = `${config.apiUrl}/cloudapi/1.0.0/edgeGateways/${gateway.id}/routing/advertisement`;
+      
+https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/edgeGateways/urn:vcloud:gateway:630e1fc9-4c28-4bc4-abea-a21270047d54/routing/advertisement
 
-      // Firewall rules request
-      const firewallRequest = axios.get(firewallRequestUrl, {
-        headers: {
-          'Accept': 'application/json;version=39.0.0-alpha',
-          'Authorization': `Bearer ${config.accessToken}`
-        }
-      }).then(response => {
-        gateway.firewallRules = response.data.userDefinedRules || [];
-      }).catch(error => {
+      try {
+        const firewallResponse = await axios.get(firewallRequestUrl, {
+          headers: {
+            'Accept': 'application/json;version=39.0.0-alpha',
+            'Authorization': `Bearer ${config.accessToken}`
+          }
+        });
+        gateway.firewallRules = firewallResponse.data.userDefinedRules || [];
+      } catch (error) {
         logger.error(`Error fetching firewall rules for gateway ${gateway.name}: ${error.message}`);
-        gateway.firewallRules = []; // Default to empty rules
-      });
+        gateway.firewallRules = [];
+      }
 
-      // NAT rules request
-      const natRequest = axios.get(natRequestUrl, {
-        headers: {
-          'Accept': 'application/json;version=39.0.0-alpha',
-          'Authorization': `Bearer ${config.accessToken}`
-        }
-      }).then(response => {
-        gateway.natRules = response.data.values || [];
-      }).catch(error => {
+      try {
+        const natResponse = await axios.get(natRequestUrl, {
+          headers: {
+            'Accept': 'application/json;version=39.0.0-alpha',
+            'Authorization': `Bearer ${config.accessToken}`
+          }
+        });
+        gateway.natRules = natResponse.data.values || [];
+      } catch (error) {
         logger.error(`Error fetching NAT rules for gateway ${gateway.name}: ${error.message}`);
-        gateway.natRules = []; // Default to empty rules
-      });
+        gateway.natRules = [];
+      }
 
-      return { firewallRequest, natRequest };
+      try {
+        const advertisementResponse = await axios.get(routeAdvertisementUrl, {
+          headers: {
+            'Accept': 'application/json;version=39.0.0-alpha',
+            'Authorization': `Bearer ${config.accessToken}`
+          }
+        });
+        gateway.routeAdvertisement = advertisementResponse.data || [];
+      } catch (error) {
+        logger.error(`Error fetching route advertisement for gateway ${gateway.name}: ${error.message}`);
+        gateway.routeAdvertisement = [];
+      }
     });
 
-    // Wait for all firewall and NAT rules requests to complete
-    const allFirewallRequests = rulesRequests.map(req => req.firewallRequest);
-    const allNatRequests = rulesRequests.map(req => req.natRequest);
+    await Promise.all(rulesRequests);
 
-    await Promise.all([...allFirewallRequests, ...allNatRequests]);
-
-    // Save the combined data to a file
     fileUtils.saveToFile(allEdgeGateways, 'AllEdgeGatewaysWithFirewallAndNat.json');
-    logger.info('Fetched all Edge Gateways along with firewall and NAT rules successfully.');
+    logger.info('Fetched all Edge Gateways along with firewall, NAT rules, and route advertisement successfully.');
 
     return allEdgeGateways;
   } catch (error) {

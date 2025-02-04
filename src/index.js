@@ -12,7 +12,7 @@ const authRouter = require("./authRoutes");
 const sessionRoutes = require("./session");
 const authMiddleware = require('./auth');
 const TopologyJob = require("./data/schemas/Topologyjob_Schema");
-
+const userRoutes = require("./userRoutes")
 // Schemas
 const OrgsVdcVm = require("./data/schemas/OrgsVdcVm_Schema");
 
@@ -73,6 +73,7 @@ app.use(cookieParser());
 app.use('/auth', authRouter);
 app.use('/api/cron', authMiddleware,cronRoutes);
 app.use('/session',authMiddleware ,sessionRoutes);
+app.use('/api/user',authMiddleware,userRoutes)
 //*********Cron jobs service *********/
 
 const processTopology = async (orgDetailArray, username) => {
@@ -171,22 +172,40 @@ if(1 == 1) {
 
 app.get('/api/orgs', authMiddleware, async (req, res) => {
   try {
-    const orgs = await fetchOrganizations();
-    logger.info(`Fetched organizations successfully from IP: ${req.ipAddress}`);
+    // Nájdeme používateľa podľa ID
+    const user = await User.findById(req.user.id);
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    let allowedOrgs;
+
+    if (user.role === "admin") {
+      // Ak je admin, načíta všetky organizácie
+      allowedOrgs = await fetchOrganizations();
+    } else {
+      // Inak načíta len povolené organizácie
+      allowedOrgs = user.allowed_Orgs;
+    }
+
     res.json({
-      id: req.user.id, 
-      username: req.user.username, 
-      data: orgs
+      id: user.id,
+      username: user.username,
+      allowed_Orgs: allowedOrgs
     });
+
+    logger.info(`Fetched organizations for user ${user.username} from IP: ${req.ipAddress}`);
+
   } catch (error) {
-    logger.error(`Error fetching organizations from IP ${req.ipAddress}: ${error.message}`);
+    logger.error(`Error fetching user organizations from IP ${req.ipAddress}: ${error.message}`);
     res.status(500).json({ 
       id: req.user.id,
-      username: req.user.username, 
+      username: req.user.username,
       error: 'Failed to fetch organizations' 
     });
   }
 });
+
 
 
 

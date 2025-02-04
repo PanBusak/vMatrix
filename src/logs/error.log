@@ -421,3 +421,278 @@
 2025-01-29T21:08:22.063Z [ERROR] [CRON_JOB] Error processing job with ID: 679a983670f8109e6378966a: Failed to fetch VDC.
 2025-01-29T21:12:08.930Z [ERROR] Error fetching organizations:
 2025-01-29T21:12:08.931Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T10:59:54.239Z [ERROR] Error fetching access token:
+2025-01-30T10:59:54.240Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-30T11:00:21.470Z [ERROR] Error fetching VDC:
+2025-01-30T11:00:21.471Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-30T11:00:21.471Z [ERROR] [CRON_JOB] Error processing job with ID: 679b39d3dd4d652bd2d7745e: Failed to fetch VDC.
+2025-01-30T11:16:02.459Z [ERROR] Error fetching access token:
+2025-01-30T11:16:02.460Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-30T11:50:29.785Z [ERROR] Error fetching organizations:
+2025-01-30T11:50:29.785Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T11:53:17.238Z [ERROR] Error fetching access token:
+2025-01-30T11:53:17.239Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-30T12:55:45.565Z [ERROR] Error fetching organizations: [ 03311015-6411-4d27-b30d-87452b723de4 ] This operation is denied.
+2025-01-30T12:55:45.565Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:55:45.749Z [ERROR] Error fetching organizations: [ c0306159-2039-427c-b0d8-9d3f03d38086 ] This operation is denied.
+2025-01-30T12:55:45.749Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:57:27.723Z [ERROR] Error fetching organizations: [ 047a39a4-8ef7-4eb4-8a67-370f219a2703 ] This operation is denied.
+2025-01-30T12:57:27.724Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:57:27.922Z [ERROR] Error fetching organizations: [ c213af35-a399-488a-80cf-b0044e8c1cc3 ] This operation is denied.
+2025-01-30T12:57:27.923Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:58:47.728Z [ERROR] Error fetching organizations: [ cff4c33c-655f-40f7-b259-82d128aa86a8 ] This operation is denied.
+2025-01-30T12:58:47.728Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:58:47.909Z [ERROR] Error fetching organizations: [ 5e2f20d7-f250-4b8c-a8e4-5644b6a1482e ] This operation is denied.
+2025-01-30T12:58:47.910Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:58:54.637Z [ERROR] Error fetching organizations: [ 95778e2e-8655-4d6d-a745-185bc67111a0 ] This operation is denied.
+2025-01-30T12:58:54.638Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:58:54.820Z [ERROR] Error fetching organizations: [ b0c24fc1-57b5-4845-82ee-76c5045dc3b8 ] This operation is denied.
+2025-01-30T12:58:54.821Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:30.318Z [ERROR] Error fetching organizations: [ 3d3541b5-e9be-4772-9a0a-a53bafcc8e2c ] This operation is denied.
+2025-01-30T12:59:30.319Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:30.516Z [ERROR] Error fetching organizations: [ 362f5ac1-31d5-4450-bc6c-d7c4ac1eb70f ] This operation is denied.
+2025-01-30T12:59:30.516Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:34.786Z [ERROR] Error fetching organizations: [ 51e9798d-6c25-4043-8417-a5a1136f1c0f ] This operation is denied.
+2025-01-30T12:59:34.786Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:34.971Z [ERROR] Error fetching organizations: [ f2387518-beaa-4f1d-9ee0-21f6e54399a1 ] This operation is denied.
+2025-01-30T12:59:34.972Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:37.577Z [ERROR] Error fetching organizations: [ b4434de0-80f9-4ca8-bcb2-7137b6b12acd ] This operation is denied.
+2025-01-30T12:59:37.578Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:37.764Z [ERROR] Error fetching organizations: [ 0e0d3e86-ff29-48b9-988e-b309448b6554 ] This operation is denied.
+2025-01-30T12:59:37.765Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:52.835Z [ERROR] Error fetching organizations: [ 1cc1d8ed-9cea-4b9f-b841-db247f420207 ] This operation is denied.
+2025-01-30T12:59:52.836Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:53.020Z [ERROR] Error fetching organizations: [ 8fab27dd-8021-41bb-9497-492a51c50ccb ] This operation is denied.
+2025-01-30T12:59:53.021Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-02-04T08:42:52.565Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:42:52.579Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:42:52.597Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:42:52.599Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:42:52.607Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:42:52.633Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:42:52.652Z [ERROR] Error fetching firewall rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:42:52.700Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:42:52.708Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:42:52.719Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:42:52.736Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:42:52.769Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:42:52.819Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:42:52.834Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:42:52.840Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:42:52.912Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:42:52.915Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:42:52.920Z [ERROR] Error fetching NAT rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:42:52.924Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:42:52.931Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:42:52.952Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:42:52.954Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:42:52.956Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.007Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:42:53.019Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:42:53.059Z [ERROR] Error fetching NAT rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.076Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:42:53.084Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:42:53.088Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:42:53.091Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:42:53.094Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:42:53.125Z [ERROR] Error fetching firewall rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:42:53.176Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:42:53.195Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:42:53.208Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:42:53.211Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 404
+2025-02-04T08:42:53.217Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.242Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.258Z [ERROR] Error fetching route advertisement for gateway com-a-dpdhl-02-gw01: Request failed with status code 404
+2025-02-04T08:42:53.270Z [ERROR] Error fetching route advertisement for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 404
+2025-02-04T08:42:53.326Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 404
+2025-02-04T08:42:53.327Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:42:53.337Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 404
+2025-02-04T08:42:53.346Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 404
+2025-02-04T08:42:53.349Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:42:53.352Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 404
+2025-02-04T08:42:53.362Z [ERROR] Error fetching route advertisement for gateway com-b-dpdhl-02-gw01: Request failed with status code 404
+2025-02-04T08:42:53.381Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 404
+2025-02-04T08:42:53.382Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 404
+2025-02-04T08:42:53.392Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:42:53.479Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 404
+2025-02-04T08:42:53.506Z [ERROR] Error fetching NAT rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:42:53.514Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 404
+2025-02-04T08:42:53.528Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 404
+2025-02-04T08:42:53.552Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.555Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 404
+2025-02-04T08:42:53.607Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 404
+2025-02-04T08:42:53.620Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 404
+2025-02-04T08:42:53.629Z [ERROR] Error fetching route advertisement for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 404
+2025-02-04T08:42:53.671Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 404
+2025-02-04T08:42:53.676Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 404
+2025-02-04T08:42:53.733Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:42:53.767Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 404
+2025-02-04T08:42:53.783Z [ERROR] Error fetching route advertisement for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 404
+2025-02-04T08:42:53.970Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:42:54.223Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 404
+2025-02-04T08:42:54.769Z [ERROR] Error fetching route advertisement for gateway com-a-ips_1000035712-01-gw05: Request failed with status code 404
+2025-02-04T08:42:55.566Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:42:55.569Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:42:55.572Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:42:55.808Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:42:55.812Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:42:55.817Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:42:56.045Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 404
+2025-02-04T08:42:56.078Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 404
+2025-02-04T08:42:56.080Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 404
+2025-02-04T08:42:56.319Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw04-v2t: Request failed with status code 404
+2025-02-04T08:42:56.329Z [ERROR] Error fetching route advertisement for gateway mdolnik-assignment: Request failed with status code 404
+2025-02-04T08:42:56.331Z [ERROR] Error fetching route advertisement for gateway session_count: Request failed with status code 404
+2025-02-04T08:42:56.357Z [ERROR] Error fetching route advertisement for gateway sr-test-2: Request failed with status code 404
+2025-02-04T08:42:56.362Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw07: Request failed with status code 404
+2025-02-04T08:42:56.366Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw01: Request failed with status code 404
+2025-02-04T08:42:56.374Z [ERROR] Error fetching route advertisement for gateway test-edge: Request failed with status code 404
+2025-02-04T08:42:56.376Z [ERROR] Error fetching route advertisement for gateway test-4: Request failed with status code 404
+2025-02-04T08:42:56.385Z [ERROR] Error fetching route advertisement for gateway test: Request failed with status code 404
+2025-02-04T08:42:56.405Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000035340-01-gw02: Request failed with status code 404
+2025-02-04T08:42:56.406Z [ERROR] Error fetching route advertisement for gateway com-a-tcs_1000042743-01-gw02: Request failed with status code 404
+2025-02-04T08:42:56.429Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw05: Request failed with status code 404
+2025-02-04T08:42:56.435Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000078106-01-gw01: Request failed with status code 404
+2025-02-04T08:42:56.455Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw07-v2t: Request failed with status code 404
+2025-02-04T08:42:56.488Z [ERROR] Error fetching route advertisement for gateway com-a-testorg-02-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.090Z [ERROR] Error fetching route advertisement for gateway ffm-splitup-test: Request failed with status code 404
+2025-02-04T08:42:57.153Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw06: Request failed with status code 404
+2025-02-04T08:42:57.156Z [ERROR] Error fetching route advertisement for gateway com-a-testcustomer-02-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.172Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw13-v2t: Request failed with status code 404
+2025-02-04T08:42:57.198Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw03: Request failed with status code 404
+2025-02-04T08:42:57.201Z [ERROR] Error fetching route advertisement for gateway dc-b-splitup-edge-test: Request failed with status code 404
+2025-02-04T08:42:57.230Z [ERROR] Error fetching route advertisement for gateway bas-a-testcustomer-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.259Z [ERROR] Error fetching route advertisement for gateway com-a-bri_1000041101-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.272Z [ERROR] Error fetching route advertisement for gateway com-a-sol_1000034386-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.286Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042338-02-gw02: Request failed with status code 404
+2025-02-04T08:42:57.317Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw04: Request failed with status code 404
+2025-02-04T08:42:57.356Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw03: Request failed with status code 404
+2025-02-04T08:42:57.377Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw11-v2t: Request failed with status code 404
+2025-02-04T08:42:57.402Z [ERROR] Error fetching route advertisement for gateway com-a-sol_1000034386-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.430Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw12-v2t: Request failed with status code 404
+2025-02-04T08:42:57.439Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw05: Request failed with status code 404
+2025-02-04T08:42:57.450Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw06: Request failed with status code 404
+2025-02-04T08:42:57.471Z [ERROR] Error fetching route advertisement for gateway com-b-tsf_1000037204-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.472Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw05: Request failed with status code 404
+2025-02-04T08:42:57.511Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw05: Request failed with status code 404
+2025-02-04T08:42:57.515Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw04: Request failed with status code 404
+2025-02-04T08:42:57.536Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042338-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.540Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.542Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000035340-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.554Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw14-v2t: Request failed with status code 404
+2025-02-04T08:42:57.559Z [ERROR] Error fetching route advertisement for gateway com-a-tea_1000031003-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.561Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-02-gw01-v2t: Request failed with status code 404
+2025-02-04T08:42:57.589Z [ERROR] Error fetching route advertisement for gateway com-a-dt-dorma-01-gw-02: Request failed with status code 404
+2025-02-04T08:42:57.593Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw05: Request failed with status code 404
+2025-02-04T08:42:57.594Z [ERROR] Error fetching route advertisement for gateway com-a-dt-dorma-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.616Z [ERROR] Error fetching route advertisement for gateway com-b-ips_1000035712-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.617Z [ERROR] Error fetching route advertisement for gateway com-a-tea_1000031003-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.620Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw06: Request failed with status code 404
+2025-02-04T08:42:57.625Z [ERROR] Error fetching route advertisement for gateway mgmt_a_internet: Request failed with status code 404
+2025-02-04T08:42:57.629Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.637Z [ERROR] Error fetching route advertisement for gateway com-a-tsi-ga-dtag-prod-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.639Z [ERROR] Error fetching route advertisement for gateway com-b-tsr_1000042730-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.642Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw06-v2t: Request failed with status code 404
+2025-02-04T08:42:57.657Z [ERROR] Error fetching route advertisement for gateway com-a-tnd_1000026409-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.660Z [ERROR] Error fetching route advertisement for gateway com-b-tsr_1000035400-03-gw01: Request failed with status code 404
+2025-02-04T08:42:57.667Z [ERROR] Error fetching route advertisement for gateway com-b-tcs_1000042743-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.673Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw01: Request failed with status code 404
+2025-02-04T08:42:57.678Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw02: Request failed with status code 404
+2025-02-04T08:42:57.685Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw04: Request failed with status code 404
+2025-02-04T08:42:57.696Z [ERROR] Error fetching route advertisement for gateway com-a-tcs_1000042743-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.699Z [ERROR] Error fetching route advertisement for gateway com-a-dps-os-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.721Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.723Z [ERROR] Error fetching route advertisement for gateway bas-a-t00_1000033029-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.724Z [ERROR] Error fetching route advertisement for gateway com-a-tea_1000031003-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.731Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.737Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw04: Request failed with status code 404
+2025-02-04T08:42:57.745Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw09: Request failed with status code 404
+2025-02-04T08:42:57.746Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.748Z [ERROR] Error fetching route advertisement for gateway mgmt_b_internet: Request failed with status code 404
+2025-02-04T08:42:57.760Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw02: Request failed with status code 404
+2025-02-04T08:42:57.775Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.786Z [ERROR] Error fetching route advertisement for gateway com-a-heineken-hh3-mig-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.835Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw08: Request failed with status code 404
+2025-02-04T08:42:57.857Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000035400-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.872Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.876Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw06: Request failed with status code 404
+2025-02-04T08:42:57.889Z [ERROR] Error fetching route advertisement for gateway bas-b-testorg-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.891Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw04: Request failed with status code 404
+2025-02-04T08:42:57.903Z [ERROR] Error fetching route advertisement for gateway com-a-tsf_1000037204-01-gw01: Request failed with status code 404
+2025-02-04T08:42:58.031Z [ERROR] Error fetching route advertisement for gateway com-a-ips_1000035712-01-gw02: Request failed with status code 404
+2025-02-04T08:42:58.142Z [ERROR] Error fetching route advertisement for gateway com-a-tsi-ga-dtag-prod-01-gw-02: Request failed with status code 404
+2025-02-04T08:43:42.539Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:43:42.551Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:43:42.587Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:42.616Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:42.624Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:43:42.637Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:43:42.640Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.642Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.643Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:43:42.664Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:43:42.667Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:42.689Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.712Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:43:42.717Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:42.736Z [ERROR] Error fetching firewall rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:42.741Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.765Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:42.791Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:43:42.811Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:43:42.814Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:42.821Z [ERROR] Error fetching NAT rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:43:42.825Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:42.835Z [ERROR] Error fetching firewall rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:43:42.857Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:42.864Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:43:42.869Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:43:42.871Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:43:42.873Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:43:42.875Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:43:42.889Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:42.892Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:43:42.921Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.935Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:42.945Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.957Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:43:42.962Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:43:42.970Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:42.980Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.019Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.021Z [ERROR] Error fetching NAT rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.044Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.046Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:43.055Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:43:43.062Z [ERROR] Error fetching route advertisement for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:43:43.083Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.085Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.122Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:43:43.132Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:43:43.133Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:43.140Z [ERROR] Error fetching NAT rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:43:43.141Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:43:43.157Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:43.159Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:43:43.171Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:43:43.203Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:43:43.225Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.226Z [ERROR] Error fetching route advertisement for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.227Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.232Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.243Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:43:43.246Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:43.249Z [ERROR] Error fetching route advertisement for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.251Z [ERROR] Error fetching route advertisement for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.253Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:43:43.310Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.311Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.314Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:43.317Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.339Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.351Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:43:43.354Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:43:43.366Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:43.429Z [ERROR] Error fetching route advertisement for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:43:43.468Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:43:43.499Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403

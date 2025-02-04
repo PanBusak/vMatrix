@@ -10382,3 +10382,720 @@
 2025-01-30T09:24:02.733Z [INFO] Existing topology found for UUID: e7e85e96-b0e0-49e3-b6e6-90e01765e7c2. Appending new version.
 2025-01-30T09:24:02.757Z [INFO] [CRON_JOB] Job with ID: 679b39d3dd4d652bd2d7745e processed successfully.
 2025-01-30T09:24:02.758Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-30T10:59:33.127Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-30T10:59:33.130Z [INFO] Starting to fetch access token
+2025-01-30T10:59:33.190Z [INFO] Server is running on http://localhost:3000
+2025-01-30T10:59:33.211Z [INFO] Mongoose connected to MongoDB
+2025-01-30T10:59:54.239Z [ERROR] Error fetching access token:
+2025-01-30T10:59:54.240Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-30T11:00:00.418Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:00:00.440Z [INFO] [CRON_JOB] Found 1 cron job(s). Executing them...
+2025-01-30T11:00:00.442Z [INFO] [CRON_JOB] Processing job with ID: 679b39d3dd4d652bd2d7745e
+2025-01-30T11:00:00.446Z [INFO] Fetching topology for specified orgs
+2025-01-30T11:00:21.470Z [ERROR] Error fetching VDC:
+2025-01-30T11:00:21.471Z [ERROR] Error processing topology: Failed to fetch VDC.
+2025-01-30T11:00:21.471Z [ERROR] [CRON_JOB] Error processing job with ID: 679b39d3dd4d652bd2d7745e: Failed to fetch VDC.
+2025-01-30T11:00:21.472Z [INFO] [CRON_JOB] All jobs processed successfully.
+2025-01-30T11:01:00.954Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:01:00.957Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:02:00.557Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:02:00.560Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:03:00.111Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:03:00.114Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:04:00.680Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:04:00.683Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:05:00.241Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:05:00.245Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:15:41.328Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-30T11:15:41.332Z [INFO] Starting to fetch access token
+2025-01-30T11:15:41.400Z [INFO] Server is running on http://localhost:3000
+2025-01-30T11:15:41.426Z [INFO] Mongoose connected to MongoDB
+2025-01-30T11:16:00.585Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:16:00.596Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:16:02.459Z [ERROR] Error fetching access token:
+2025-01-30T11:16:02.460Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-30T11:17:00.131Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:17:00.136Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:18:00.736Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:18:00.739Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:19:00.310Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:19:00.314Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:20:00.806Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:20:00.809Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:21:00.396Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:21:00.401Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:22:00.963Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:22:00.967Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:23:00.494Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:23:00.497Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:24:00.102Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:24:00.106Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:25:00.650Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:25:00.653Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:26:00.183Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:26:00.187Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:27:00.750Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:27:00.753Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:28:00.305Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:28:00.308Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:29:00.894Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:29:00.897Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:30:00.378Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:30:00.382Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:31:00.924Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:31:00.929Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:32:00.449Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:32:00.452Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:33:00.948Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:33:00.953Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:34:00.518Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:34:00.521Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:35:00.093Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:35:00.096Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:36:00.590Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:36:00.593Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:37:00.172Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:37:00.176Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:38:00.770Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:38:00.773Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:39:00.293Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:39:00.296Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:40:00.739Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:40:00.742Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:41:00.291Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:41:00.293Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:42:00.810Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:42:00.812Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:43:00.326Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:43:00.329Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:44:00.816Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:44:00.818Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:45:00.334Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:45:00.336Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:46:00.800Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:46:00.806Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:47:00.434Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:47:00.437Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:48:00.968Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:48:00.971Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:49:00.510Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:49:00.513Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:50:00.916Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:50:00.918Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:50:29.785Z [ERROR] Error fetching organizations:
+2025-01-30T11:50:29.785Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T11:51:00.401Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:51:00.404Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:52:46.838Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-30T11:52:46.841Z [INFO] Starting to fetch access token
+2025-01-30T11:52:46.893Z [INFO] Server is running on http://localhost:3000
+2025-01-30T11:52:46.910Z [INFO] Mongoose connected to MongoDB
+2025-01-30T11:52:56.142Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-30T11:52:56.145Z [INFO] Starting to fetch access token
+2025-01-30T11:52:56.192Z [INFO] Server is running on http://localhost:3000
+2025-01-30T11:52:56.208Z [INFO] Mongoose connected to MongoDB
+2025-01-30T11:53:00.212Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:53:00.219Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:53:17.238Z [ERROR] Error fetching access token:
+2025-01-30T11:53:17.239Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?
+2025-01-30T11:54:00.700Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:54:00.704Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:55:00.143Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:55:00.145Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:56:00.646Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:56:00.649Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T11:57:00.104Z [INFO] Starting scheduled cron jobs...
+2025-01-30T11:57:00.107Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:43:00.840Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:43:00.847Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:44:00.369Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:44:00.371Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:45:00.844Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:45:00.847Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:46:00.349Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:46:00.352Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:47:00.870Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:47:00.872Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:48:00.363Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:48:00.365Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:49:00.825Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:49:00.827Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:50:00.416Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:50:00.419Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:51:00.963Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:51:00.965Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:52:00.473Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:52:00.476Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:53:00.998Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:53:01.001Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:54:00.530Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:54:00.532Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:55:45.565Z [ERROR] Error fetching organizations: [ 03311015-6411-4d27-b30d-87452b723de4 ] This operation is denied.
+2025-01-30T12:55:45.565Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:55:45.749Z [ERROR] Error fetching organizations: [ c0306159-2039-427c-b0d8-9d3f03d38086 ] This operation is denied.
+2025-01-30T12:55:45.749Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:56:00.498Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:56:00.500Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:57:00.022Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:57:00.024Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:57:27.723Z [ERROR] Error fetching organizations: [ 047a39a4-8ef7-4eb4-8a67-370f219a2703 ] This operation is denied.
+2025-01-30T12:57:27.724Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:57:27.922Z [ERROR] Error fetching organizations: [ c213af35-a399-488a-80cf-b0044e8c1cc3 ] This operation is denied.
+2025-01-30T12:57:27.923Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:58:00.473Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:58:00.475Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:58:47.728Z [ERROR] Error fetching organizations: [ cff4c33c-655f-40f7-b259-82d128aa86a8 ] This operation is denied.
+2025-01-30T12:58:47.728Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:58:47.909Z [ERROR] Error fetching organizations: [ 5e2f20d7-f250-4b8c-a8e4-5644b6a1482e ] This operation is denied.
+2025-01-30T12:58:47.910Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:58:54.637Z [ERROR] Error fetching organizations: [ 95778e2e-8655-4d6d-a745-185bc67111a0 ] This operation is denied.
+2025-01-30T12:58:54.638Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:58:54.820Z [ERROR] Error fetching organizations: [ b0c24fc1-57b5-4845-82ee-76c5045dc3b8 ] This operation is denied.
+2025-01-30T12:58:54.821Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:00.061Z [INFO] Starting scheduled cron jobs...
+2025-01-30T12:59:00.064Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T12:59:30.318Z [ERROR] Error fetching organizations: [ 3d3541b5-e9be-4772-9a0a-a53bafcc8e2c ] This operation is denied.
+2025-01-30T12:59:30.319Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:30.516Z [ERROR] Error fetching organizations: [ 362f5ac1-31d5-4450-bc6c-d7c4ac1eb70f ] This operation is denied.
+2025-01-30T12:59:30.516Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:34.786Z [ERROR] Error fetching organizations: [ 51e9798d-6c25-4043-8417-a5a1136f1c0f ] This operation is denied.
+2025-01-30T12:59:34.786Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:34.971Z [ERROR] Error fetching organizations: [ f2387518-beaa-4f1d-9ee0-21f6e54399a1 ] This operation is denied.
+2025-01-30T12:59:34.972Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:37.577Z [ERROR] Error fetching organizations: [ b4434de0-80f9-4ca8-bcb2-7137b6b12acd ] This operation is denied.
+2025-01-30T12:59:37.578Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:37.764Z [ERROR] Error fetching organizations: [ 0e0d3e86-ff29-48b9-988e-b309448b6554 ] This operation is denied.
+2025-01-30T12:59:37.765Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:52.835Z [ERROR] Error fetching organizations: [ 1cc1d8ed-9cea-4b9f-b841-db247f420207 ] This operation is denied.
+2025-01-30T12:59:52.836Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T12:59:53.020Z [ERROR] Error fetching organizations: [ 8fab27dd-8021-41bb-9497-492a51c50ccb ] This operation is denied.
+2025-01-30T12:59:53.021Z [ERROR] Error fetching organizations from IP ::1: Failed to fetch organizations.
+2025-01-30T13:00:00.603Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:00:00.605Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:01:00.058Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:01:00.060Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:02:00.643Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:02:00.646Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:03:00.205Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:03:00.208Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:04:00.697Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:04:00.699Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:04:52.287Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-30T13:04:52.290Z [INFO] Starting to fetch access token
+2025-01-30T13:04:52.333Z [INFO] Server is running on http://localhost:3000
+2025-01-30T13:04:52.350Z [INFO] Mongoose connected to MongoDB
+2025-01-30T13:04:59.953Z [INFO] Access token fetch script successfull.
+2025-01-30T13:04:59.954Z [INFO] Access Token fetched successfully
+2025-01-30T13:04:59.954Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3Mzg1MDE0OTksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYWU2ZjdhY2Q1NDlkNDQzOThiNDNkNmZmYWMyNmQxM2IifQ.c3jAMnFpyb-JUeedb25NA0KOy_A31vJixiQqDELKl5RExVDQUqA0q71SQze_yH58V8rXmIIMM8z2amjKPSuFZzPcQXUko50xlXK7-B75fH9jPidvwRsM61RFZJK-eF3nmZ10TCTTJRNSOVwT7UOSEci1wYoOu8VIbbUMAfkbrUU_c7O8sRciYKS0m0a9isyp4X8rlQTamggc6yuT-GP4T96ogV5mU86keFAiT23_Qr1YKDf71uYNYEpkJUJQ2cr2trOxH3eTVc4XeelVb9h6Ry8WOMC2HJfs6WZAevPqQOAt6nVjuOtY400pfV0C-7hx1CG12EVGMBklB1505NTZCw
+2025-01-30T13:05:00.406Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:05:00.414Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:05:20.867Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:05:20.867Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:06:00.022Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:06:00.025Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:07:00.576Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:07:00.579Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:08:00.124Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:08:00.128Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:09:00.684Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:09:00.687Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:10:00.149Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:10:00.152Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:11:00.747Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:11:00.749Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:12:00.288Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:12:00.291Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:13:00.737Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:13:00.740Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:14:00.266Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:14:00.270Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:15:00.794Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:15:00.797Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:16:00.325Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:16:00.328Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:17:00.782Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:17:00.785Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:18:00.293Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:18:00.296Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:18:52.957Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-30T13:18:52.959Z [INFO] Starting to fetch access token
+2025-01-30T13:18:53.000Z [INFO] Server is running on http://localhost:3000
+2025-01-30T13:18:53.013Z [INFO] Mongoose connected to MongoDB
+2025-01-30T13:18:53.588Z [INFO] Access token fetch script successfull.
+2025-01-30T13:18:53.588Z [INFO] Access Token fetched successfully
+2025-01-30T13:18:53.589Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3Mzg1MDIzMzMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNDI2ZDQ2ZjNmNGYxNGE4YWJhYjY1YTIyMDljOTAxNjEifQ.MVl2d1jl42Gw3UOoTGujtmP4nizUrowcEmAk4pu6UXFGVl8c41GpI2mBNZv--9HV0yydQaHg3VQiARo1axX9oQqwDVYLt_fT_84moBSvP0mS51rTukwxe9B5uFpzNN7WjA5wXUAgUXfIDaChejJtr5rR5CtwiR_24bZ2osiwEYG5m8TM7I1mAzTA90TVBN7W8g0LG-Nwha1KvL5kJ29JeuO_SGGl1CNHqCSXaE3Xy5kp2ghFCSC5J5PfTA7SCXHu44nzfX0TAMLs3Fu7QA-ro0eFR6WPu_sBTYrP6plEHvZ7tru2T2ZaHdFfoeUigQUZ7x4SG0lfb0viiRRiWFFPOg
+2025-01-30T13:19:00.056Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:19:00.060Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:20:00.566Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:20:00.569Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:21:00.082Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:21:00.084Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:22:00.588Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:22:00.592Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:23:00.031Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:23:00.034Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:23:54.813Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-30T13:23:54.816Z [INFO] Starting to fetch access token
+2025-01-30T13:23:54.855Z [INFO] Server is running on http://localhost:3000
+2025-01-30T13:23:54.868Z [INFO] Mongoose connected to MongoDB
+2025-01-30T13:23:55.401Z [INFO] Access token fetch script successfull.
+2025-01-30T13:23:55.401Z [INFO] Access Token fetched successfully
+2025-01-30T13:23:55.401Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3Mzg1MDI2MzUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZTQ0OGI3Y2U3YmRhNDNmMTk0ZDVmOGY2NjVkZTllNTMifQ.jIYplXkbkT5Zy3rRWpSfXhbsO1IuDrSso9j0Jr8iP5lvpB-Nk2gDPGsnwE5mu2evpISohH8JGQL7tNskDvnRZnpGgO9ViWks-zNypD__dDBPxF6DXsWYBvSRWC2U3lUjtnWTjsergmvyfcg3JHRkL0AAOvDjtndJ1s4PXOU-HPeE-vxcaDknJQWXvxVmzrNMjypNuvCaACUSLFzt4WSzX__ShYYkXco1DrwPlqSSO8aXzGgikva_fW24SqQBc4PCF_1V9TmyCThKdlqBsQ5QQPhHRYNjZRtAJKW74wIfleRYrQxL29Iyrb0DruP7CGCI4JLi4e_DcgzsmfZYdk3Aqw
+2025-01-30T13:24:00.893Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:24:00.896Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:25:00.434Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:25:00.437Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:26:00.955Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:26:00.958Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:26:10.983Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-01-30T13:26:10.985Z [INFO] Starting to fetch access token
+2025-01-30T13:26:11.023Z [INFO] Server is running on http://localhost:3000
+2025-01-30T13:26:11.037Z [INFO] Mongoose connected to MongoDB
+2025-01-30T13:26:11.588Z [INFO] Access token fetch script successfull.
+2025-01-30T13:26:11.588Z [INFO] Access Token fetched successfully
+2025-01-30T13:26:11.589Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3Mzg1MDI3NzEsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiN2NjNTliZDgxY2ExNDZkMGJkZGMwYzVjN2FkM2QwMzIifQ.BMKCPOKH0Jm5RvfMC0SwGdFwoqEIOEojxx2DBPXXLK88WZcR3kGtBIYZ1NINlbF2mqg_185gajOf5FUUoBF-gB8mv-CZlgm996CWx-k57a1QLyfRAxgZAdDmv6v1NHStTGAzVDSK5rBmbc-hDTNHWkqdxELThrIKlIRZhaS_M-9nbPwZOR17d3u2oRpvAnmOTepfZWQwEIrwKU4M7S0szq85nTc2rFUQqWX62Ppwnizymb3ImHcu7C8FFMvk_P_HbhiS004Sl9KGQQ8zDf9rLA30oWWn8tL-q5uXRaPtOhLXWp5FwKyOLAdxagehYN3yU5FiBaAO7q7V6g2b4cDiQQ
+2025-01-30T13:27:00.518Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:27:00.523Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:28:00.961Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:28:00.964Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:29:00.377Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:29:00.380Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:30:00.957Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:30:00.960Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:31:00.474Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:31:00.476Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:32:00.012Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:32:00.015Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:33:00.546Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:33:00.549Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:34:00.070Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:34:00.075Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:35:00.547Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:35:00.549Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:36:00.148Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:36:00.151Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:37:00.636Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:37:00.639Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:38:00.110Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:38:00.112Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:39:00.600Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:39:00.602Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:39:12.108Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:39:12.109Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:39:12.493Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:39:12.493Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:39:15.039Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:39:15.039Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:39:15.378Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:39:15.378Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:40:00.161Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:40:00.163Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:41:00.695Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:41:00.697Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:42:00.197Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:42:00.199Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:43:00.652Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:43:00.655Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:44:00.154Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:44:00.157Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:45:00.616Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:45:00.619Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:45:28.586Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:45:28.586Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:45:28.940Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:45:28.940Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:45:45.162Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:45:45.163Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:45:45.519Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:45:45.519Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:46:00.142Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:46:00.145Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:46:19.263Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:46:19.263Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:46:19.617Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:46:19.617Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:47:00.690Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:47:00.693Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:47:10.213Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:47:10.213Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:47:10.591Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:47:10.592Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:47:21.106Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:47:21.106Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:47:27.270Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:47:27.270Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:47:27.633Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-01-30T13:47:27.633Z [INFO] Fetched organizations successfully from IP: ::1
+2025-01-30T13:48:00.173Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:48:00.176Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:49:00.729Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:49:00.732Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:50:00.192Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:50:00.195Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:51:00.701Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:51:00.704Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:52:00.127Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:52:00.131Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:53:00.598Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:53:00.601Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:54:00.117Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:54:00.121Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:55:00.654Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:55:00.657Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:56:00.096Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:56:00.098Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:57:00.673Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:57:00.676Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:58:00.073Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:58:00.076Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T13:59:00.641Z [INFO] Starting scheduled cron jobs...
+2025-01-30T13:59:00.644Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:00:00.150Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:00:00.153Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:01:00.653Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:01:00.656Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:02:00.229Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:02:00.232Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:03:00.687Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:03:00.690Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:04:00.216Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:04:00.219Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:05:00.723Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:05:00.726Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:06:00.140Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:06:00.143Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:07:00.588Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:07:00.590Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:08:00.009Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:08:00.014Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:09:00.399Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:09:00.402Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:10:00.853Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:10:00.856Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:11:00.298Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:11:00.301Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-01-30T14:12:00.768Z [INFO] Starting scheduled cron jobs...
+2025-01-30T14:12:00.770Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-04T08:41:21.707Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-04T08:41:21.710Z [INFO] Starting to fetch access token
+2025-02-04T08:41:21.747Z [INFO] Server is running on http://localhost:3000
+2025-02-04T08:41:21.763Z [INFO] Mongoose connected to MongoDB
+2025-02-04T08:41:22.322Z [INFO] Access token fetch script successfull.
+2025-02-04T08:41:22.322Z [INFO] Access Token fetched successfully
+2025-02-04T08:41:22.323Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3Mzg5MTc2ODIsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYjk4NWUxZDZhNzM1NDdjMWE3MjNlYzRjYWI5MWNlZmQifQ.RTEF4hwzDBgQ6fki1IajZJDh8O1rJvLfqxMC6H75eT4c7Irtnn6_48ZumaMWxPL7ySGC2I-W8LCTu5coLvr8fbvMgdq9NZ3HSciGO7OCVn9L-uxz0TRqNUHlL3a8rzyPkxZd1FEd6pCVey_sbjeAeq2Te9CLIjivPqYLLg-DPYRzVNf1r1oRzOr0vylepcCv9VzLPLmzgp_HZumEjQaXylhBWu2UWdFAI2uKiU0a2fPfnRfJRCzNjKNjrGUnw8RsUKS599sxkunlRpgYNC6Qu66w8yjDLY7FhVtEkFJvbYlHWQl6Xn8YNjr69npjlM0qzdO5awA8N_L0MxoY4RReiQ
+2025-02-04T08:42:00.058Z [INFO] Starting scheduled cron jobs...
+2025-02-04T08:42:00.073Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-04T08:42:11.256Z [INFO] Fetching topology for specified orgs from IP: ::1
+2025-02-04T08:42:11.700Z [INFO] Fetched VDCs fpr successfully.
+2025-02-04T08:42:11.700Z [INFO] Fetched VDCs successfully from IP: ::1
+2025-02-04T08:42:11.982Z [INFO] Fetched VDCs and their vApps successfully.
+2025-02-04T08:42:11.982Z [INFO] Fetched VDC details successfully from IP: ::1
+2025-02-04T08:42:12.572Z [INFO] Fetched and filtered vApp details successfully.
+2025-02-04T08:42:12.573Z [INFO] Fetched vApp details successfully from IP: ::1
+2025-02-04T08:42:12.573Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-02-04T08:42:12.626Z [INFO] Loaded 115 gateways with rules.
+2025-02-04T08:42:12.626Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-02-04T08:42:12.669Z [INFO] Loaded 641 networks.
+2025-02-04T08:42:12.669Z [INFO] Making requests for 26 VMs.
+2025-02-04T08:42:13.161Z [DEBUG] Processed VM ID urn:vcloud:vm:a588a521-e68e-468d-9876-c7a5017d00d9:
+2025-02-04T08:42:13.161Z [DEBUG] Processed VM ID urn:vcloud:vm:9c27ac88-06cc-4cfa-b6a3-fe435972899e:
+2025-02-04T08:42:13.162Z [DEBUG] Processed VM ID urn:vcloud:vm:c647c09f-c382-4c78-80be-d9a5da327f57:
+2025-02-04T08:42:13.162Z [DEBUG] Processed VM ID urn:vcloud:vm:8adff57f-8a2a-4416-a954-360a75efb0c0:
+2025-02-04T08:42:13.162Z [DEBUG] Processed VM ID urn:vcloud:vm:c643646b-80c9-4686-977f-f686ab5256bd:
+2025-02-04T08:42:13.162Z [DEBUG] Processed VM ID urn:vcloud:vm:11d876d9-22e7-4eca-b99d-8653cdf4bf7a:
+2025-02-04T08:42:13.163Z [DEBUG] Processed VM ID urn:vcloud:vm:bd41bde0-e739-4e7a-bed2-532ad5446ff2:
+2025-02-04T08:42:13.163Z [DEBUG] Processed VM ID urn:vcloud:vm:52c93af7-13a7-4319-bb9e-789ad1231130:
+2025-02-04T08:42:13.163Z [DEBUG] Processed VM ID urn:vcloud:vm:328787cf-fc05-43c8-ae46-998df91caa43:
+2025-02-04T08:42:13.163Z [DEBUG] Processed VM ID urn:vcloud:vm:14e860bf-345b-415c-96a2-c8689bcce180:
+2025-02-04T08:42:13.164Z [DEBUG] Processed VM ID urn:vcloud:vm:4348cfac-0664-45dd-97d8-1fef7327cb83:
+2025-02-04T08:42:13.164Z [DEBUG] Processed VM ID urn:vcloud:vm:5957d4f0-4ba5-4271-a558-8f8cc0ea7acc:
+2025-02-04T08:42:13.164Z [DEBUG] Processed VM ID urn:vcloud:vm:23b11e2a-f96e-4597-af1d-aafd10dfef51:
+2025-02-04T08:42:13.164Z [DEBUG] Processed VM ID urn:vcloud:vm:d080e6b5-06c6-4fe8-8e36-2f61618aa6e6:
+2025-02-04T08:42:13.164Z [DEBUG] Processed VM ID urn:vcloud:vm:c6dcd38f-2f32-48de-8ad7-03c31d3943c1:
+2025-02-04T08:42:13.165Z [DEBUG] Processed VM ID urn:vcloud:vm:feca85d7-c6c8-4369-8b02-2520a33d06f0:
+2025-02-04T08:42:13.165Z [DEBUG] Processed VM ID urn:vcloud:vm:d001b501-bab0-495c-ae99-a70b530ee258:
+2025-02-04T08:42:13.165Z [DEBUG] Processed VM ID urn:vcloud:vm:3a6a1c7a-4638-4d51-9b01-407efcc7f3e2:
+2025-02-04T08:42:13.165Z [DEBUG] Processed VM ID urn:vcloud:vm:9759158c-3258-4295-a095-47b8ea57cffe:
+2025-02-04T08:42:13.166Z [DEBUG] Processed VM ID urn:vcloud:vm:93abdbce-ae7a-4b01-b0cd-848e28a30b6e:
+2025-02-04T08:42:13.166Z [DEBUG] Processed VM ID urn:vcloud:vm:508b6d7e-df00-4740-8c6f-a5c0828c9182:
+2025-02-04T08:42:13.166Z [DEBUG] Processed VM ID urn:vcloud:vm:11af38e4-5758-4154-abb9-4d889ba37db4:
+2025-02-04T08:42:13.166Z [DEBUG] Processed VM ID urn:vcloud:vm:67e2a721-9457-4a01-b570-fcce27bb5bb7:
+2025-02-04T08:42:13.166Z [DEBUG] Processed VM ID urn:vcloud:vm:32901edb-544d-450b-b953-1bec18fe1951:
+2025-02-04T08:42:13.167Z [DEBUG] Processed VM ID urn:vcloud:vm:5f830114-1ed4-4222-ad4d-5fcc992b1214:
+2025-02-04T08:42:13.167Z [DEBUG] Processed VM ID urn:vcloud:vm:3204e8ff-b721-4005-9f70-793346b05558:
+2025-02-04T08:42:13.167Z [INFO] Fetched and updated all VM details successfully.
+2025-02-04T08:42:13.167Z [INFO] Fetched VM details successfully from IP: ::1
+2025-02-04T08:42:13.205Z [INFO] Existing topology found for UUID: 15566d05-2741-4679-8892-ae00c911c699. Appending new version.
+2025-02-04T08:42:48.103Z [INFO] Fetching network data...
+2025-02-04T08:42:48.104Z [INFO] Initial request for Edge Gateways started
+2025-02-04T08:42:48.370Z [INFO] Initial request for Edge Gateways done!
+2025-02-04T08:42:48.370Z [INFO] Making 108 edgeGateways requests
+2025-02-04T08:42:51.966Z [INFO] Fetched all Edge Gateways successfully from https://vcloud-ffm-private.t-systems.de.
+2025-02-04T08:42:52.565Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:42:52.579Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:42:52.597Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:42:52.599Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:42:52.607Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:42:52.633Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:42:52.652Z [ERROR] Error fetching firewall rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:42:52.700Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:42:52.708Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:42:52.719Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:42:52.736Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:42:52.769Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:42:52.819Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:42:52.834Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:42:52.840Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:42:52.912Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:42:52.915Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:42:52.920Z [ERROR] Error fetching NAT rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:42:52.924Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:42:52.931Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:42:52.952Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:42:52.954Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:42:52.956Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.007Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:42:53.019Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:42:53.059Z [ERROR] Error fetching NAT rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.076Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:42:53.084Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:42:53.088Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:42:53.091Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:42:53.094Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:42:53.125Z [ERROR] Error fetching firewall rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:42:53.176Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:42:53.195Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:42:53.208Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:42:53.211Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 404
+2025-02-04T08:42:53.217Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.242Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.258Z [ERROR] Error fetching route advertisement for gateway com-a-dpdhl-02-gw01: Request failed with status code 404
+2025-02-04T08:42:53.270Z [ERROR] Error fetching route advertisement for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 404
+2025-02-04T08:42:53.326Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 404
+2025-02-04T08:42:53.327Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:42:53.337Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 404
+2025-02-04T08:42:53.346Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 404
+2025-02-04T08:42:53.349Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:42:53.352Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 404
+2025-02-04T08:42:53.362Z [ERROR] Error fetching route advertisement for gateway com-b-dpdhl-02-gw01: Request failed with status code 404
+2025-02-04T08:42:53.381Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 404
+2025-02-04T08:42:53.382Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 404
+2025-02-04T08:42:53.392Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:42:53.479Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 404
+2025-02-04T08:42:53.506Z [ERROR] Error fetching NAT rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:42:53.514Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 404
+2025-02-04T08:42:53.528Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 404
+2025-02-04T08:42:53.552Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 403
+2025-02-04T08:42:53.555Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 404
+2025-02-04T08:42:53.607Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 404
+2025-02-04T08:42:53.620Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 404
+2025-02-04T08:42:53.629Z [ERROR] Error fetching route advertisement for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 404
+2025-02-04T08:42:53.671Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 404
+2025-02-04T08:42:53.676Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 404
+2025-02-04T08:42:53.733Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:42:53.767Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-02-gw01: Request failed with status code 404
+2025-02-04T08:42:53.783Z [ERROR] Error fetching route advertisement for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 404
+2025-02-04T08:42:53.970Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:42:54.223Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 404
+2025-02-04T08:42:54.769Z [ERROR] Error fetching route advertisement for gateway com-a-ips_1000035712-01-gw05: Request failed with status code 404
+2025-02-04T08:42:55.566Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:42:55.569Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:42:55.572Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:42:55.808Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:42:55.812Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:42:55.817Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:42:56.045Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 404
+2025-02-04T08:42:56.078Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 404
+2025-02-04T08:42:56.080Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 404
+2025-02-04T08:42:56.319Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw04-v2t: Request failed with status code 404
+2025-02-04T08:42:56.329Z [ERROR] Error fetching route advertisement for gateway mdolnik-assignment: Request failed with status code 404
+2025-02-04T08:42:56.331Z [ERROR] Error fetching route advertisement for gateway session_count: Request failed with status code 404
+2025-02-04T08:42:56.357Z [ERROR] Error fetching route advertisement for gateway sr-test-2: Request failed with status code 404
+2025-02-04T08:42:56.362Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw07: Request failed with status code 404
+2025-02-04T08:42:56.366Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw01: Request failed with status code 404
+2025-02-04T08:42:56.374Z [ERROR] Error fetching route advertisement for gateway test-edge: Request failed with status code 404
+2025-02-04T08:42:56.376Z [ERROR] Error fetching route advertisement for gateway test-4: Request failed with status code 404
+2025-02-04T08:42:56.385Z [ERROR] Error fetching route advertisement for gateway test: Request failed with status code 404
+2025-02-04T08:42:56.405Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000035340-01-gw02: Request failed with status code 404
+2025-02-04T08:42:56.406Z [ERROR] Error fetching route advertisement for gateway com-a-tcs_1000042743-01-gw02: Request failed with status code 404
+2025-02-04T08:42:56.429Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw05: Request failed with status code 404
+2025-02-04T08:42:56.435Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000078106-01-gw01: Request failed with status code 404
+2025-02-04T08:42:56.455Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw07-v2t: Request failed with status code 404
+2025-02-04T08:42:56.488Z [ERROR] Error fetching route advertisement for gateway com-a-testorg-02-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.090Z [ERROR] Error fetching route advertisement for gateway ffm-splitup-test: Request failed with status code 404
+2025-02-04T08:42:57.153Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw06: Request failed with status code 404
+2025-02-04T08:42:57.156Z [ERROR] Error fetching route advertisement for gateway com-a-testcustomer-02-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.172Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw13-v2t: Request failed with status code 404
+2025-02-04T08:42:57.198Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw03: Request failed with status code 404
+2025-02-04T08:42:57.201Z [ERROR] Error fetching route advertisement for gateway dc-b-splitup-edge-test: Request failed with status code 404
+2025-02-04T08:42:57.230Z [ERROR] Error fetching route advertisement for gateway bas-a-testcustomer-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.259Z [ERROR] Error fetching route advertisement for gateway com-a-bri_1000041101-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.272Z [ERROR] Error fetching route advertisement for gateway com-a-sol_1000034386-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.286Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042338-02-gw02: Request failed with status code 404
+2025-02-04T08:42:57.317Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw04: Request failed with status code 404
+2025-02-04T08:42:57.356Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw03: Request failed with status code 404
+2025-02-04T08:42:57.377Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw11-v2t: Request failed with status code 404
+2025-02-04T08:42:57.402Z [ERROR] Error fetching route advertisement for gateway com-a-sol_1000034386-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.430Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw12-v2t: Request failed with status code 404
+2025-02-04T08:42:57.439Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw05: Request failed with status code 404
+2025-02-04T08:42:57.450Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw06: Request failed with status code 404
+2025-02-04T08:42:57.471Z [ERROR] Error fetching route advertisement for gateway com-b-tsf_1000037204-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.472Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw05: Request failed with status code 404
+2025-02-04T08:42:57.511Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw05: Request failed with status code 404
+2025-02-04T08:42:57.515Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw04: Request failed with status code 404
+2025-02-04T08:42:57.536Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042338-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.540Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.542Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000035340-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.554Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw14-v2t: Request failed with status code 404
+2025-02-04T08:42:57.559Z [ERROR] Error fetching route advertisement for gateway com-a-tea_1000031003-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.561Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-02-gw01-v2t: Request failed with status code 404
+2025-02-04T08:42:57.589Z [ERROR] Error fetching route advertisement for gateway com-a-dt-dorma-01-gw-02: Request failed with status code 404
+2025-02-04T08:42:57.593Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw05: Request failed with status code 404
+2025-02-04T08:42:57.594Z [ERROR] Error fetching route advertisement for gateway com-a-dt-dorma-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.616Z [ERROR] Error fetching route advertisement for gateway com-b-ips_1000035712-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.617Z [ERROR] Error fetching route advertisement for gateway com-a-tea_1000031003-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.620Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw06: Request failed with status code 404
+2025-02-04T08:42:57.625Z [ERROR] Error fetching route advertisement for gateway mgmt_a_internet: Request failed with status code 404
+2025-02-04T08:42:57.629Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.637Z [ERROR] Error fetching route advertisement for gateway com-a-tsi-ga-dtag-prod-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.639Z [ERROR] Error fetching route advertisement for gateway com-b-tsr_1000042730-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.642Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw06-v2t: Request failed with status code 404
+2025-02-04T08:42:57.657Z [ERROR] Error fetching route advertisement for gateway com-a-tnd_1000026409-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.660Z [ERROR] Error fetching route advertisement for gateway com-b-tsr_1000035400-03-gw01: Request failed with status code 404
+2025-02-04T08:42:57.667Z [ERROR] Error fetching route advertisement for gateway com-b-tcs_1000042743-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.673Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw01: Request failed with status code 404
+2025-02-04T08:42:57.678Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw02: Request failed with status code 404
+2025-02-04T08:42:57.685Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw04: Request failed with status code 404
+2025-02-04T08:42:57.696Z [ERROR] Error fetching route advertisement for gateway com-a-tcs_1000042743-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.699Z [ERROR] Error fetching route advertisement for gateway com-a-dps-os-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.721Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.723Z [ERROR] Error fetching route advertisement for gateway bas-a-t00_1000033029-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.724Z [ERROR] Error fetching route advertisement for gateway com-a-tea_1000031003-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.731Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.737Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw04: Request failed with status code 404
+2025-02-04T08:42:57.745Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw09: Request failed with status code 404
+2025-02-04T08:42:57.746Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-01-gw02: Request failed with status code 404
+2025-02-04T08:42:57.748Z [ERROR] Error fetching route advertisement for gateway mgmt_b_internet: Request failed with status code 404
+2025-02-04T08:42:57.760Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw02: Request failed with status code 404
+2025-02-04T08:42:57.775Z [ERROR] Error fetching route advertisement for gateway com-a-tdc_1000041086-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.786Z [ERROR] Error fetching route advertisement for gateway com-a-heineken-hh3-mig-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.835Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw08: Request failed with status code 404
+2025-02-04T08:42:57.857Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000035400-01-gw01: Request failed with status code 404
+2025-02-04T08:42:57.872Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-01-gw03: Request failed with status code 404
+2025-02-04T08:42:57.876Z [ERROR] Error fetching route advertisement for gateway com-a-tsr_1000042730-02-gw06: Request failed with status code 404
+2025-02-04T08:42:57.889Z [ERROR] Error fetching route advertisement for gateway bas-b-testorg-01-gw-01: Request failed with status code 404
+2025-02-04T08:42:57.891Z [ERROR] Error fetching route advertisement for gateway com-a-tch_1000042332-02-gw04: Request failed with status code 404
+2025-02-04T08:42:57.903Z [ERROR] Error fetching route advertisement for gateway com-a-tsf_1000037204-01-gw01: Request failed with status code 404
+2025-02-04T08:42:58.031Z [ERROR] Error fetching route advertisement for gateway com-a-ips_1000035712-01-gw02: Request failed with status code 404
+2025-02-04T08:42:58.142Z [ERROR] Error fetching route advertisement for gateway com-a-tsi-ga-dtag-prod-01-gw-02: Request failed with status code 404
+2025-02-04T08:43:37.322Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-04T08:43:37.324Z [INFO] Starting to fetch access token
+2025-02-04T08:43:37.381Z [INFO] Server is running on http://localhost:3000
+2025-02-04T08:43:37.403Z [INFO] Mongoose connected to MongoDB
+2025-02-04T08:43:37.916Z [INFO] Access token fetch script successfull.
+2025-02-04T08:43:37.916Z [INFO] Access Token fetched successfully
+2025-02-04T08:43:37.916Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3Mzg5MTc4MTcsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMTAzZGI2OWJhMDliNDFkODhmNTUxOGRkOWQyOGI1YmEifQ.HFISMrTh3wLDpONxsAFJbppUYaRD31F2C_lqE5CitA4Z3nfc66juHmzoEXfA1BFmkAFXL9A2SYzIX8vHJjWSDdrClL9KfKB3cDdfI5FSO66EnfGyiRg_dX24AdM1WR2aeMwMjYwZ9TjLBJc_2x8gawW4T_6eWyOT-zzPPwq7uEWwdK2bMIw2GflTb-7ERvz1b_-_jmFvl8JQhGvpXYlLd5k-4XbuIFoaOXuG9DG5TNtSIzm1d9OBCTxikrVnFD-1Sf4oI_Jyq8vRm1wwnrIvt22qqB6VfyfS4JbzHZU5JysOJ2teZ15Chw38lPtNTG99L2fk0FLF3wJ47H83CHrdaw
+2025-02-04T08:43:40.061Z [INFO] Fetching network data...
+2025-02-04T08:43:40.062Z [INFO] Initial request for Edge Gateways started
+2025-02-04T08:43:40.296Z [INFO] Initial request for Edge Gateways done!
+2025-02-04T08:43:40.297Z [INFO] Making 108 edgeGateways requests
+2025-02-04T08:43:41.959Z [INFO] Fetched all Edge Gateways successfully from https://vcloud-ffm-private.t-systems.de.
+2025-02-04T08:43:42.539Z [ERROR] Error fetching firewall rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:43:42.551Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:43:42.587Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:42.616Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:42.624Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:43:42.637Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:43:42.640Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.642Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.643Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:43:42.664Z [ERROR] Error fetching firewall rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:43:42.667Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:42.689Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.712Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:43:42.717Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:42.736Z [ERROR] Error fetching firewall rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:42.741Z [ERROR] Error fetching firewall rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.765Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:42.791Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:43:42.811Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:43:42.814Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:42.821Z [ERROR] Error fetching NAT rules for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:43:42.825Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:42.835Z [ERROR] Error fetching firewall rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:43:42.857Z [ERROR] Error fetching firewall rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:42.864Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:43:42.869Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:43:42.871Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:43:42.873Z [ERROR] Error fetching firewall rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:43:42.875Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:43:42.889Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:42.892Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:43:42.921Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.935Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:42.945Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:42.957Z [ERROR] Error fetching firewall rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:43:42.962Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:43:42.970Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:42.980Z [ERROR] Error fetching NAT rules for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.019Z [ERROR] Error fetching NAT rules for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.021Z [ERROR] Error fetching NAT rules for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.044Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.046Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:43.055Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:43:43.062Z [ERROR] Error fetching route advertisement for gateway bas-b-dpdhl-dr-03-gw-01: Request failed with status code 403
+2025-02-04T08:43:43.083Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.085Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.122Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:43:43.132Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw04: Request failed with status code 403
+2025-02-04T08:43:43.133Z [ERROR] Error fetching NAT rules for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:43.140Z [ERROR] Error fetching NAT rules for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:43:43.141Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw03: Request failed with status code 403
+2025-02-04T08:43:43.157Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:43.159Z [ERROR] Error fetching NAT rules for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:43:43.171Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-01: Request failed with status code 403
+2025-02-04T08:43:43.203Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-02: Request failed with status code 403
+2025-02-04T08:43:43.225Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.226Z [ERROR] Error fetching route advertisement for gateway com-a-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.227Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.232Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.243Z [ERROR] Error fetching NAT rules for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:43:43.246Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:43.249Z [ERROR] Error fetching route advertisement for gateway com-b-dpdhl-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.251Z [ERROR] Error fetching route advertisement for gateway com-a-dpdhl-poc-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.253Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw03: Request failed with status code 403
+2025-02-04T08:43:43.310Z [ERROR] Error fetching route advertisement for gateway com-a-t00_1000026462-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.311Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-02-gw01: Request failed with status code 403
+2025-02-04T08:43:43.314Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw08: Request failed with status code 403
+2025-02-04T08:43:43.317Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw02: Request failed with status code 403
+2025-02-04T08:43:43.339Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw01: Request failed with status code 403
+2025-02-04T08:43:43.351Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw07: Request failed with status code 403
+2025-02-04T08:43:43.354Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-01-gw06: Request failed with status code 403
+2025-02-04T08:43:43.366Z [ERROR] Error fetching route advertisement for gateway com-b-t29_1000020859-01-gw05: Request failed with status code 403
+2025-02-04T08:43:43.429Z [ERROR] Error fetching route advertisement for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
+2025-02-04T08:43:43.468Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
+2025-02-04T08:43:43.499Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T08:44:32.739Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-04T08:44:32.742Z [INFO] Starting to fetch access token
+2025-02-04T08:44:32.786Z [INFO] Server is running on http://localhost:3000
+2025-02-04T08:44:32.802Z [INFO] Mongoose connected to MongoDB
+2025-02-04T08:44:33.312Z [INFO] Access token fetch script successfull.
+2025-02-04T08:44:33.312Z [INFO] Access Token fetched successfully
+2025-02-04T08:44:33.313Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3Mzg5MTc4NzMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZDU3NGJlMzhlNTA5NGEzZGExZjQwNzU2MWY1YmM4YjcifQ.hmnnC0fzpPvS5z2uCsYlf4_1loMKRgDZ5_4AKDvtpLMYZ_AvpwMantga8VFIrJd1lDXHOG-PAlgS6oWbeLhhAHM4jyUmr4jo6404zHTB-eacVNCM6P8_wXSiXJpCY6BG2gUYQ1x_GXKogeP3Jp7XxjFVszbUSdM-7GS-JkhuHHH6veoad0YWcGMJjKANYJ_GmhBuL813dtmQkVaOSMTHXEc3XJV28weNoAc2Ugq489m2PE1mlSSNDPPxQD4mloxbdkDQLAH8H8ghRx8TaIfaGo9TQX9253MgqcQgk6Nw4nygAi5Z45lmXNN18GsKa2bStjap0d2MqaGaQyGaZRZOQg
+2025-02-04T08:44:41.395Z [INFO] Fetching topology for specified orgs from IP: ::1
+2025-02-04T08:44:41.741Z [INFO] Fetched VDCs fpr successfully.
+2025-02-04T08:44:41.741Z [INFO] Fetched VDCs successfully from IP: ::1
+2025-02-04T08:44:41.997Z [INFO] Fetched VDCs and their vApps successfully.
+2025-02-04T08:44:41.998Z [INFO] Fetched VDC details successfully from IP: ::1
+2025-02-04T08:44:41.998Z [INFO] Fetched and filtered vApp details successfully.
+2025-02-04T08:44:41.998Z [INFO] Fetched vApp details successfully from IP: ::1
+2025-02-04T08:44:41.999Z [INFO] Fetching the latest Gateway records with firewall and NAT rules...
+2025-02-04T08:44:42.032Z [INFO] Loaded 115 gateways with rules.
+2025-02-04T08:44:42.032Z [INFO] Fetching the latest OrgVdcNetworks data from MongoDB...
+2025-02-04T08:44:42.046Z [INFO] Loaded 641 networks.
+2025-02-04T08:44:42.046Z [INFO] Making requests for 0 VMs.
+2025-02-04T08:44:42.046Z [INFO] Fetched and updated all VM details successfully.
+2025-02-04T08:44:42.047Z [INFO] Fetched VM details successfully from IP: ::1
+2025-02-04T08:44:42.052Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
+2025-02-04T08:45:00.036Z [INFO] Starting scheduled cron jobs...
+2025-02-04T08:45:00.039Z [INFO] [CRON_JOB] No cron jobs found in the database.
