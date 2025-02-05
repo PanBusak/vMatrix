@@ -73,7 +73,7 @@ async function fetchAllEdgeGateways() {
       const natRequestUrl = `${config.apiUrl}/cloudapi/2.0.0/edgeGateways/${gateway.id}/nat/rules`;
       const routeAdvertisementUrl = `${config.apiUrl}/cloudapi/1.0.0/edgeGateways/${gateway.id}/routing/advertisement`;
       
-https://vcloud-ffm-private.t-systems.de/cloudapi/1.0.0/edgeGateways/urn:vcloud:gateway:630e1fc9-4c28-4bc4-abea-a21270047d54/routing/advertisement
+
 
       try {
         const firewallResponse = await axios.get(firewallRequestUrl, {

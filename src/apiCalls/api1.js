@@ -16,7 +16,7 @@ async function callSomeApi() {
       }
     });
 
-    console.log('API Response:', apiResponse.data);
+   
     return apiResponse.data;
 
   } catch (error) {

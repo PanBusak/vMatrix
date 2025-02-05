@@ -15,6 +15,7 @@ const TopologyJob = require("./data/schemas/Topologyjob_Schema");
 const userRoutes = require("./userRoutes")
 // Schemas
 const OrgsVdcVm = require("./data/schemas/OrgsVdcVm_Schema");
+const User_Schema = require('./data/schemas/User_Schema');
 
 const Gateway_Schema = require("./data/schemas/Gateway_Schema")
 const OrgsVdcVm_Schema = require("./data/schemas/OrgVdcNetwork_Schema")
@@ -33,6 +34,7 @@ const { fetchAllOrgVdcNetworks } = require('./apiCalls/fetchAllOrgVdcNetworks');
 const { fetchAllExternalNetworks } = require('./apiCalls/fetchAllExternalNetworks');
 const { fetchFirewallRulesForGateways } = require('./apiCalls/fetchFirewallRules');
 const config = require('./config');
+
 
 logger.info(`*****************************************Starting vMatrix Server*****************************************`);
 
@@ -77,7 +79,7 @@ app.use('/api/user',authMiddleware,userRoutes)
 //*********Cron jobs service *********/
 
 const processTopology = async (orgDetailArray, username) => {
-  console.log(orgDetailArray)
+  
   if (!Array.isArray(orgDetailArray) || orgDetailArray.length === 0) {
     throw new Error("Invalid or missing 'orgs' array.");
   }
@@ -126,7 +128,7 @@ const startCronJobs = async () => {
   try {
     // Fetch all cron jobs from the database
     const jobs = await TopologyJob.find();
-    console.log("ja som jobik",jobs)
+
     if (jobs.length === 0) {
       logger.info('[CRON_JOB] No cron jobs found in the database.');
       return;
@@ -173,7 +175,7 @@ if(1 == 1) {
 app.get('/api/orgs', authMiddleware, async (req, res) => {
   try {
     // Nájdeme používateľa podľa ID
-    const user = await User.findById(req.user.id);
+    const user = await User_Schema.findById(req.user.id);
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
     }
@@ -189,9 +191,8 @@ app.get('/api/orgs', authMiddleware, async (req, res) => {
     }
 
     res.json({
-      id: user.id,
-      username: user.username,
-      allowed_Orgs: allowedOrgs
+      
+      orgs : allowedOrgs
     });
 
     logger.info(`Fetched organizations for user ${user.username} from IP: ${req.ipAddress}`);

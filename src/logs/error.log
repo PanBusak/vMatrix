@@ -696,3 +696,23 @@
 2025-02-04T08:43:43.429Z [ERROR] Error fetching route advertisement for gateway dpdhl-alloc-cus-vdc-s02-01-gw: Request failed with status code 403
 2025-02-04T08:43:43.468Z [ERROR] Error fetching route advertisement for gateway com-a-t29_1000020859-03-gw01: Request failed with status code 403
 2025-02-04T08:43:43.499Z [ERROR] Error fetching route advertisement for gateway bas-a-dpdhl-02-gw-03: Request failed with status code 403
+2025-02-04T09:49:17.027Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-04T09:49:17.035Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:36.968Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:36.976Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:43.238Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:43.241Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:57.967Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:58.037Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:25:39.625Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:25:39.702Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:14.931Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:15.015Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:37.017Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:37.032Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:54.490Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:54.496Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:29:36.744Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:30:41.506Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:30:49.354Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:32:04.394Z [ERROR] Error fetching user organizations from IP ::1: Cannot access 'user' before initialization

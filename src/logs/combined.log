@@ -11099,3 +11099,272 @@
 2025-02-04T08:44:42.052Z [INFO] Existing topology found for UUID: fed80a66-99d3-4622-a23e-8a74c51a5c8b. Appending new version.
 2025-02-04T08:45:00.036Z [INFO] Starting scheduled cron jobs...
 2025-02-04T08:45:00.039Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-04T09:48:43.826Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-04T09:48:43.829Z [INFO] Starting to fetch access token
+2025-02-04T09:48:43.879Z [INFO] Server is running on http://localhost:3000
+2025-02-04T09:48:43.896Z [INFO] Mongoose connected to MongoDB
+2025-02-04T09:48:44.423Z [INFO] Access token fetch script successfull.
+2025-02-04T09:48:44.423Z [INFO] Access Token fetched successfully
+2025-02-04T09:48:44.423Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3Mzg5MjE3MjQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiYTc4Yjk5ODAxNTU0NDgwNmFjM2M1NDExODBhNjlmOGIifQ.RwgHkU3fUiCyQka_oFCMyf0L791WiIgG4gi_c-1dcyoyOgR3BH1OYQw5vThUUvx3iFd329QTnv1wI0mwblq2aT9SmJWmRmUC3AuDn3uq1zjAhBOfRFsebmvH6SxvkZp0z-19I2iCpcLScjG_Tz-7tbYlyHN6D435IQKMXimPbbzeUOz0kJAF4fo1owXqXC9pyiYU-AZ19ZKHYT09HhwJiV1Evsnd8gTDOyAhJrjrPICDtL7RbF8qMYru4wTYFyR1HcsSxJwUGg0iZh5RHmZ_0nn799VNe_mtfrEgO0Tx4_DgMoCp8fpxmKVu7t-tVyQ40sWJVb5wk02Zmd5w7LqQkQ
+2025-02-04T09:49:00.023Z [INFO] Starting scheduled cron jobs...
+2025-02-04T09:49:00.031Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-04T09:49:17.027Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-04T09:49:17.035Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-04T09:50:00.514Z [INFO] Starting scheduled cron jobs...
+2025-02-04T09:50:00.517Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-04T09:51:00.020Z [INFO] Starting scheduled cron jobs...
+2025-02-04T09:51:00.023Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-04T09:52:00.584Z [INFO] Starting scheduled cron jobs...
+2025-02-04T09:52:00.587Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-04T09:53:00.158Z [INFO] Starting scheduled cron jobs...
+2025-02-04T09:53:00.160Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:24:14.457Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:24:14.460Z [INFO] Starting to fetch access token
+2025-02-05T10:24:14.501Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:24:14.522Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:24:15.133Z [INFO] Access token fetch script successfull.
+2025-02-05T10:24:15.134Z [INFO] Access Token fetched successfully
+2025-02-05T10:24:15.134Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTAyNTQsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMzUyZjRlN2MwYzc5NGZiNTlmNDY5NDU0MGZmOTliNzkifQ.LoD3o9ixWQwe17DqdXkAM1OY1M20q5JaKrfVnkg3HCcAmCtAKK1EeEIJ240__a00AJdrpw_iaLnBXFli7bHPNNl7Uonq0Zkof8FBN715Eb0TBnW_RJVuFd5B_oHTy1u1BKi_McgOrnuW1lJlXo5ByuPeWp85F2rmHcPe4vhY2luKzbk__ySIo1Yq6HTULi4OLIYpRuFuuV-GQrdMfM0Dww0z-lrB8wAAhlvMdaax-YQWMSrWG6FEXTDIM49ZJU_12eki9r8TxbNBN_3Tp1ghsGnILGcW5jLfC8NXa9HFuSz3RFF0LqjhFohVGGOGD_PgDO3ej_X1HxD2kHpUXHd7-w
+2025-02-05T10:24:36.968Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:36.976Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:43.238Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:43.241Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:57.967Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:24:58.037Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:25:00.948Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:25:00.951Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:25:39.625Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:25:39.702Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:00.600Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:26:00.602Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:26:10.188Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:26:10.191Z [INFO] Starting to fetch access token
+2025-02-05T10:26:10.233Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:26:10.247Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:26:10.851Z [INFO] Access token fetch script successfull.
+2025-02-05T10:26:10.851Z [INFO] Access Token fetched successfully
+2025-02-05T10:26:10.852Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTAzNzAsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNzZhMDE2ZGJmNmYyNDA2NWFmNjNhZjJhZWI1NTNiYjMifQ.Q_O_GuAgZmN5iliqt0fjhvsHmqZunH8a1na7yaM1-zaFa-5qwPRr0Kyb6NRvNy7Cv5yUw8fBdmL0eri0wQPWnuD0__ELrzvTCGC81nBDJZ0AN54IwGBslxMWosd7fvAVH2JheZVrNuFNBjvjgY9_hjWXBmckO0_MTI2To0ZWqbI4FcLrwfxMt9UfSO2_EVewZusGeWxPRe6PZgUVw8_MtPcIyl4rHA7cwKoBs_EGPsvA07yt9PD_V96ntYt16HV8HKqZkmxJZy5TBx93deknSgPkT3TPAoL2FnK2xfuVwH8ZKH3ywQ-5KVEJFfZwEKDwKxXqit69ZX2LijBk0guWQg
+2025-02-05T10:26:14.931Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:15.015Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:34.714Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:26:34.717Z [INFO] Starting to fetch access token
+2025-02-05T10:26:34.755Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:26:34.768Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:26:35.337Z [INFO] Access token fetch script successfull.
+2025-02-05T10:26:35.337Z [INFO] Access Token fetched successfully
+2025-02-05T10:26:35.338Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTAzOTUsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZjVhN2UxNzRlYTBiNGYwMmI4ZDAwOGMzNTY0MDZiN2YifQ.WJ6mmcUA17_mJs9tku6Zu7lFhgOHwOJpQWR9Ft--iDBy-y8pBUzqCpaplagzFgGLr_jslhhxrkOqwaO81ypa5zErV12dyqCrNWLPxIkQfqN1uY_eciBaZy91_dNsPVJRutckphzvqAJnF-M1EW4FF19F8ALL8kDMv29AzeYsy_31inFKEZ0HgGdX444Q48KRqV1Yt27sN5IkG7-cwd4AM0c3M83MSdUFzBeYgFs6wKMHb7v2NWjoWUUWN2xSdp3U887GSaU-Ci8ttFeG9BK0100nbNT2ps2YIoR6MmUH5a2jVQikiLDAwKA-RsdNYnkA8_OooeYqxTfsuZsyvPtXxA
+2025-02-05T10:26:37.017Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:37.032Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:54.490Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:26:54.496Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:27:00.999Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:27:01.003Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:29:03.030Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:29:03.032Z [INFO] Starting to fetch access token
+2025-02-05T10:29:03.069Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:29:03.084Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:29:03.787Z [INFO] Access token fetch script successfull.
+2025-02-05T10:29:03.787Z [INFO] Access Token fetched successfully
+2025-02-05T10:29:03.788Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTA1NDMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiODI3MTE4MmRkMWJlNDY3Y2EzZjg1ZTU1YTQwZjExMDQifQ.D1hyLMkHaF6cKQ-Fh8OGw-Tqy5TUenFccOrVO-W6k_xcxp0UniOn-AzTEBwwETdlT1CgbYG5tLF9yVhY2ewNSRt9xtw9iz3VS_HNsOEsfE5wvhdexYptmdwv95-qanBXItpcGXmTDHbU13FfHMFq_rChlWYyuOPfQ3rJvWwJvmRHaFIVbqLe0Cx9fBJNGX7UeDp1MknAJZxlkq5qskB-kBTHZO5h-i_MIPSFkEfGtxTUToUjMmIqyeQUXL0k7xc-72q1GSUKjxxK_5IYkg_GUho71XYIBrxOW4oWQ0ozaByFU5rJEvicNosz8xluuvppHCgEWuJVv7PknNv55E9Nwg
+2025-02-05T10:29:36.744Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:30:00.587Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:30:00.590Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:30:38.624Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:30:38.626Z [INFO] Starting to fetch access token
+2025-02-05T10:30:38.662Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:30:38.677Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:30:39.304Z [INFO] Access token fetch script successfull.
+2025-02-05T10:30:39.304Z [INFO] Access Token fetched successfully
+2025-02-05T10:30:39.305Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTA2MzksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNDM4NDFiNGIyZmFlNGZkNzkyMzliNTU1MzcxNTUzYWUifQ.YIq_LXyhg2FFWLRXMtGlcZcGpz-aTD9KLItchzjfW1PwmEiJlHPOH1PxEgTt1734h3wA-yCgNhpShbMAie5MkRIknHJRRMCqscEMc7jrbhrLyDeVrby6quG3tptlVmigctsYEdGrn__K6Bj4M-LlUgskfmdV7Y-02EB4Z5RM3_182X_swuPQPBSYF0j4-paziIiBQ7KrVSn810K5C_FfyiOViZjTsT34MZSfgfSBIlRms-y1UY85evttRNtuNNhPCUXDjPpQIoOpzWrpOCfMQitaTw21LWIYvWNU9Ige93KGuZ1xD8-22ARlG_HENisdpBuYVfOexfu7LRxJu14ciw
+2025-02-05T10:30:41.506Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:30:49.354Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
+2025-02-05T10:31:00.854Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:31:00.857Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:31:49.450Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:31:49.453Z [INFO] Starting to fetch access token
+2025-02-05T10:31:49.497Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:31:49.509Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:31:50.085Z [INFO] Access token fetch script successfull.
+2025-02-05T10:31:50.086Z [INFO] Access Token fetched successfully
+2025-02-05T10:31:50.086Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTA3MDksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiOWNjYzQxNzg0OWI2NDI5YmI1NjZkNDVlZGJmODdiODkifQ.UqgE5FXspJXoaigROHWLjoy5HwGdCrscKnJCwOZuffKsh0XxN-ajDDCgdJUm-2h8YbDLQr6RCGsA5DpVMbkLUy-0YiS84EbCM5xa3p5c37CrJjnDuUWrivhZKSkg55wXLoSTUHjr0xFSRVMigapoAqtcFuUdqcyuY75qXRFbOyjzJnYR4STP7jg6H07m3fYoBsgi8UPyJZsYD_X37sHdAmE_5hn_7_TWjOstBIL6uRsLRWfZ_rcyimrhTPq0U4tabiWqPgumnGzp8uysHuhptBOeJeLx_FPib3M0xTdEwjbfx1YU9aCZK8slK8F5NThrg4-LTj8O8zSuU5m1B0UBtg
+2025-02-05T10:32:00.579Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:32:00.583Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:32:04.394Z [ERROR] Error fetching user organizations from IP ::1: Cannot access 'user' before initialization
+2025-02-05T10:33:00.190Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:33:00.192Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:33:58.539Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:33:58.542Z [INFO] Starting to fetch access token
+2025-02-05T10:33:58.580Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:33:58.595Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:33:59.154Z [INFO] Access token fetch script successfull.
+2025-02-05T10:33:59.155Z [INFO] Access Token fetched successfully
+2025-02-05T10:33:59.155Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTA4MzgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZWVkNWIwODJlMjA3NGNhMjg3NjUyMzdkOWZmMzJjZjcifQ.BF9hq5Su28wWPnrme_Mlr1VJ_yEXt6Bm7qI_NvESqSkR0eiF1IH-xJR3Tpewj4T1A0p2YXt-d5Z-ncwfYgbj7yNwU5oGPTD3R-_cnG739OqvHXVTSg56ZsrgBWagb-8hLFw1c2KCePxi_zCqREqO8uDESBRxIfVtDuMlVUlF_Ml3mBjG3v2GPaBh8N-Zf_f1PYssuG5ryb8VJpBpR0Lq1sKWw5pQi6x0MK2BpN8OCC20sXmILGobVCgYTL6iTZldsg56URWesFx4CgHwVvOV6KTrQvifHbvlkdrwJQtvFKVijwfSHMCQag_ULsuGeW94_7QjAk8wwU2Wl1oKRVF6cg
+2025-02-05T10:34:00.593Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:34:00.599Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:34:01.206Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:00.201Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:35:00.203Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:35:02.702Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:02.710Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:13.904Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:13.980Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:29.916Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:29.929Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:34.937Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:35.006Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:50.495Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:35:50.565Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:36:00.878Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:36:00.880Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:37:00.518Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:37:00.520Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:37:58.785Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:37:58.854Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:38:00.137Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:38:00.140Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:38:13.633Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:38:13.636Z [INFO] Starting to fetch access token
+2025-02-05T10:38:13.687Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:38:13.708Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:38:14.293Z [INFO] Access token fetch script successfull.
+2025-02-05T10:38:14.293Z [INFO] Access Token fetched successfully
+2025-02-05T10:38:14.294Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTEwOTMsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiNjY5NDFjNTg1ZTdmNDZlMzkwNDc2OTdlNzQ3OGM3MDkifQ.isr0TA4nQAYi1xeb66qlXuDU-6jkktUZNgjj7wmIK-If0eI8vcetfiiG4HzmVnCqv3u88NDbOxkiPx7uTN1D14RJSSVGnD2XwNEhasZZ9QkdjfTDHOdartcdIQbrMAsRyj_c3vKqfJhNENZkHdBZ88oRD8yGlgGm5_Y4s8giJIui493UBLejtI5CY0w8FY79SZ28B32sfI6gi17_lAK7sVDzEhH-s7I_dlSzU_bXd8ROYab9PlpmR0--ke_sZ5saC7C7H-oQK-tq78I0JCu35OkE8fRFihmjz9-ckUMneDBNo6gY2-fXz5_rjkfPcLFns94C0bx1TDYS2KAz9SDp1g
+2025-02-05T10:38:16.739Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:38:16.799Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:38:49.045Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:38:49.047Z [INFO] Starting to fetch access token
+2025-02-05T10:38:49.085Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:38:49.099Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:38:49.767Z [INFO] Access token fetch script successfull.
+2025-02-05T10:38:49.767Z [INFO] Access Token fetched successfully
+2025-02-05T10:38:49.768Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTExMjksInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiMWRhZDNlNDAwOWEzNGQwMGJiODVhM2UxYzc2YTRlNWIifQ.g32tqCMexR36VmyzXbvREJpQuH1EH0hmA-4cPDrLbQnEvHva5W4I0bW2LCyzpdcgxLYcrR2XjzssCdouS8-m0CVeV6qXdfBeeqoGE97L0NZfboQaEtcEM9MMHWArl9cgRFd9hpato2kf7eUmfOP0Q9axQcATLVRHhjK3pZJc_QshiPEWN1tww5qbrxIXJzK9tN0yxMYwEvk55BBjVQPoBARMZJUnummfveALcFVdPa6XoAXT0su5uL6bmhogR-zpSO_7SBZZDzj-1MQB0CEliPlqDo5fcgH6wTvtp9hdpI6BdF34infUBD5ONaQyQpWYEZnc6kW0eoMzWqgC8yh0Ww
+2025-02-05T10:38:53.417Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:38:53.473Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:39:00.215Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:39:00.218Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:39:28.486Z [INFO] *****************************************Starting vMatrix Server*****************************************
+2025-02-05T10:39:28.489Z [INFO] Starting to fetch access token
+2025-02-05T10:39:28.526Z [INFO] Server is running on http://localhost:3000
+2025-02-05T10:39:28.540Z [INFO] Mongoose connected to MongoDB
+2025-02-05T10:39:29.177Z [INFO] Access token fetch script successfull.
+2025-02-05T10:39:29.178Z [INFO] Access Token fetched successfully
+2025-02-05T10:39:29.178Z [INFO] Token is: eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbC1zY3JpcHR1c2VyIiwiaXNzIjoiYTkzYzlkYjktNzQ3MS0zMTkyLThkMDktYThmN2VlZGE4NWY5QDc1OTdiZjc5LTE2ZDItNDJkNC04ZGQ1LTg4YzRhMWEzZTU5MCIsInJlZnJlc2hfdG9rZW5faWQiOiJlYmVkZmRlNC04MGI3LTQ2MDctYWE3MC0xMGZkNTI3OWY5OGMiLCJleHAiOjE3MzkwMTExNjgsInZlcnNpb24iOiJ2Y2xvdWRfMS4wIiwianRpIjoiZDE1ZTI1ODYwOGZjNGM5YzkwODRkNTk5ZTEyYzFiM2IifQ.Hnm-sWT2xgoHmT4_EN-MMIy2Rey0PG_0hleKFXZ_BbuKOzKYTSX9BgiN8hGcTGqQR2Z3j4L35YSELSs6Yy40lUG-s5xbSfQjxGXdZ10f43oBvPw-B8Fow_HkHHqtjW0KRM4C9-AFqSqH67ieKFvBRYJFcRhjXvigp9d7rBXrsQS37eUHKa2PTt8iTM7jZ6gXq4IRNGSJ9ACJFsN5J2_qucQ_a5qu-ThVG-BE5X9F2jxDtxU_UQBM-DE3ay6NP2Py-3ZR1CqQqUDkpznbh3u3CeOZEcqAApNUwQntzDKALMXUK-QxQXK8FU6NrmluLCC03Y03LSXy5-C9jVMgDGORdQ
+2025-02-05T10:39:31.502Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:39:31.562Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:39:42.567Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:39:42.584Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:39:49.718Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:39:49.790Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:40:00.860Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:40:00.862Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:40:43.007Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:40:43.069Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:40:44.488Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:40:44.578Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:40:46.952Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:40:46.965Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:41:00.484Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:41:00.487Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:41:55.685Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:41:59.133Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:41:59.203Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:42:00.082Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:42:00.084Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:43:00.688Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:43:00.690Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:44:00.322Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:44:00.324Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:44:04.688Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:44:09.582Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:44:09.655Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:44:16.435Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:44:16.442Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:45:00.986Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:45:00.988Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:46:00.657Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:46:00.660Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:46:17.685Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:46:21.474Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:46:21.545Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:46:25.956Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:46:25.962Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:47:00.292Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:47:00.295Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:48:00.922Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:48:00.924Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:49:00.527Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:49:00.530Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:50:00.144Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:50:00.145Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:51:00.790Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:51:00.792Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:52:00.424Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:52:00.426Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:53:00.108Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:53:00.110Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:53:02.667Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:53:02.675Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:53:21.093Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:53:21.165Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:54:00.788Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:54:00.790Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:55:00.410Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:55:00.412Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:55:37.674Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:55:37.675Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:55:38.079Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:55:38.080Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:55:39.585Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:55:39.586Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:55:40.014Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:55:40.016Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:57:00.693Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:57:00.695Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:57:30.150Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:57:30.151Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:57:30.552Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:57:30.553Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:57:37.879Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:57:37.881Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:57:38.296Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:57:38.298Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:58:00.250Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:58:00.252Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:59:00.885Z [INFO] Starting scheduled cron jobs...
+2025-02-05T10:59:00.887Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T10:59:50.551Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:59:50.553Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T10:59:50.953Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T10:59:50.955Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:00:00.524Z [INFO] Starting scheduled cron jobs...
+2025-02-05T11:00:00.526Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T11:01:00.173Z [INFO] Starting scheduled cron jobs...
+2025-02-05T11:01:00.175Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T11:02:00.859Z [INFO] Starting scheduled cron jobs...
+2025-02-05T11:02:00.861Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T11:02:47.066Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T11:02:47.068Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:02:49.597Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T11:02:49.600Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:02:50.015Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T11:02:50.017Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:03:00.429Z [INFO] Starting scheduled cron jobs...
+2025-02-05T11:03:00.431Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T11:03:47.952Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T11:03:47.953Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:00.090Z [INFO] Starting scheduled cron jobs...
+2025-02-05T11:04:00.092Z [INFO] [CRON_JOB] No cron jobs found in the database.
+2025-02-05T11:04:15.003Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T11:04:15.004Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:15.395Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T11:04:15.396Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:19.161Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T11:04:19.162Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:19.521Z [INFO] Fetched organizations successfully and saved to orgDetails.json.
+2025-02-05T11:04:19.523Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:24.230Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:24.241Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:38.335Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:38.342Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:39.382Z [INFO] Fetched organizations for user doodo from IP: ::1
+2025-02-05T11:04:39.390Z [INFO] Fetched organizations for user doodo from IP: ::1
