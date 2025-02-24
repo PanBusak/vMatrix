@@ -26,8 +26,8 @@ async function fetchOrganizations() {
       });
     });
 
-    // Save to file
-    fileUtils.saveToFile(orgsDetails, 'orgDetails.json');
+   
+    
     
     logger.info('Fetched organizations successfully and saved to orgDetails.json.');
 

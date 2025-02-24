@@ -174,7 +174,7 @@ if(1 == 1) {
 
 app.get('/api/orgs', authMiddleware, async (req, res) => {
   try {
-    // Nájdeme používateľa podľa ID
+   
     const user = await User_Schema.findById(req.user.id);
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
@@ -183,10 +183,10 @@ app.get('/api/orgs', authMiddleware, async (req, res) => {
     let allowedOrgs;
 
     if (user.role === "admin") {
-      // Ak je admin, načíta všetky organizácie
+      
       allowedOrgs = await fetchOrganizations();
     } else {
-      // Inak načíta len povolené organizácie
+   
       allowedOrgs = user.allowed_Orgs;
     }
 
@@ -272,6 +272,29 @@ app.post('/api/topology',authMiddleware ,async (req, res) => {
     });
   }
 });
+
+app.get('/api/Alltopology/:id', authMiddleware, async (req, res) => {
+  try {
+    
+    const allTopologies = await OrgsVdcVm.find({uuid:req.params.id});
+
+    logger.info(`User ${req.user.username} (ID: ${req.user.id}) requested full topology records from IP: ${req.ipAddress}`);
+    
+    res.json({
+      id: req.user.id,
+      username: req.user.username,
+      data: allTopologies
+    });
+  } catch (error) {
+    logger.error(`Error fetching full topology records from IP ${req.ipAddress}: ${error.message}`);
+    res.status(500).json({ 
+      id: req.user.id,
+      username: req.user.username,
+      error: 'Failed to fetch topology records' 
+    });
+  }
+});
+
 // ziska EdgeGW s firewall+NAT, external networky a vsetky orgVDC networky. Malo by byt DONE
 app.get('/api/updateNetworkData', authMiddleware, async (req, res) => {
   try {
