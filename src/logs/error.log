@@ -716,3 +716,5 @@
 2025-02-05T10:30:41.506Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
 2025-02-05T10:30:49.354Z [ERROR] Error fetching user organizations from IP ::1: User is not defined
 2025-02-05T10:32:04.394Z [ERROR] Error fetching user organizations from IP ::1: Cannot access 'user' before initialization
+2025-02-26T11:51:27.486Z [ERROR] Error fetching access token:
+2025-02-26T11:51:27.486Z [ERROR] Error fetching access token: Failed to fetch access token. . Are you on Correct Network?

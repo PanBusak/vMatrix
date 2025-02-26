@@ -30,7 +30,6 @@ async function loadLatestGateways() {
   }
 }
 
-
 async function loadLatestOrgVdcNetworks() {
   try {
     logger.info('Fetching the latest OrgVdcNetworks data from MongoDB...');
@@ -95,7 +94,6 @@ async function loadLatestOrgVdcNetworks() {
   }
 }
 
-// Get edge gateway details by name
 function getEdgeGatewayDetails(edgeGatewayName) {
   return gatewayDetails.find(gateway => gateway.edgeGatewayName === edgeGatewayName) || {
     edgeGatewayName,
@@ -104,10 +102,8 @@ function getEdgeGatewayDetails(edgeGatewayName) {
   };
 }
 
-// Main function to fetch VM details
 async function fetchVmDetails(orgsData) {
   try {
-    // Load gateways and networks
     await loadLatestGateways();
     await loadLatestOrgVdcNetworks();
 
@@ -147,11 +143,16 @@ async function fetchVmDetails(orgsData) {
         numCpu: vmData.section[0]?.numCpus
       };
 
-      // Map network connections with appropriate network type
       vm.networks = (vmData.section[3]?.networkConnection || []).map(network => {
         const networkData = networkToEdgeGatewayArray.find(
           item => item.networkName === network.network
         );
+
+        if (networkData?.natRoutedNetwork) {
+          const edgeGatewayDetails = getEdgeGatewayDetails(networkData.natRoutedNetwork.edgeGatewayName);
+          networkData.natRoutedNetwork.firewallRules = edgeGatewayDetails.firewallRules;
+          networkData.natRoutedNetwork.natRules = edgeGatewayDetails.natRules;
+        }
 
         return {
           networkName: network.network,

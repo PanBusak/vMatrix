@@ -157,7 +157,7 @@ const startCronJobs = async () => {
 
 
 if(1 == 1) {
-  cron.schedule('*/100 * * * * *', () => {
+  cron.schedule('*/10 * * * * *', () => {
     logger.info('Starting scheduled cron jobs...');
     startCronJobs();
   });
